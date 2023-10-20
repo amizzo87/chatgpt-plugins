@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"telegraph_export","name_for_human":"Telegraph Export","description_for_model":"Plugin for exporting text to Telegraph.","description_for_human":"Export text to Telegraph.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://telegraph-export.illia56.repl.co/openapi.yaml"},"logo_url":"https://telegraph-export.illia56.repl.co/logo.jpg","contact_email":"i.ludogovskyi@gmail.com","legal_info_url":"https://butter-tangerine-f7b.notion.site/Legal-Telegraph-Export-7c68f6b828004243aef558c8e81b33ae?pvs=4"}
+{
+  "schema_version": "v1",
+  "name_for_model": "telegraph_export",
+  "name_for_human": "Telegraph Export",
+  "description_for_model": "Plugin for exporting text to Telegraph.",
+  "description_for_human": "Export text to Telegraph.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://telegraph-export.illia56.repl.co/openapi.yaml"
+  },
+  "logo_url": "https://telegraph-export.illia56.repl.co/logo.jpg",
+  "contact_email": "i.ludogovskyi@gmail.com",
+  "legal_info_url": "https://butter-tangerine-f7b.notion.site/Legal-Telegraph-Export-7c68f6b828004243aef558c8e81b33ae?pvs=4"
+}

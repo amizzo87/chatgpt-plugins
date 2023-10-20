@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Affilitizer","name_for_human":"Affilitizer","description_for_model":"Use this plugin if people are asking for affiliate programs or users asking if they can earn money with a brand. With this plugin you're able to find all affiliate programs and advertisers worldwide including the network there are available in. The response will include the name of the program, also called merchant, and additionally the name of the networks there are available in. Please try to match the TLD in the post object urls with the country of the advertisers. If no country is specified by the user, please ask for the country.","description_for_human":"Find all affiliate programs and advertisers including the network they are available in.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://affilitizer-api-chatgpt-plugin.ufostart-dev.workers.dev/openapi.yaml"},"logo_url":"https://assets.ad4m.at/F005AF15A6DABD04A6E6B2C27042884901A8DFA098E2C17EF11B2239C59C391B9E49783A8F8EAF3DC9CFB3D1C650D5364DAED65A96A053391D80ADA20A8F8FF8","contact_email":"sascha.hoffmann@advanced-store.com","legal_info_url":"https://www.ad4mat.com/terms-of-service"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Affilitizer",
+  "name_for_human": "Affilitizer",
+  "description_for_model": "Use this plugin if people are asking for affiliate programs or users asking if they can earn money with a brand. With this plugin you're able to find all affiliate programs and advertisers worldwide including the network there are available in. The response will include the name of the program, also called merchant, and additionally the name of the networks there are available in. Please try to match the TLD in the post object urls with the country of the advertisers. If no country is specified by the user, please ask for the country.",
+  "description_for_human": "Find all affiliate programs and advertisers including the network they are available in.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://affilitizer-api-chatgpt-plugin.ufostart-dev.workers.dev/openapi.yaml"
+  },
+  "logo_url": "https://assets.ad4m.at/F005AF15A6DABD04A6E6B2C27042884901A8DFA098E2C17EF11B2239C59C391B9E49783A8F8EAF3DC9CFB3D1C650D5364DAED65A96A053391D80ADA20A8F8FF8",
+  "contact_email": "sascha.hoffmann@advanced-store.com",
+  "legal_info_url": "https://www.ad4mat.com/terms-of-service"
+}

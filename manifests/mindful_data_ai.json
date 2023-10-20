@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"mindful_data_ai","name_for_human":"MindfulDataAI","description_for_model":"Plugin for searching the web with Google and asking a question about something recent. Always embed sources and links to the original content. If a response requires up to date information or multiple searches, feel free to search multiple times.","description_for_human":"Search with Google. You can search the web with Google when you are asking a question about something recent.","auth":{"type":"oauth","instructions":"","client_url":"https://mindfuldataai.com/app","scope":"","authorization_url":"https://chatgpt-plugin.mindfuldataai.com/oauth/authorize","authorization_content_type":"application/json","verification_tokens":{"openai":"0151b8b5b35248e0a6e080e9efb9f6d2"}},"api":{"type":"openapi","url":"https://chatgpt-plugin.mindfuldataai.com/openapi.yaml"},"logo_url":"https://chatgpt-plugin.mindfuldataai.com/logo.png","contact_email":"support@mindfuldataai.com","legal_info_url":"https://mindfuldataai.com/terms-and-conditions.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "mindful_data_ai",
+  "name_for_human": "MindfulDataAI",
+  "description_for_model": "Plugin for searching the web with Google and asking a question about something recent. Always embed sources and links to the original content. If a response requires up to date information or multiple searches, feel free to search multiple times.",
+  "description_for_human": "Search with Google. You can search the web with Google when you are asking a question about something recent.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://mindfuldataai.com/app",
+    "scope": "",
+    "authorization_url": "https://chatgpt-plugin.mindfuldataai.com/oauth/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "0151b8b5b35248e0a6e080e9efb9f6d2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin.mindfuldataai.com/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt-plugin.mindfuldataai.com/logo.png",
+  "contact_email": "support@mindfuldataai.com",
+  "legal_info_url": "https://mindfuldataai.com/terms-and-conditions.html"
+}

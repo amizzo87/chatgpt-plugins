@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"conscious_creators_spext","name_for_human":"CCS - Spext","description_for_model":"Chat with the Conscious Creators Show podcast library on Spext.","description_for_human":"Chat with the Conscious Creators Show podcast library on Spext.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.consciouscreators.spext.com/openapi.yaml"},"logo_url":"https://plugin.consciouscreators.spext.com/logo.ico","contact_email":"developers@spext.co","legal_info_url":"https://docs.spext.co/privacy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "conscious_creators_spext",
+  "name_for_human": "CCS - Spext",
+  "description_for_model": "Chat with the Conscious Creators Show podcast library on Spext.",
+  "description_for_human": "Chat with the Conscious Creators Show podcast library on Spext.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.consciouscreators.spext.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.consciouscreators.spext.com/logo.ico",
+  "contact_email": "developers@spext.co",
+  "legal_info_url": "https://docs.spext.co/privacy"
+}

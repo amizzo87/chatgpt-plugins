@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"ResearchButler","name_for_human":"Research Butler","description_for_model":"Plugin for getting summarized research articles.","description_for_human":"Get a summarized list of research articles based on an any topic.","auth":{"type":"oauth","instructions":"","client_url":"https://76a367c6bba4707c261548f30fc47fed.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"e273826b0a8b4ce696f4b250af1c6e46"}},"api":{"type":"openapi","url":"https://plugin.anygpt.ai/.well-known/pluginlab/openapi.json"},"logo_url":"https://storage.googleapis.com/pluginlab.appspot.com/public%2Fplugins%2F76a367c6bba4707c261548f30fc47fed%2Fmanifest%2Flogo","contact_email":"researchButler@anygpt.ai","legal_info_url":"https://anygpt.ai/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "ResearchButler",
+  "name_for_human": "Research Butler",
+  "description_for_model": "Plugin for getting summarized research articles.",
+  "description_for_human": "Get a summarized list of research articles based on an any topic.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://76a367c6bba4707c261548f30fc47fed.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "e273826b0a8b4ce696f4b250af1c6e46"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.anygpt.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://storage.googleapis.com/pluginlab.appspot.com/public%2Fplugins%2F76a367c6bba4707c261548f30fc47fed%2Fmanifest%2Flogo",
+  "contact_email": "researchButler@anygpt.ai",
+  "legal_info_url": "https://anygpt.ai/legal"
+}

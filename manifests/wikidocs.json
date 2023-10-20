@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"wikidocs","name_for_human":"WikiDocs","description_for_model":"You can search for books on Wikidocs and create books.","description_for_human":"You can search for books on Wikidocs and create books.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://wikidocs.net/api/v1/openapi.json"},"logo_url":"https://wikidocs.net/static/img/plugin_logo.png","contact_email":"pahkey@gmail.com","legal_info_url":"https://wikidocs.net/178466"}
+{
+  "schema_version": "v1",
+  "name_for_model": "wikidocs",
+  "name_for_human": "WikiDocs",
+  "description_for_model": "You can search for books on Wikidocs and create books.",
+  "description_for_human": "You can search for books on Wikidocs and create books.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://wikidocs.net/api/v1/openapi.json"
+  },
+  "logo_url": "https://wikidocs.net/static/img/plugin_logo.png",
+  "contact_email": "pahkey@gmail.com",
+  "legal_info_url": "https://wikidocs.net/178466"
+}

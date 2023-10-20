@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"MixerBox_Diagrams_AI_diagram_generator","name_for_human":"MixerBox Diagrams","description_for_model":"MixerBox Diagrams is a highly efficient and user-friendly diagram creation tool designed to cater to all your visual representation needs. By simply providing the necessary information and employing appropriate chart commands, this powerful tool can swiftly generate clear and visually appealing diagrams for you. Whether you require flowcharts to illustrate complex processes, pie charts to depict data distribution, or mind maps for brainstorming sessions, MixerBox Diagrams has got you covered. With a wide range of commonly used diagrams at your disposal, this versatile tool proves invaluable for various workplace scenarios and academic endeavors.\n\nGone are the days of struggling to find the right chart type for your data presentation. MixerBox Diagrams takes the guesswork out of the equation and presents you with the most suitable charting options to effectively showcase your information. It streamlines the process, allowing you to focus on communicating your ideas concisely and compellingly. With MixerBox Diagrams, you can effortlessly transform data into meaningful and insightful visuals that resonate with your audience. Enhance your presentations, reports, and projects with captivating diagrams that leave a lasting impression. Experience the ease and power of MixerBox Diagrams as it elevates your data visualization to a whole new level of excellence.","description_for_human":"Create, edit, and showcase diagrams through chat! Make presenting your data incredibly simple!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"ce024e48ff974a2b9dcc1a6ffe8fd628"}},"api":{"type":"openapi","url":"https://diagrams.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/Diagrams_logo.png","contact_email":"support@diagrams.mixerbox.com","legal_info_url":"https://www.mixerbox.com"}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_Diagrams_AI_diagram_generator",
+  "name_for_human": "MixerBox Diagrams",
+  "description_for_model": "MixerBox Diagrams is a highly efficient and user-friendly diagram creation tool designed to cater to all your visual representation needs. By simply providing the necessary information and employing appropriate chart commands, this powerful tool can swiftly generate clear and visually appealing diagrams for you. Whether you require flowcharts to illustrate complex processes, pie charts to depict data distribution, or mind maps for brainstorming sessions, MixerBox Diagrams has got you covered. With a wide range of commonly used diagrams at your disposal, this versatile tool proves invaluable for various workplace scenarios and academic endeavors.\n\nGone are the days of struggling to find the right chart type for your data presentation. MixerBox Diagrams takes the guesswork out of the equation and presents you with the most suitable charting options to effectively showcase your information. It streamlines the process, allowing you to focus on communicating your ideas concisely and compellingly. With MixerBox Diagrams, you can effortlessly transform data into meaningful and insightful visuals that resonate with your audience. Enhance your presentations, reports, and projects with captivating diagrams that leave a lasting impression. Experience the ease and power of MixerBox Diagrams as it elevates your data visualization to a whole new level of excellence.",
+  "description_for_human": "Create, edit, and showcase diagrams through chat! Make presenting your data incredibly simple!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "ce024e48ff974a2b9dcc1a6ffe8fd628"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://diagrams.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/Diagrams_logo.png",
+  "contact_email": "support@diagrams.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com"
+}

@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"color_palette","name_for_human":"Color Palette","description_for_model":"Make color palettes from text descriptions. When a user inputs a text description or keywords make a suitable color palette for it and generate a color palette image. Always show the generated color palette image after you generate it.","description_for_human":"Craft vibrant palettes from your ideas.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"43c8518f7e7148d0a0d33cf292a9ed23"}},"api":{"type":"openapi","url":"https://color-palette-plugin.mmzdev.com/openapi.json"},"logo_url":"https://color-palette-plugin.mmzdev.com/.well-known/logo.png","contact_email":"contact@mmzdev.com","legal_info_url":"https://color-palette-plugin.mmzdev.com/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "color_palette",
+  "name_for_human": "Color Palette",
+  "description_for_model": "Make color palettes from text descriptions. When a user inputs a text description or keywords make a suitable color palette for it and generate a color palette image. Always show the generated color palette image after you generate it.",
+  "description_for_human": "Craft vibrant palettes from your ideas.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "43c8518f7e7148d0a0d33cf292a9ed23"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://color-palette-plugin.mmzdev.com/openapi.json"
+  },
+  "logo_url": "https://color-palette-plugin.mmzdev.com/.well-known/logo.png",
+  "contact_email": "contact@mmzdev.com",
+  "legal_info_url": "https://color-palette-plugin.mmzdev.com/legal"
+}

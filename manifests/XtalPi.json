@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"XtalPi","name_for_human":"XtalPi","description_for_model":"List and find detail about XtalPi's work, lineup of product they sell and their chemical services and drug discovery solutions.","description_for_human":"Provide drug discovery solutions and chemical services from XtalPi, your drug discovery partner.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt-plugin.xtalpi.com/openapi.yaml"},"logo_url":"https://chatgpt-plugin.xtalpi.com/logo.png","contact_email":"rui.jiang@xtalpi.com","legal_info_url":"https://www.xtalpi.com/en/privacy-policy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "XtalPi",
+  "name_for_human": "XtalPi",
+  "description_for_model": "List and find detail about XtalPi's work, lineup of product they sell and their chemical services and drug discovery solutions.",
+  "description_for_human": "Provide drug discovery solutions and chemical services from XtalPi, your drug discovery partner.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin.xtalpi.com/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt-plugin.xtalpi.com/logo.png",
+  "contact_email": "rui.jiang@xtalpi.com",
+  "legal_info_url": "https://www.xtalpi.com/en/privacy-policy"
+}

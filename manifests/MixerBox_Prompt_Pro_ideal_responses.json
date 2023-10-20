@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"MixerBox_Prompt_Pro_ideal_responses","name_for_human":"MixerBox Prompt Pro","description_for_model":"MixerBox Prompt Pro greatly enhances the ability to generate detailed and comprehensive responses. Whether you're seeking information, assistance, or guidance, this feature is designed to provide you with the most accurate and thorough replies. One of the key advantages of MixerBox Prompt Pro is its ability to optimize your queries. Instead of spending valuable time brainstorming keywords or formulating detailed instructions, you can simply enter your query and let the feature do the rest. It takes your initial idea or question and transforms it into a more refined and precise inquiry, ensuring that you receive the most relevant and helpful responses.For example, if you were to ask, \"Please tell me how to quickly learn a language,\" the system would automatically analyze and enhance your question, providing you with a more comprehensive and tailored response. Instead of receiving generic advice, you would obtain a detailed guide that includes specific learning methods, effective learning strategies, step-by-step instructions, and other valuable insights to accelerate your language learning journey. Furthermore, the feature can intelligently identify the gaps in your question and suggest optimal ways to supplement and refine it. By offering guidance on the best possible question formulation, MixerBox Prompt Pro ensures that the responses you receive are rich in detail and cover all the necessary aspects of your inquiry.","description_for_human":"Generate ideal prompts instantly! Ensure accurate and comprehensive responses effortlessly!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"32d674dc11f042d6893082f2d3275c8f"}},"api":{"type":"openapi","url":"https://promptpro.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/Prompt_Pro_logo.png","contact_email":"support@promptpro.mixerbox.com","legal_info_url":"https://www.mixerbox.com"}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_Prompt_Pro_ideal_responses",
+  "name_for_human": "MixerBox Prompt Pro",
+  "description_for_model": "MixerBox Prompt Pro greatly enhances the ability to generate detailed and comprehensive responses. Whether you're seeking information, assistance, or guidance, this feature is designed to provide you with the most accurate and thorough replies. One of the key advantages of MixerBox Prompt Pro is its ability to optimize your queries. Instead of spending valuable time brainstorming keywords or formulating detailed instructions, you can simply enter your query and let the feature do the rest. It takes your initial idea or question and transforms it into a more refined and precise inquiry, ensuring that you receive the most relevant and helpful responses.For example, if you were to ask, \"Please tell me how to quickly learn a language,\" the system would automatically analyze and enhance your question, providing you with a more comprehensive and tailored response. Instead of receiving generic advice, you would obtain a detailed guide that includes specific learning methods, effective learning strategies, step-by-step instructions, and other valuable insights to accelerate your language learning journey. Furthermore, the feature can intelligently identify the gaps in your question and suggest optimal ways to supplement and refine it. By offering guidance on the best possible question formulation, MixerBox Prompt Pro ensures that the responses you receive are rich in detail and cover all the necessary aspects of your inquiry.",
+  "description_for_human": "Generate ideal prompts instantly! Ensure accurate and comprehensive responses effortlessly!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "32d674dc11f042d6893082f2d3275c8f"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://promptpro.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/Prompt_Pro_logo.png",
+  "contact_email": "support@promptpro.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com"
+}

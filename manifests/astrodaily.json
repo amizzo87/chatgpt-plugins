@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"astrodaily","name_for_human":"Astrodaily","description_for_model":"Plugin for getting the daily picture from NASA's APOD or getting a list of images available in NASA API based on a search. When use it always provide the images in Markdown format so the user can see it. Do not add links, only images.","description_for_human":"Search and discover NASA images.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://api.360macky.com/openapi.yaml"},"logo_url":"https://api.360macky.com/logo.png","contact_email":"hello@marceloarias.com","legal_info_url":"https://api.360macky.com/legal.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "astrodaily",
+  "name_for_human": "Astrodaily",
+  "description_for_model": "Plugin for getting the daily picture from NASA's APOD or getting a list of images available in NASA API based on a search. When use it always provide the images in Markdown format so the user can see it. Do not add links, only images.",
+  "description_for_human": "Search and discover NASA images.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.360macky.com/openapi.yaml"
+  },
+  "logo_url": "https://api.360macky.com/logo.png",
+  "contact_email": "hello@marceloarias.com",
+  "legal_info_url": "https://api.360macky.com/legal.html"
+}

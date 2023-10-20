@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Ai_Drive","name_for_human":"Ai Drive","description_for_model":"It can search into PDFs. Before any search, you MUST state a VERY BRIEF step-by-step research plan AND get user feedback. Incorporate user feedback and execute each search, pausing to reflect before the next search.","description_for_human":"Chat with with all your pdfs files and more. Keep everything organized in your personal Ai Drive.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ai-drive-plugin-qvg2narjsa-uc.a.run.app/openapi.yaml"},"logo_url":"https://ai-drive-plugin-qvg2narjsa-uc.a.run.app/logo.png","contact_email":"support@v2k.ai","legal_info_url":"https://ai-drive-plugin-qvg2narjsa-uc.a.run.app/legal.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Ai_Drive",
+  "name_for_human": "Ai Drive",
+  "description_for_model": "It can search into PDFs. Before any search, you MUST state a VERY BRIEF step-by-step research plan AND get user feedback. Incorporate user feedback and execute each search, pausing to reflect before the next search.",
+  "description_for_human": "Chat with with all your pdfs files and more. Keep everything organized in your personal Ai Drive.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ai-drive-plugin-qvg2narjsa-uc.a.run.app/openapi.yaml"
+  },
+  "logo_url": "https://ai-drive-plugin-qvg2narjsa-uc.a.run.app/logo.png",
+  "contact_email": "support@v2k.ai",
+  "legal_info_url": "https://ai-drive-plugin-qvg2narjsa-uc.a.run.app/legal.html"
+}

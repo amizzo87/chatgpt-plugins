@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Eduguide","name_for_human":"Eduguide","description_for_model":"A tool designed to respond to college admission-related inquiries.","description_for_human":"A tool designed to respond to college admission-related inquiries.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://brainlox.com/.well-known/openapi.yaml"},"logo_url":"https://brainlox.com/images/edu_guide.jpeg","contact_email":"sanjayp@brainlox.com","legal_info_url":"https://brainlox.com/privacy-policy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Eduguide",
+  "name_for_human": "Eduguide",
+  "description_for_model": "A tool designed to respond to college admission-related inquiries.",
+  "description_for_human": "A tool designed to respond to college admission-related inquiries.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://brainlox.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://brainlox.com/images/edu_guide.jpeg",
+  "contact_email": "sanjayp@brainlox.com",
+  "legal_info_url": "https://brainlox.com/privacy-policy"
+}

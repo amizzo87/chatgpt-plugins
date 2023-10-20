@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"AeroDex","name_for_human":"AeroDex","description_for_model":"Interacts with an aviation API for pilots and student pilots data. Use it for aviation-related queries.","description_for_human":"Get aviation weather from aviationweather.gov and access Advisory Circulars & handbooks for pilots and student pilots.","auth":{"type":"oauth","instructions":"","client_url":"https://5169dffd3405d1925f67d3c3c2209a83.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"9c9bc927c5174b8cb3a09589f070b893"}},"api":{"type":"openapi","url":"https://chat.aerodex.xyz/.well-known/pluginlab/openapi.json"},"logo_url":"https://api.aerodex.xyz/logo.jpg","contact_email":"davide.zambiasi@gmail.com","legal_info_url":"https://www.aerodex.xyz/policy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "AeroDex",
+  "name_for_human": "AeroDex",
+  "description_for_model": "Interacts with an aviation API for pilots and student pilots data. Use it for aviation-related queries.",
+  "description_for_human": "Get aviation weather from aviationweather.gov and access Advisory Circulars & handbooks for pilots and student pilots.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://5169dffd3405d1925f67d3c3c2209a83.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "9c9bc927c5174b8cb3a09589f070b893"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat.aerodex.xyz/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://api.aerodex.xyz/logo.jpg",
+  "contact_email": "davide.zambiasi@gmail.com",
+  "legal_info_url": "https://www.aerodex.xyz/policy"
+}

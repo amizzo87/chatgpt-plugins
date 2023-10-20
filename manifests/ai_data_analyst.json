@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"ai_data_analyst","name_for_human":"AI Data Analyst","description_for_model":"Perform analysis on databases and spreadsheets.","description_for_human":"Dive into your data like never before. No code, no complex queries; just plain English.","auth":{"type":"oauth","instructions":"","client_url":"https://chatwithyourdata.us.auth0.com/authorize","scope":"openid profile email offline_access","authorization_url":"https://chatwithyourdata.us.auth0.com/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"cd1547a47a84487c955f7e42bcf30b20"}},"api":{"type":"openapi","url":"https://api.getaidataanalyst.com/openapi.yaml"},"logo_url":"https://api.getaidataanalyst.com/logo.png","contact_email":"team@julius.ai","legal_info_url":"https://getaidataanalyst.com/tos"}
+{
+  "schema_version": "v1",
+  "name_for_model": "ai_data_analyst",
+  "name_for_human": "AI Data Analyst",
+  "description_for_model": "Perform analysis on databases and spreadsheets.",
+  "description_for_human": "Dive into your data like never before. No code, no complex queries; just plain English.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
+    "scope": "openid profile email offline_access",
+    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "cd1547a47a84487c955f7e42bcf30b20"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.getaidataanalyst.com/openapi.yaml"
+  },
+  "logo_url": "https://api.getaidataanalyst.com/logo.png",
+  "contact_email": "team@julius.ai",
+  "legal_info_url": "https://getaidataanalyst.com/tos"
+}

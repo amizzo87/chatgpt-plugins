@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"invoices","name_for_human":"Invoices","description_for_model":"Use the invoices plugin to create invoices or estimates.","description_for_human":"Create and customize PDF invoices or estimates in seconds.","auth":{"type":"oauth","instructions":"","client_url":"https://a32658986501ec4c1cba76ff0377153b.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"d5edc3a35f594744977ae082d8bd6764"}},"api":{"type":"openapi","url":"https://plugin.invoices.easy-plugins.net/.well-known/pluginlab/openapi.json"},"logo_url":"https://invoices.easy-plugins.net/logo.png","contact_email":"alexis@easy-plugins.net","legal_info_url":"https://invoices.easy-plugins.net/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "invoices",
+  "name_for_human": "Invoices",
+  "description_for_model": "Use the invoices plugin to create invoices or estimates.",
+  "description_for_human": "Create and customize PDF invoices or estimates in seconds.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://a32658986501ec4c1cba76ff0377153b.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "d5edc3a35f594744977ae082d8bd6764"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.invoices.easy-plugins.net/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://invoices.easy-plugins.net/logo.png",
+  "contact_email": "alexis@easy-plugins.net",
+  "legal_info_url": "https://invoices.easy-plugins.net/legal"
+}

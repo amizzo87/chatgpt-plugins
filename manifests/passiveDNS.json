@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"passiveDNS","name_for_human":"Passive DNS Pivots","description_for_model":"Global passive DNS search of 800 Billion records. Search by IP, CIDR, domain name, strings. Unearth nefarious host naming patterns in recent passive DNS. Poly-dimensional search terms are supported for richer insights.","description_for_human":"ZETAlytics Global pDNS with 800 Billion records. Unearth nefarious domains within minutes of creation.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://daisy.zetalytics.com/openapi.json"},"logo_url":"https://daisy.zetalytics.com/square-zeta-logo.jpg","contact_email":"plugins@zetalytics.com","legal_info_url":"https://daisy.zetalytics.com/legal_info.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "passiveDNS",
+  "name_for_human": "Passive DNS Pivots",
+  "description_for_model": "Global passive DNS search of 800 Billion records. Search by IP, CIDR, domain name, strings. Unearth nefarious host naming patterns in recent passive DNS. Poly-dimensional search terms are supported for richer insights.",
+  "description_for_human": "ZETAlytics Global pDNS with 800 Billion records. Unearth nefarious domains within minutes of creation.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://daisy.zetalytics.com/openapi.json"
+  },
+  "logo_url": "https://daisy.zetalytics.com/square-zeta-logo.jpg",
+  "contact_email": "plugins@zetalytics.com",
+  "legal_info_url": "https://daisy.zetalytics.com/legal_info.html"
+}

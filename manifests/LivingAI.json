@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"LivingAI","name_for_human":"LivingAI","description_for_model":"The LivingAI plugin empowers users to create avatar videos effortlessly with ChatGPT by providing a text. The input should be concise for the speech or voiceover text. Additionally, users can include optional properties like video title, avatar gender,age, mood, language, and skin tone, video title and avatar gender can be extracted from the user's input, but if they are not present, the model should generate them without seeking additional user input. For more personalized avatars, users can even provide specific URLs with frontal facing profile photographs. LivingAI supports video creation in over a hundred languages. Once the avatar video is ready, a link is provided for easy access. Users can view, share with friends and team members, but should be mindful of a potential loading message during processing, requiring a manual page refresh to check readiness. The video generation typically takes one to three minutes, depending on the text length. In the unlikely event of any issues, LivingAI promptly provides an error message with the details for quick resolution. Experience the next level of avatar video creation with LivingAI's dynamic and customizable platform.","description_for_human":"Create digital beings instantly with LivingAI - the most advanced AI video generation platform.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.livingai.com/openapi.yaml"},"logo_url":"https://uploads-ssl.webflow.com/64785688776d31b426cbb9c0/6478a1b49e5c33d6500b318f_LivingAI%20logo.svg","contact_email":"support@livingai.com","legal_info_url":"https://www.livingai.com/terms-and-conditions"}
+{
+  "schema_version": "v1",
+  "name_for_model": "LivingAI",
+  "name_for_human": "LivingAI",
+  "description_for_model": "The LivingAI plugin empowers users to create avatar videos effortlessly with ChatGPT by providing a text. The input should be concise for the speech or voiceover text. Additionally, users can include optional properties like video title, avatar gender,age, mood, language, and skin tone, video title and avatar gender can be extracted from the user's input, but if they are not present, the model should generate them without seeking additional user input. For more personalized avatars, users can even provide specific URLs with frontal facing profile photographs. LivingAI supports video creation in over a hundred languages. Once the avatar video is ready, a link is provided for easy access. Users can view, share with friends and team members, but should be mindful of a potential loading message during processing, requiring a manual page refresh to check readiness. The video generation typically takes one to three minutes, depending on the text length. In the unlikely event of any issues, LivingAI promptly provides an error message with the details for quick resolution. Experience the next level of avatar video creation with LivingAI's dynamic and customizable platform.",
+  "description_for_human": "Create digital beings instantly with LivingAI - the most advanced AI video generation platform.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.livingai.com/openapi.yaml"
+  },
+  "logo_url": "https://uploads-ssl.webflow.com/64785688776d31b426cbb9c0/6478a1b49e5c33d6500b318f_LivingAI%20logo.svg",
+  "contact_email": "support@livingai.com",
+  "legal_info_url": "https://www.livingai.com/terms-and-conditions"
+}

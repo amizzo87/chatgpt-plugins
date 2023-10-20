@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"twrail","name_for_human":"TR Timetables","description_for_model":"Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.","description_for_human":"Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"bb819da577804d45a232504e459e76ec"}},"api":{"type":"openapi","url":"https://twrailtimetables.flagtec.repl.co/openapi.yaml"},"logo_url":"https://twrailtimetables.flagtec.repl.co/logo.png","contact_email":"flagtec@gmail.com","legal_info_url":"https://www.flag.com.tw/flag/privacy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "twrail",
+  "name_for_human": "TR Timetables",
+  "description_for_model": "Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.",
+  "description_for_human": "Query for the ID for Taiwan Railway stations and timetables for the specified departure and destination station.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "bb819da577804d45a232504e459e76ec"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://twrailtimetables.flagtec.repl.co/openapi.yaml"
+  },
+  "logo_url": "https://twrailtimetables.flagtec.repl.co/logo.png",
+  "contact_email": "flagtec@gmail.com",
+  "legal_info_url": "https://www.flag.com.tw/flag/privacy"
+}

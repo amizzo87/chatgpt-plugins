@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"lawyer_lookup","name_for_human":"Lawyer Search (CA)","description_for_model":"Plugin for searching lawyers by various criteria in California, USA. When using the location filter, always use specific city names instead of abbreviations or general areas. For example, use 'San Francisco' instead of 'SF' and 'San Jose' instead of 'Bay Area'. In search results, always list all legal specialties associated with each lawyer. This will provide a more comprehensive view of each lawyer's areas of expertise and may help explain why certain lawyers were included in the search results.","description_for_human":"Search for lawyers by name, specialty, language, and City.  Currently limited to California, USA.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://lawyerheaven.com/openapi.yaml"},"logo_url":"https://lawyerheaven.com/logo.png","contact_email":"legal@lawyerheaven.com","legal_info_url":"https://lawyerheaven.com/legal.txt"}
+{
+  "schema_version": "v1",
+  "name_for_model": "lawyer_lookup",
+  "name_for_human": "Lawyer Search (CA)",
+  "description_for_model": "Plugin for searching lawyers by various criteria in California, USA. When using the location filter, always use specific city names instead of abbreviations or general areas. For example, use 'San Francisco' instead of 'SF' and 'San Jose' instead of 'Bay Area'. In search results, always list all legal specialties associated with each lawyer. This will provide a more comprehensive view of each lawyer's areas of expertise and may help explain why certain lawyers were included in the search results.",
+  "description_for_human": "Search for lawyers by name, specialty, language, and City.  Currently limited to California, USA.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://lawyerheaven.com/openapi.yaml"
+  },
+  "logo_url": "https://lawyerheaven.com/logo.png",
+  "contact_email": "legal@lawyerheaven.com",
+  "legal_info_url": "https://lawyerheaven.com/legal.txt"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"vehicledata","name_for_human":"Vehicle Data IL","description_for_model":"This Israel-centric tool is deployed to obtain and interpret automobile data from the data.gov.il API. Users can specify details like model, year, hue, and count. It processes the Israel-only vehicle data and provides results.","description_for_human":"An Israel-focused tool, extracting car details from data.gov.il based on model, year, hue, and count.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://cars-israel-plugin.galhadari.repl.co/.well-known/openapi.yaml"},"logo_url":"https://pbs.twimg.com/profile_images/1660572218387058692/zggRtHtS_400x400.png","contact_email":"bai.experts@gmail.com","legal_info_url":"https://www.bai-tech.info/general-5"}
+{
+  "schema_version": "v1",
+  "name_for_model": "vehicledata",
+  "name_for_human": "Vehicle Data IL",
+  "description_for_model": "This Israel-centric tool is deployed to obtain and interpret automobile data from the data.gov.il API. Users can specify details like model, year, hue, and count. It processes the Israel-only vehicle data and provides results.",
+  "description_for_human": "An Israel-focused tool, extracting car details from data.gov.il based on model, year, hue, and count.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://cars-israel-plugin.galhadari.repl.co/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://pbs.twimg.com/profile_images/1660572218387058692/zggRtHtS_400x400.png",
+  "contact_email": "bai.experts@gmail.com",
+  "legal_info_url": "https://www.bai-tech.info/general-5"
+}

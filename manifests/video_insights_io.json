@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"video_insights_io","name_for_human":"VideoInsights.io","description_for_model":"Retrieves transcript, metadata and other information of various video providers like Youtube, Zoom or BiliBili","description_for_human":"VideoInsights.io lets you interact with online video platforms like Youtube, Zoom or BiliBili.","auth":{"type":"oauth","instructions":"","client_url":"https://auth.videoinsights.io/oauth2/authorize","scope":"openid email https://openai.videoinsights.io/all","authorization_url":"https://auth.videoinsights.io/oauth2/token","authorization_content_type":"application/x-www-form-urlencoded","verification_tokens":{"openai":"881a46cfdfe74aacb9d33d8385379206"}},"api":{"type":"openapi","url":"https://videoinsights.io/.well-known/openapi.yaml"},"logo_url":"https://videoinsights.io/logo.png","contact_email":"alexanderjettel@gmail.com","legal_info_url":"https://videoinsights.io/legal.txt"}
+{
+  "schema_version": "v1",
+  "name_for_model": "video_insights_io",
+  "name_for_human": "VideoInsights.io",
+  "description_for_model": "Retrieves transcript, metadata and other information of various video providers like Youtube, Zoom or BiliBili",
+  "description_for_human": "VideoInsights.io lets you interact with online video platforms like Youtube, Zoom or BiliBili.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.videoinsights.io/oauth2/authorize",
+    "scope": "openid email https://openai.videoinsights.io/all",
+    "authorization_url": "https://auth.videoinsights.io/oauth2/token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "881a46cfdfe74aacb9d33d8385379206"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://videoinsights.io/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://videoinsights.io/logo.png",
+  "contact_email": "alexanderjettel@gmail.com",
+  "legal_info_url": "https://videoinsights.io/legal.txt"
+}

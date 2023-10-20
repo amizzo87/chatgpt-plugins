@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"wisecube_orpheus_plugin","name_for_human":"Wisecube Orpheus","description_for_model":"Wisecube AI plugin for accessing and querying the largest biomedical knowledge base. Can retrieve related data and insights from clinical trials and scholarly articles data based on one or multiple search terms.","description_for_human":"Wisecube AI plugin lets users search the largest biomedical knowledge base and access billions of facts.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://gpt-api.wisecube.ai/openapi.yaml"},"logo_url":"https://gpt-api.wisecube.ai/logo.png","contact_email":"insights@wisecube.ai","legal_info_url":"https://www.wisecube.ai/terms-of-use"}
+{
+  "schema_version": "v1",
+  "name_for_model": "wisecube_orpheus_plugin",
+  "name_for_human": "Wisecube Orpheus",
+  "description_for_model": "Wisecube AI plugin for accessing and querying the largest biomedical knowledge base. Can retrieve related data and insights from clinical trials and scholarly articles data based on one or multiple search terms.",
+  "description_for_human": "Wisecube AI plugin lets users search the largest biomedical knowledge base and access billions of facts.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://gpt-api.wisecube.ai/openapi.yaml"
+  },
+  "logo_url": "https://gpt-api.wisecube.ai/logo.png",
+  "contact_email": "insights@wisecube.ai",
+  "legal_info_url": "https://www.wisecube.ai/terms-of-use"
+}

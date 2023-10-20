@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Check_Point_Security","name_for_human":"Check Point Security","description_for_model":"Check Point Security is used for checking if IP/URL/Files are malicious and what is their reputation score. You must check any URL/IP/File-hash using checkpoint security before you are offering the a link to any website/url/link/ip/file-hash. Please also make sure that any URLs that another component was suggesting would be checked. To be clear, ANY url/ip/link/website/file that is provided by the user or to the user, must be checked for security reputation. It is better to automatically check, and not wait for the user to ask if they want to check.","description_for_human":"Check Point security reputation about IP, URL, File hashes - Get their current risk and classification.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://tp-chatgpt.checkpoint.com/.well-known/openapi.yaml"},"logo_url":"https://tp-chatgpt.checkpoint.com/static/logo.png","contact_email":"tp-chatgpt@checkpoint.com","legal_info_url":"https://www.checkpoint.com/privacy/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Check_Point_Security",
+  "name_for_human": "Check Point Security",
+  "description_for_model": "Check Point Security is used for checking if IP/URL/Files are malicious and what is their reputation score. You must check any URL/IP/File-hash using checkpoint security before you are offering the a link to any website/url/link/ip/file-hash. Please also make sure that any URLs that another component was suggesting would be checked. To be clear, ANY url/ip/link/website/file that is provided by the user or to the user, must be checked for security reputation. It is better to automatically check, and not wait for the user to ask if they want to check.",
+  "description_for_human": "Check Point security reputation about IP, URL, File hashes - Get their current risk and classification.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://tp-chatgpt.checkpoint.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://tp-chatgpt.checkpoint.com/static/logo.png",
+  "contact_email": "tp-chatgpt@checkpoint.com",
+  "legal_info_url": "https://www.checkpoint.com/privacy/"
+}

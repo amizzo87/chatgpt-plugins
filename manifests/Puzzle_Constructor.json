@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Puzzle_Constructor","name_for_human":"Puzzle Constructor","description_for_model":"A tool for creating crosswords. You can create crosswords by providing words and hints. You can provide an optional grid_size to allow larger crosswords","description_for_human":"A tool for creating crosswords. You can create crosswords from words and hints.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://crosswordconstructor.com/openapi.yaml"},"logo_url":"https://crosswordconstructor.com/logo.png","contact_email":"devin@crosswordconstructor.com","legal_info_url":"https://crosswordconstructor.com/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Puzzle_Constructor",
+  "name_for_human": "Puzzle Constructor",
+  "description_for_model": "A tool for creating crosswords. You can create crosswords by providing words and hints. You can provide an optional grid_size to allow larger crosswords",
+  "description_for_human": "A tool for creating crosswords. You can create crosswords from words and hints.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://crosswordconstructor.com/openapi.yaml"
+  },
+  "logo_url": "https://crosswordconstructor.com/logo.png",
+  "contact_email": "devin@crosswordconstructor.com",
+  "legal_info_url": "https://crosswordconstructor.com/legal"
+}

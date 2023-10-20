@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"MixerBox_FindPlugin_plugin_finder","name_for_human":"MixerBox FindPlugin","description_for_model":"MixerBox FindPlugin improves the capacity to discover and utilize the most relevant plugins. Whether you're navigating through a complex project, academic research, or everyday tasks, this feature is designed to provide you with the most suitable plugin suggestions. A key strength of MixerBox FindPlugin is its ability to optimize your plugin discovery. Instead of spending valuable time manually searching or using multiple tools, you can simply enter your query and let the feature do the rest. It takes your initial keywords and transforms them into a refined and precise list of plugin suggestions, ensuring that you receive the most relevant and useful options. Moreover, the feature can intelligently identify gaps in your plugin usage and suggest optimal ways to supplement and refine them. By offering guidance on the best possible plugin choices, MixerBox FindPlugin ensures that the suggestions you receive are precise and cover all the necessary aspects of your query. Plus, the feature can handle a wide range of plugin categories.","description_for_human":"Find the plugins you need instantly! Help you quickly accomplish tasks and save a lot of time!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"a96a1f46ffe044f18d2827dc7c33c05f"}},"api":{"type":"openapi","url":"https://findplugin.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/FindPlugin_logo.png","contact_email":"support@findplugin.mixerbox.com","legal_info_url":"https://www.mixerbox.com"}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_FindPlugin_plugin_finder",
+  "name_for_human": "MixerBox FindPlugin",
+  "description_for_model": "MixerBox FindPlugin improves the capacity to discover and utilize the most relevant plugins. Whether you're navigating through a complex project, academic research, or everyday tasks, this feature is designed to provide you with the most suitable plugin suggestions. A key strength of MixerBox FindPlugin is its ability to optimize your plugin discovery. Instead of spending valuable time manually searching or using multiple tools, you can simply enter your query and let the feature do the rest. It takes your initial keywords and transforms them into a refined and precise list of plugin suggestions, ensuring that you receive the most relevant and useful options. Moreover, the feature can intelligently identify gaps in your plugin usage and suggest optimal ways to supplement and refine them. By offering guidance on the best possible plugin choices, MixerBox FindPlugin ensures that the suggestions you receive are precise and cover all the necessary aspects of your query. Plus, the feature can handle a wide range of plugin categories.",
+  "description_for_human": "Find the plugins you need instantly! Help you quickly accomplish tasks and save a lot of time!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "a96a1f46ffe044f18d2827dc7c33c05f"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://findplugin.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/FindPlugin_logo.png",
+  "contact_email": "support@findplugin.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"doc_maker_v2","name_for_human":"Doc Maker A+","description_for_model":"Help the user create a PDF, DOCX, CSV, XLSX or HTML file. Make sure you escape special characters for JSON string used in API call.","description_for_human":"Generate A+ quality docs in seconds. Resumes, cover letters, and more. Supports PDFs, DOCX, XLSX, CSV and HTML.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.maker.aidocmaker.com/openapi.yaml"},"logo_url":"https://plugin.maker.aidocmaker.com/logo.png","contact_email":"support@level2labs.co","legal_info_url":"http://www.level2labs.co/privacy-policy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "doc_maker_v2",
+  "name_for_human": "Doc Maker A+",
+  "description_for_model": "Help the user create a PDF, DOCX, CSV, XLSX or HTML file. Make sure you escape special characters for JSON string used in API call.",
+  "description_for_human": "Generate A+ quality docs in seconds. Resumes, cover letters, and more. Supports PDFs, DOCX, XLSX, CSV and HTML.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.maker.aidocmaker.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.maker.aidocmaker.com/logo.png",
+  "contact_email": "support@level2labs.co",
+  "legal_info_url": "http://www.level2labs.co/privacy-policy"
+}

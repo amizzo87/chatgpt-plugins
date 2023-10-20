@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"MixerBox_News","name_for_human":"MixerBox News","description_for_model":"MixerBox News provides users with the latest news, including breaking news and a wide range of news categories, such as business, finance, economics, politics, society, entertainment, fun, gossip, sports, lifestyle, technology, local, world, international, global, and military. Users who want to stay informed about current events and developments in various areas will find MixerBox News useful.","description_for_human":"Get the latest news with ease! Search and browse updates on finance, sports, technologies and more!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://www.mixerboxnews.com/openapi.json"},"logo_url":"https://s3.amazonaws.com/static.mixerbox.com/mixerbox/images/icons/230503__News+Plugin.png","contact_email":"mbsupport.news@mixerbox.com","legal_info_url":"https://www.mixerbox.com/newsdash"}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_News",
+  "name_for_human": "MixerBox News",
+  "description_for_model": "MixerBox News provides users with the latest news, including breaking news and a wide range of news categories, such as business, finance, economics, politics, society, entertainment, fun, gossip, sports, lifestyle, technology, local, world, international, global, and military. Users who want to stay informed about current events and developments in various areas will find MixerBox News useful.",
+  "description_for_human": "Get the latest news with ease! Search and browse updates on finance, sports, technologies and more!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.mixerboxnews.com/openapi.json"
+  },
+  "logo_url": "https://s3.amazonaws.com/static.mixerbox.com/mixerbox/images/icons/230503__News+Plugin.png",
+  "contact_email": "mbsupport.news@mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com/newsdash"
+}

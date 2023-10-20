@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"hackit_web_scanner","name_for_human":"HACKIT Web Scanner","description_for_model":"Smart Web Scanner developed by Yuval Avidani from HACKIT. It uses for scanning websites for potential security threats in order to help the good guys protect from bad guys.","description_for_human":"AI Powered Web Scanner by HACKIT.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://hackit.co.il/openapi.yaml"},"logo_url":"https://hackit.co.il/hackit.png","contact_email":"yuval@hackit.co.il","legal_info_url":"https://hackit.co.il"}
+{
+  "schema_version": "v1",
+  "name_for_model": "hackit_web_scanner",
+  "name_for_human": "HACKIT Web Scanner",
+  "description_for_model": "Smart Web Scanner developed by Yuval Avidani from HACKIT. It uses for scanning websites for potential security threats in order to help the good guys protect from bad guys.",
+  "description_for_human": "AI Powered Web Scanner by HACKIT.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://hackit.co.il/openapi.yaml"
+  },
+  "logo_url": "https://hackit.co.il/hackit.png",
+  "contact_email": "yuval@hackit.co.il",
+  "legal_info_url": "https://hackit.co.il"
+}

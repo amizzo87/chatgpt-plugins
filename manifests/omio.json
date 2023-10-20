@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"omio","name_for_human":"Omio","description_for_model":"Plugin for showing schedules & trips on Omio.com. You can see schedules and trips from Omio.com.","description_for_human":"See schedules and book on Omio. Be moved!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://omio.com/b2b-chatgpt-plugin/openapi.yaml"},"logo_url":"https://www.omio.com/gcs-proxy/static_content_repo/web/icons/omio-android-chrome-192x192.png","contact_email":"chatgpt-plugin-support@omio.com","legal_info_url":"https://omio.com/terms-of-use"}
+{
+  "schema_version": "v1",
+  "name_for_model": "omio",
+  "name_for_human": "Omio",
+  "description_for_model": "Plugin for showing schedules & trips on Omio.com. You can see schedules and trips from Omio.com.",
+  "description_for_human": "See schedules and book on Omio. Be moved!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://omio.com/b2b-chatgpt-plugin/openapi.yaml"
+  },
+  "logo_url": "https://www.omio.com/gcs-proxy/static_content_repo/web/icons/omio-android-chrome-192x192.png",
+  "contact_email": "chatgpt-plugin-support@omio.com",
+  "legal_info_url": "https://omio.com/terms-of-use"
+}

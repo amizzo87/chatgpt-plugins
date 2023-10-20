@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"DreamReader","name_for_human":"Dream Reader","description_for_model":"An app for oneiromancy, interpretation of dreams, read and decode user's dreams and unveil the innermost thoughts and desires, such as Dreamt of a big snake, dreamt of a small dog chasing me, Dreamt that I got rich. Last night, I saw a mouse in my dream.","description_for_human":"Read and decode your dreams and unveil your innermost thoughts and desires.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://dream.putaojie.top/openapi.yaml"},"logo_url":"https://dream.putaojie.top/logo.png","contact_email":"dst1213@outlook.com","legal_info_url":"https://dream.putaojie.top/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "DreamReader",
+  "name_for_human": "Dream Reader",
+  "description_for_model": "An app for oneiromancy, interpretation of dreams, read and decode user's dreams and unveil the innermost thoughts and desires, such as Dreamt of a big snake, dreamt of a small dog chasing me, Dreamt that I got rich. Last night, I saw a mouse in my dream.",
+  "description_for_human": "Read and decode your dreams and unveil your innermost thoughts and desires.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://dream.putaojie.top/openapi.yaml"
+  },
+  "logo_url": "https://dream.putaojie.top/logo.png",
+  "contact_email": "dst1213@outlook.com",
+  "legal_info_url": "https://dream.putaojie.top/legal"
+}

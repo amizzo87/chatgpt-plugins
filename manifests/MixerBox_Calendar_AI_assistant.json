@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"MixerBox_Calendar_AI_assistant","name_for_human":"MixerBox Calendar","description_for_model":"MixerBox Calendar is a convenient tool that allows you to quickly retrieve events for today, a few days ahead, or even a month, as long as they appear on your calendar. Additionally, MixerBox Calendar enables you to create meetings at specific times and invite relevant individuals via their email addresses, or set reminders for specific activities. If you want to find out your available free slots, you can also inquire with MixerBox Calendar!\nMixerBox Calendar efficiently lists all your daily, weekly, and monthly activities. As your dedicated time assistant, MixerBox Calendar can also create meetings at specific times and invite relevant participants via their email addresses. Additionally, it can find related events based on keywords you have previously set up.","description_for_human":"The best Google Calendar AI assistant! Master your schedule easily! Create events and set reminders!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"a8734c63a15442c8ae25f444845ad324"}},"api":{"type":"openapi","url":"https://calendar.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/Calendar_logo.png","contact_email":"support@calendar.mixerbox.com","legal_info_url":"https://www.mixerbox.com"}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_Calendar_AI_assistant",
+  "name_for_human": "MixerBox Calendar",
+  "description_for_model": "MixerBox Calendar is a convenient tool that allows you to quickly retrieve events for today, a few days ahead, or even a month, as long as they appear on your calendar. Additionally, MixerBox Calendar enables you to create meetings at specific times and invite relevant individuals via their email addresses, or set reminders for specific activities. If you want to find out your available free slots, you can also inquire with MixerBox Calendar!\nMixerBox Calendar efficiently lists all your daily, weekly, and monthly activities. As your dedicated time assistant, MixerBox Calendar can also create meetings at specific times and invite relevant participants via their email addresses. Additionally, it can find related events based on keywords you have previously set up.",
+  "description_for_human": "The best Google Calendar AI assistant! Master your schedule easily! Create events and set reminders!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "a8734c63a15442c8ae25f444845ad324"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://calendar.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/Calendar_logo.png",
+  "contact_email": "support@calendar.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com"
+}

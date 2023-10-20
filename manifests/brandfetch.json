@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"brandfetch","name_for_human":"Brandfetch","description_for_model":"Retrieve company and brand data including logos, colors, fonts, and other brand information.","description_for_human":"Retrieve company and brand data including logos, colors, fonts, and other brand information.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt-plugin.brandfetch.io/openapi.yaml"},"logo_url":"https://asset.brandfetch.io/idL0iThUh6/idls3LaPPQ.png","contact_email":"support@brandfetch.com","legal_info_url":"https://brandfetch.com/terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "brandfetch",
+  "name_for_human": "Brandfetch",
+  "description_for_model": "Retrieve company and brand data including logos, colors, fonts, and other brand information.",
+  "description_for_human": "Retrieve company and brand data including logos, colors, fonts, and other brand information.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin.brandfetch.io/openapi.yaml"
+  },
+  "logo_url": "https://asset.brandfetch.io/idL0iThUh6/idls3LaPPQ.png",
+  "contact_email": "support@brandfetch.com",
+  "legal_info_url": "https://brandfetch.com/terms"
+}

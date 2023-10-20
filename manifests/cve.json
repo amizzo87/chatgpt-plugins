@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"cve","name_for_human":"CVEs","description_for_model":"Help the user look up CVEs.","description_for_human":"Look up Common Vulnerabilities and Exposures (CVEs).","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"0d3d1e5a11ec4da1861d8622600ae4a6"}},"api":{"type":"openapi","url":"https://chatgpt.cve.ai.moda/openapi.json"},"logo_url":"https://chatgpt-cve.email.ai.moda/bimi/logo.svg","contact_email":"cve@chatgpt.email.ai.moda","legal_info_url":"https://www.ai.moda/en/terms-and-conditions"}
+{
+  "schema_version": "v1",
+  "name_for_model": "cve",
+  "name_for_human": "CVEs",
+  "description_for_model": "Help the user look up CVEs.",
+  "description_for_human": "Look up Common Vulnerabilities and Exposures (CVEs).",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "0d3d1e5a11ec4da1861d8622600ae4a6"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.cve.ai.moda/openapi.json"
+  },
+  "logo_url": "https://chatgpt-cve.email.ai.moda/bimi/logo.svg",
+  "contact_email": "cve@chatgpt.email.ai.moda",
+  "legal_info_url": "https://www.ai.moda/en/terms-and-conditions"
+}

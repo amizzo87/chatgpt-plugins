@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"speechki_tts_plugin","name_for_human":"Speechki","description_for_model":"Text-to-speech service","description_for_human":"The easiest way to convert texts to ready-to-use audio — download link, audio player page, or embed!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"e2de031decc943c3beff4e6ea247d420"}},"api":{"type":"openapi","url":"https://plugin.speechki.org/openapi.yml"},"logo_url":"https://plugin.speechki.org/icon.svg","contact_email":"hello@speechki.org","legal_info_url":"https://www.speechki.org/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "speechki_tts_plugin",
+  "name_for_human": "Speechki",
+  "description_for_model": "Text-to-speech service",
+  "description_for_human": "The easiest way to convert texts to ready-to-use audio — download link, audio player page, or embed!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "e2de031decc943c3beff4e6ea247d420"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.speechki.org/openapi.yml"
+  },
+  "logo_url": "https://plugin.speechki.org/icon.svg",
+  "contact_email": "hello@speechki.org",
+  "legal_info_url": "https://www.speechki.org/legal"
+}

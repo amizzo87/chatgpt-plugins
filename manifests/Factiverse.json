@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"Factiverse","name_for_human":"Factiverse","description_for_model":"Spots sentences in any text that need fact-checking and verifies their factuality in real time by providing credible sources from the web.","description_for_human":"Fact-check your conversations and find credible sources from the web in real time.","auth":{"type":"oauth","instructions":"","client_url":"https://dev-on-lc56a.us.auth0.com/authorize","scope":"openid profile email","authorization_url":"https://dev-on-lc56a.us.auth0.com/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"96c2acc1b41b40bda49a205d4b671b9a"}},"api":{"type":"openapi","url":"https://api.factiverse.ai/.well-known/openapi.yaml"},"logo_url":"https://api.factiverse.ai/.well-known/logo.png","contact_email":"info@factiverse.ai","legal_info_url":"https://www.factiverse.ai/terms-and-conditions"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Factiverse",
+  "name_for_human": "Factiverse",
+  "description_for_model": "Spots sentences in any text that need fact-checking and verifies their factuality in real time by providing credible sources from the web.",
+  "description_for_human": "Fact-check your conversations and find credible sources from the web in real time.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://dev-on-lc56a.us.auth0.com/authorize",
+    "scope": "openid profile email",
+    "authorization_url": "https://dev-on-lc56a.us.auth0.com/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "96c2acc1b41b40bda49a205d4b671b9a"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.factiverse.ai/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://api.factiverse.ai/.well-known/logo.png",
+  "contact_email": "info@factiverse.ai",
+  "legal_info_url": "https://www.factiverse.ai/terms-and-conditions"
+}

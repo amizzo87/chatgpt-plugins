@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"wantedlyVisit","name_for_human":"Wantedly Visit","description_for_model":"This is a plugin for finding jobs in Japan or Singapore. Show one rich preview per viewed job.","description_for_human":"It will help you find a job in Japan or Singapore.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"d194d2bc689c4d3fbfe10e57c3614e82"}},"api":{"type":"openapi","url":"https://chatgpt-plugin-recom-project.wantedly.com/chatgpt_plugins/api_schema"},"logo_url":"https://wantedly-assets.wantedly.com/static/logo/social-icon.jpg","contact_email":"support@wantedly.com","legal_info_url":"https://service-terms.wantedly.com/user_terms/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "wantedlyVisit",
+  "name_for_human": "Wantedly Visit",
+  "description_for_model": "This is a plugin for finding jobs in Japan or Singapore. Show one rich preview per viewed job.",
+  "description_for_human": "It will help you find a job in Japan or Singapore.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "d194d2bc689c4d3fbfe10e57c3614e82"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin-recom-project.wantedly.com/chatgpt_plugins/api_schema"
+  },
+  "logo_url": "https://wantedly-assets.wantedly.com/static/logo/social-icon.jpg",
+  "contact_email": "support@wantedly.com",
+  "legal_info_url": "https://service-terms.wantedly.com/user_terms/"
+}

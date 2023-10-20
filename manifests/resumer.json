@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"resumer","name_for_human":"Resume","description_for_model":"This plugin is designed to streamline the process of extracting information from a person's resume, which is typically a PDF document. It operates by accepting either a URL link to a PDF resume or a document ID (doc_id) from the user. Upon validating the URL, the plugin downloads the PDF resume, stores its content in a vector database, and answers any accompanying question. If a doc_id is provided, the plugin retrieves the document directly from the database. The plugin then scans the stored PDF resume to answer user queries or retrieve specific resume details. If no question is provided with the PDF resume URL, the 'answer' in the response will be an empty string.","description_for_human":"Enhance your resume with AI. Submit your PDF URL and ask for quick, AI-guided feedback.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatpdf.lazyapply.com/.well-known/openapi.yaml"},"logo_url":"https://content.lazyapply.com/panda1.webp?w=96&q=75","contact_email":"info@lazyapply.com","legal_info_url":"http://lazyapply.com/terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "resumer",
+  "name_for_human": "Resume",
+  "description_for_model": "This plugin is designed to streamline the process of extracting information from a person's resume, which is typically a PDF document. It operates by accepting either a URL link to a PDF resume or a document ID (doc_id) from the user. Upon validating the URL, the plugin downloads the PDF resume, stores its content in a vector database, and answers any accompanying question. If a doc_id is provided, the plugin retrieves the document directly from the database. The plugin then scans the stored PDF resume to answer user queries or retrieve specific resume details. If no question is provided with the PDF resume URL, the 'answer' in the response will be an empty string.",
+  "description_for_human": "Enhance your resume with AI. Submit your PDF URL and ask for quick, AI-guided feedback.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatpdf.lazyapply.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://content.lazyapply.com/panda1.webp?w=96&q=75",
+  "contact_email": "info@lazyapply.com",
+  "legal_info_url": "http://lazyapply.com/terms"
+}

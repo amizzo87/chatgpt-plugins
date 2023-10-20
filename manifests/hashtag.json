@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"hashtag","name_for_human":"Engage AI","description_for_model":"Help the user find the follwer count, trend and related hashtags of a LinkedIn hashtag.","description_for_human":"Retrieve hashtag follower counts, trends & suggestions to increase your content reach on LinkedIn.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://filtpod.pythonanywhere.com/openapi.yaml"},"logo_url":"https://engage-ai.co/wp-content/uploads/2023/01/engageai_icon_256.png","contact_email":"hello@engage-ai.co","legal_info_url":"https://engage-ai.co/terms-and-conditions/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "hashtag",
+  "name_for_human": "Engage AI",
+  "description_for_model": "Help the user find the follwer count, trend and related hashtags of a LinkedIn hashtag.",
+  "description_for_human": "Retrieve hashtag follower counts, trends & suggestions to increase your content reach on LinkedIn.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://filtpod.pythonanywhere.com/openapi.yaml"
+  },
+  "logo_url": "https://engage-ai.co/wp-content/uploads/2023/01/engageai_icon_256.png",
+  "contact_email": "hello@engage-ai.co",
+  "legal_info_url": "https://engage-ai.co/terms-and-conditions/"
+}

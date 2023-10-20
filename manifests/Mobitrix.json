@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Mobitrix","name_for_human":"Mobitrix","description_for_model":"Mobitrix provides comprehensive device information for any phone, tablet, or smartwatch, including release date, manufacturer, physical features, software environment, display size, and more.","description_for_human":"Discover Info for All Smartphones, Tablets, and Watches.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://www.mobitrix.com/openai/api.json"},"logo_url":"https://www.mobitrix.com/favicon.png","contact_email":"marketing@mobitrix.com","legal_info_url":"https://www.mobitrix.com/plugin-for-chatgpt.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Mobitrix",
+  "name_for_human": "Mobitrix",
+  "description_for_model": "Mobitrix provides comprehensive device information for any phone, tablet, or smartwatch, including release date, manufacturer, physical features, software environment, display size, and more.",
+  "description_for_human": "Discover Info for All Smartphones, Tablets, and Watches.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.mobitrix.com/openai/api.json"
+  },
+  "logo_url": "https://www.mobitrix.com/favicon.png",
+  "contact_email": "marketing@mobitrix.com",
+  "legal_info_url": "https://www.mobitrix.com/plugin-for-chatgpt.html"
+}

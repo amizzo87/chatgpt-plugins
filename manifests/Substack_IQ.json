@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"Substack_IQ","name_for_human":"Substack IQ","description_for_model":"Explore Substack! Provide a link, chat with articles, find new authors, search all of Substack, & more.  Simply provide ChatGPT with a link to a substack and then it will read and index the data so you can chat with your substack data. ChatGPT can also search for substack authors if the use simply provides a keyword or a topic they’re interested in. It’s a seamless experience.If ChatGPT can NOT scan an article or URL it will say “Please make sure your link is formatted correctly and make sure its the normal website URL not “open.substack.com” url” this will help users by preventing them from adding an incorrectly formatted URL and give them context for troubleshooting. If ChatGPT can NOT find old articles it will say “The substack you want scanned is too old. Please try a more recent post or use this prompt “Try again and scan this substack for the oldest data”  When ChatGPT has successfully found an article via a link or natural search it will say “I’ve successfully scanned this article what would you like to do next?”  You can use this for all free substack posts and use it to redo research in addition to scanning all categories like websites, app, app development, development, code, coding, substack, writing, SEO, ad, advertising, generating, midjourny, GPT, health, working out, work out, calorie, calorie counter, webapp, webapps, deploy, Netlify, B12, B12 vitamins, 60 seconds, AI, professional, engaging, user-friendly, business, create, creating, photo, photographs, photography, amazon, dropshipping, link, links, linking, pdf, xls, excel, word, sheets, web and much much more!","description_for_human":"Explore Substack! Provide a link, chat with articles, find new authors, search all of Substack, & more.","auth":{"type":"oauth","instructions":"","client_url":"https://auth.substackiq.com","scope":"app:read,app:write","authorization_url":"https://auth.substackiq.com/api/authorize","authorization_content_type":"application/json","verification_tokens":{"openai":"32e0850eeaff4969a2a2623c4572d730"}},"api":{"type":"openapi","url":"https://api.substackiq.com/openapi.yaml"},"logo_url":"https://api.substackiq.com/logo.png","contact_email":"legal@substackiq.com","legal_info_url":"https://www.substackiq.com/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Substack_IQ",
+  "name_for_human": "Substack IQ",
+  "description_for_model": "Explore Substack! Provide a link, chat with articles, find new authors, search all of Substack, & more.  Simply provide ChatGPT with a link to a substack and then it will read and index the data so you can chat with your substack data. ChatGPT can also search for substack authors if the use simply provides a keyword or a topic they’re interested in. It’s a seamless experience.If ChatGPT can NOT scan an article or URL it will say “Please make sure your link is formatted correctly and make sure its the normal website URL not “open.substack.com” url” this will help users by preventing them from adding an incorrectly formatted URL and give them context for troubleshooting. If ChatGPT can NOT find old articles it will say “The substack you want scanned is too old. Please try a more recent post or use this prompt “Try again and scan this substack for the oldest data”  When ChatGPT has successfully found an article via a link or natural search it will say “I’ve successfully scanned this article what would you like to do next?”  You can use this for all free substack posts and use it to redo research in addition to scanning all categories like websites, app, app development, development, code, coding, substack, writing, SEO, ad, advertising, generating, midjourny, GPT, health, working out, work out, calorie, calorie counter, webapp, webapps, deploy, Netlify, B12, B12 vitamins, 60 seconds, AI, professional, engaging, user-friendly, business, create, creating, photo, photographs, photography, amazon, dropshipping, link, links, linking, pdf, xls, excel, word, sheets, web and much much more!",
+  "description_for_human": "Explore Substack! Provide a link, chat with articles, find new authors, search all of Substack, & more.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.substackiq.com",
+    "scope": "app:read,app:write",
+    "authorization_url": "https://auth.substackiq.com/api/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "32e0850eeaff4969a2a2623c4572d730"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.substackiq.com/openapi.yaml"
+  },
+  "logo_url": "https://api.substackiq.com/logo.png",
+  "contact_email": "legal@substackiq.com",
+  "legal_info_url": "https://www.substackiq.com/legal"
+}

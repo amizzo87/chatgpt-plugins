@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"For_io","name_for_human":"For.io App Creator","description_for_model":"For_io can create and update web applications from a database schema as an input.","description_for_human":"Create feature-rich web apps by simply writing the requirements.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://for.io/openapi.yaml"},"logo_url":"https://for.io/img/assets/favicon.png","contact_email":"contact@for.io","legal_info_url":"https://for.io/legal/tos"}
+{
+  "schema_version": "v1",
+  "name_for_model": "For_io",
+  "name_for_human": "For.io App Creator",
+  "description_for_model": "For_io can create and update web applications from a database schema as an input.",
+  "description_for_human": "Create feature-rich web apps by simply writing the requirements.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://for.io/openapi.yaml"
+  },
+  "logo_url": "https://for.io/img/assets/favicon.png",
+  "contact_email": "contact@for.io",
+  "legal_info_url": "https://for.io/legal/tos"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Video_summary","name_for_human":"Video Summary","description_for_model":"Summarize YouTube video highlights. Generate summaries from YouTube video URLs.","description_for_human":"Summarize YouTube video highlights. Generate summaries from YouTube video URLs.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://glarity.app/openapi.yaml"},"logo_url":"https://glarity.app/img/logo.png","contact_email":"support@sparticle.com","legal_info_url":"https://docs.google.com/document/d/1xKwpHEjmUCmiaP07yDBKhxeXFjODzcV9zmxFx3944BY/edit"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Video_summary",
+  "name_for_human": "Video Summary",
+  "description_for_model": "Summarize YouTube video highlights. Generate summaries from YouTube video URLs.",
+  "description_for_human": "Summarize YouTube video highlights. Generate summaries from YouTube video URLs.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://glarity.app/openapi.yaml"
+  },
+  "logo_url": "https://glarity.app/img/logo.png",
+  "contact_email": "support@sparticle.com",
+  "legal_info_url": "https://docs.google.com/document/d/1xKwpHEjmUCmiaP07yDBKhxeXFjODzcV9zmxFx3944BY/edit"
+}

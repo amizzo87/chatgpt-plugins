@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"BioRxivResearcher","name_for_human":"BioRxiv Researcher","description_for_model":"An application leveraging Google Custom Search for the most comprehensive BioRxiv research articles search experience.","description_for_human":"The most powerful science research tool, powered by Google Custom Search! Find research articles swiftly and easily. ","auth":{"type":"oauth","instructions":"","client_url":"https://ed3cc36e4da8918fbfe790aa5b09beb3.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"0aa5b9f2bad7435e8ebfef7cacfb1ade"}},"api":{"type":"openapi","url":"https://anybio2.anygpt.ai/.well-known/pluginlab/openapi.json"},"logo_url":"https://i.ibb.co/VM1Qq09/Untitled-design-7.png","contact_email":"researchbutler@anygpt.ai","legal_info_url":"http://www.anybio2.anygpt.ai/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "BioRxivResearcher",
+  "name_for_human": "BioRxiv Researcher",
+  "description_for_model": "An application leveraging Google Custom Search for the most comprehensive BioRxiv research articles search experience.",
+  "description_for_human": "The most powerful science research tool, powered by Google Custom Search! Find research articles swiftly and easily. ",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://ed3cc36e4da8918fbfe790aa5b09beb3.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "0aa5b9f2bad7435e8ebfef7cacfb1ade"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://anybio2.anygpt.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://i.ibb.co/VM1Qq09/Untitled-design-7.png",
+  "contact_email": "researchbutler@anygpt.ai",
+  "legal_info_url": "http://www.anybio2.anygpt.ai/legal"
+}

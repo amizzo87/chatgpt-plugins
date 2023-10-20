@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"empregosagro","name_for_human":"Empregos Agro","description_for_model":"Retrieve jobs and courses from the Empregos Agro platform. Present job listings and courses in a clear and concise manner.","description_for_human":"Explore the Empregos Agro platform and search for jobs and learning content in the agro-business. Powered by Plooral.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt.empregosagro.com/docs/openapi.yaml"},"logo_url":"https://chatgpt.empregosagro.com/assets/logo.jpg","contact_email":"ai@empregosagro.com","legal_info_url":"https://chatgpt.empregosagro.com/legal/info.txt"}
+{
+  "schema_version": "v1",
+  "name_for_model": "empregosagro",
+  "name_for_human": "Empregos Agro",
+  "description_for_model": "Retrieve jobs and courses from the Empregos Agro platform. Present job listings and courses in a clear and concise manner.",
+  "description_for_human": "Explore the Empregos Agro platform and search for jobs and learning content in the agro-business. Powered by Plooral.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.empregosagro.com/docs/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt.empregosagro.com/assets/logo.jpg",
+  "contact_email": "ai@empregosagro.com",
+  "legal_info_url": "https://chatgpt.empregosagro.com/legal/info.txt"
+}

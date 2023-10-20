@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"MixerBox_ImageGen_Al_image_generation","name_for_human":"MixerBox ImageGen","description_for_model":"MixerBox ImageGen offers users a range of powerful functions to unleash their creativity. Firstly, users can effortlessly express their creative ideas and visions by providing descriptions or rough concepts. This flexibility allows artists, designers, and enthusiasts to effectively communicate their thoughts to MixerBox ImageGen, serving as a starting point for the creative process. Once the user input is received, MixerBox ImageGen employs advanced algorithms and language models to generate highly optimized prompts. These prompts are specifically tailored for popular AI image generation platforms like DALL·E 2, Midjourney, and Stable Diffusion. By maximizing compatibility with these platforms, MixerBox ImageGen ensures seamless integration, enabling users to easily copy and utilize the prompts within their preferred AI image generation environment. This function is especially useful for users who prefer a specific platform or wish to explore different AI image-generation techniques. Furthermore, MixerBox ImageGen introduces a seamless picture generation experience through DALL·E 2. By leveraging this advanced AI image generation platform, users can now generate stunning AI-generated pictures based on optimized prompts. MixerBox ImageGen generates a convenient link that connects users to the DALL·E 2 generation platform website. Upon clicking the provided link, users are seamlessly transported to the website where their AI-generated image comes to life. ","description_for_human":"Generate AI Images via DALL·E 2! Create perfect prompts for Midjourney & Stable Diffusion pictures!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"d7dbd1d9e03b4a5691a26ed0879f843d"}},"api":{"type":"openapi","url":"https://imagegen.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/ImageGen_logo.png","contact_email":"support@imagegen.mixerbox.com","legal_info_url":"https://www.mixerbox.com"}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_ImageGen_Al_image_generation",
+  "name_for_human": "MixerBox ImageGen",
+  "description_for_model": "MixerBox ImageGen offers users a range of powerful functions to unleash their creativity. Firstly, users can effortlessly express their creative ideas and visions by providing descriptions or rough concepts. This flexibility allows artists, designers, and enthusiasts to effectively communicate their thoughts to MixerBox ImageGen, serving as a starting point for the creative process. Once the user input is received, MixerBox ImageGen employs advanced algorithms and language models to generate highly optimized prompts. These prompts are specifically tailored for popular AI image generation platforms like DALL·E 2, Midjourney, and Stable Diffusion. By maximizing compatibility with these platforms, MixerBox ImageGen ensures seamless integration, enabling users to easily copy and utilize the prompts within their preferred AI image generation environment. This function is especially useful for users who prefer a specific platform or wish to explore different AI image-generation techniques. Furthermore, MixerBox ImageGen introduces a seamless picture generation experience through DALL·E 2. By leveraging this advanced AI image generation platform, users can now generate stunning AI-generated pictures based on optimized prompts. MixerBox ImageGen generates a convenient link that connects users to the DALL·E 2 generation platform website. Upon clicking the provided link, users are seamlessly transported to the website where their AI-generated image comes to life. ",
+  "description_for_human": "Generate AI Images via DALL·E 2! Create perfect prompts for Midjourney & Stable Diffusion pictures!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "d7dbd1d9e03b4a5691a26ed0879f843d"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://imagegen.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ImageGen_logo.png",
+  "contact_email": "support@imagegen.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com"
+}

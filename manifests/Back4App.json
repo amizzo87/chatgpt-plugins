@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"Back4App","name_for_human":"Back4App","description_for_model":"Help the user with creating an app using Back4App. Database, REST and GraphQL APIs, Cloud Code Functions, Web Pages, User Authentication, Access Control, and more.","description_for_human":"Use natural language to create, deploy, and scale apps, backend, databases, cloud functions, web pages, and APIs.","auth":{"type":"oauth","instructions":"","client_url":"https://www.back4app.com/authorize","scope":"baas-full-access","authorization_url":"https://dashboard.back4app.com/oauth/access-token","authorization_content_type":"application/json","verification_tokens":{"openai":"b5bd9ca53bdb498eabdef070cb40de32"}},"api":{"type":"openapi","url":"https://chatgpt.back4app.com/openapi.yaml"},"logo_url":"https://www.back4app.com/_public/favicon.ico","contact_email":"community@back4app.com","legal_info_url":"https://www.back4app.com/terms-of-service.pdf"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Back4App",
+  "name_for_human": "Back4App",
+  "description_for_model": "Help the user with creating an app using Back4App. Database, REST and GraphQL APIs, Cloud Code Functions, Web Pages, User Authentication, Access Control, and more.",
+  "description_for_human": "Use natural language to create, deploy, and scale apps, backend, databases, cloud functions, web pages, and APIs.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://www.back4app.com/authorize",
+    "scope": "baas-full-access",
+    "authorization_url": "https://dashboard.back4app.com/oauth/access-token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "b5bd9ca53bdb498eabdef070cb40de32"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.back4app.com/openapi.yaml"
+  },
+  "logo_url": "https://www.back4app.com/_public/favicon.ico",
+  "contact_email": "community@back4app.com",
+  "legal_info_url": "https://www.back4app.com/terms-of-service.pdf"
+}

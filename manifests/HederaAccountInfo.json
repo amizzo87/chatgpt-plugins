@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"HederaAccountInfo","name_for_human":"Hedera Account Info","description_for_model":"Helps the user to fetch the balance of a Hedera account. The user can provide the account ID and token ID (optional) and the model will make a request to the Hedera mirror node REST API.","description_for_human":"Gets the HBAR and token balance of a Hedera account.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://hedera-account-balance-plugin.replit.app/openapi.yaml"},"logo_url":"https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png","contact_email":"DevRel@swirldslabs.com","legal_info_url":"https://hedera.com/terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "HederaAccountInfo",
+  "name_for_human": "Hedera Account Info",
+  "description_for_model": "Helps the user to fetch the balance of a Hedera account. The user can provide the account ID and token ID (optional) and the model will make a request to the Hedera mirror node REST API.",
+  "description_for_human": "Gets the HBAR and token balance of a Hedera account.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://hedera-account-balance-plugin.replit.app/openapi.yaml"
+  },
+  "logo_url": "https://s2.coinmarketcap.com/static/img/coins/64x64/4642.png",
+  "contact_email": "DevRel@swirldslabs.com",
+  "legal_info_url": "https://hedera.com/terms"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"magic_conch","name_for_human":"Magic Conch Shell","description_for_model":"A magic conch shell. User asks a question and gets a response out of a list of predefined answers. Pick the most natural response with the quote from JSON. Before replying, precursor it with 'Magic Conch Shell:' nothing else.","description_for_human":"Guide your most important life decisions with the magic conch shell. (Please don't actually, it's only satire).","auth":{"type":"none"},"api":{"type":"openapi","url":"https://magic-conch.onrender.com/openapi.json"},"logo_url":"https://magic-conch.onrender.com/images/conch_logo.png","contact_email":"waisibrahim77@gmail.com","legal_info_url":"https://magic-conch.onrender.com/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "magic_conch",
+  "name_for_human": "Magic Conch Shell",
+  "description_for_model": "A magic conch shell. User asks a question and gets a response out of a list of predefined answers. Pick the most natural response with the quote from JSON. Before replying, precursor it with 'Magic Conch Shell:' nothing else.",
+  "description_for_human": "Guide your most important life decisions with the magic conch shell. (Please don't actually, it's only satire).",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://magic-conch.onrender.com/openapi.json"
+  },
+  "logo_url": "https://magic-conch.onrender.com/images/conch_logo.png",
+  "contact_email": "waisibrahim77@gmail.com",
+  "legal_info_url": "https://magic-conch.onrender.com/legal"
+}

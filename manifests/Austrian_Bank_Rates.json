@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Austrian_Bank_Rates","name_for_human":"Austrian Bank Rates","description_for_model":"Obtain current terms of financial products (checking accounts and savings accounts) from Austrian banks, as well as general information about the banks themselves.","description_for_human":"Compare the rates and terms of checking accounts and savings accounts from Austrian banks.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://banken-vergleich.net/.well-known/openapi.yaml"},"logo_url":"https://banken-vergleich.net/logo.png","contact_email":"benedikt.zecha@netzeffekt.at","legal_info_url":"https://banken-vergleich.net/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Austrian_Bank_Rates",
+  "name_for_human": "Austrian Bank Rates",
+  "description_for_model": "Obtain current terms of financial products (checking accounts and savings accounts) from Austrian banks, as well as general information about the banks themselves.",
+  "description_for_human": "Compare the rates and terms of checking accounts and savings accounts from Austrian banks.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://banken-vergleich.net/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://banken-vergleich.net/logo.png",
+  "contact_email": "benedikt.zecha@netzeffekt.at",
+  "legal_info_url": "https://banken-vergleich.net/legal"
+}

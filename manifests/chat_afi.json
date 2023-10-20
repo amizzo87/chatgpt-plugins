@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"chat_afi","name_for_human":"ChatAFI","description_for_model":"Plugin for searching through select United States Air Force Instructions to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be related to the United States Air Force.","description_for_human":"Search through select AFIs.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chat.afiexplorer.com/.well-known/openapi.json"},"logo_url":"https://assets.willswire.com/afi_explorer_icon.png","contact_email":"support@afiexplorer.com","legal_info_url":"https://willswire.com/privacy/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "chat_afi",
+  "name_for_human": "ChatAFI",
+  "description_for_model": "Plugin for searching through select United States Air Force Instructions to find answers to questions and retrieve relevant information. Use it whenever a user asks something that might be related to the United States Air Force.",
+  "description_for_human": "Search through select AFIs.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat.afiexplorer.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://assets.willswire.com/afi_explorer_icon.png",
+  "contact_email": "support@afiexplorer.com",
+  "legal_info_url": "https://willswire.com/privacy/"
+}

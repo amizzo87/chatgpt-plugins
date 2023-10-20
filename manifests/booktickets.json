@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"booktickets","name_for_human":"Book Tickets","description_for_model":"Book Tickets helps you find events based on location, date range, and event type.","description_for_human":"Explore and secure tickets for a variety of events around the world.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ticketmaster.markk24.repl.co/.well-known/openapi.yaml"},"logo_url":"https://lh3.googleusercontent.com/drive-viewer/AITFw-wY5OBdDNQ0Xi4DArqRgp2D0RYp960WQTVtcDLUQ9-X1kGAcO4Tdt_RfTdeMtnhIN811y9oex5dHspSBfvtaWNlZX_y_g=s1600","contact_email":"mark@promptadvisers.com","legal_info_url":"https://chatgpt-plugin-booked-tickets.framer.ai/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "booktickets",
+  "name_for_human": "Book Tickets",
+  "description_for_model": "Book Tickets helps you find events based on location, date range, and event type.",
+  "description_for_human": "Explore and secure tickets for a variety of events around the world.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ticketmaster.markk24.repl.co/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://lh3.googleusercontent.com/drive-viewer/AITFw-wY5OBdDNQ0Xi4DArqRgp2D0RYp960WQTVtcDLUQ9-X1kGAcO4Tdt_RfTdeMtnhIN811y9oex5dHspSBfvtaWNlZX_y_g=s1600",
+  "contact_email": "mark@promptadvisers.com",
+  "legal_info_url": "https://chatgpt-plugin-booked-tickets.framer.ai/"
+}

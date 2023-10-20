@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"singlestore","name_for_human":"SingleStore","description_for_model":"Query your SingleStore database in English.","description_for_human":"Query your SingleStore database in English.","auth":{"type":"oauth","instructions":"","client_url":"https://chatgpt.singlestoreplugins.com/auth","scope":"email%20openid%20offline_access","authorization_url":"https://chatgpt.singlestoreplugins.com/auth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"ee12080e95f6472e8df7cf6093f17050"}},"api":{"type":"openapi","url":"https://chatgpt.singlestoreplugins.com/openapi.yaml"},"logo_url":"https://chatgpt.singlestoreplugins.com/logo.png","contact_email":"team@singlestore.com","legal_info_url":"https://www.singlestore.com/contact"}
+{
+  "schema_version": "v1",
+  "name_for_model": "singlestore",
+  "name_for_human": "SingleStore",
+  "description_for_model": "Query your SingleStore database in English.",
+  "description_for_human": "Query your SingleStore database in English.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://chatgpt.singlestoreplugins.com/auth",
+    "scope": "email%20openid%20offline_access",
+    "authorization_url": "https://chatgpt.singlestoreplugins.com/auth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "ee12080e95f6472e8df7cf6093f17050"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.singlestoreplugins.com/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt.singlestoreplugins.com/logo.png",
+  "contact_email": "team@singlestore.com",
+  "legal_info_url": "https://www.singlestore.com/contact"
+}

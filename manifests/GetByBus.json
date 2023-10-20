@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"GetByBus","name_for_human":"GetByBus","description_for_model":"GetByBus is an online travel platform selling bus and ferry tickets for more than 5000 operators. Fetch information about bus timetables, prices and route review scores. Get data about the bus provider such as company email, phone number, user review data, popular routes and other. Get data about the bus station such as gps coordinates, address, station stop distances and other. Get data about popular bus routes inside a country, popular travel destinations and available bus connections between attractions.","description_for_human":"GetByBus is online travel platform selling bus and ferry tickets for more than 5000 operators.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"92b222d094c042b89d842496ff669115"}},"api":{"type":"openapi","url":"https://getbybus.com/.well-known/apispec.json"},"logo_url":"https://d2bgjx2gb489de.cloudfront.net/static/getbyaps/getbyaps_logomark_512x512.png","contact_email":"admin@getbybus.com","legal_info_url":"https://getbybus.com/en/general-terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "GetByBus",
+  "name_for_human": "GetByBus",
+  "description_for_model": "GetByBus is an online travel platform selling bus and ferry tickets for more than 5000 operators. Fetch information about bus timetables, prices and route review scores. Get data about the bus provider such as company email, phone number, user review data, popular routes and other. Get data about the bus station such as gps coordinates, address, station stop distances and other. Get data about popular bus routes inside a country, popular travel destinations and available bus connections between attractions.",
+  "description_for_human": "GetByBus is online travel platform selling bus and ferry tickets for more than 5000 operators.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "92b222d094c042b89d842496ff669115"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://getbybus.com/.well-known/apispec.json"
+  },
+  "logo_url": "https://d2bgjx2gb489de.cloudfront.net/static/getbyaps/getbyaps_logomark_512x512.png",
+  "contact_email": "admin@getbybus.com",
+  "legal_info_url": "https://getbybus.com/en/general-terms"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"Swft","name_for_human":"Swft cross chain","description_for_model":"Querying cross chain info and swap coins.","description_for_human":"Querying cross chain info and swap coins.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt-plugin.swftc.info/openapi.yaml"},"logo_url":"https://chatgpt-plugin.swftc.info/logo.png","contact_email":"service@swftc.info","legal_info_url":"https://chatgpt-plugin.swftc.info/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Swft",
+  "name_for_human": "Swft cross chain",
+  "description_for_model": "Querying cross chain info and swap coins.",
+  "description_for_human": "Querying cross chain info and swap coins.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin.swftc.info/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt-plugin.swftc.info/logo.png",
+  "contact_email": "service@swftc.info",
+  "legal_info_url": "https://chatgpt-plugin.swftc.info/legal"
+}

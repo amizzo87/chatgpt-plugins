@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"crypto_jobs_list","name_for_human":"Crypto Jobs List","description_for_model":"Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.","description_for_human":"Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://cryptojobslist.com/openai.yaml"},"logo_url":"https://cryptojobslist.com/images/logo-square.svg","contact_email":"support@cryptojobslist.com","legal_info_url":"https://cryptojobslist.com/terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "crypto_jobs_list",
+  "name_for_human": "Crypto Jobs List",
+  "description_for_model": "Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.",
+  "description_for_human": "Find jobs and talent profiles in Crypto, Blockchain and Web3 industries.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://cryptojobslist.com/openai.yaml"
+  },
+  "logo_url": "https://cryptojobslist.com/images/logo-square.svg",
+  "contact_email": "support@cryptojobslist.com",
+  "legal_info_url": "https://cryptojobslist.com/terms"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"chacaMarketProduct","name_for_human":"Chaca Market Product","description_for_model":"Get detailed information about products on Chaca Market","description_for_human":"Get detailed information about products on Chaca Market","auth":{"type":"none"},"api":{"type":"openapi","url":"https://product-plugin.chaca.io/openapi.yaml"},"logo_url":"https://product-plugin.chaca.io/logo.png","contact_email":"info@cakeplabs.com","legal_info_url":"https://chaca.io/chaca-market/privacypolicy-chaca-market"}
+{
+  "schema_version": "v1",
+  "name_for_model": "chacaMarketProduct",
+  "name_for_human": "Chaca Market Product",
+  "description_for_model": "Get detailed information about products on Chaca Market",
+  "description_for_human": "Get detailed information about products on Chaca Market",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://product-plugin.chaca.io/openapi.yaml"
+  },
+  "logo_url": "https://product-plugin.chaca.io/logo.png",
+  "contact_email": "info@cakeplabs.com",
+  "legal_info_url": "https://chaca.io/chaca-market/privacypolicy-chaca-market"
+}

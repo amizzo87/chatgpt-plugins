@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"youtube","name_for_human":"ProdigiLink Video","description_for_model":"A service to search for YouTube videos or get the transcripts for a video if given a url.","description_for_human":"A ProdigiLink service that allows you to search for and summarize YouTube videos.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://prodigilink-video-search.onrender.com/search/youtube/openapi.yaml"},"logo_url":"https://prodigilink-video-search.onrender.com/search/youtube/logo.png","contact_email":"prodigilink@gmail.com","legal_info_url":"https://raw.githubusercontent.com/Codie-Petersen/YoutubeSearchPlugin/main/LICENSE"}
+{
+  "schema_version": "v1",
+  "name_for_model": "youtube",
+  "name_for_human": "ProdigiLink Video",
+  "description_for_model": "A service to search for YouTube videos or get the transcripts for a video if given a url.",
+  "description_for_human": "A ProdigiLink service that allows you to search for and summarize YouTube videos.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://prodigilink-video-search.onrender.com/search/youtube/openapi.yaml"
+  },
+  "logo_url": "https://prodigilink-video-search.onrender.com/search/youtube/logo.png",
+  "contact_email": "prodigilink@gmail.com",
+  "legal_info_url": "https://raw.githubusercontent.com/Codie-Petersen/YoutubeSearchPlugin/main/LICENSE"
+}

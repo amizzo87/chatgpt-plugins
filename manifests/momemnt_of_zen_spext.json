@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"momemnt_of_zen_spext","name_for_human":"Moment Of Zen Spext","description_for_model":"A knowledge retrieval system for the Moment Of Zen podcast in Spext.","description_for_human":"A knowledge retrieval system for the Moment Of Zen podcast in Spext.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.momentofzen.spext.com/openapi.yaml"},"logo_url":"https://plugin.momentofzen.spext.com/logo.ico","contact_email":"developers@spext.co","legal_info_url":"https://docs.spext.co/privacy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "momemnt_of_zen_spext",
+  "name_for_human": "Moment Of Zen Spext",
+  "description_for_model": "A knowledge retrieval system for the Moment Of Zen podcast in Spext.",
+  "description_for_human": "A knowledge retrieval system for the Moment Of Zen podcast in Spext.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.momentofzen.spext.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.momentofzen.spext.com/logo.ico",
+  "contact_email": "developers@spext.co",
+  "legal_info_url": "https://docs.spext.co/privacy"
+}

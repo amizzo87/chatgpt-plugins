@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"pagewhisperer","name_for_human":"Page Whisperer","description_for_model":"Generate content for your web page.","description_for_human":"Generate content for your web page.","auth":{"type":"oauth","instructions":"","client_url":"https://auth.prismic.io/openai/oauth","scope":"","authorization_url":"https://auth.prismic.io/openai/oauth_exchange","authorization_content_type":"application/json","verification_tokens":{"openai":"7a8e359aa87c491898b9a17a6027748e"}},"api":{"type":"openapi","url":"https://prismic-web-git-page-whisperer-store-prismic.vercel.app/openapi.yaml"},"logo_url":"https://prismic-web-git-page-whisperer-store-prismic.vercel.app/logo.png","contact_email":"contact@prismic.io","legal_info_url":"https://prismic-web-git-page-whisperer-store-prismic.vercel.app/legal/terms-of-service"}
+{
+  "schema_version": "v1",
+  "name_for_model": "pagewhisperer",
+  "name_for_human": "Page Whisperer",
+  "description_for_model": "Generate content for your web page.",
+  "description_for_human": "Generate content for your web page.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.prismic.io/openai/oauth",
+    "scope": "",
+    "authorization_url": "https://auth.prismic.io/openai/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "7a8e359aa87c491898b9a17a6027748e"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/openapi.yaml"
+  },
+  "logo_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/logo.png",
+  "contact_email": "contact@prismic.io",
+  "legal_info_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/legal/terms-of-service"
+}

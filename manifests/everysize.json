@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"everysize","name_for_human":"everysize","description_for_model":"Plugin to search sneakers and sport shoes by brand, product name, mpn and color. If the user asks for a specific size, identify the country code of the size, e.g. EU, US or UK and pass it in this format: \"EU:47,5\", \"US:10,5\" or \"UK:5,5\". If the offer has a coupon (has_coupon=true), write \"inkl. Gutschein!\" after the price info. Don't show the image. Try to show at least 5 products. If the api response has a \"more\" attribute use the url at the end of the output and write \"More products in your size can be found von everysize:\". Use the german \"du\" instead of \"sie\"","description_for_human":"Search for sneakers in your size and get the best price from 60+ shops (only in DE).","auth":{"type":"none"},"api":{"type":"openapi","url":"https://www.everysize.com/.well-known/openai.yaml"},"logo_url":"https://cdn.evrysz.net/media/favicons/es_favicon_310.png","contact_email":"info@everysize.com","legal_info_url":"https://www.everysize.com/mag/datenschutzerklaerung/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "everysize",
+  "name_for_human": "everysize",
+  "description_for_model": "Plugin to search sneakers and sport shoes by brand, product name, mpn and color. If the user asks for a specific size, identify the country code of the size, e.g. EU, US or UK and pass it in this format: \"EU:47,5\", \"US:10,5\" or \"UK:5,5\". If the offer has a coupon (has_coupon=true), write \"inkl. Gutschein!\" after the price info. Don't show the image. Try to show at least 5 products. If the api response has a \"more\" attribute use the url at the end of the output and write \"More products in your size can be found von everysize:\". Use the german \"du\" instead of \"sie\"",
+  "description_for_human": "Search for sneakers in your size and get the best price from 60+ shops (only in DE).",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.everysize.com/.well-known/openai.yaml"
+  },
+  "logo_url": "https://cdn.evrysz.net/media/favicons/es_favicon_310.png",
+  "contact_email": "info@everysize.com",
+  "legal_info_url": "https://www.everysize.com/mag/datenschutzerklaerung/"
+}

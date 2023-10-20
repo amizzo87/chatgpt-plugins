@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"chatwithcode","name_for_human":"ChatWithCode","description_for_model":"ChatWithCode is an expert programmer that can search in public and private Github repositories to aid and supercharge user coding abilities. You will generate code, debug, and make new features based on the files in a repository, its structure, and the contents that you can gather. You must call whichever one you need for the task or multiple endponits to complete the user request. It offers three main API endpoints: 1) FetchRepoFileStructure to retrieve the file structure of a given repository, requiring a repository URL as input and returning an array of file paths; 2) FetchFileContentsFromRepo to get the content of specific files from a repository, taking a repository URL and an array of file paths as input and returning an array of objects containing file paths and their respective contents; 3) ExtractFunctionsFromRepoFiles to pull functions from specified files in a repository, requiring a repository URL and an array of file paths and returning an array of objects containing file paths and extracted functions. The plugin makes extensive use of GitHub's API to fetch necessary data and performs local analysis for function extraction.","description_for_human":"Analyze, query, and generate code from Private and Public Github repos.","auth":{"type":"oauth","instructions":"","client_url":"https://plugins.us.auth0.com/authorize","scope":"email","authorization_url":"https://plugins.us.auth0.com/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"38bf73e0f81042b090a369c8780896fd"}},"api":{"type":"openapi","url":"https://chatwithcode.sdan.io/openapi.json"},"logo_url":"https://chatwithcode.sdan.io/logo.png","contact_email":"support@chatwithplugins.com","legal_info_url":"https://chatwithcode.sdan.io/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "chatwithcode",
+  "name_for_human": "ChatWithCode",
+  "description_for_model": "ChatWithCode is an expert programmer that can search in public and private Github repositories to aid and supercharge user coding abilities. You will generate code, debug, and make new features based on the files in a repository, its structure, and the contents that you can gather. You must call whichever one you need for the task or multiple endponits to complete the user request. It offers three main API endpoints: 1) FetchRepoFileStructure to retrieve the file structure of a given repository, requiring a repository URL as input and returning an array of file paths; 2) FetchFileContentsFromRepo to get the content of specific files from a repository, taking a repository URL and an array of file paths as input and returning an array of objects containing file paths and their respective contents; 3) ExtractFunctionsFromRepoFiles to pull functions from specified files in a repository, requiring a repository URL and an array of file paths and returning an array of objects containing file paths and extracted functions. The plugin makes extensive use of GitHub's API to fetch necessary data and performs local analysis for function extraction.",
+  "description_for_human": "Analyze, query, and generate code from Private and Public Github repos.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins.us.auth0.com/authorize",
+    "scope": "email",
+    "authorization_url": "https://plugins.us.auth0.com/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "38bf73e0f81042b090a369c8780896fd"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatwithcode.sdan.io/openapi.json"
+  },
+  "logo_url": "https://chatwithcode.sdan.io/logo.png",
+  "contact_email": "support@chatwithplugins.com",
+  "legal_info_url": "https://chatwithcode.sdan.io/legal"
+}

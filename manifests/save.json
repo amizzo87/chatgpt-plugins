@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"save","name_for_human":"Save","description_for_model":"Save pertains to the storing of articles and research data for future use. This method involves persistently preserving the incoming structured information, ensuring efficient access and analysis at a later time.","description_for_human":"Save articles, data, ideas and research findings. It is an efficient way to access this stored content in the future.","auth":{"type":"oauth","instructions":"","client_url":"https://praison.ai/oauth/authorize","scope":"","authorization_url":"https://praison.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"bd68196000c3445f8d74a0a6697661e6"}},"api":{"type":"openapi","url":"https://save.praison.ai/openapi.yaml"},"logo_url":"https://save.praison.ai/logo.png","contact_email":"contact@praison.com","legal_info_url":"https://praison.ai/terms/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "save",
+  "name_for_human": "Save",
+  "description_for_model": "Save pertains to the storing of articles and research data for future use. This method involves persistently preserving the incoming structured information, ensuring efficient access and analysis at a later time.",
+  "description_for_human": "Save articles, data, ideas and research findings. It is an efficient way to access this stored content in the future.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://praison.ai/oauth/authorize",
+    "scope": "",
+    "authorization_url": "https://praison.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "bd68196000c3445f8d74a0a6697661e6"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://save.praison.ai/openapi.yaml"
+  },
+  "logo_url": "https://save.praison.ai/logo.png",
+  "contact_email": "contact@praison.com",
+  "legal_info_url": "https://praison.ai/terms/"
+}

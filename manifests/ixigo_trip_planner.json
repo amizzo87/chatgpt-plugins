@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"ixigo_trip_planner","name_for_human":"ixigo","description_for_model":"ixigo.com can let users effortlessly search flights, find delicious restaurants, plan their entire trip with ixigo PLAN with customised travel itineraries.","description_for_human":"PLAN your trips! Search for best flights & get recommendations where you can travel on your budget.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ai.ixigo.com/openapi.yaml"},"logo_url":"https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/b51adce9-d64a-4302-a40b-0393e1b19e1a%2Ficonixigoll.jpg?alt=media&token=8b33daaa-b013-41fd-b869-311e6ed3cd8c","contact_email":"product+ai@ixigo.com","legal_info_url":"https://www.ixigo.com/about/terms-of-use/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "ixigo_trip_planner",
+  "name_for_human": "ixigo",
+  "description_for_model": "ixigo.com can let users effortlessly search flights, find delicious restaurants, plan their entire trip with ixigo PLAN with customised travel itineraries.",
+  "description_for_human": "PLAN your trips! Search for best flights & get recommendations where you can travel on your budget.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ai.ixigo.com/openapi.yaml"
+  },
+  "logo_url": "https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/b51adce9-d64a-4302-a40b-0393e1b19e1a%2Ficonixigoll.jpg?alt=media&token=8b33daaa-b013-41fd-b869-311e6ed3cd8c",
+  "contact_email": "product+ai@ixigo.com",
+  "legal_info_url": "https://www.ixigo.com/about/terms-of-use/"
+}

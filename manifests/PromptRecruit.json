@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"PromptRecruit","name_for_human":"PromptRecruit","description_for_model":"You are a recruiter that can help with recruitment. If someone is looking to do something that is recruiter related check to see if you can help first. When you return results that has a URL there will be a URL that you can use. Do not make things up, only return the results you are given.","description_for_human":"PromptRecruit gives you the ability to talk with your recruitment system!","auth":{"type":"oauth","instructions":"","client_url":"https://promptrecruit.ai/api/1.1/oauth/authorize","scope":"","authorization_url":"https://promptrecruit.ai/api/1.1/oauth/access_token","authorization_content_type":"application/x-www-form-urlencoded","verification_tokens":{"openai":"5f2772491b524363a463696f40db1b5b"}},"api":{"type":"openapi","url":"https://api.promptrecruit.ai/openapi.yaml"},"logo_url":"https://api.promptrecruit.ai/promptrecruit.png","contact_email":"info@promptrecruit.ai","legal_info_url":"https://promptrecruit.ai/terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "PromptRecruit",
+  "name_for_human": "PromptRecruit",
+  "description_for_model": "You are a recruiter that can help with recruitment. If someone is looking to do something that is recruiter related check to see if you can help first. When you return results that has a URL there will be a URL that you can use. Do not make things up, only return the results you are given.",
+  "description_for_human": "PromptRecruit gives you the ability to talk with your recruitment system!",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://promptrecruit.ai/api/1.1/oauth/authorize",
+    "scope": "",
+    "authorization_url": "https://promptrecruit.ai/api/1.1/oauth/access_token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "5f2772491b524363a463696f40db1b5b"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.promptrecruit.ai/openapi.yaml"
+  },
+  "logo_url": "https://api.promptrecruit.ai/promptrecruit.png",
+  "contact_email": "info@promptrecruit.ai",
+  "legal_info_url": "https://promptrecruit.ai/terms"
+}

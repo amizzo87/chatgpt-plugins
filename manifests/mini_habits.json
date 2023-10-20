@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"mini_habits","name_for_human":"Mini Habits","description_for_model":"Mini Habits is a habit tracker that helps you form new habits through small, daily actions.","description_for_human":"Form new habits through small, daily actions.","auth":{"type":"oauth","instructions":"","client_url":"https://auth.minihabits.ai","scope":"app:read,app:write","authorization_url":"https://auth.minihabits.ai/api/authorize","authorization_content_type":"application/json","verification_tokens":{"openai":"30310aba1b884909962aaafdae9a7afc"}},"api":{"type":"openapi","url":"https://api.minihabits.ai/openapi.yaml"},"logo_url":"https://api.minihabits.ai/logo.png","contact_email":"legal@minihabits.ai","legal_info_url":"https://minihabits.ai/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "mini_habits",
+  "name_for_human": "Mini Habits",
+  "description_for_model": "Mini Habits is a habit tracker that helps you form new habits through small, daily actions.",
+  "description_for_human": "Form new habits through small, daily actions.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.minihabits.ai",
+    "scope": "app:read,app:write",
+    "authorization_url": "https://auth.minihabits.ai/api/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "30310aba1b884909962aaafdae9a7afc"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.minihabits.ai/openapi.yaml"
+  },
+  "logo_url": "https://api.minihabits.ai/logo.png",
+  "contact_email": "legal@minihabits.ai",
+  "legal_info_url": "https://minihabits.ai/legal"
+}

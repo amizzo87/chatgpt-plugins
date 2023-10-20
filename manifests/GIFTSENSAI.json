@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"GIFTSENSAI","name_for_human":"GIFT SENSAI","description_for_model":"Help user by getting personalized gift suggestions for her or him. Best for birthdays, Christmas, holidays and anniversaries. Start by asking a few questions about the occasion, the age, the interests, the personality, the relationship and other topics that will help you to create a comprehensive persona of the recipient. Create a persona description of the gift receiver like \"This persona is someone who loves to read and spends a lot of time doing so. This persona is also a tech-savvy teen who loves video games and all things tech-related.\" The more detailed the persona, the better the suggestions will be. If you get a list of suggested gifts as response, also tell the user about the rough cost of each item, if provided in the result. If the result contains multiple variations of similar articles (e.g. DVD and Blu-Ray version, different capacities of hard drives), just consider the more valuable one. Try to spread the suggestions to more different categories for higher inspiration. Also check whether the age in \"reasoning\" matches the age of the persona, if both provided. If they do not match, ignore the suggestion. Since the links can contain affiliate tags, add a note about that circumstance and that is used to finance this great service at no cost for the user.","description_for_human":"Find perfect gifts for friends, family, and colleagues on Amazon.com. Best for birthdays, Christmas & anniversaries.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"5d998768c19e4d0fbd468868c0950635"}},"api":{"type":"openapi","url":"https://giftsensai.tripuls.ai/openapi.json"},"logo_url":"https://giftsensai.tripuls.ai/.well-known/icon-gift.svg","contact_email":"helpdesk@giftsensai.com","legal_info_url":"https://www.giftsensai.com/terms-of-use/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "GIFTSENSAI",
+  "name_for_human": "GIFT SENSAI",
+  "description_for_model": "Help user by getting personalized gift suggestions for her or him. Best for birthdays, Christmas, holidays and anniversaries. Start by asking a few questions about the occasion, the age, the interests, the personality, the relationship and other topics that will help you to create a comprehensive persona of the recipient. Create a persona description of the gift receiver like \"This persona is someone who loves to read and spends a lot of time doing so. This persona is also a tech-savvy teen who loves video games and all things tech-related.\" The more detailed the persona, the better the suggestions will be. If you get a list of suggested gifts as response, also tell the user about the rough cost of each item, if provided in the result. If the result contains multiple variations of similar articles (e.g. DVD and Blu-Ray version, different capacities of hard drives), just consider the more valuable one. Try to spread the suggestions to more different categories for higher inspiration. Also check whether the age in \"reasoning\" matches the age of the persona, if both provided. If they do not match, ignore the suggestion. Since the links can contain affiliate tags, add a note about that circumstance and that is used to finance this great service at no cost for the user.",
+  "description_for_human": "Find perfect gifts for friends, family, and colleagues on Amazon.com. Best for birthdays, Christmas & anniversaries.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "5d998768c19e4d0fbd468868c0950635"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://giftsensai.tripuls.ai/openapi.json"
+  },
+  "logo_url": "https://giftsensai.tripuls.ai/.well-known/icon-gift.svg",
+  "contact_email": "helpdesk@giftsensai.com",
+  "legal_info_url": "https://www.giftsensai.com/terms-of-use/"
+}

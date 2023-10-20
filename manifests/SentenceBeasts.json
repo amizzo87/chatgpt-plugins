@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"SentenceBeasts","name_for_human":"SentenceBeasts","description_for_model":"Automatic to the end, Summon monsters with words, create monsters in words, simulate a match in short, and record the match.","description_for_human":"Summon or create unique word monsters, engage them in thrilling battles, and record the outcomes using Word Monsters.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"56b7f96d66a941df9d1e5bdfd6b41c6f"}},"api":{"type":"openapi","url":"https://sentence-beasts.inu-ai.com/openapi.yaml"},"logo_url":"https://sentence-beasts.inu-ai.com/favicon.svg","contact_email":"contact@inu-ai.com","legal_info_url":"https://sentence-beasts.inu-ai.com/legal-info"}
+{
+  "schema_version": "v1",
+  "name_for_model": "SentenceBeasts",
+  "name_for_human": "SentenceBeasts",
+  "description_for_model": "Automatic to the end, Summon monsters with words, create monsters in words, simulate a match in short, and record the match.",
+  "description_for_human": "Summon or create unique word monsters, engage them in thrilling battles, and record the outcomes using Word Monsters.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "56b7f96d66a941df9d1e5bdfd6b41c6f"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://sentence-beasts.inu-ai.com/openapi.yaml"
+  },
+  "logo_url": "https://sentence-beasts.inu-ai.com/favicon.svg",
+  "contact_email": "contact@inu-ai.com",
+  "legal_info_url": "https://sentence-beasts.inu-ai.com/legal-info"
+}

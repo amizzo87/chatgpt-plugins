@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"open_prompt_library","name_for_human":"Open Prompt Library","description_for_model":"Help the user use prompt/templates from a open prompt library. You can search by id, title and prompt similarity. Also, you can list the user the top prompt (by use count) by timeframe (hour, day, week, month, alltime). You will receive a template for a prompt and you have to fill the arguments for the user and respond to the resulting prompt.","description_for_human":"Use prompts from an open database! Create prompts and search by title or prompt similarity. List the top prompts.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://prompt-library-q75da7fnhq-uw.a.run.app/openapi.yaml"},"logo_url":"https://prompt-library-q75da7fnhq-uw.a.run.app/logo.png","contact_email":"p4ssenger.developer@gmail.com","legal_info_url":"https://prompt-library-q75da7fnhq-uw.a.run.app/legal.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "open_prompt_library",
+  "name_for_human": "Open Prompt Library",
+  "description_for_model": "Help the user use prompt/templates from a open prompt library. You can search by id, title and prompt similarity. Also, you can list the user the top prompt (by use count) by timeframe (hour, day, week, month, alltime). You will receive a template for a prompt and you have to fill the arguments for the user and respond to the resulting prompt.",
+  "description_for_human": "Use prompts from an open database! Create prompts and search by title or prompt similarity. List the top prompts.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://prompt-library-q75da7fnhq-uw.a.run.app/openapi.yaml"
+  },
+  "logo_url": "https://prompt-library-q75da7fnhq-uw.a.run.app/logo.png",
+  "contact_email": "p4ssenger.developer@gmail.com",
+  "legal_info_url": "https://prompt-library-q75da7fnhq-uw.a.run.app/legal.html"
+}

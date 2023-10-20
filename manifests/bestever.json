@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"bestever","name_for_human":"Aardwolf ads","description_for_model":"Unlock stunning image ads with just a link. Our Bestever AI scripts, polishes your visuals, and generates magic!","description_for_human":"Unlock stunning image ads with just a link. Our Bestever AI scripts, polishes your visuals, and generates magic!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"4491f0cb75f2408b9a822b5d897edee2"}},"api":{"type":"openapi","url":"https://chatgpt-plugin-7npmcik6ca-uc.a.run.app/openapi.yaml"},"logo_url":"https://bestever-backend.s3.us-east-2.amazonaws.com/BackendArtifacts/aardwolf.png","contact_email":"ops@bestever.io","legal_info_url":"https://chatgpt-plugin-7npmcik6ca-uc.a.run.app/static/bestever-tos.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "bestever",
+  "name_for_human": "Aardwolf ads",
+  "description_for_model": "Unlock stunning image ads with just a link. Our Bestever AI scripts, polishes your visuals, and generates magic!",
+  "description_for_human": "Unlock stunning image ads with just a link. Our Bestever AI scripts, polishes your visuals, and generates magic!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "4491f0cb75f2408b9a822b5d897edee2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin-7npmcik6ca-uc.a.run.app/openapi.yaml"
+  },
+  "logo_url": "https://bestever-backend.s3.us-east-2.amazonaws.com/BackendArtifacts/aardwolf.png",
+  "contact_email": "ops@bestever.io",
+  "legal_info_url": "https://chatgpt-plugin-7npmcik6ca-uc.a.run.app/static/bestever-tos.html"
+}

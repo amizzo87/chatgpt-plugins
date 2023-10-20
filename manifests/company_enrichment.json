@@ -1,1 +1,25 @@
-{"schema_version":"v1","name_for_model":"company_enrichment","name_for_human":"Company Enrichment","description_for_model":"This plugin gives additional company information such as year founded, industry, employee count, locality and LinkedIn URL, given a company's domain name. Useful for sales teams.","description_for_human":"Get company information by providing the domain name. Useful for sales teams.","auth":{"type":"oauth","instructions":"","client_url":"https://689972b1dcfde0ca8128e0a3cec9c9c0.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"aee75f59b1f24eeab72c51fd9a23de40"}},"api":{"type":"openapi","url":"https://689972b1dcfde0ca8128e0a3cec9c9c0.preview.pluginlab.ai/.well-known/pluginlab/openapi.json"},"logo_url":"https://chatgpt-plugin-company-enrichment.vercel.app/logo.png","contact_email":"plugins.chatgpt@gmail.com","legal_info_url":"https://chatgpt-plugin-company-enrichment.vercel.app/legal.txt"}
+{
+  "schema_version": "v1",
+  "name_for_model": "company_enrichment",
+  "name_for_human": "Company Enrichment",
+  "description_for_model": "This plugin gives additional company information such as year founded, industry, employee count, locality and LinkedIn URL, given a company's domain name. Useful for sales teams.",
+  "description_for_human": "Get company information by providing the domain name. Useful for sales teams.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://689972b1dcfde0ca8128e0a3cec9c9c0.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "aee75f59b1f24eeab72c51fd9a23de40"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://689972b1dcfde0ca8128e0a3cec9c9c0.preview.pluginlab.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://chatgpt-plugin-company-enrichment.vercel.app/logo.png",
+  "contact_email": "plugins.chatgpt@gmail.com",
+  "legal_info_url": "https://chatgpt-plugin-company-enrichment.vercel.app/legal.txt"
+}

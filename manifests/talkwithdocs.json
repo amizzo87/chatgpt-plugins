@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"talkwithdocs","name_for_human":"Talk With Docs","description_for_model":"Talk With Docs is a revolutionary application that is set to transform how you interact with your documents. Leveraging the power of OpenAI's ChatGPT, this application allows you to engage in a conversational manner with your documents, asking questions and receiving answers as if you were chatting with a human. Supported document extensions include '.pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', and '.rtf'. This wide range of formats ensures that you can chat with almost any document you work with. Whether you're trying to extract key information from a dense PDF, understand the data in a CSV, or get the gist of a lengthy .txt file, Chat With Docs is here to make your life easier. Simply ask your questions, and let the power of AI provide the answers. Experience a new way of interacting with documents. Say goodbye to endless scrolling and searching, and say hello to Chat With Docs.","description_for_human":"Ask any questions to your docs.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatwithdocs.say-apps.com/openapi.yaml"},"logo_url":"https://chatwithdocs.say-apps.com/logo.png","contact_email":"sashakrivolap@gmail.com","legal_info_url":"https://chatwithdocs.say-apps.com/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "talkwithdocs",
+  "name_for_human": "Talk With Docs",
+  "description_for_model": "Talk With Docs is a revolutionary application that is set to transform how you interact with your documents. Leveraging the power of OpenAI's ChatGPT, this application allows you to engage in a conversational manner with your documents, asking questions and receiving answers as if you were chatting with a human. Supported document extensions include '.pdf', '.txt', '.ppt', '.pptx', '.csv', '.epub', and '.rtf'. This wide range of formats ensures that you can chat with almost any document you work with. Whether you're trying to extract key information from a dense PDF, understand the data in a CSV, or get the gist of a lengthy .txt file, Chat With Docs is here to make your life easier. Simply ask your questions, and let the power of AI provide the answers. Experience a new way of interacting with documents. Say goodbye to endless scrolling and searching, and say hello to Chat With Docs.",
+  "description_for_human": "Ask any questions to your docs.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatwithdocs.say-apps.com/openapi.yaml"
+  },
+  "logo_url": "https://chatwithdocs.say-apps.com/logo.png",
+  "contact_email": "sashakrivolap@gmail.com",
+  "legal_info_url": "https://chatwithdocs.say-apps.com/legal"
+}

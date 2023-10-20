@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"uk_latest_news","name_for_human":"UK Latest News","description_for_model":"Fetches the latest news stories from the UK's top news outlets (/stories) and can return the content of a specific article given its URL (/story?url=<story_url>). ","description_for_human":"Get the latest news stories from the UK's top news outlets including BBC News, Sky News, The Independent, and others.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"79407829dc7b4a20a95199ccdeec32f2"}},"api":{"type":"openapi","url":"https://gptnews.uk/.well-known/openapi.yaml"},"logo_url":"https://gptnews.uk/logo.svg","contact_email":"help@gptnews.uk","legal_info_url":"https://gptnews.uk/privacy"}
+{
+  "schema_version": "v1",
+  "name_for_model": "uk_latest_news",
+  "name_for_human": "UK Latest News",
+  "description_for_model": "Fetches the latest news stories from the UK's top news outlets (/stories) and can return the content of a specific article given its URL (/story?url=<story_url>). ",
+  "description_for_human": "Get the latest news stories from the UK's top news outlets including BBC News, Sky News, The Independent, and others.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "79407829dc7b4a20a95199ccdeec32f2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://gptnews.uk/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://gptnews.uk/logo.svg",
+  "contact_email": "help@gptnews.uk",
+  "legal_info_url": "https://gptnews.uk/privacy"
+}

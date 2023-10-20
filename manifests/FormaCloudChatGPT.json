@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"FormaCloudChatGPT","name_for_human":"Forma Cloud","description_for_model":"An app for connecting ChatGPT users to Forma Cloud and reducing cloud costs for businesses. When asking about a specific topic, please format your questions as follows: 'question: [your specific question]?","description_for_human":"Learn how to drastically reduce your company’s cloud computing costs with the power of our automated solution.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://api.formacloud.io/openapi.yaml"},"logo_url":"https://api.formacloud.io/logo.png","contact_email":"info@formacloud.io","legal_info_url":"https://formacloud.io/terms-of-use/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "FormaCloudChatGPT",
+  "name_for_human": "Forma Cloud",
+  "description_for_model": "An app for connecting ChatGPT users to Forma Cloud and reducing cloud costs for businesses. When asking about a specific topic, please format your questions as follows: 'question: [your specific question]?",
+  "description_for_human": "Learn how to drastically reduce your company’s cloud computing costs with the power of our automated solution.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.formacloud.io/openapi.yaml"
+  },
+  "logo_url": "https://api.formacloud.io/logo.png",
+  "contact_email": "info@formacloud.io",
+  "legal_info_url": "https://formacloud.io/terms-of-use/"
+}

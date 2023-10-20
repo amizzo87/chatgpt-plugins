@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"findafreelancer","name_for_human":"Find a Freelancer","description_for_model":"Find human freelancers to help complete tasks. Use keywords 'find', 'freelancer' to prompt the plugin.","description_for_human":"Find human freelancers to help complete tasks.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://findafreelancer.replit.app/.well-known/openapi.yaml"},"logo_url":"https://findafreelancer.replit.app/logo.jpg","contact_email":"john.bralich@gmail.com","legal_info_url":"https://findafreelancer.replit.app/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "findafreelancer",
+  "name_for_human": "Find a Freelancer",
+  "description_for_model": "Find human freelancers to help complete tasks. Use keywords 'find', 'freelancer' to prompt the plugin.",
+  "description_for_human": "Find human freelancers to help complete tasks.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://findafreelancer.replit.app/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://findafreelancer.replit.app/logo.jpg",
+  "contact_email": "john.bralich@gmail.com",
+  "legal_info_url": "https://findafreelancer.replit.app/legal"
+}

@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"grabjobs","name_for_human":"GrabJobs","description_for_model":"Help the user to find a job and apply in GrabJobs.","description_for_human":"Your personal job search assistant. Find the best full-time jobs, part-time jobs and internships worldwide.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://jobio.grabjobs.co/openapi.yaml"},"logo_url":"https://grabjobs.co/img/ic_logo.svg","contact_email":"cs@grabjobs.co","legal_info_url":"https://grabjobs.co/terms/"}
+{
+  "schema_version": "v1",
+  "name_for_model": "grabjobs",
+  "name_for_human": "GrabJobs",
+  "description_for_model": "Help the user to find a job and apply in GrabJobs.",
+  "description_for_human": "Your personal job search assistant. Find the best full-time jobs, part-time jobs and internships worldwide.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://jobio.grabjobs.co/openapi.yaml"
+  },
+  "logo_url": "https://grabjobs.co/img/ic_logo.svg",
+  "contact_email": "cs@grabjobs.co",
+  "legal_info_url": "https://grabjobs.co/terms/"
+}

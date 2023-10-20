@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"blockatlas","name_for_human":"BlockAtlas","description_for_model":"Search the US Census API.","description_for_human":"Search the US Census! Find data sets, ask questions, and visualize.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://blockatlas.com/openapi.json"},"logo_url":"https://blockatlas.com/logo.png","contact_email":"info@blockatlas.com","legal_info_url":"https://blockatlas.com/legal"}
+{
+  "schema_version": "v1",
+  "name_for_model": "blockatlas",
+  "name_for_human": "BlockAtlas",
+  "description_for_model": "Search the US Census API.",
+  "description_for_human": "Search the US Census! Find data sets, ask questions, and visualize.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://blockatlas.com/openapi.json"
+  },
+  "logo_url": "https://blockatlas.com/logo.png",
+  "contact_email": "info@blockatlas.com",
+  "legal_info_url": "https://blockatlas.com/legal"
+}

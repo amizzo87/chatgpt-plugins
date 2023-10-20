@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"Chess","name_for_human":"Chess","description_for_model":"Plugin for playing chess. Send moves to the plugin and display the results using the 'display' field. Ask the user what level they would like to play at and what color they would like to play.","description_for_human":"Unleash your inner chess master with this interactive chess experience! You can play against a novice or a grandmaster!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"c059e5d7904a4d26a1d2fd532927fcf2"}},"api":{"type":"openapi","url":"https://gpt-chess.atomic14.com/openapi.yaml"},"logo_url":"https://gpt-chess.atomic14.com/logo.png","contact_email":"chris@cmgresearch.com","legal_info_url":"https://gpt-chess.atomic14.com/terms.html"}
+{
+  "schema_version": "v1",
+  "name_for_model": "Chess",
+  "name_for_human": "Chess",
+  "description_for_model": "Plugin for playing chess. Send moves to the plugin and display the results using the 'display' field. Ask the user what level they would like to play at and what color they would like to play.",
+  "description_for_human": "Unleash your inner chess master with this interactive chess experience! You can play against a novice or a grandmaster!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "c059e5d7904a4d26a1d2fd532927fcf2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://gpt-chess.atomic14.com/openapi.yaml"
+  },
+  "logo_url": "https://gpt-chess.atomic14.com/logo.png",
+  "contact_email": "chris@cmgresearch.com",
+  "legal_info_url": "https://gpt-chess.atomic14.com/terms.html"
+}

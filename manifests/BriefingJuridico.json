@@ -1,1 +1,17 @@
-{"schema_version":"v1","name_for_model":"BriefingJuridico","name_for_human":"Lei Brasileira","description_for_model":"Updates on Brazilian legislation and information about the operation of the Legal Briefing solution.","description_for_human":"Updates on Brazilian legislation and information about the operation of the Legal Briefing solution.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://l31hyvm4t35e0.gista.space/.well-known/openapi.yaml"},"logo_url":"https://gista.s3.amazonaws.com/public/plugins/l31hyvm4t35e0/icon.png","contact_email":"ti@riasistemas.com.br","legal_info_url":"https://riasistemas.com.br/termos"}
+{
+  "schema_version": "v1",
+  "name_for_model": "BriefingJuridico",
+  "name_for_human": "Lei Brasileira",
+  "description_for_model": "Updates on Brazilian legislation and information about the operation of the Legal Briefing solution.",
+  "description_for_human": "Updates on Brazilian legislation and information about the operation of the Legal Briefing solution.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://l31hyvm4t35e0.gista.space/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://gista.s3.amazonaws.com/public/plugins/l31hyvm4t35e0/icon.png",
+  "contact_email": "ti@riasistemas.com.br",
+  "legal_info_url": "https://riasistemas.com.br/termos"
+}

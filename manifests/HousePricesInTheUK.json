@@ -1,1 +1,22 @@
-{"schema_version":"v1","name_for_model":"HousePricesInTheUK","name_for_human":"UK House Prices","description_for_model":"Provides information on UK House Prices, Sales and Valuations. You can search for a property by address or post code' and get information on when the house last sold, and estimate on the current value, information on local crime in the area and more.","description_for_human":"Provides information on UK House Prices and Sales.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"1f0dd32ec28143108b2fe9cb5c6b0371"}},"api":{"type":"openapi","url":"https://api.housepricesintheuk.co.uk/openapi.yaml"},"logo_url":"https://api.housepricesintheuk.co.uk/img/logo-bw-512x512.png","contact_email":"api@housepricesintheuk.co.uk","legal_info_url":"https://www.housepricesintheuk.co.uk/support/terms"}
+{
+  "schema_version": "v1",
+  "name_for_model": "HousePricesInTheUK",
+  "name_for_human": "UK House Prices",
+  "description_for_model": "Provides information on UK House Prices, Sales and Valuations. You can search for a property by address or post code' and get information on when the house last sold, and estimate on the current value, information on local crime in the area and more.",
+  "description_for_human": "Provides information on UK House Prices and Sales.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "1f0dd32ec28143108b2fe9cb5c6b0371"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.housepricesintheuk.co.uk/openapi.yaml"
+  },
+  "logo_url": "https://api.housepricesintheuk.co.uk/img/logo-bw-512x512.png",
+  "contact_email": "api@housepricesintheuk.co.uk",
+  "legal_info_url": "https://www.housepricesintheuk.co.uk/support/terms"
+}
