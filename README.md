@@ -3,7 +3,8 @@ Repository of (most, [if not all?]) ChatGPT manifest files of plugins.
 
 Took me forever to find a consolidated list, and **copilot-us** has the best one I've seen so far (thank you!), but I wanted to break up the massive singular JSON blob into individual mainfest files, so that tools like LibreChat can recognize them easily.
 
-<!-- START TABLE @HERE -->|Logo|Name|Description|Is Authenticated|Auth Type|
+<!-- START TABLE @HERE -->
+|Logo|Name|Description|Is Authenticated|Auth Type|
 |---|---|---|---|---|
 |![logo](https://cards.for.io/img/icon128.png)|A&A Cards by For.io|Create beautiful social media cards and cheatsheets with summary lists or data tables, from any text as input.|true|none|
 |![logo](https://abplugins.blob.core.windows.net/static/ab-summarize-logo.jpg)|A&B Summarize!|Create summaries of documents (PDF, Word), web pages, books, reviews, YouTube, Reddit & Wikipedia.|true|oauth|
