@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "woxo",
-  "name_for_human": "WOXO",
-  "description_for_model": "Plugin for create video from prompt",
-  "description_for_human": "Turn your prompts into cool videos. Create eye-catching content in a snap!",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://api-vidgpt.woxo.tech/.well-known/openai.yaml"
-  },
-  "logo_url": "https://res.cloudinary.com/dakp804eh/image/upload/v1599064778/Woxo/Logos/Woxo-Icon-512px.png",
-  "contact_email": "hello@woxo.tech",
-  "legal_info_url": "https://woxo.tech/legal/sla"
-}
+{"schema_version":"v1","name_for_model":"woxo","name_for_human":"WOXO","description_for_model":"Plugin for create video from prompt","description_for_human":"Turn your prompts into cool videos. Create eye-catching content in a snap!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://api-vidgpt.woxo.tech/.well-known/openai.yaml"},"logo_url":"https://res.cloudinary.com/dakp804eh/image/upload/v1599064778/Woxo/Logos/Woxo-Icon-512px.png","contact_email":"hello@woxo.tech","legal_info_url":"https://woxo.tech/legal/sla","is_authenticated":true}

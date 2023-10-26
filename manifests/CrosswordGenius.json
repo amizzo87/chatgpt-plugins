@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "CrosswordGenius",
-  "name_for_human": "Crossword Genius",
-  "description_for_model": "Help a user to solve cryptic crossword clues by either providing hints to help them get the answer themselves, or by providing the most likely solutions along with explanations of how each solution was derived from the clue",
-  "description_for_human": "Get hints, solutions and explanations to cryptic crossword clues. See https://www.crosswordgenius.com/ or try the app!",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://oypetazaprv2liei35oxpr7wje0ibdls.lambda-url.eu-west-2.on.aws/openapi.yaml"
-  },
-  "logo_url": "https://oypetazaprv2liei35oxpr7wje0ibdls.lambda-url.eu-west-2.on.aws/logo.png",
-  "contact_email": "feedback@crosswordgenius.com",
-  "legal_info_url": "https://www.crosswordgenius.com/terms-and-conditions/"
-}
+{"schema_version":"v1","name_for_model":"CrosswordGenius","name_for_human":"Crossword Genius","description_for_model":"Help a user to solve cryptic crossword clues by either providing hints to help them get the answer themselves, or by providing the most likely solutions along with explanations of how each solution was derived from the clue","description_for_human":"Get hints, solutions and explanations to cryptic crossword clues. See https://www.crosswordgenius.com/ or try the app!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://oypetazaprv2liei35oxpr7wje0ibdls.lambda-url.eu-west-2.on.aws/openapi.yaml"},"logo_url":"https://oypetazaprv2liei35oxpr7wje0ibdls.lambda-url.eu-west-2.on.aws/logo.png","contact_email":"feedback@crosswordgenius.com","legal_info_url":"https://www.crosswordgenius.com/terms-and-conditions/","is_authenticated":true}

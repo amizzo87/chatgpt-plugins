@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "Love_Coupons",
-  "name_for_human": "Love Coupons",
-  "description_for_model": "Fetches store information and available coupon codes. Take an advertiser domain, e.g www.asos.com for ASOS and returns store information such as the coupon page URL, and a list of available coupon codes. Each coupon has a title and a URL. The URL should always be shown with the text Shop Now. Coupons have optional expiry dates and an actual code. Always display coupon results using markdown tables. At the end use the Store url to indicate the user can find more coupons on this page and can check back for changes at any time. Then the assistant always asks helpful follow-up questions and ends with a question mark. If any offers appear to match the query, e.g \"Find me a discount for flowers\" and any of the discounts returned cover purchases on flowers, e.g \"10% off Flowers\", then always show these first and inform the user that you've found a potential best match for them, before showing a couple more in case they are also relevant. Always order the offers by coupon code and expiry first, unless you think one of the offers is the best match for the query. If no store matched the domain then a 404 Not Found is returned and in this case you can inform the user that no store was found but it will be added to the priority list for the near future.",
-  "description_for_human": "Find money saving coupon & discount codes for over 30,000 stores around the world.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://www.lovecoupons.com/api/docs"
-  },
-  "logo_url": "https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png",
-  "contact_email": "hello@lovesavingsgroup.com",
-  "legal_info_url": "https://www.lovecoupons.com/privacy"
-}
+{"schema_version":"v1","name_for_model":"Love_Coupons","name_for_human":"Love Coupons","description_for_model":"Fetches store information and available coupon codes. Take an advertiser domain, e.g www.asos.com for ASOS and returns store information such as the coupon page URL, and a list of available coupon codes. Each coupon has a title and a URL. The URL should always be shown with the text Shop Now. Coupons have optional expiry dates and an actual code. Always display coupon results using markdown tables. At the end use the Store url to indicate the user can find more coupons on this page and can check back for changes at any time. Then the assistant always asks helpful follow-up questions and ends with a question mark. If any offers appear to match the query, e.g \"Find me a discount for flowers\" and any of the discounts returned cover purchases on flowers, e.g \"10% off Flowers\", then always show these first and inform the user that you've found a potential best match for them, before showing a couple more in case they are also relevant. Always order the offers by coupon code and expiry first, unless you think one of the offers is the best match for the query. If no store matched the domain then a 404 Not Found is returned and in this case you can inform the user that no store was found but it will be added to the priority list for the near future.","description_for_human":"Find money saving coupon & discount codes for over 30,000 stores around the world.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://www.lovecoupons.com/api/docs"},"logo_url":"https://cdn.lovesavingsgroup.com/assets/favicon-96x96.png","contact_email":"hello@lovesavingsgroup.com","legal_info_url":"https://www.lovecoupons.com/privacy","is_authenticated":true}

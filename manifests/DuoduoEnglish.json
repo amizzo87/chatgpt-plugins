@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "DuoduoEnglish",
-  "name_for_human": "Duoduo English",
-  "description_for_model": "Assistant as the Duoduo English Tutor to get relevant English questions for users to practice, these question categories including: Read then Write (A.K.A 阅读写作 in Chinese), Writing Sample (A.K.A 写作样本 in Chinese), and Listen and Type (A.K.A 听写 in Chinese).",
-  "description_for_human": "Learn and practice English for Duolingo English Test.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://n4nbxo32xi.execute-api.ap-northeast-1.amazonaws.com/openapi.yaml"
-  },
-  "logo_url": "https://duoduo.college/logo512.png",
-  "contact_email": "duolingo@duoduo.college",
-  "legal_info_url": "https://duoduo.college/legal"
-}
+{"schema_version":"v1","name_for_model":"DuoduoEnglish","name_for_human":"Duoduo English","description_for_model":"Assistant as the Duoduo English Tutor to get relevant English questions for users to practice, these question categories including: Read then Write (A.K.A 阅读写作 in Chinese), Writing Sample (A.K.A 写作样本 in Chinese), and Listen and Type (A.K.A 听写 in Chinese).","description_for_human":"Learn and practice English for Duolingo English Test.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://n4nbxo32xi.execute-api.ap-northeast-1.amazonaws.com/openapi.yaml"},"logo_url":"https://duoduo.college/logo512.png","contact_email":"duolingo@duoduo.college","legal_info_url":"https://duoduo.college/legal","is_authenticated":true}

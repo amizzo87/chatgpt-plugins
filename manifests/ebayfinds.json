@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "ebayfinds",
-  "name_for_human": "Ebay Finds",
-  "description_for_model": "Help the user with searching for products on eBay. You can ask to search for specific eBay products.",
-  "description_for_human": "Find any eBay product you need.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://ebay-finds.aitoolbot.repl.co/openapi.json"
-  },
-  "logo_url": "https://ebay-finds.aitoolbot.repl.co/static/logo.png",
-  "contact_email": "aitoolbot@gmail.com",
-  "legal_info_url": "https://ebay-finds.aitoolbot.repl.co/static/legal.html"
-}
+{"schema_version":"v1","name_for_model":"ebayfinds","name_for_human":"Ebay Finds","description_for_model":"Help the user with searching for products on eBay. You can ask to search for specific eBay products.","description_for_human":"Find any eBay product you need.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ebay-finds.aitoolbot.repl.co/openapi.json"},"logo_url":"https://ebay-finds.aitoolbot.repl.co/static/logo.png","contact_email":"aitoolbot@gmail.com","legal_info_url":"https://ebay-finds.aitoolbot.repl.co/static/legal.html","is_authenticated":true}

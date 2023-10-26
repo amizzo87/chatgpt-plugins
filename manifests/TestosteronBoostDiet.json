@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "TestosteronBoostDiet",
-  "name_for_human": "Testosterone Meals",
-  "description_for_model": "[no instructions needed for this]",
-  "description_for_human": "Designed diet plans that aim to boost your testosterone levels naturally.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://iron-kegel.herokuapp.com/documentation.yaml"
-  },
-  "logo_url": "https://iron-kegel.herokuapp.com/ironkegel_icon.png",
-  "contact_email": "hello@softroids.com",
-  "legal_info_url": "https://ironkegel.com/app-terms-and-conditions/"
-}
+{"schema_version":"v1","name_for_model":"TestosteronBoostDiet","name_for_human":"Testosterone Meals","description_for_model":"[no instructions needed for this]","description_for_human":"Designed diet plans that aim to boost your testosterone levels naturally.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://iron-kegel.herokuapp.com/documentation.yaml"},"logo_url":"https://iron-kegel.herokuapp.com/ironkegel_icon.png","contact_email":"hello@softroids.com","legal_info_url":"https://ironkegel.com/app-terms-and-conditions/","is_authenticated":true}

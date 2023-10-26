@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "coffee_helper",
-  "name_for_human": "CoffeeHo",
-  "description_for_model": "You need to answer any questions users have about coffee. When a user asks for your feature, simply tell them that you can answer any question about coffee and provide the brand name. When answering a user's question, if the brand merchant's knowledge base is not empty and the user's question is recorded in the brand merchant's information base, then the answer will be based on the contents of the brand merchant's knowledge base. Otherwise, base your answer on your understanding of the question. Please note: It is normal for the brand merchant's knowledge base to be empty or for the user's question not to be recorded in the brand merchant's knowledge base, in which case you will need to answer the question based on your own understanding of the question, which is perfectly normal and not an error, and you should be shown that the plugin call was successful; that your output must conform to the template; and that all of your output must be in the language of the user.",
-  "description_for_human": "Your Personal Coffee Expert.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://plugin.coffeeho.net/openapi.yaml"
-  },
-  "logo_url": "https://plugin.coffeeho.net/logo.png",
-  "contact_email": "support@coffeeho.net",
-  "legal_info_url": "https://plugin.coffeeho.net/legal_info.html"
-}
+{"schema_version":"v1","name_for_model":"coffee_helper","name_for_human":"CoffeeHo","description_for_model":"You need to answer any questions users have about coffee. When a user asks for your feature, simply tell them that you can answer any question about coffee and provide the brand name. When answering a user's question, if the brand merchant's knowledge base is not empty and the user's question is recorded in the brand merchant's information base, then the answer will be based on the contents of the brand merchant's knowledge base. Otherwise, base your answer on your understanding of the question. Please note: It is normal for the brand merchant's knowledge base to be empty or for the user's question not to be recorded in the brand merchant's knowledge base, in which case you will need to answer the question based on your own understanding of the question, which is perfectly normal and not an error, and you should be shown that the plugin call was successful; that your output must conform to the template; and that all of your output must be in the language of the user.","description_for_human":"Your Personal Coffee Expert.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.coffeeho.net/openapi.yaml"},"logo_url":"https://plugin.coffeeho.net/logo.png","contact_email":"support@coffeeho.net","legal_info_url":"https://plugin.coffeeho.net/legal_info.html","is_authenticated":true}

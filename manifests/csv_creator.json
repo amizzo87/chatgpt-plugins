@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "csv_creator",
-  "name_for_human": "CSV Creator",
-  "description_for_model": "Help the user create a CSV file.",
-  "description_for_human": "Create a CSV file given text.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://csv.level2labs.xyz/openapi.yaml"
-  },
-  "logo_url": "https://csv.level2labs.xyz/logo.png",
-  "contact_email": "support@level2labs.co",
-  "legal_info_url": "http://www.level2labs.co/privacy-policy"
-}
+{"schema_version":"v1","name_for_model":"csv_creator","name_for_human":"CSV Creator","description_for_model":"Help the user create a CSV file.","description_for_human":"Create a CSV file given text.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://csv.level2labs.xyz/openapi.yaml"},"logo_url":"https://csv.level2labs.xyz/logo.png","contact_email":"support@level2labs.co","legal_info_url":"http://www.level2labs.co/privacy-policy","is_authenticated":true}

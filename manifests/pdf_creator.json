@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "pdf_creator",
-  "name_for_human": "PDF Creator",
-  "description_for_model": "Help the user create a PDF.",
-  "description_for_human": "Create a PDF file in seconds.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://pdf.level2labs.xyz/openapi.yaml"
-  },
-  "logo_url": "https://pdf.level2labs.xyz/logo.png",
-  "contact_email": "support@level2labs.co",
-  "legal_info_url": "http://www.level2labs.co/privacy-policy"
-}
+{"schema_version":"v1","name_for_model":"pdf_creator","name_for_human":"PDF Creator","description_for_model":"Help the user create a PDF.","description_for_human":"Create a PDF file in seconds.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://pdf.level2labs.xyz/openapi.yaml"},"logo_url":"https://pdf.level2labs.xyz/logo.png","contact_email":"support@level2labs.co","legal_info_url":"http://www.level2labs.co/privacy-policy","is_authenticated":true}

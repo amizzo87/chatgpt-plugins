@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "invoice_creator",
-  "name_for_human": "Invoice Pilot",
-  "description_for_model": "Help the user create an invoice or estimate in PDF format.",
-  "description_for_human": "Easily create an invoice or estimate as a PDF file.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://invoice.level2labs.xyz/openapi.yaml"
-  },
-  "logo_url": "https://invoice.level2labs.xyz/logo.png",
-  "contact_email": "support@level2labs.co",
-  "legal_info_url": "http://www.level2labs.co/privacy-policy"
-}
+{"schema_version":"v1","name_for_model":"invoice_creator","name_for_human":"Invoice Pilot","description_for_model":"Help the user create an invoice or estimate in PDF format.","description_for_human":"Easily create an invoice or estimate as a PDF file.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://invoice.level2labs.xyz/openapi.yaml"},"logo_url":"https://invoice.level2labs.xyz/logo.png","contact_email":"support@level2labs.co","legal_info_url":"http://www.level2labs.co/privacy-policy","is_authenticated":true}

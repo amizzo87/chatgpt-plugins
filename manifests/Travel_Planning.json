@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "Travel_Planning",
-  "name_for_human": "Travel Planning",
-  "description_for_model": "The Travel Planning Plugin aids in trip planning. This plugin generates a map using the longitude and latitude of all the places provided by ChatGPT. For each location, it produces a title and description, as well as an overall title and description for the trip. To assist users, the plugin returns a URL of a webpage containing all the information, along with a URL to a PNG image of the map. TIP: Detail the places to visit step by step. Show the map in the chat. IMPORTANT: BEFORE EXECUTE PLUGIN MAKE A QUESTION IF YOU WANT EXECUTE THE PLUGIN. IF YOU WANT EXECUTE THE PLUGIN, THE QUESTION MUST CONTAIN THE WORDS: 'TRAVEL PLANNING'.",
-  "description_for_human": "Travel Planning assists in planning your trip. It generates a map with all the places and webpages for you to share.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://travelplanning.sinclinal.com/web/openapi.yaml"
-  },
-  "logo_url": "https://travelplanning.sinclinal.com/web/logo.png",
-  "contact_email": "info@sinclinal.com",
-  "legal_info_url": "https://travelplanning.sinclinal.com/web/legal.html"
-}
+{"schema_version":"v1","name_for_model":"Travel_Planning","name_for_human":"Travel Planning","description_for_model":"The Travel Planning Plugin aids in trip planning. This plugin generates a map using the longitude and latitude of all the places provided by ChatGPT. For each location, it produces a title and description, as well as an overall title and description for the trip. To assist users, the plugin returns a URL of a webpage containing all the information, along with a URL to a PNG image of the map. TIP: Detail the places to visit step by step. Show the map in the chat. IMPORTANT: BEFORE EXECUTE PLUGIN MAKE A QUESTION IF YOU WANT EXECUTE THE PLUGIN. IF YOU WANT EXECUTE THE PLUGIN, THE QUESTION MUST CONTAIN THE WORDS: 'TRAVEL PLANNING'.","description_for_human":"Travel Planning assists in planning your trip. It generates a map with all the places and webpages for you to share.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://travelplanning.sinclinal.com/web/openapi.yaml"},"logo_url":"https://travelplanning.sinclinal.com/web/logo.png","contact_email":"info@sinclinal.com","legal_info_url":"https://travelplanning.sinclinal.com/web/legal.html","is_authenticated":true}

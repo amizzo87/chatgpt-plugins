@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "openarch",
-  "name_for_human": "Open Archives",
-  "description_for_model": "Plugin for finding historical archive records about persons.",
-  "description_for_human": "Search the genealogical data of Dutch and Belgian archives and societies via Open Archives.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://api.openarch.nl/openapi.yaml"
-  },
-  "logo_url": "https://static.openarch.nl/img/oa/logo200x200-en.png",
-  "contact_email": "api@openarch.nl",
-  "legal_info_url": "https://www.openarch.nl/disclaimer.php"
-}
+{"schema_version":"v1","name_for_model":"openarch","name_for_human":"Open Archives","description_for_model":"Plugin for finding historical archive records about persons.","description_for_human":"Search the genealogical data of Dutch and Belgian archives and societies via Open Archives.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://api.openarch.nl/openapi.yaml"},"logo_url":"https://static.openarch.nl/img/oa/logo200x200-en.png","contact_email":"api@openarch.nl","legal_info_url":"https://www.openarch.nl/disclaimer.php","is_authenticated":true}

@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "shoppingfinder",
-  "name_for_human": "Shopping Finder",
-  "description_for_model": "Search for products on EBay, conveniently find items, and quickly access deals and discounted products.",
-  "description_for_human": "EBay product shopping search, conveniently query products, get discounts and discounted products more quickly.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://ebay.acashback.com/openapi.yaml"
-  },
-  "logo_url": "https://www.acashback.com/wp-content/uploads/2023/08/logo-shopping-finder.png",
-  "contact_email": "support@acashback.com",
-  "legal_info_url": "https://www.acashback.com/373-2/"
-}
+{"schema_version":"v1","name_for_model":"shoppingfinder","name_for_human":"Shopping Finder","description_for_model":"Search for products on EBay, conveniently find items, and quickly access deals and discounted products.","description_for_human":"EBay product shopping search, conveniently query products, get discounts and discounted products more quickly.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ebay.acashback.com/openapi.yaml"},"logo_url":"https://www.acashback.com/wp-content/uploads/2023/08/logo-shopping-finder.png","contact_email":"support@acashback.com","legal_info_url":"https://www.acashback.com/373-2/","is_authenticated":true}

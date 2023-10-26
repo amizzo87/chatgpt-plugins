@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "assetOvi",
-  "name_for_human": "Asset Ovi",
-  "description_for_model": "Search and preview millions of 3D assets for games, AIGC, AR/VR and others. Always display results using markdown.",
-  "description_for_human": "Search and preview millions of 3D assets for games, AIGC, AR/VR and others.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://assetovi.com/openapi.yaml"
-  },
-  "logo_url": "https://assetovi-cdn.yahaha.com/assetovi-gpt-logo.png",
-  "contact_email": "contact@yahaha.com",
-  "legal_info_url": "https://yahaha.com/tos?utm_source=ovi"
-}
+{"schema_version":"v1","name_for_model":"assetOvi","name_for_human":"Asset Ovi","description_for_model":"Search and preview millions of 3D assets for games, AIGC, AR/VR and others. Always display results using markdown.","description_for_human":"Search and preview millions of 3D assets for games, AIGC, AR/VR and others.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://assetovi.com/openapi.yaml"},"logo_url":"https://assetovi-cdn.yahaha.com/assetovi-gpt-logo.png","contact_email":"contact@yahaha.com","legal_info_url":"https://yahaha.com/tos?utm_source=ovi","is_authenticated":true}

@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "BitcoinSentiment",
-  "name_for_human": "Bitcoin Sentiment",
-  "description_for_model": "Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!",
-  "description_for_human": "Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://bitcoin.orrenprunckun.com/openapi.yaml"
-  },
-  "logo_url": "https://bitcoin.orrenprunckun.com/bitcoin.png",
-  "contact_email": "hello@orrenprunckun.com",
-  "legal_info_url": "https://bitcoin.orrenprunckun.com/terms.php"
-}
+{"schema_version":"v1","name_for_model":"BitcoinSentiment","name_for_human":"Bitcoin Sentiment","description_for_model":"Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!","description_for_human":"Track the current price of Bitcoin and the market sentiment based on the last 20 news media mentions!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://bitcoin.orrenprunckun.com/openapi.yaml"},"logo_url":"https://bitcoin.orrenprunckun.com/bitcoin.png","contact_email":"hello@orrenprunckun.com","legal_info_url":"https://bitcoin.orrenprunckun.com/terms.php","is_authenticated":true}

@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "Graph_Constructor",
-  "name_for_human": "Graph Constructor",
-  "description_for_model": "A tool for creating spider and bar graphs.",
-  "description_for_human": "A tool for creating spider and bar graphs.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://graphconstructor.com/openapi.yaml"
-  },
-  "logo_url": "https://graphconstructor.com/logo.png",
-  "contact_email": "devin@graphconstructor.com",
-  "legal_info_url": "https://graphconstructor.com/legal"
-}
+{"schema_version":"v1","name_for_model":"Graph_Constructor","name_for_human":"Graph Constructor","description_for_model":"A tool for creating spider and bar graphs.","description_for_human":"A tool for creating spider and bar graphs.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://graphconstructor.com/openapi.yaml"},"logo_url":"https://graphconstructor.com/logo.png","contact_email":"devin@graphconstructor.com","legal_info_url":"https://graphconstructor.com/legal","is_authenticated":true}

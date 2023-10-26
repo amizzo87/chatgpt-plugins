@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "pdf_maker",
-  "name_for_human": "PDF Magic",
-  "description_for_model": "Help the user create a PDF. Make sure you escape special characters for JSON string used in API call. Use Markdown styling to make the doc look nice.",
-  "description_for_human": "Create beautiful PDFs instantly. Resumes, cover letters, reports, agreements, forms, and more.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://pdfmagic.level2labs.xyz/openapi.yaml"
-  },
-  "logo_url": "https://pdfmagic.level2labs.xyz/logo.png",
-  "contact_email": "support@level2labs.co",
-  "legal_info_url": "http://www.level2labs.co/privacy-policy"
-}
+{"schema_version":"v1","name_for_model":"pdf_maker","name_for_human":"PDF Magic","description_for_model":"Help the user create a PDF. Make sure you escape special characters for JSON string used in API call. Use Markdown styling to make the doc look nice.","description_for_human":"Create beautiful PDFs instantly. Resumes, cover letters, reports, agreements, forms, and more.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://pdfmagic.level2labs.xyz/openapi.yaml"},"logo_url":"https://pdfmagic.level2labs.xyz/logo.png","contact_email":"support@level2labs.co","legal_info_url":"http://www.level2labs.co/privacy-policy","is_authenticated":true}

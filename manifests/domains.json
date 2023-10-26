@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "domains",
-  "name_for_human": "Domains Bot",
-  "description_for_model": "You can check if a domain is available. Users can search for their desired domain name.",
-  "description_for_human": "Checks for a domain name's availability. You can search for your desired domain name.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://gpt-domain-bot.fly.dev/openapi.yaml"
-  },
-  "logo_url": "https://gpt-domain-bot.fly.dev/images/logo.png",
-  "contact_email": "aaron@aaroncruz.com",
-  "legal_info_url": "https://gpt-domain-bot.fly.dev/legal"
-}
+{"schema_version":"v1","name_for_model":"domains","name_for_human":"Domains Bot","description_for_model":"You can check if a domain is available. Users can search for their desired domain name.","description_for_human":"Checks for a domain name's availability. You can search for your desired domain name.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://gpt-domain-bot.fly.dev/openapi.yaml"},"logo_url":"https://gpt-domain-bot.fly.dev/images/logo.png","contact_email":"aaron@aaroncruz.com","legal_info_url":"https://gpt-domain-bot.fly.dev/legal","is_authenticated":true}

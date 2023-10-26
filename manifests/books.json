@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "books",
-  "name_for_human": "Ukr-School-Books",
-  "description_for_model": "Plugin for interacting with a books database. You can list all books, get presentation, get biography of an author, get content of a book, get a random book, and get books that match a certain command.",
-  "description_for_human": "Interact with a books database. List, get content, and find books.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://ukr-books-chatgpt-plugin.illia56.repl.co/openapi.yaml"
-  },
-  "logo_url": "https://ukr-books-chatgpt-plugin.illia56.repl.co/logo.jpg",
-  "contact_email": "I.Ludogovskyi@gmail.com",
-  "legal_info_url": "https://butter-tangerine-f7b.notion.site/Ukr-Books-ChatGPT-ad1258cbc91b40e5ad78fa89f414dc09?pvs=4"
-}
+{"schema_version":"v1","name_for_model":"books","name_for_human":"Ukr-School-Books","description_for_model":"Plugin for interacting with a books database. You can list all books, get presentation, get biography of an author, get content of a book, get a random book, and get books that match a certain command.","description_for_human":"Interact with a books database. List, get content, and find books.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ukr-books-chatgpt-plugin.illia56.repl.co/openapi.yaml"},"logo_url":"https://ukr-books-chatgpt-plugin.illia56.repl.co/logo.jpg","contact_email":"I.Ludogovskyi@gmail.com","legal_info_url":"https://butter-tangerine-f7b.notion.site/Ukr-Books-ChatGPT-ad1258cbc91b40e5ad78fa89f414dc09?pvs=4","is_authenticated":true}

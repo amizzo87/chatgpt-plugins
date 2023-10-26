@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "How_Long_To_Beat",
-  "name_for_human": "How Long To Beat",
-  "description_for_model": "For searching how many hours it takes to beat a videogame.",
-  "description_for_human": "Find out how long it takes to beat any game!",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://hltb-plugin-danhimebauch.replit.app/openapi.yaml"
-  },
-  "logo_url": "https://hltb-plugin-danhimebauch.replit.app/logo.png",
-  "contact_email": "danielhimebauch@gmail.com",
-  "legal_info_url": "https://github.com/xXJSONDeruloXx/HLTB-Plugin/tree/main"
-}
+{"schema_version":"v1","name_for_model":"How_Long_To_Beat","name_for_human":"How Long To Beat","description_for_model":"For searching how many hours it takes to beat a videogame.","description_for_human":"Find out how long it takes to beat any game!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://hltb-plugin-danhimebauch.replit.app/openapi.yaml"},"logo_url":"https://hltb-plugin-danhimebauch.replit.app/logo.png","contact_email":"danielhimebauch@gmail.com","legal_info_url":"https://github.com/xXJSONDeruloXx/HLTB-Plugin/tree/main","is_authenticated":true}

@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "ResearchAI",
-  "name_for_human": "txyz.ai",
-  "description_for_model": "Search through all research papers and other scientific literature, answer any questions regarding the content of papers, and recommend papers that discuss topics similar to a specified paper. For search requests, ALWAYS utilize the find_papers_plugin endpoint. If you have a query about a specific paper on arXiv.org, ALWAYS first use the summarize_plugin to obtain a summary. Then if there is a specific query about the paper, ALWAYS address the query using the chat_plugin endpoint. For inquiries about papers that are similar to a given paper, ALWAYS employ the find_similar_papers_plugin endpoint.",
-  "description_for_human": "Explore the universe of research. Search and compare papers, and answer questions.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://txyz.ai/openapi.yaml"
-  },
-  "logo_url": "https://txyz.ai/logo.png",
-  "contact_email": "support@txyz.ai",
-  "legal_info_url": "https://txyz.ai/legal"
-}
+{"schema_version":"v1","name_for_model":"ResearchAI","name_for_human":"txyz.ai","description_for_model":"Search through all research papers and other scientific literature, answer any questions regarding the content of papers, and recommend papers that discuss topics similar to a specified paper. For search requests, ALWAYS utilize the find_papers_plugin endpoint. If you have a query about a specific paper on arXiv.org, ALWAYS first use the summarize_plugin to obtain a summary. Then if there is a specific query about the paper, ALWAYS address the query using the chat_plugin endpoint. For inquiries about papers that are similar to a given paper, ALWAYS employ the find_similar_papers_plugin endpoint.","description_for_human":"Explore the universe of research. Search and compare papers, and answer questions.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://txyz.ai/openapi.yaml"},"logo_url":"https://txyz.ai/logo.png","contact_email":"support@txyz.ai","legal_info_url":"https://txyz.ai/legal","is_authenticated":true}

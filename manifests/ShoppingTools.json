@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "ShoppingTools",
-  "name_for_human": "Shopping tools",
-  "description_for_model": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
-  "description_for_human": "Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://shoppingtools.biz/.well-known/openapi.yaml"
-  },
-  "logo_url": "https://shoppingtools.biz/.well-known/logo.png",
-  "contact_email": "topdroidapps@gmail.com",
-  "legal_info_url": "https://www.privacypolicygenerator.info/live.php?token=KskRU3nhCHlqwAdPouBj0L6ponFujjKE"
-}
+{"schema_version":"v1","name_for_model":"ShoppingTools","name_for_human":"Shopping tools","description_for_model":"Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.","description_for_human":"Search for products on eBay & AliExpress, find eBay events & coupons. Get prompt examples.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://shoppingtools.biz/.well-known/openapi.yaml"},"logo_url":"https://shoppingtools.biz/.well-known/logo.png","contact_email":"topdroidapps@gmail.com","legal_info_url":"https://www.privacypolicygenerator.info/live.php?token=KskRU3nhCHlqwAdPouBj0L6ponFujjKE","is_authenticated":true}

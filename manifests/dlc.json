@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "dlc",
-  "name_for_human": "Doctor's Life Career",
-  "description_for_model": "Searching Japanese medical doctors' jobs based on your preferences.",
-  "description_for_human": "Searching Japanese medical doctors' jobs based on your preferences.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://doctors-lc.jp/jobs/api/v1/manifest.yaml"
-  },
-  "logo_url": "https://doctors-lc.jp/favicon.ico",
-  "contact_email": "md@doctors-lc.jp",
-  "legal_info_url": "https://doctors-lc.jp/jobs/privacypolicy.html"
-}
+{"schema_version":"v1","name_for_model":"dlc","name_for_human":"Doctor's Life Career","description_for_model":"Searching Japanese medical doctors' jobs based on your preferences.","description_for_human":"Searching Japanese medical doctors' jobs based on your preferences.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://doctors-lc.jp/jobs/api/v1/manifest.yaml"},"logo_url":"https://doctors-lc.jp/favicon.ico","contact_email":"md@doctors-lc.jp","legal_info_url":"https://doctors-lc.jp/jobs/privacypolicy.html","is_authenticated":true}

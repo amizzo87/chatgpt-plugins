@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "gofynd",
-  "name_for_human": "GoFynd",
-  "description_for_model": "This tool enables you to search for products, manage your cart, and display QR code for easy cart sharing within GoFynd's marketplace.",
-  "description_for_human": "Elevate your shopping experience with GoFynd.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://www.gofynd.com/ext/chatgpt-plugin/application/api/v1.0/openapi.yaml"
-  },
-  "logo_url": "https://hdn-1.fynd.com/company/884/applications/000000000000000000000001/application/pictures/favicon/resize-w:256/HRblBIPDT-Fynd.jpeg",
-  "contact_email": "care@fynd.com",
-  "legal_info_url": "https://www.gofynd.com/terms-and-conditions"
-}
+{"schema_version":"v1","name_for_model":"gofynd","name_for_human":"GoFynd","description_for_model":"This tool enables you to search for products, manage your cart, and display QR code for easy cart sharing within GoFynd's marketplace.","description_for_human":"Elevate your shopping experience with GoFynd.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://www.gofynd.com/ext/chatgpt-plugin/application/api/v1.0/openapi.yaml"},"logo_url":"https://hdn-1.fynd.com/company/884/applications/000000000000000000000001/application/pictures/favicon/resize-w:256/HRblBIPDT-Fynd.jpeg","contact_email":"care@fynd.com","legal_info_url":"https://www.gofynd.com/terms-and-conditions","is_authenticated":true}

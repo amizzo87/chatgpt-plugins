@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "champdex",
-  "name_for_human": "ChampDex",
-  "description_for_model": "Chat with your favorite League of Legends champions!",
-  "description_for_human": "Chat with your favorite League of Legends champions!",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://champdex.com/openapi.yaml"
-  },
-  "logo_url": "https://champdex.com/img/logo.png",
-  "contact_email": "support@dreampunk.ai",
-  "legal_info_url": "https://champdex.com/legal"
-}
+{"schema_version":"v1","name_for_model":"champdex","name_for_human":"ChampDex","description_for_model":"Chat with your favorite League of Legends champions!","description_for_human":"Chat with your favorite League of Legends champions!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://champdex.com/openapi.yaml"},"logo_url":"https://champdex.com/img/logo.png","contact_email":"support@dreampunk.ai","legal_info_url":"https://champdex.com/legal","is_authenticated":true}

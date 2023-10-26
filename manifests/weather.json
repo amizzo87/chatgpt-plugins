@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "weather",
-  "name_for_human": "Weather",
-  "description_for_model": "Get the weather forecast for a US city or zip code.",
-  "description_for_human": "Get the weather forecast for a US city or zip code. Visit https://weatherplugin.net for more details.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://weatherplugin.net/.well-known/openapi.yaml"
-  },
-  "logo_url": "https://weatherplugin.net/images/logo.png",
-  "contact_email": "chatgpt.weather.plugin@gmail.com",
-  "legal_info_url": "https://weatherplugin.net/legal.html"
-}
+{"schema_version":"v1","name_for_model":"weather","name_for_human":"Weather","description_for_model":"Get the weather forecast for a US city or zip code.","description_for_human":"Get the weather forecast for a US city or zip code. Visit https://weatherplugin.net for more details.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://weatherplugin.net/.well-known/openapi.yaml"},"logo_url":"https://weatherplugin.net/images/logo.png","contact_email":"chatgpt.weather.plugin@gmail.com","legal_info_url":"https://weatherplugin.net/legal.html","is_authenticated":true}

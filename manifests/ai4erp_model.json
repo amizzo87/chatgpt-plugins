@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "ai4erp_model",
-  "name_for_human": "AI4ERP",
-  "description_for_model": "Plugin for SAP-related queries. You can ask about transaction codes, business processes, Fiori Tiles/Apps, or any other SAP-related topic.",
-  "description_for_human": "Plugin for asking questions related to SAP, including transaction codes, business processes, Fiori Tiles/Apps, and more.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://ai4erp.onlinegbc.com/.well-known/openapi.yaml"
-  },
-  "logo_url": "https://ai4erp.onlinegbc.com/plugin/logo",
-  "contact_email": "support@onlinegbc.com",
-  "legal_info_url": "https://ai4erp.onlinegbc.com/tos"
-}
+{"schema_version":"v1","name_for_model":"ai4erp_model","name_for_human":"AI4ERP","description_for_model":"Plugin for SAP-related queries. You can ask about transaction codes, business processes, Fiori Tiles/Apps, or any other SAP-related topic.","description_for_human":"Plugin for asking questions related to SAP, including transaction codes, business processes, Fiori Tiles/Apps, and more.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ai4erp.onlinegbc.com/.well-known/openapi.yaml"},"logo_url":"https://ai4erp.onlinegbc.com/plugin/logo","contact_email":"support@onlinegbc.com","legal_info_url":"https://ai4erp.onlinegbc.com/tos","is_authenticated":true}

@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "climesumer",
-  "name_for_human": "Climesumer",
-  "description_for_model": "Find sustainable alternatives to products based on the name of the product",
-  "description_for_human": "Find sustainable alternatives to products.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://climesumer.earth-gpt.com/openapi.json"
-  },
-  "logo_url": "https://climesumer.earth-gpt.com/static/logo.png",
-  "contact_email": "climesumer@earth-gpt.com",
-  "legal_info_url": "https://climesumer.earth-gpt.com/static/legal.html"
-}
+{"schema_version":"v1","name_for_model":"climesumer","name_for_human":"Climesumer","description_for_model":"Find sustainable alternatives to products based on the name of the product","description_for_human":"Find sustainable alternatives to products.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://climesumer.earth-gpt.com/openapi.json"},"logo_url":"https://climesumer.earth-gpt.com/static/logo.png","contact_email":"climesumer@earth-gpt.com","legal_info_url":"https://climesumer.earth-gpt.com/static/legal.html","is_authenticated":true}

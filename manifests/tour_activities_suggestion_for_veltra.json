@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "tour_activities_suggestion_for_veltra",
-  "name_for_human": "VELTRA",
-  "description_for_model": "Help to generate personalized tour activity suggestions. It processes user inputs, including keywords and destination, and maps these parameters to a database of tour activities. The plugin uses advanced language understanding capabilities to interpret user requirements and dynamically generate suitable activity suggestions. It can adapt to real-time changes in user inputs and provide detailed information about each suggested activity. It is designed for seamless integration with existing systems.",
-  "description_for_human": "A tool designed to provide personalized tour activity suggestions.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://ai-search-plugin.veltra.com/openapi.yaml"
-  },
-  "logo_url": "https://ai-search-plugin.veltra.com/veltra-logo.png",
-  "contact_email": "corporate@veltra.com",
-  "legal_info_url": "https://www.veltra.com/en/privacy"
-}
+{"schema_version":"v1","name_for_model":"tour_activities_suggestion_for_veltra","name_for_human":"VELTRA","description_for_model":"Help to generate personalized tour activity suggestions. It processes user inputs, including keywords and destination, and maps these parameters to a database of tour activities. The plugin uses advanced language understanding capabilities to interpret user requirements and dynamically generate suitable activity suggestions. It can adapt to real-time changes in user inputs and provide detailed information about each suggested activity. It is designed for seamless integration with existing systems.","description_for_human":"A tool designed to provide personalized tour activity suggestions.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ai-search-plugin.veltra.com/openapi.yaml"},"logo_url":"https://ai-search-plugin.veltra.com/veltra-logo.png","contact_email":"corporate@veltra.com","legal_info_url":"https://www.veltra.com/en/privacy","is_authenticated":true}

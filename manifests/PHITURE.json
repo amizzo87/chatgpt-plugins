@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "PHITURE",
-  "name_for_human": "ASO",
-  "description_for_model": "Search for keywords to obtain information about their popularity, impressions, etc.",
-  "description_for_human": "App Store Optimization by Phiture: keyword popularity, estimate impressions & uncover trends.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://api-chatgpt.phiture.com/openapi.json"
-  },
-  "logo_url": "https://phiture.com/wp-content/uploads/2022/08/icon-96x96.png",
-  "contact_email": "stepan.chatalyan@phiture.com",
-  "legal_info_url": "https://phiture.com/privacy-policy/"
-}
+{"schema_version":"v1","name_for_model":"PHITURE","name_for_human":"ASO","description_for_model":"Search for keywords to obtain information about their popularity, impressions, etc.","description_for_human":"App Store Optimization by Phiture: keyword popularity, estimate impressions & uncover trends.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://api-chatgpt.phiture.com/openapi.json"},"logo_url":"https://phiture.com/wp-content/uploads/2022/08/icon-96x96.png","contact_email":"stepan.chatalyan@phiture.com","legal_info_url":"https://phiture.com/privacy-policy/","is_authenticated":true}

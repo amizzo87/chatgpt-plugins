@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "freelancetalent",
-  "name_for_human": "Find Talent",
-  "description_for_model": "Find digital freelance talent for any occassion. Services include: Graphics & Design, Digital Marketing, Writing & Translation, Video & Animation, Music & Audio, Programming & Tech, PhotographyBusiness, AI Services",
-  "description_for_human": "Find digital freelance talent for any occasion.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://service-provider-ext.onrender.com/.well-known/openapi.json"
-  },
-  "logo_url": "https://service-provider-ext.onrender.com/.well-known/logo",
-  "contact_email": "hexcard.xyz",
-  "legal_info_url": "https://service-provider-ext.onrender.com/.well-known/legal"
-}
+{"schema_version":"v1","name_for_model":"freelancetalent","name_for_human":"Find Talent","description_for_model":"Find digital freelance talent for any occassion. Services include: Graphics & Design, Digital Marketing, Writing & Translation, Video & Animation, Music & Audio, Programming & Tech, PhotographyBusiness, AI Services","description_for_human":"Find digital freelance talent for any occasion.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://service-provider-ext.onrender.com/.well-known/openapi.json"},"logo_url":"https://service-provider-ext.onrender.com/.well-known/logo","contact_email":"hexcard.xyz","legal_info_url":"https://service-provider-ext.onrender.com/.well-known/legal","is_authenticated":true}

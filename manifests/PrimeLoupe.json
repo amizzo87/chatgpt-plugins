@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "PrimeLoupe",
-  "name_for_human": "PrimeLoupe",
-  "description_for_model": "Simplify your decision-making process by summarizing Amazon product reviews for you.",
-  "description_for_human": "Simplify your decision-making process by summarizing Amazon product reviews for you.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://primeloupe.com/openapi.json"
-  },
-  "logo_url": "https://primeloupe.com/static/img/logo512-bg.png",
-  "contact_email": "justmisam@gmail.com",
-  "legal_info_url": "https://primeloupe.com/terms/"
-}
+{"schema_version":"v1","name_for_model":"PrimeLoupe","name_for_human":"PrimeLoupe","description_for_model":"Simplify your decision-making process by summarizing Amazon product reviews for you.","description_for_human":"Simplify your decision-making process by summarizing Amazon product reviews for you.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://primeloupe.com/openapi.json"},"logo_url":"https://primeloupe.com/static/img/logo512-bg.png","contact_email":"justmisam@gmail.com","legal_info_url":"https://primeloupe.com/terms/","is_authenticated":true}

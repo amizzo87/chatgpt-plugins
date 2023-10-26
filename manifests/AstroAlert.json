@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "AstroAlert",
-  "name_for_human": "Asteroid Alert",
-  "description_for_model": "Help the user with determining the number of asteroids headed to the Earth and if any pose a threat to human existance.",
-  "description_for_human": "Interact with NASA to explore earth observation data that monitors near-earth objects like asteroids.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://kwilliams.pythonanywhere.com/openapi.yaml"
-  },
-  "logo_url": "https://kwilliams.pythonanywhere.com/logo.png",
-  "contact_email": "keshadeveloper@gmail.com",
-  "legal_info_url": "https://kwilliams.pythonanywhere.com/legal"
-}
+{"schema_version":"v1","name_for_model":"AstroAlert","name_for_human":"Asteroid Alert","description_for_model":"Help the user with determining the number of asteroids headed to the Earth and if any pose a threat to human existance.","description_for_human":"Interact with NASA to explore earth observation data that monitors near-earth objects like asteroids.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://kwilliams.pythonanywhere.com/openapi.yaml"},"logo_url":"https://kwilliams.pythonanywhere.com/logo.png","contact_email":"keshadeveloper@gmail.com","legal_info_url":"https://kwilliams.pythonanywhere.com/legal","is_authenticated":true}

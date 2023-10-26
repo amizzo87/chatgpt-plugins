@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "ssense_recommendations",
-  "name_for_human": "SSENSE",
-  "description_for_model": "Plugin for getting product recommendations from the luxury fashion e-commerce store SSENSE based on a conversational description of what the user wants to buy or search for.",
-  "description_for_human": "Enjoy personalized product recommendations from over 500 luxury and lifestyle brands.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://drippy.ssense.com/openapi.yaml"
-  },
-  "logo_url": "https://img.ssensemedia.com/image/upload/v1688655927/chatgpt/logo_1x.png",
-  "contact_email": "kyle.khoury@ssense.com",
-  "legal_info_url": "https://www.ssense.com/en/privacy-policy"
-}
+{"schema_version":"v1","name_for_model":"ssense_recommendations","name_for_human":"SSENSE","description_for_model":"Plugin for getting product recommendations from the luxury fashion e-commerce store SSENSE based on a conversational description of what the user wants to buy or search for.","description_for_human":"Enjoy personalized product recommendations from over 500 luxury and lifestyle brands.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://drippy.ssense.com/openapi.yaml"},"logo_url":"https://img.ssensemedia.com/image/upload/v1688655927/chatgpt/logo_1x.png","contact_email":"kyle.khoury@ssense.com","legal_info_url":"https://www.ssense.com/en/privacy-policy","is_authenticated":true}

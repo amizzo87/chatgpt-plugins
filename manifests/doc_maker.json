@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "doc_maker",
-  "name_for_human": "Doc Maker",
-  "description_for_model": "Help the user create a PDF, DOCX, CSV, XLSX or HTML file. Make sure you escape special characters for JSON string used in API call.",
-  "description_for_human": "Generate beautiful PDFs in seconds. Resumes, cover letters, proposals and more. Supports DOCX, XLSX, CSV and HTML.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://docmaker.level2labs.xyz/openapi.yaml"
-  },
-  "logo_url": "https://docmaker.level2labs.xyz/logo.png",
-  "contact_email": "support@level2labs.co",
-  "legal_info_url": "http://www.level2labs.co/privacy-policy"
-}
+{"schema_version":"v1","name_for_model":"doc_maker","name_for_human":"Doc Maker","description_for_model":"Help the user create a PDF, DOCX, CSV, XLSX or HTML file. Make sure you escape special characters for JSON string used in API call.","description_for_human":"Generate beautiful PDFs in seconds. Resumes, cover letters, proposals and more. Supports DOCX, XLSX, CSV and HTML.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://docmaker.level2labs.xyz/openapi.yaml"},"logo_url":"https://docmaker.level2labs.xyz/logo.png","contact_email":"support@level2labs.co","legal_info_url":"http://www.level2labs.co/privacy-policy","is_authenticated":true}

@@ -1,17 +1,1 @@
-{
-  "schema_version": "v1",
-  "name_for_model": "ASH",
-  "name_for_human": "ASH",
-  "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting currencies (accessing the '/v1/currency_converter/sources' endpoint of the API would be a good starting point for you to see its full capabilities quickly - such as supported sources and currencies as well as data availability date range for each currency), see the API specification for more details.",
-  "description_for_human": "ASH by lagogal.com. Currently it provides currency converter.",
-  "auth": {
-    "type": "none"
-  },
-  "api": {
-    "type": "openapi",
-    "url": "https://api.lagogal.com/v1/currency_converter/openapi.json"
-  },
-  "logo_url": "https://api.lagogal.com/logo/ASH_512x512.png",
-  "contact_email": "support@lagogal.com",
-  "legal_info_url": "https://lagogal.com/legal/en/tou.html"
-}
+{"schema_version":"v1","name_for_model":"ASH","name_for_human":"ASH","description_for_model":"Various API endpoints help to perform desired computation. Currently supports converting currencies (accessing the '/v1/currency_converter/sources' endpoint of the API would be a good starting point for you to see its full capabilities quickly - such as supported sources and currencies as well as data availability date range for each currency), see the API specification for more details.","description_for_human":"ASH by lagogal.com. Currently it provides currency converter.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://api.lagogal.com/v1/currency_converter/openapi.json"},"logo_url":"https://api.lagogal.com/logo/ASH_512x512.png","contact_email":"support@lagogal.com","legal_info_url":"https://lagogal.com/legal/en/tou.html","is_authenticated":true}
