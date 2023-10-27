@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"workoutGenerator","name_for_human":"Workout Generator","description_for_model":"Display the workout using markdown, embed images","description_for_human":"Create strength training workouts, for goals like muscle building, strength, and fat loss.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://lyfta.ai/openapi.yaml"},"logo_url":"https://lyfta.ai/logo.png","contact_email":"support@lyfta.app","legal_info_url":"https://www.lyfta.app/general-5","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "workoutGenerator",
+  "name_for_human": "Workout Generator",
+  "description_for_model": "Display the workout using markdown, embed images",
+  "description_for_human": "Create strength training workouts, for goals like muscle building, strength, and fat loss.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://lyfta.ai/openapi.yaml"
+  },
+  "logo_url": "https://lyfta.ai/logo.png",
+  "contact_email": "support@lyfta.app",
+  "legal_info_url": "https://www.lyfta.app/general-5",
+  "is_authenticated": true
+}

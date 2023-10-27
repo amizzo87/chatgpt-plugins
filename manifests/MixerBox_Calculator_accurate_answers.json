@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"MixerBox_Calculator_accurate_answers","name_for_human":"MixerBox Calculator","description_for_model":"MixerBox Calculator significantly enhances your ability to perform detailed and comprehensive calculations. Whether you're dealing with financial planning, academic problems, or everyday math, this feature is designed to provide you with the most accurate and prompt results.One of the key advantages of MixerBox Calculator is its ability to optimize your calculations. Instead of spending valuable time manually calculating or using multiple tools, you can simply enter your mathematical expression and let the feature do the rest. It takes your initial numbers and transforms them into a more refined and precise result, ensuring that you receive the most relevant and accurate answers.Furthermore, the feature can intelligently identify the gaps in your calculations and suggest optimal ways to supplement and refine them. By offering guidance on the best possible calculation methods, MixerBox Calculator ensures that the results you receive are precise and cover all the necessary aspects of your mathematical problem. Also, the feature can handle a wide range of calculations.","description_for_human":"Your digital math assistant for precise calculations! Accuracy and efficiency in one place!","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"d3145d5d05894f0682bfba0b97e91674"}},"api":{"type":"openapi","url":"https://calculator.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/Calculator_logo.png","contact_email":"support@calculator.mixerbox.com","legal_info_url":"https://www.mixerbox.com","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_Calculator_accurate_answers",
+  "name_for_human": "MixerBox Calculator",
+  "description_for_model": "MixerBox Calculator significantly enhances your ability to perform detailed and comprehensive calculations. Whether you're dealing with financial planning, academic problems, or everyday math, this feature is designed to provide you with the most accurate and prompt results.One of the key advantages of MixerBox Calculator is its ability to optimize your calculations. Instead of spending valuable time manually calculating or using multiple tools, you can simply enter your mathematical expression and let the feature do the rest. It takes your initial numbers and transforms them into a more refined and precise result, ensuring that you receive the most relevant and accurate answers.Furthermore, the feature can intelligently identify the gaps in your calculations and suggest optimal ways to supplement and refine them. By offering guidance on the best possible calculation methods, MixerBox Calculator ensures that the results you receive are precise and cover all the necessary aspects of your mathematical problem. Also, the feature can handle a wide range of calculations.",
+  "description_for_human": "Your digital math assistant for precise calculations! Accuracy and efficiency in one place!",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "d3145d5d05894f0682bfba0b97e91674"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://calculator.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/Calculator_logo.png",
+  "contact_email": "support@calculator.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com",
+  "is_authenticated": true
+}

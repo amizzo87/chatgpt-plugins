@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"DecisionMatrix","name_for_human":"Decision Matrix","description_for_model":"Get decision and return back a matrix of decision types and always display results using markdown.","description_for_human":"Get decision and return back a matrix of decision types.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.thegptpodcast.com/openapi.yaml"},"logo_url":"https://plugin.thegptpodcast.com/static/logo.png","contact_email":"support@thegptpodcast.com","legal_info_url":"beta.convowithgpt.com/terms-of-service/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "DecisionMatrix",
+  "name_for_human": "Decision Matrix",
+  "description_for_model": "Get decision and return back a matrix of decision types and always display results using markdown.",
+  "description_for_human": "Get decision and return back a matrix of decision types.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.thegptpodcast.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.thegptpodcast.com/static/logo.png",
+  "contact_email": "support@thegptpodcast.com",
+  "legal_info_url": "beta.convowithgpt.com/terms-of-service/",
+  "is_authenticated": true
+}

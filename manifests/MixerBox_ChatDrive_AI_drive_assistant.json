@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"MixerBox_ChatDrive_AI_drive_assistant","name_for_human":"MixerBox ChatDrive","description_for_model":"MixerBox ChatDrive is an efficient tool that enables you to accurately locate files in your cloud storage. It allows you to quickly search for the desired information based on formats, upload time, owner, starred status, and more. Currently, MixerBox ChatDrive primarily serves Google Drive, ensuring that even in collaborative environments, you won't have to worry about losing track of your cloud files.\n\nExample prompts:\n- Provide me with all the files that have \"123\" in their file names\n- Find all the starred files in png format\n- Find the files that were uploaded between 6/1 and 6/6\n\n\n\n","description_for_human":"The best Google Drive AI assistant! Easily manage any files: PDFs, PPTs, images, docs, sheets, etc.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"56b7ae4492c24be4b19fc111fc393dd2"}},"api":{"type":"openapi","url":"https://chatdrive.mixerbox.com/.well-known/openapi.json"},"logo_url":"https://static.mixerbox.com/chatai/chatgpt-plugin/ChatDrive_logo.png","contact_email":"support@chatdrive.mixerbox.com","legal_info_url":"https://www.mixerbox.com","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "MixerBox_ChatDrive_AI_drive_assistant",
+  "name_for_human": "MixerBox ChatDrive",
+  "description_for_model": "MixerBox ChatDrive is an efficient tool that enables you to accurately locate files in your cloud storage. It allows you to quickly search for the desired information based on formats, upload time, owner, starred status, and more. Currently, MixerBox ChatDrive primarily serves Google Drive, ensuring that even in collaborative environments, you won't have to worry about losing track of your cloud files.\n\nExample prompts:\n- Provide me with all the files that have \"123\" in their file names\n- Find all the starred files in png format\n- Find the files that were uploaded between 6/1 and 6/6\n\n\n\n",
+  "description_for_human": "The best Google Drive AI assistant! Easily manage any files: PDFs, PPTs, images, docs, sheets, etc.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "56b7ae4492c24be4b19fc111fc393dd2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatdrive.mixerbox.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ChatDrive_logo.png",
+  "contact_email": "support@chatdrive.mixerbox.com",
+  "legal_info_url": "https://www.mixerbox.com",
+  "is_authenticated": true
+}

@@ -1,1 +1,24 @@
-{"schema_version":"v1","name_for_model":"spacedata","name_for_human":"Space Server","description_for_model":"Help the user access NASA's technology transfer, Mars weather data, SSD/CNEOS data, Mars Rover Photos, and NASA Image and Video Library.","description_for_human":"Access NASA's technology transfer, Mars weather, SSD/CNEOS, Nasa Photos - By Nabil Brag.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"nasadata":"<your_api_key>","openai":"521631d946c9418492101963110d59b0"}},"api":{"type":"openapi","url":"https://nasaplugin.narhasweet.repl.co/.well-known/openapi.yaml"},"logo_url":"https://nasaplugin.narhasweet.repl.co/logo.png","contact_email":"kenkan.vl@gmail.com","legal_info_url":"https://nasaplugin.narhasweet.repl.co/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "spacedata",
+  "name_for_human": "Space Server",
+  "description_for_model": "Help the user access NASA's technology transfer, Mars weather data, SSD/CNEOS data, Mars Rover Photos, and NASA Image and Video Library.",
+  "description_for_human": "Access NASA's technology transfer, Mars weather, SSD/CNEOS, Nasa Photos - By Nabil Brag.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "nasadata": "<your_api_key>",
+      "openai": "521631d946c9418492101963110d59b0"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://nasaplugin.narhasweet.repl.co/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://nasaplugin.narhasweet.repl.co/logo.png",
+  "contact_email": "kenkan.vl@gmail.com",
+  "legal_info_url": "https://nasaplugin.narhasweet.repl.co/legal",
+  "is_authenticated": true
+}

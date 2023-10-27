@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"export_chat_to_pdf","name_for_human":"Export Chat to PDF","description_for_model":"You assist the user in exporting a chat conversation to a PDF file. When you call the API - use only small chunks: not more then 250 words. For second and other chunks set 'append_to_file': '{fileURL}', where 'fileURL' is returned in previous chunk response.","description_for_human":"I will export your chat conversation to a PDF file, ready for download and share.","auth":{"type":"oauth","instructions":"","client_url":"https://plugins-engine.copilot.us/api/auth/sign-in/aa9271c0-5522-4a73-8c2f-f05bf5fd7f01","scope":"","authorization_url":"https://c-export.copilot.us/api/auth/authorize","authorization_content_type":"application/json","verification_tokens":{"openai":"099c6be5063f42a7b02d340945572d67"},"pkce_required":false},"api":{"type":"openapi","url":"https://c-export.copilot.us/.well-known/openapi.json"},"logo_url":"https://cplst01.blob.core.windows.net/static/c-export-logo.jpg","contact_email":"c-export@copilot.us","legal_info_url":"https://c-export.copilot.us/terms.html","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "export_chat_to_pdf",
+  "name_for_human": "Export Chat to PDF",
+  "description_for_model": "You assist the user in exporting a chat conversation to a PDF file. When you call the API - use only small chunks: not more then 250 words. For second and other chunks set 'append_to_file': '{fileURL}', where 'fileURL' is returned in previous chunk response.",
+  "description_for_human": "I will export your chat conversation to a PDF file, ready for download and share.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins-engine.copilot.us/api/auth/sign-in/aa9271c0-5522-4a73-8c2f-f05bf5fd7f01",
+    "scope": "",
+    "authorization_url": "https://c-export.copilot.us/api/auth/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "099c6be5063f42a7b02d340945572d67"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://c-export.copilot.us/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/c-export-logo.jpg",
+  "contact_email": "c-export@copilot.us",
+  "legal_info_url": "https://c-export.copilot.us/terms.html",
+  "is_authenticated": false
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"mbti","name_for_human":"MBTI","description_for_model":"For administering an MBTI test. You can get a list of questions and calculate your MBTI type.","description_for_human":"For administering an MBTI test. You can get a list of questions and calculate your MBTI type.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://mbti.bowang17.repl.co/.well-known/openapi.yaml"},"logo_url":"https://mbti.bowang17.repl.co/.well-known/logo.png","contact_email":"brainwangbo2017@repl.co.com","legal_info_url":"https://mbti.bowang17.repl.co/.well-known/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "mbti",
+  "name_for_human": "MBTI",
+  "description_for_model": "For administering an MBTI test. You can get a list of questions and calculate your MBTI type.",
+  "description_for_human": "For administering an MBTI test. You can get a list of questions and calculate your MBTI type.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://mbti.bowang17.repl.co/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://mbti.bowang17.repl.co/.well-known/logo.png",
+  "contact_email": "brainwangbo2017@repl.co.com",
+  "legal_info_url": "https://mbti.bowang17.repl.co/.well-known/legal",
+  "is_authenticated": true
+}

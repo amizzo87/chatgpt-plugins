@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"everyprint3d","name_for_human":"Everyprint3D","description_for_model":"Generate 3D ideas and bring them to life with our expert support.","description_for_human":"Generate 3D ideas and bring them to life with our expert support.","auth":{"type":"service_http","instructions":"","authorization_type":"basic","verification_tokens":{"openai":"463fc5ed83844e73a7e3e7168b15f9fa"}},"api":{"type":"openapi","url":"https://plugin.everyprint3d.com/.well-known/openapi.json"},"logo_url":"https://plugin.everyprint3d.com/static/logo.png","contact_email":"contact@everyprint3d.com","legal_info_url":"https://everyprint3d.com/#plugin-legal-info","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "everyprint3d",
+  "name_for_human": "Everyprint3D",
+  "description_for_model": "Generate 3D ideas and bring them to life with our expert support.",
+  "description_for_human": "Generate 3D ideas and bring them to life with our expert support.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "basic",
+    "verification_tokens": {
+      "openai": "463fc5ed83844e73a7e3e7168b15f9fa"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.everyprint3d.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://plugin.everyprint3d.com/static/logo.png",
+  "contact_email": "contact@everyprint3d.com",
+  "legal_info_url": "https://everyprint3d.com/#plugin-legal-info",
+  "is_authenticated": true
+}

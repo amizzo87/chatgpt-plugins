@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"TaborSeniorLiving","name_for_human":"Tabor - Sr. Living","description_for_model":"Single source for senior living market research, data and analytics including amenities, pricing, and reputation for all communities and operators in the USA.","description_for_human":"Trusted source for senior living market research, data, and analytics. 35K communities, 9K operators in the USA.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.tabor.ai/swagger/v1/swagger.json"},"logo_url":"https://tabor.ai/wp-content/uploads/2023/09/logo.png","contact_email":"info@tabor.ai","legal_info_url":"https://tabor.ai/terms-of-use/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "TaborSeniorLiving",
+  "name_for_human": "Tabor - Sr. Living",
+  "description_for_model": "Single source for senior living market research, data and analytics including amenities, pricing, and reputation for all communities and operators in the USA.",
+  "description_for_human": "Trusted source for senior living market research, data, and analytics. 35K communities, 9K operators in the USA.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.tabor.ai/swagger/v1/swagger.json"
+  },
+  "logo_url": "https://tabor.ai/wp-content/uploads/2023/09/logo.png",
+  "contact_email": "info@tabor.ai",
+  "legal_info_url": "https://tabor.ai/terms-of-use/",
+  "is_authenticated": true
+}

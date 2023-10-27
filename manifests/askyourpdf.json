@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"askyourpdf","name_for_human":"AskYourPDF Pro","description_for_model":"This plugin is designed to expedite the extraction of information from documents. It works by accepting a URL link or a document ID (doc_id) from the user. If a URL is provided, the plugin first validates that it is a correct URL. \\nAfter validating the URL, the plugin proceeds to download the document and store its content in a vector database. If the user provides a doc_id, the plugin directly retrieves the document from the database. The plugin then scans through the stored document to find answers to user queries or retrieve specific details.\\n\\nHowever, if an error occurs while querying the API, the user is prompted to download their document first, then manually upload it to [![Upload Document](https://raw.githubusercontent.com/AskYourPdf/ask-plugin/main/upload.png)](https://askyourpdf.com/upload). Once the upload is complete, the user should copy the resulting doc_id and paste it back into the chat for further interaction.\nThe plugin is particularly useful when the user's question pertains to content within a document. When providing answers, the plugin also specifies the page number (highlighted in bold) where the relevant information was found. Remember, the URL must be valid for a successful query. Failure to validate the URL may lead to errors or unsuccessful queries.","description_for_human":"Unlock the power of your documents with the pro version of AskYourPDF! Bring information to your fingertips today.","auth":{"type":"oauth","instructions":"","client_url":"https://auth.askyourpdf.com/gpt/oauth","scope":"","authorization_url":"https://auth-service.askyourpdf.com/gpt/oauth_exchange","authorization_content_type":"application/json","verification_tokens":{"openai":"a0296b280bd242b7baaeecc5550c1f26"},"pkce_required":false},"api":{"type":"openapi","url":"https://pro.askyourpdf.com/.well-known/openapi.yaml"},"logo_url":"https://pro.askyourpdf.com/.well-known/logo.png","contact_email":"plugin@askyourpdf.com","legal_info_url":"https://askyourpdf.com/terms","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "askyourpdf",
+  "name_for_human": "AskYourPDF Pro",
+  "description_for_model": "This plugin is designed to expedite the extraction of information from documents. It works by accepting a URL link or a document ID (doc_id) from the user. If a URL is provided, the plugin first validates that it is a correct URL. \\nAfter validating the URL, the plugin proceeds to download the document and store its content in a vector database. If the user provides a doc_id, the plugin directly retrieves the document from the database. The plugin then scans through the stored document to find answers to user queries or retrieve specific details.\\n\\nHowever, if an error occurs while querying the API, the user is prompted to download their document first, then manually upload it to [![Upload Document](https://raw.githubusercontent.com/AskYourPdf/ask-plugin/main/upload.png)](https://askyourpdf.com/upload). Once the upload is complete, the user should copy the resulting doc_id and paste it back into the chat for further interaction.\nThe plugin is particularly useful when the user's question pertains to content within a document. When providing answers, the plugin also specifies the page number (highlighted in bold) where the relevant information was found. Remember, the URL must be valid for a successful query. Failure to validate the URL may lead to errors or unsuccessful queries.",
+  "description_for_human": "Unlock the power of your documents with the pro version of AskYourPDF! Bring information to your fingertips today.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.askyourpdf.com/gpt/oauth",
+    "scope": "",
+    "authorization_url": "https://auth-service.askyourpdf.com/gpt/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "a0296b280bd242b7baaeecc5550c1f26"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pro.askyourpdf.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://pro.askyourpdf.com/.well-known/logo.png",
+  "contact_email": "plugin@askyourpdf.com",
+  "legal_info_url": "https://askyourpdf.com/terms",
+  "is_authenticated": false
+}

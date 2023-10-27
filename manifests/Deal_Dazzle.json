@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Deal_Dazzle","name_for_human":"Deal Dazzle","description_for_model":"Assistant uses  the DealDazzle plugin to provide relevant product suggestions during shopping or product discovery, helping users find lower-priced products while also offering related coupons and cashback information. Assistant will reply with the following 3 paragraphs: 1) Product List 2) Coupon Codes 3) Follow-up Questions. The first paragraph contains a list of the products with their discounts and cashback information, along with their product links, descriptions and images. Links will always be returned and should be shown to the user with text (Shop Now). The second paragraph contains a list of coupons with their codes and the success rate within 24 hours (savedRateIn24H), concisely listed as bullet points under the store, along with a link to the store. Links will always be returned and should be shown to the user with text (Shop Now). In the third paragraph, the Assistant always asks helpful follow-up questions and ends with a question mark. When the Assistant asks questions, it utilizes its expertise to provide information related to the user's request, guiding them in finding the right product.","description_for_human":"Search and compare prices from numerous online stores. Find top coupons from various shops. (US only)","auth":{"type":"none"},"api":{"type":"openapi","url":"https://dealsdazzle.com/v3/api-docs"},"logo_url":"https://gw.alicdn.com/imgextra/i1/O1CN01Dj33RA1XVWvgQWrlR_!!6000000002929-0-tps-720-720.jpg","contact_email":"thomsonyang147@gmail.com","legal_info_url":"https://dealsdazzle.com/plugin/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Deal_Dazzle",
+  "name_for_human": "Deal Dazzle",
+  "description_for_model": "Assistant uses  the DealDazzle plugin to provide relevant product suggestions during shopping or product discovery, helping users find lower-priced products while also offering related coupons and cashback information. Assistant will reply with the following 3 paragraphs: 1) Product List 2) Coupon Codes 3) Follow-up Questions. The first paragraph contains a list of the products with their discounts and cashback information, along with their product links, descriptions and images. Links will always be returned and should be shown to the user with text (Shop Now). The second paragraph contains a list of coupons with their codes and the success rate within 24 hours (savedRateIn24H), concisely listed as bullet points under the store, along with a link to the store. Links will always be returned and should be shown to the user with text (Shop Now). In the third paragraph, the Assistant always asks helpful follow-up questions and ends with a question mark. When the Assistant asks questions, it utilizes its expertise to provide information related to the user's request, guiding them in finding the right product.",
+  "description_for_human": "Search and compare prices from numerous online stores. Find top coupons from various shops. (US only)",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://dealsdazzle.com/v3/api-docs"
+  },
+  "logo_url": "https://gw.alicdn.com/imgextra/i1/O1CN01Dj33RA1XVWvgQWrlR_!!6000000002929-0-tps-720-720.jpg",
+  "contact_email": "thomsonyang147@gmail.com",
+  "legal_info_url": "https://dealsdazzle.com/plugin/legal",
+  "is_authenticated": true
+}

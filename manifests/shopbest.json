@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"shopbest","name_for_human":"Shop Best","description_for_model":"Shop and get summarized reviews for the best products on Amazon.","description_for_human":"Shop and get summarized reviews for the best products on Amazon.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://amazon-best.vercel.app/.well-known/openapi.yaml"},"logo_url":"https://amazon-best.vercel.app/imgs/logo96.png","contact_email":"support@aiagentslab.com","legal_info_url":"https://www.aiagentslab.com/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "shopbest",
+  "name_for_human": "Shop Best",
+  "description_for_model": "Shop and get summarized reviews for the best products on Amazon.",
+  "description_for_human": "Shop and get summarized reviews for the best products on Amazon.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://amazon-best.vercel.app/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://amazon-best.vercel.app/imgs/logo96.png",
+  "contact_email": "support@aiagentslab.com",
+  "legal_info_url": "https://www.aiagentslab.com/legal",
+  "is_authenticated": true
+}

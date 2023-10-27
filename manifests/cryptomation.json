@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"cryptomation","name_for_human":"CryptoMation","description_for_model":"Crypto transactions, addresses, balances, conversions for any blockchain (Ethereum, Binance, Near, Tron, etc.)","description_for_human":"Crypto transactions, addresses, balances, conversions for any blockchain (Ethereum, Binance, Near, Tron, etc.)","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chat.cryptomation.com/.well-known/openapi.yaml"},"logo_url":"https://chat.cryptomation.com/.well-known/cryptomation.svg","contact_email":"admin@cryptomation.com","legal_info_url":"https://cryptomation.com/privacy-policy","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "cryptomation",
+  "name_for_human": "CryptoMation",
+  "description_for_model": "Crypto transactions, addresses, balances, conversions for any blockchain (Ethereum, Binance, Near, Tron, etc.)",
+  "description_for_human": "Crypto transactions, addresses, balances, conversions for any blockchain (Ethereum, Binance, Near, Tron, etc.)",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat.cryptomation.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://chat.cryptomation.com/.well-known/cryptomation.svg",
+  "contact_email": "admin@cryptomation.com",
+  "legal_info_url": "https://cryptomation.com/privacy-policy",
+  "is_authenticated": true
+}

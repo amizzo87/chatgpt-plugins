@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"TianGong","name_for_human":"TianGong","description_for_model":"For searching through academic papers and professional documents to find relevant information.","description_for_human":"Search through academic papers and professional documents.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"3bf6cc5ec3f34b7ca4869eb65144021b"}},"api":{"type":"openapi","url":"https://plugins.tiangong.world/.well-known/openapi.yaml"},"logo_url":"https://plugins.tiangong.world/.well-known/logo.png","contact_email":"linanenv@gmail.com","legal_info_url":"http://mingxu.tiangong.world","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "TianGong",
+  "name_for_human": "TianGong",
+  "description_for_model": "For searching through academic papers and professional documents to find relevant information.",
+  "description_for_human": "Search through academic papers and professional documents.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "3bf6cc5ec3f34b7ca4869eb65144021b"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugins.tiangong.world/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://plugins.tiangong.world/.well-known/logo.png",
+  "contact_email": "linanenv@gmail.com",
+  "legal_info_url": "http://mingxu.tiangong.world",
+  "is_authenticated": true
+}

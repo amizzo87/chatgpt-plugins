@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"ubSPARQL","name_for_human":"SPARQL Query","description_for_model":"Return a Query Solution for the following query text.","description_for_human":"Returns Query Solution Page for Query Text.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"9d5356dc246a495dad0dd2ec7abcc754"}},"api":{"type":"openapi","url":"https://linkeddata.uriburner.com/openapi/sparql-service.yaml"},"logo_url":"https://linkeddata.uriburner.com/openapi/uriburner-logo-32px.png","contact_email":"support@openlinksw.com","legal_info_url":"https://linkeddata.uriburner.com/openapi/terms-of-service.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "ubSPARQL",
+  "name_for_human": "SPARQL Query",
+  "description_for_model": "Return a Query Solution for the following query text.",
+  "description_for_human": "Returns Query Solution Page for Query Text.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "9d5356dc246a495dad0dd2ec7abcc754"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://linkeddata.uriburner.com/openapi/sparql-service.yaml"
+  },
+  "logo_url": "https://linkeddata.uriburner.com/openapi/uriburner-logo-32px.png",
+  "contact_email": "support@openlinksw.com",
+  "legal_info_url": "https://linkeddata.uriburner.com/openapi/terms-of-service.html",
+  "is_authenticated": true
+}

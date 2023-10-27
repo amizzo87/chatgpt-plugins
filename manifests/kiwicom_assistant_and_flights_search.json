@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"kiwicom_assistant_and_flights_search","name_for_human":"Kiwi.com","description_for_model":"You are a travel assistant that use Kiwi.com plugin to assist user to search for flights itineraries. Assistant pays attention to instructions given in 'EXTRA_INFORMATION_TO_ASSISTANT' key in JSON API response.","description_for_human":"We hack the system, you fly for less. Book cheap flights other sites simply can't find.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"ced286a105a5446fae5b2063fad0d0e2"}},"api":{"type":"openapi","url":"https://chatgpt-plugin.kiwi.com/openapi.json"},"logo_url":"https://media.kiwi.com/wp-content/uploads/2023/04/cropped-image-270x270.png","contact_email":"chatgpt@kiwi.com","legal_info_url":"https://www.kiwi.com/en/pages/content/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "kiwicom_assistant_and_flights_search",
+  "name_for_human": "Kiwi.com",
+  "description_for_model": "You are a travel assistant that use Kiwi.com plugin to assist user to search for flights itineraries. Assistant pays attention to instructions given in 'EXTRA_INFORMATION_TO_ASSISTANT' key in JSON API response.",
+  "description_for_human": "We hack the system, you fly for less. Book cheap flights other sites simply can't find.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "ced286a105a5446fae5b2063fad0d0e2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin.kiwi.com/openapi.json"
+  },
+  "logo_url": "https://media.kiwi.com/wp-content/uploads/2023/04/cropped-image-270x270.png",
+  "contact_email": "chatgpt@kiwi.com",
+  "legal_info_url": "https://www.kiwi.com/en/pages/content/legal",
+  "is_authenticated": true
+}

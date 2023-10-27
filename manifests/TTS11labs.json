@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"TTS11labs","name_for_human":"TTS 11labs","description_for_model":"The TTS 11labs plugin converts user-provided text (up to 1500 characters per request) into speech. To use this plugin, you need to specify the text, voice, and model All 3 are required To Generate the voice audio, Post-generation, you'll receive a direct audio URL and an embed code for easy integration into websites or platforms. Available models are 'Eleven Monolingual v1' and 'Eleven Multilingual v1'. The available voices, along with their accents and use cases, are: 'Rachel' (American, Narration), 'Clyde' (American, Video Games), 'Domi' (American, Narration), 'Dave' (British-Essex, Video Games), 'Fin' (Irish, Video Games), 'Bella' (American, Narration), 'Antoni' (American, Narration), 'Thomas' (American, Meditation), 'Charlie' (Australian, Conversational), 'Emily' (American, Meditation), 'Elli' (American, Narration), 'Callum' (American, Video Games), 'Patrick' (American, Video Games), 'Harry' (American, Video Games), 'Liam' (American, Narration), 'Dorothy' (British, Children's Stories), 'Josh' (American, Narration), 'Arnold' (American, Narration), 'Charlotte' (English-Swedish, Video Games), 'Matilda' (American, Audiobook), 'Matthew' (British, Audiobook), 'James' (Australian, News), 'Joseph' (British, News), 'Jeremy' (American-Irish, Narration), 'Michael' (American, Audiobook), 'Ethan' (American, ASMR), 'Gigi' (American, Animation), 'Grace' (American-Southern, Audiobook), 'Daniel' (British, News Presenter), 'Serena' (American, Interactive), 'Adam' (American, Narration), 'Nicole' (American, Audiobook), 'Jessie' (American, Video Games), 'Ryan' (American, Audiobook), 'Sam' (American, Narration), 'Glinda' (American, Video Games), 'Giovanni' (English-Italian, Audiobook), 'Mimi' (English-Swedish, Animation).","description_for_human":"Convert text to speech with diverse voices & models. Easy to use for narration, games & more.","auth":{"type":"oauth","instructions":"","client_url":"https://4b0894e78d7a2d7c79ac12c34859da94.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"c07c4508a8244c199ed64549c1a0ef09"},"pkce_required":false},"api":{"type":"openapi","url":"https://pluginlab.tts11labs.com/.well-known/pluginlab/openapi.json"},"logo_url":"https://storage.googleapis.com/pluginlab.appspot.com/public%2Fplugins%2F4b0894e78d7a2d7c79ac12c34859da94%2Fmanifest%2Flogo","contact_email":"support@tts11labs.com","legal_info_url":"https://tts11labs.com/termsofuse","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "TTS11labs",
+  "name_for_human": "TTS 11labs",
+  "description_for_model": "The TTS 11labs plugin converts user-provided text (up to 1500 characters per request) into speech. To use this plugin, you need to specify the text, voice, and model All 3 are required To Generate the voice audio, Post-generation, you'll receive a direct audio URL and an embed code for easy integration into websites or platforms. Available models are 'Eleven Monolingual v1' and 'Eleven Multilingual v1'. The available voices, along with their accents and use cases, are: 'Rachel' (American, Narration), 'Clyde' (American, Video Games), 'Domi' (American, Narration), 'Dave' (British-Essex, Video Games), 'Fin' (Irish, Video Games), 'Bella' (American, Narration), 'Antoni' (American, Narration), 'Thomas' (American, Meditation), 'Charlie' (Australian, Conversational), 'Emily' (American, Meditation), 'Elli' (American, Narration), 'Callum' (American, Video Games), 'Patrick' (American, Video Games), 'Harry' (American, Video Games), 'Liam' (American, Narration), 'Dorothy' (British, Children's Stories), 'Josh' (American, Narration), 'Arnold' (American, Narration), 'Charlotte' (English-Swedish, Video Games), 'Matilda' (American, Audiobook), 'Matthew' (British, Audiobook), 'James' (Australian, News), 'Joseph' (British, News), 'Jeremy' (American-Irish, Narration), 'Michael' (American, Audiobook), 'Ethan' (American, ASMR), 'Gigi' (American, Animation), 'Grace' (American-Southern, Audiobook), 'Daniel' (British, News Presenter), 'Serena' (American, Interactive), 'Adam' (American, Narration), 'Nicole' (American, Audiobook), 'Jessie' (American, Video Games), 'Ryan' (American, Audiobook), 'Sam' (American, Narration), 'Glinda' (American, Video Games), 'Giovanni' (English-Italian, Audiobook), 'Mimi' (English-Swedish, Animation).",
+  "description_for_human": "Convert text to speech with diverse voices & models. Easy to use for narration, games & more.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://4b0894e78d7a2d7c79ac12c34859da94.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "c07c4508a8244c199ed64549c1a0ef09"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pluginlab.tts11labs.com/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://storage.googleapis.com/pluginlab.appspot.com/public%2Fplugins%2F4b0894e78d7a2d7c79ac12c34859da94%2Fmanifest%2Flogo",
+  "contact_email": "support@tts11labs.com",
+  "legal_info_url": "https://tts11labs.com/termsofuse",
+  "is_authenticated": false
+}

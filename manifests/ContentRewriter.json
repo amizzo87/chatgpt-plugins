@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"ContentRewriter","name_for_human":"Content Rewriter","description_for_model":"The user provides you with a URL link with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to act like a world-class content copywriter and rewrite the text provided to you into your own words without plagiarizing the original text.","description_for_human":"Enter any URL and have the text content rewritten for you!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://content-rewriter.orrenprunckun.com/openapi.yaml"},"logo_url":"https://content-rewriter.orrenprunckun.com/icon.png","contact_email":"hello@orrenprunckun.com","legal_info_url":"https://content-rewriter.orrenprunckun.com/terms.php","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "ContentRewriter",
+  "name_for_human": "Content Rewriter",
+  "description_for_model": "The user provides you with a URL link with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to act like a world-class content copywriter and rewrite the text provided to you into your own words without plagiarizing the original text.",
+  "description_for_human": "Enter any URL and have the text content rewritten for you!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://content-rewriter.orrenprunckun.com/openapi.yaml"
+  },
+  "logo_url": "https://content-rewriter.orrenprunckun.com/icon.png",
+  "contact_email": "hello@orrenprunckun.com",
+  "legal_info_url": "https://content-rewriter.orrenprunckun.com/terms.php",
+  "is_authenticated": true
+}

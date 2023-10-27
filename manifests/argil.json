@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"argil","name_for_human":"Argil AI","description_for_model":"Generate images with automatic prompts.","description_for_human":"Generate images without learning how to prompt.","auth":{"type":"oauth","instructions":"","client_url":"https://app.argil.ai/chatgpt_authorize","scope":"image_generation","authorization_url":"https://api.argil.ai/chatgpt_auth","authorization_content_type":"application/json","verification_tokens":{"openai":"48e5a75ba7014e67821124e3b45230b0"},"pkce_required":false},"api":{"type":"openapi","url":"https://api.argil.ai/openapi.yaml"},"logo_url":"https://storage.googleapis.com/argil_data_europe_west4/static/logosquare.png","contact_email":"briva@argil.ai","legal_info_url":"https://www.argil.ai/t-cs-argil","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "argil",
+  "name_for_human": "Argil AI",
+  "description_for_model": "Generate images with automatic prompts.",
+  "description_for_human": "Generate images without learning how to prompt.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://app.argil.ai/chatgpt_authorize",
+    "scope": "image_generation",
+    "authorization_url": "https://api.argil.ai/chatgpt_auth",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "48e5a75ba7014e67821124e3b45230b0"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.argil.ai/openapi.yaml"
+  },
+  "logo_url": "https://storage.googleapis.com/argil_data_europe_west4/static/logosquare.png",
+  "contact_email": "briva@argil.ai",
+  "legal_info_url": "https://www.argil.ai/t-cs-argil",
+  "is_authenticated": false
+}

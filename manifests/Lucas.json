@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Lucas","name_for_human":"Lucas AI Video","description_for_model":"Description: A plugin that generates interactive videos with a call to action button in them from short text content, ideas, summaries, or requests for specific material.- The plugin responds with a link for the video.- Use chit-chat to clarify and fine-tune the content, purpose, and aspect ratio of your video, ensuring it's precisely tailored to the user needs before sending the content - aspect ratio is for what platform the video is going to be viewed on. (social netword,blog, etc...) - before sending the final content show the user the Title,content , aspect ratio and if they want a cta button,  make changes based on the user input and when the user accsepts the video content send it to the plugin.- never ask the user for any additonal information just use the json api.- the content shuld not be more then 200 words .- never print out the the json you are going to send.- all api paramaters are automaticly populated by openai chatgpt.","description_for_human":"Turn any response into a useful video in seconds! Plus, easily edit and customize your video.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://www.idomoo.ai/openapi.yaml"},"logo_url":"https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png","contact_email":"lucas@idomoo.com","legal_info_url":"https://app.idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Lucas",
+  "name_for_human": "Lucas AI Video",
+  "description_for_model": "Description: A plugin that generates interactive videos with a call to action button in them from short text content, ideas, summaries, or requests for specific material.- The plugin responds with a link for the video.- Use chit-chat to clarify and fine-tune the content, purpose, and aspect ratio of your video, ensuring it's precisely tailored to the user needs before sending the content - aspect ratio is for what platform the video is going to be viewed on. (social netword,blog, etc...) - before sending the final content show the user the Title,content , aspect ratio and if they want a cta button,  make changes based on the user input and when the user accsepts the video content send it to the plugin.- never ask the user for any additonal information just use the json api.- the content shuld not be more then 200 words .- never print out the the json you are going to send.- all api paramaters are automaticly populated by openai chatgpt.",
+  "description_for_human": "Turn any response into a useful video in seconds! Plus, easily edit and customize your video.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.idomoo.ai/openapi.yaml"
+  },
+  "logo_url": "https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png",
+  "contact_email": "lucas@idomoo.com",
+  "legal_info_url": "https://app.idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
+  "is_authenticated": true
+}

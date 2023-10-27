@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Todays_Top_Deal","name_for_human":"Today's Top Deal","description_for_model":"Plugin for displaying a table of products. Each product consists of properties such as: Title, Link, Number of stars, Original price, Sales price, Image URL, Discount. The user should provide a searchTerm and optionally the quantity of products (default is 5). The responses should be represented in a Markdown table with the following columns: Title, Image, Rating, Original price, Sales price, Discount. The Title should be a link with the Link provided by the API. The Discount column should be called 'Percent off'. After the table, talk about the best products (checking the one with the highest difference between Original price and Sales price and the one with the highest rating) and ask the question why someone should buy the product.","description_for_human":"Find the best deals on Amazon today.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://todaystopdeal.com/openapi.yaml"},"logo_url":"https://todaystopdeal.com/logo.jpeg","contact_email":"tal@conveyordigital.com","legal_info_url":"https://todaystopdeal.com/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Todays_Top_Deal",
+  "name_for_human": "Today's Top Deal",
+  "description_for_model": "Plugin for displaying a table of products. Each product consists of properties such as: Title, Link, Number of stars, Original price, Sales price, Image URL, Discount. The user should provide a searchTerm and optionally the quantity of products (default is 5). The responses should be represented in a Markdown table with the following columns: Title, Image, Rating, Original price, Sales price, Discount. The Title should be a link with the Link provided by the API. The Discount column should be called 'Percent off'. After the table, talk about the best products (checking the one with the highest difference between Original price and Sales price and the one with the highest rating) and ask the question why someone should buy the product.",
+  "description_for_human": "Find the best deals on Amazon today.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://todaystopdeal.com/openapi.yaml"
+  },
+  "logo_url": "https://todaystopdeal.com/logo.jpeg",
+  "contact_email": "tal@conveyordigital.com",
+  "legal_info_url": "https://todaystopdeal.com/legal",
+  "is_authenticated": true
+}

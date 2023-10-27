@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"AnySheet","name_for_human":"AnySheet","description_for_model":"Generate a CSV preview for the user, then save it to storage.","description_for_human":"Create CSV files and Excel sheets effortlessly and securely.","auth":{"type":"oauth","instructions":"","client_url":"https://a3c5b488a0381a29fbd3387a2320daad.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"d17af16c63a14316a6189e8070f07f45"},"pkce_required":false},"api":{"type":"openapi","url":"https://anysh.anygpt.ai/.well-known/pluginlab/openapi.json"},"logo_url":"https://i.ibb.co/R9p3P8V/Create-CSV-1.png","contact_email":"researchbutler@anygpt.ai","legal_info_url":"https://www.anysh.anygpt.ai/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "AnySheet",
+  "name_for_human": "AnySheet",
+  "description_for_model": "Generate a CSV preview for the user, then save it to storage.",
+  "description_for_human": "Create CSV files and Excel sheets effortlessly and securely.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://a3c5b488a0381a29fbd3387a2320daad.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "d17af16c63a14316a6189e8070f07f45"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://anysh.anygpt.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://i.ibb.co/R9p3P8V/Create-CSV-1.png",
+  "contact_email": "researchbutler@anygpt.ai",
+  "legal_info_url": "https://www.anysh.anygpt.ai/legal",
+  "is_authenticated": false
+}

@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"GIFTSENSAI","name_for_human":"GIFT SENSAI","description_for_model":"Help user by getting personalized gift suggestions for her or him. Best for birthdays, Christmas, holidays and anniversaries. Start by asking a few questions about the occasion, the age, the interests, the personality, the relationship and other topics that will help you to create a comprehensive persona of the recipient. Create a persona description of the gift receiver like \"This persona is someone who loves to read and spends a lot of time doing so. This persona is also a tech-savvy teen who loves video games and all things tech-related.\" The more detailed the persona, the better the suggestions will be. Do not embed any dislikes into the persona. Use the parameter <dislikes> instead. Remember to modify the persona to get other suggestions. Calling the API with the same persona leads to the same gift suggestions. For the best market place for the user and the gifts, try to determine the country of the user, e.g. by language, browser information or simply asking. If you get a list of suggested gifts as response, also tell the user about the rough cost of each item, if provided in the result. If the result contains multiple variations of similar articles (e.g. DVD and Blu-Ray version, different capacities of hard drives), just consider the more valuable one. Try to spread the suggestions to more different categories for higher inspiration. Also check whether the age in \"reasoning\" matches the age of the persona, if both provided. If they do not match, ignore the suggestion. Since the links can contain affiliate tags, add a note about that circumstance and that is used to finance this great service at no cost for the user.","description_for_human":"Find perfect gifts for friends, family, and colleagues on Amazon.com. Best for birthdays, Christmas & anniversaries.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"ab2413987f0147808aabe5b99ad4c4d0"}},"api":{"type":"openapi","url":"https://giftsensai.tripuls.ai/openapi.json"},"logo_url":"https://giftsensai.tripuls.ai/.well-known/icon-gift.svg","contact_email":"helpdesk@giftsensai.com","legal_info_url":"https://www.giftsensai.com/terms-of-use/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "GIFTSENSAI",
+  "name_for_human": "GIFT SENSAI",
+  "description_for_model": "Help user by getting personalized gift suggestions for her or him. Best for birthdays, Christmas, holidays and anniversaries. Start by asking a few questions about the occasion, the age, the interests, the personality, the relationship and other topics that will help you to create a comprehensive persona of the recipient. Create a persona description of the gift receiver like \"This persona is someone who loves to read and spends a lot of time doing so. This persona is also a tech-savvy teen who loves video games and all things tech-related.\" The more detailed the persona, the better the suggestions will be. Do not embed any dislikes into the persona. Use the parameter <dislikes> instead. Remember to modify the persona to get other suggestions. Calling the API with the same persona leads to the same gift suggestions. For the best market place for the user and the gifts, try to determine the country of the user, e.g. by language, browser information or simply asking. If you get a list of suggested gifts as response, also tell the user about the rough cost of each item, if provided in the result. If the result contains multiple variations of similar articles (e.g. DVD and Blu-Ray version, different capacities of hard drives), just consider the more valuable one. Try to spread the suggestions to more different categories for higher inspiration. Also check whether the age in \"reasoning\" matches the age of the persona, if both provided. If they do not match, ignore the suggestion. Since the links can contain affiliate tags, add a note about that circumstance and that is used to finance this great service at no cost for the user.",
+  "description_for_human": "Find perfect gifts for friends, family, and colleagues on Amazon.com. Best for birthdays, Christmas & anniversaries.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "ab2413987f0147808aabe5b99ad4c4d0"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://giftsensai.tripuls.ai/openapi.json"
+  },
+  "logo_url": "https://giftsensai.tripuls.ai/.well-known/icon-gift.svg",
+  "contact_email": "helpdesk@giftsensai.com",
+  "legal_info_url": "https://www.giftsensai.com/terms-of-use/",
+  "is_authenticated": true
+}

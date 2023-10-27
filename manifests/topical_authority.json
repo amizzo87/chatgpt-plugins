@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"topical_authority","name_for_human":"Topical Authority","description_for_model":"AISEO topical authority tool will generate the topical authority for any topic and helps you dominate your niche.","description_for_human":"AISEO topical authority tool will generate the topical authority for any topic and helps you dominate your niche.","auth":{"type":"oauth","instructions":"","client_url":"https://topical-authority-qiabyuewca-uc.a.run.app/oauth","scope":"","authorization_url":"https://topical-authority-qiabyuewca-uc.a.run.app/auth/oauth_exchange","authorization_content_type":"application/json","verification_tokens":{"openai":"3afb008a383a45138f77a0486bca2e46"},"pkce_required":false},"api":{"type":"openapi","url":"https://topical-authority-qiabyuewca-uc.a.run.app/openapi.yaml"},"logo_url":"https://topical-authority-qiabyuewca-uc.a.run.app/logo.png","contact_email":"dilyar@aiseo.ai","legal_info_url":"https://topical-authority-qiabyuewca-uc.a.run.app/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "topical_authority",
+  "name_for_human": "Topical Authority",
+  "description_for_model": "AISEO topical authority tool will generate the topical authority for any topic and helps you dominate your niche.",
+  "description_for_human": "AISEO topical authority tool will generate the topical authority for any topic and helps you dominate your niche.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://topical-authority-qiabyuewca-uc.a.run.app/oauth",
+    "scope": "",
+    "authorization_url": "https://topical-authority-qiabyuewca-uc.a.run.app/auth/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "3afb008a383a45138f77a0486bca2e46"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://topical-authority-qiabyuewca-uc.a.run.app/openapi.yaml"
+  },
+  "logo_url": "https://topical-authority-qiabyuewca-uc.a.run.app/logo.png",
+  "contact_email": "dilyar@aiseo.ai",
+  "legal_info_url": "https://topical-authority-qiabyuewca-uc.a.run.app/legal",
+  "is_authenticated": false
+}

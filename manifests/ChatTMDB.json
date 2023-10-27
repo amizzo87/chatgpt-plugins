@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"ChatTMDB","name_for_human":"Chat TMDB","description_for_model":"ChatGPT, utilize the TMDB plugin to fetch real-time data on a movie, TV series, or actor from the comprehensive database akin to IMDB. Base url for videos and images: https://www.themoviedb.org/t/p/w533_and_h300_bestv2/ and {file_path}","description_for_human":"Movies, Actors and TV shows from TMDB, a database like IMDB.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chattmdb.waxime.dev/openapi.yaml"},"logo_url":"https://chattmdb.waxime.dev/logo.png","contact_email":"waxime64@hotmail.com","legal_info_url":"https://chattmdb.waxime.dev/disclaimer_en.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "ChatTMDB",
+  "name_for_human": "Chat TMDB",
+  "description_for_model": "ChatGPT, utilize the TMDB plugin to fetch real-time data on a movie, TV series, or actor from the comprehensive database akin to IMDB. Base url for videos and images: https://www.themoviedb.org/t/p/w533_and_h300_bestv2/ and {file_path}",
+  "description_for_human": "Movies, Actors and TV shows from TMDB, a database like IMDB.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chattmdb.waxime.dev/openapi.yaml"
+  },
+  "logo_url": "https://chattmdb.waxime.dev/logo.png",
+  "contact_email": "waxime64@hotmail.com",
+  "legal_info_url": "https://chattmdb.waxime.dev/disclaimer_en.html",
+  "is_authenticated": true
+}

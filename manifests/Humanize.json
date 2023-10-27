@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"Humanize","name_for_human":"Humanize","description_for_model":"Paraphraser that humanizes AI content.","description_for_human":"Humanizing AI content via paraphrasing.","auth":{"type":"oauth","instructions":"","client_url":"https://plugin.gptinf.com/api/oauth","scope":"","authorization_url":"https://plugin.gptinf.com/api/oauth_exchange","authorization_content_type":"application/json","verification_tokens":{"openai":"0e59ea45e7ad4885b0a25d664dd46e77"},"pkce_required":false},"api":{"type":"openapi","url":"https://plugin.gptinf.com/openapi.yaml"},"logo_url":"https://plugin.gptinf.com/logo.png","contact_email":"support@gptinf.com","legal_info_url":"https://app.gptinf.com/terms_of_service.html","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "Humanize",
+  "name_for_human": "Humanize",
+  "description_for_model": "Paraphraser that humanizes AI content.",
+  "description_for_human": "Humanizing AI content via paraphrasing.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugin.gptinf.com/api/oauth",
+    "scope": "",
+    "authorization_url": "https://plugin.gptinf.com/api/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "0e59ea45e7ad4885b0a25d664dd46e77"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.gptinf.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.gptinf.com/logo.png",
+  "contact_email": "support@gptinf.com",
+  "legal_info_url": "https://app.gptinf.com/terms_of_service.html",
+  "is_authenticated": false
+}

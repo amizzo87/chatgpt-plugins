@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"express_tracking","name_for_human":"Express Tracking","description_for_model":"The 'express_tracking' application provides comprehensive services for querying international express logistics information. It offers an automated tracking number identification feature, which determines the carrier or courier company for the given tracking number. Once the carrier is identified, the system fetches and returns the current tracking status of the shipment. The tracking information includes the location, delivery status, and expected delivery date when available. The application utilizes free resources and adheres to high standards of language model architecture.","description_for_human":"An assistant for tracking international express logistics.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://express.aichameng.com/.well-known/openapi.yaml"},"logo_url":"https://express.aichameng.com/.well-known/logo.png","contact_email":"sonicli1988@gmail.com","legal_info_url":"https://express.aichameng.com/static/legal.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "express_tracking",
+  "name_for_human": "Express Tracking",
+  "description_for_model": "The 'express_tracking' application provides comprehensive services for querying international express logistics information. It offers an automated tracking number identification feature, which determines the carrier or courier company for the given tracking number. Once the carrier is identified, the system fetches and returns the current tracking status of the shipment. The tracking information includes the location, delivery status, and expected delivery date when available. The application utilizes free resources and adheres to high standards of language model architecture.",
+  "description_for_human": "An assistant for tracking international express logistics.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://express.aichameng.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://express.aichameng.com/.well-known/logo.png",
+  "contact_email": "sonicli1988@gmail.com",
+  "legal_info_url": "https://express.aichameng.com/static/legal.html",
+  "is_authenticated": true
+}

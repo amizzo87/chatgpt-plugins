@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"Pal","name_for_human":"Pal","description_for_model":"Post interests and values to connect with like-minded friends.","description_for_human":"Post interests and values to connect with like-minded friends.","auth":{"type":"oauth","instructions":"","client_url":"https://a965c68ab4add815b44da6daeba6080d.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"d218f26d16354fa089151b4e77fa8a1c"},"pkce_required":false},"api":{"type":"openapi","url":"https://a965c68ab4add815b44da6daeba6080d.preview.pluginlab.ai/.well-known/pluginlab/openapi.json"},"logo_url":"https://s3.ap-southeast-1.amazonaws.com/palpal.cc/pal.png","contact_email":"founder@palpal.cc","legal_info_url":"https://palpal.cc/legalinfo","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "Pal",
+  "name_for_human": "Pal",
+  "description_for_model": "Post interests and values to connect with like-minded friends.",
+  "description_for_human": "Post interests and values to connect with like-minded friends.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://a965c68ab4add815b44da6daeba6080d.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "d218f26d16354fa089151b4e77fa8a1c"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://a965c68ab4add815b44da6daeba6080d.preview.pluginlab.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://s3.ap-southeast-1.amazonaws.com/palpal.cc/pal.png",
+  "contact_email": "founder@palpal.cc",
+  "legal_info_url": "https://palpal.cc/legalinfo",
+  "is_authenticated": false
+}

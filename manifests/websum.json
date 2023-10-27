@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"websum","name_for_human":"Webpage Summarizer","description_for_model":"Allows the user to enter a URL and have the contents (a webpage or PDF file) understood and remembered for future use by the bot which, by default, will return a summary of the article.","description_for_human":"Allow the bot to access information contained in a webpage via its URL, by default returning a summary.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://web-sum.replit.app/.well-known/openapi.yaml"},"logo_url":"https://web-sum.replit.app/.well-known/logo.png","contact_email":"sunnys2327@gmail.com","legal_info_url":"https://web-sum.replit.app/legal/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "websum",
+  "name_for_human": "Webpage Summarizer",
+  "description_for_model": "Allows the user to enter a URL and have the contents (a webpage or PDF file) understood and remembered for future use by the bot which, by default, will return a summary of the article.",
+  "description_for_human": "Allow the bot to access information contained in a webpage via its URL, by default returning a summary.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://web-sum.replit.app/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://web-sum.replit.app/.well-known/logo.png",
+  "contact_email": "sunnys2327@gmail.com",
+  "legal_info_url": "https://web-sum.replit.app/legal/",
+  "is_authenticated": true
+}

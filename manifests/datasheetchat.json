@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"datasheetchat","name_for_human":"Datasheet.Chat","description_for_model":"search_information_for_electronic_components.","description_for_human":"Gateway to interactive, and intelligent chat with any electrical components datasheet.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://datasheet.chat/openapi.yaml"},"logo_url":"https://datasheet.chat/logo.png","contact_email":"admin@datasheet.chat","legal_info_url":"https://datasheet.chat/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "datasheetchat",
+  "name_for_human": "Datasheet.Chat",
+  "description_for_model": "search_information_for_electronic_components.",
+  "description_for_human": "Gateway to interactive, and intelligent chat with any electrical components datasheet.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://datasheet.chat/openapi.yaml"
+  },
+  "logo_url": "https://datasheet.chat/logo.png",
+  "contact_email": "admin@datasheet.chat",
+  "legal_info_url": "https://datasheet.chat/legal",
+  "is_authenticated": true
+}

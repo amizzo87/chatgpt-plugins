@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"photorealistic","name_for_human":"Photorealistic","description_for_model":"Plugin trained for generating Photorealistic prompts for the Midjourney image creation tool.","description_for_human":"Generate Photorealistic prompts for Midjourney.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://midjourney-ruddy.vercel.app/.well-known/openapi.yaml"},"logo_url":"https://midjourney-ruddy.vercel.app/imgs/logo96.png","contact_email":"support@aiagentslab.com","legal_info_url":"https://www.aiagentslab.com/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "photorealistic",
+  "name_for_human": "Photorealistic",
+  "description_for_model": "Plugin trained for generating Photorealistic prompts for the Midjourney image creation tool.",
+  "description_for_human": "Generate Photorealistic prompts for Midjourney.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://midjourney-ruddy.vercel.app/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://midjourney-ruddy.vercel.app/imgs/logo96.png",
+  "contact_email": "support@aiagentslab.com",
+  "legal_info_url": "https://www.aiagentslab.com/legal",
+  "is_authenticated": true
+}

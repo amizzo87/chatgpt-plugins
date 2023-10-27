@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"WPressGenie","name_for_human":"WPressGenie","description_for_model":"Manage a WordPress site: This will allows you to efficiently manage your WordPress website by providing functionalities such as retrieving, and get details of WordPress posts. To ensure security, the AI model does not generate any website addresses for the site param. Instead, it prompts users to input their WordPress site address.","description_for_human":"Manages a WordPress site. You can get, view and analyze details of WordPress posts and content.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgptapi.wpressgenie.com/openapi.yaml"},"logo_url":"https://chatgptapi.wpressgenie.com/logo.png","contact_email":"kingsofthewebofficial@gmail.com","legal_info_url":"https://chatgptapi.wpressgenie.com/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "WPressGenie",
+  "name_for_human": "WPressGenie",
+  "description_for_model": "Manage a WordPress site: This will allows you to efficiently manage your WordPress website by providing functionalities such as retrieving, and get details of WordPress posts. To ensure security, the AI model does not generate any website addresses for the site param. Instead, it prompts users to input their WordPress site address.",
+  "description_for_human": "Manages a WordPress site. You can get, view and analyze details of WordPress posts and content.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgptapi.wpressgenie.com/openapi.yaml"
+  },
+  "logo_url": "https://chatgptapi.wpressgenie.com/logo.png",
+  "contact_email": "kingsofthewebofficial@gmail.com",
+  "legal_info_url": "https://chatgptapi.wpressgenie.com/legal",
+  "is_authenticated": true
+}

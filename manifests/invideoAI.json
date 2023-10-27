@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"invideoAI","name_for_human":"Video AI by invideo","description_for_model":"Invideo AI provides a plugin for crafting narrated videos from text prompts and scripts. invideo AI transforms textual prompts into video timelines, complete with voiceover, stock images, and footage. It excels in generating videos across a range of genres including educational content, advertisements, and fiction.\nTo effectively use the invideo AI plugin:\n* The user just needs to ask the plugin to create a video.\n* The user must provide as much of their own personality, creativity and opinions as possible. The more opinionated and unique the request, the better the video will be.\n* The user should choose a topic that they are passionate about.\nCapabilities:\n* Videos can be created from a brief or a script.\n* Supports male and female voices in over 100 accents, ranging from American and Midwestern to British, Indian, and Australian.\n* Videos can be 0.25 mins to 30 mins long.\n* The plugin is particularly effective for crafting TikToks, Reels, YouTube Shorts, and explainer videos.\nOutput:\n* The output will be a link to the generated video, title and description.","description_for_human":"Transform text to stunning videos with invideo AI. Your video copilot for YouTube, TikTok, Instagram Reels, and Shorts.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"3d778a35807347a298aae62db460a0e2"}},"api":{"type":"openapi","url":"https://pro-api.invideo.io/openapi.yaml"},"logo_url":"https://ai.invideo.io/favicon.ico","contact_email":"support@invideo.io","legal_info_url":"https://pro-api.invideo.io/legal.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "invideoAI",
+  "name_for_human": "Video AI by invideo",
+  "description_for_model": "Invideo AI provides a plugin for crafting narrated videos from text prompts and scripts. invideo AI transforms textual prompts into video timelines, complete with voiceover, stock images, and footage. It excels in generating videos across a range of genres including educational content, advertisements, and fiction.\nTo effectively use the invideo AI plugin:\n* The user just needs to ask the plugin to create a video.\n* The user must provide as much of their own personality, creativity and opinions as possible. The more opinionated and unique the request, the better the video will be.\n* The user should choose a topic that they are passionate about.\nCapabilities:\n* Videos can be created from a brief or a script.\n* Supports male and female voices in over 100 accents, ranging from American and Midwestern to British, Indian, and Australian.\n* Videos can be 0.25 mins to 30 mins long.\n* The plugin is particularly effective for crafting TikToks, Reels, YouTube Shorts, and explainer videos.\nOutput:\n* The output will be a link to the generated video, title and description.",
+  "description_for_human": "Transform text to stunning videos with invideo AI. Your video copilot for YouTube, TikTok, Instagram Reels, and Shorts.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "3d778a35807347a298aae62db460a0e2"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pro-api.invideo.io/openapi.yaml"
+  },
+  "logo_url": "https://ai.invideo.io/favicon.ico",
+  "contact_email": "support@invideo.io",
+  "legal_info_url": "https://pro-api.invideo.io/legal.html",
+  "is_authenticated": true
+}

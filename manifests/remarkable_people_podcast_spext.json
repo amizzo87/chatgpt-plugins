@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"remarkable_people_podcast_spext","name_for_human":"RPP by Spext","description_for_model":"Chat with the Guy Kawasaki's Remarkable People Podcast library on Spext.","description_for_human":"Chat with the Guy Kawasaki's Remarkable People Podcast library on Spext.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.remarkablepeoplepodcast.spext.com/openapi.yaml"},"logo_url":"https://plugin.remarkablepeoplepodcast.spext.com/logo.ico","contact_email":"developers@spext.co","legal_info_url":"https://docs.spext.co/privacy","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "remarkable_people_podcast_spext",
+  "name_for_human": "RPP by Spext",
+  "description_for_model": "Chat with the Guy Kawasaki's Remarkable People Podcast library on Spext.",
+  "description_for_human": "Chat with the Guy Kawasaki's Remarkable People Podcast library on Spext.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.remarkablepeoplepodcast.spext.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.remarkablepeoplepodcast.spext.com/logo.ico",
+  "contact_email": "developers@spext.co",
+  "legal_info_url": "https://docs.spext.co/privacy",
+  "is_authenticated": true
+}

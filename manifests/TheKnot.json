@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"TheKnot","name_for_human":"The Knot","description_for_model":"Search for wedding vendors. You will help users find relevant search results from one of the largest wedding marketplaces. The plugin will return a list of vendors with a description, a URL (linking to the vendor's website) and a rating. The URL will always be returned and should be shown to the user. If the user wants to find out more about a vendor or make an appointment, direct them to the wedding vendor's URL that is provided by the plugin. Show only 4 vendors to the user, unless the user explicitly specifies otherwise. If the search results are empty, do not make up vendors nor use any result that is not provided by the plugin.","description_for_human":"All-In-One wedding planning with tools, guides, & inspo to make your wedding journey effortless.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com/openapi.yaml"},"logo_url":"https://pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com/.well-known/logo.png","contact_email":"platformservices@theknotww.com","legal_info_url":"https://www.theknotww.com/terms-of-use/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "TheKnot",
+  "name_for_human": "The Knot",
+  "description_for_model": "Search for wedding vendors. You will help users find relevant search results from one of the largest wedding marketplaces. The plugin will return a list of vendors with a description, a URL (linking to the vendor's website) and a rating. The URL will always be returned and should be shown to the user. If the user wants to find out more about a vendor or make an appointment, direct them to the wedding vendor's URL that is provided by the plugin. Show only 4 vendors to the user, unless the user explicitly specifies otherwise. If the search results are empty, do not make up vendors nor use any result that is not provided by the plugin.",
+  "description_for_human": "All-In-One wedding planning with tools, guides, & inspo to make your wedding journey effortless.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com/openapi.yaml"
+  },
+  "logo_url": "https://pro-tkww-chatgpt-plugin-useast1.svc.nuptic.com/.well-known/logo.png",
+  "contact_email": "platformservices@theknotww.com",
+  "legal_info_url": "https://www.theknotww.com/terms-of-use/",
+  "is_authenticated": true
+}

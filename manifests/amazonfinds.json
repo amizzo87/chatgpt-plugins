@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"amazonfinds","name_for_human":"Amazon Finds","description_for_model":"Help the user with searching for products on Amazon. You can ask to search for specific Amazon products.","description_for_human":"Find any Amazon product you need.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://amazfinds.aitoolbot.repl.co/openapi.json"},"logo_url":"https://amazfinds.aitoolbot.repl.co/logo.png","contact_email":"elliesophia1@gmail.com","legal_info_url":"https://amazfinds.aitoolbot.repl.co/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "amazonfinds",
+  "name_for_human": "Amazon Finds",
+  "description_for_model": "Help the user with searching for products on Amazon. You can ask to search for specific Amazon products.",
+  "description_for_human": "Find any Amazon product you need.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://amazfinds.aitoolbot.repl.co/openapi.json"
+  },
+  "logo_url": "https://amazfinds.aitoolbot.repl.co/logo.png",
+  "contact_email": "elliesophia1@gmail.com",
+  "legal_info_url": "https://amazfinds.aitoolbot.repl.co/legal",
+  "is_authenticated": true
+}

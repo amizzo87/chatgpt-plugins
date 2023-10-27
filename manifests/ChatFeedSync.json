@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"ChatFeedSync","name_for_human":"ChatFeedSync","description_for_model":"This plugin is integrated with Miniflux. It allows you to subscribe, unsubscribe, and get lists of RSS feeds, search for entries within each RSS feed, search all entries, and get the content of each entry. ChatGPT will always translate the content into the user's language.","description_for_human":"Easily synchronize, manage, and translate your RSS feeds all in one place.","auth":{"type":"oauth","instructions":"","client_url":"https://chat-feed-sync.inu-ai.com/login","scope":"","authorization_url":"https://chat-feed-sync.inu-ai.com/v1/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"bdb5bdc378c041c5b22572589ac2150e"},"pkce_required":false},"api":{"type":"openapi","url":"https://chat-feed-sync.inu-ai.com/openapi.yaml"},"logo_url":"https://chat-feed-sync.inu-ai.com/favicon.svg","contact_email":"contact@inu-ai.com","legal_info_url":"https://chat-feed-sync.inu-ai.com/legal-info","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "ChatFeedSync",
+  "name_for_human": "ChatFeedSync",
+  "description_for_model": "This plugin is integrated with Miniflux. It allows you to subscribe, unsubscribe, and get lists of RSS feeds, search for entries within each RSS feed, search all entries, and get the content of each entry. ChatGPT will always translate the content into the user's language.",
+  "description_for_human": "Easily synchronize, manage, and translate your RSS feeds all in one place.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://chat-feed-sync.inu-ai.com/login",
+    "scope": "",
+    "authorization_url": "https://chat-feed-sync.inu-ai.com/v1/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "bdb5bdc378c041c5b22572589ac2150e"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat-feed-sync.inu-ai.com/openapi.yaml"
+  },
+  "logo_url": "https://chat-feed-sync.inu-ai.com/favicon.svg",
+  "contact_email": "contact@inu-ai.com",
+  "legal_info_url": "https://chat-feed-sync.inu-ai.com/legal-info",
+  "is_authenticated": false
+}

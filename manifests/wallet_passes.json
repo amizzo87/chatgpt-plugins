@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"wallet_passes","name_for_human":"Wallet Passes","description_for_model":"Create a iOS Wallet Pass (Passbook) and returns a link to visit and add it on your iOS device (iPhone, iPad, iWatch).","description_for_human":"Create Wallet Passes for iOS device (iPhone, iPod, iWatch) with ease!","auth":{"type":"oauth","instructions":"","client_url":"https://walletpasses.xyz/welcome","scope":"","authorization_url":"https://walletpasses.xyz/auth/open-ai","authorization_content_type":"application/json","verification_tokens":{"openai":"ea2cacd087134be5970926f212758fba"},"pkce_required":false},"api":{"type":"openapi","url":"https://walletpasses.xyz/static/openapi.yml"},"logo_url":"https://storage.googleapis.com/walletpasses/logo_square.png","contact_email":"contact@walletpasses.xyz","legal_info_url":"https://walletpasses.xyz/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "wallet_passes",
+  "name_for_human": "Wallet Passes",
+  "description_for_model": "Create a iOS Wallet Pass (Passbook) and returns a link to visit and add it on your iOS device (iPhone, iPad, iWatch).",
+  "description_for_human": "Create Wallet Passes for iOS device (iPhone, iPod, iWatch) with ease!",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://walletpasses.xyz/welcome",
+    "scope": "",
+    "authorization_url": "https://walletpasses.xyz/auth/open-ai",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "ea2cacd087134be5970926f212758fba"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://walletpasses.xyz/static/openapi.yml"
+  },
+  "logo_url": "https://storage.googleapis.com/walletpasses/logo_square.png",
+  "contact_email": "contact@walletpasses.xyz",
+  "legal_info_url": "https://walletpasses.xyz/legal",
+  "is_authenticated": false
+}

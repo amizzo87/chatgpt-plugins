@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"TooLongDidntRead","name_for_human":"Too Long Didn't Read","description_for_model":"The user provides you with a URL link with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to act like a world-class content summarizer and summarize the text provided to you into your own words without plagiarizing the original text.","description_for_human":"Enter any URL and have the text content summarized for you!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://summary.orrenprunckun.com/openapi.yaml"},"logo_url":"https://summary.orrenprunckun.com/icon.png","contact_email":"hello@orrenprunckun.com","legal_info_url":"https://summary.orrenprunckun.com/terms.php","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "TooLongDidntRead",
+  "name_for_human": "Too Long Didn't Read",
+  "description_for_model": "The user provides you with a URL link with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to act like a world-class content summarizer and summarize the text provided to you into your own words without plagiarizing the original text.",
+  "description_for_human": "Enter any URL and have the text content summarized for you!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://summary.orrenprunckun.com/openapi.yaml"
+  },
+  "logo_url": "https://summary.orrenprunckun.com/icon.png",
+  "contact_email": "hello@orrenprunckun.com",
+  "legal_info_url": "https://summary.orrenprunckun.com/terms.php",
+  "is_authenticated": true
+}

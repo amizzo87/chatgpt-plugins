@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"Clay","name_for_human":"Clay","description_for_model":"Plugin for searching and looking up information for people, contacts, friends, and coworkers the user knows. Use it whenever the user wants to search their network or asks questions about a particular person or group of contacts. This plugin can also be used to find context about a person's background, interests, or relationship history before doing another task, like drafting an email. When using these people or contact information in answers, do not make anything or anyone up.","description_for_human":"Ask questions and search across your network and contacts — Linkedin, Facebook, email, and iMessage.","auth":{"type":"oauth","instructions":"","client_url":"https://web.clay.earth/oauth/login","scope":"read","authorization_url":"https://api.clay.earth/api/v2/o/token/","authorization_content_type":"application/json","verification_tokens":{"openai":"43f77307896c46dcbbeabf03620b7d39"},"pkce_required":false},"api":{"type":"openapi","url":"https://nexum.clay.earth/chatgpt/openapi.yaml"},"logo_url":"https://assets.clay.earth/chatgpt-plugin-logo.png","contact_email":"care@clay.earth","legal_info_url":"https://clay.earth/security-and-privacy","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "Clay",
+  "name_for_human": "Clay",
+  "description_for_model": "Plugin for searching and looking up information for people, contacts, friends, and coworkers the user knows. Use it whenever the user wants to search their network or asks questions about a particular person or group of contacts. This plugin can also be used to find context about a person's background, interests, or relationship history before doing another task, like drafting an email. When using these people or contact information in answers, do not make anything or anyone up.",
+  "description_for_human": "Ask questions and search across your network and contacts — Linkedin, Facebook, email, and iMessage.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://web.clay.earth/oauth/login",
+    "scope": "read",
+    "authorization_url": "https://api.clay.earth/api/v2/o/token/",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "43f77307896c46dcbbeabf03620b7d39"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://nexum.clay.earth/chatgpt/openapi.yaml"
+  },
+  "logo_url": "https://assets.clay.earth/chatgpt-plugin-logo.png",
+  "contact_email": "care@clay.earth",
+  "legal_info_url": "https://clay.earth/security-and-privacy",
+  "is_authenticated": false
+}

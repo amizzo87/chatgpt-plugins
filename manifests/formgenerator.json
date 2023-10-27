@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"formgenerator","name_for_human":"forms.app","description_for_model":"Generate online forms, surveys, quizzes & more with spot-on questions. Use keywords 'query' to prompt the plugin.","description_for_human":"Generate online forms, surveys, quizzes & more with spot-on questions.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://ai.forms.app/.well-known/openapi.yaml"},"logo_url":"https://forms.app/static/img/ai-logo.png","contact_email":"support@forms.app","legal_info_url":"https://forms.app/en/privacy-policy","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "formgenerator",
+  "name_for_human": "forms.app",
+  "description_for_model": "Generate online forms, surveys, quizzes & more with spot-on questions. Use keywords 'query' to prompt the plugin.",
+  "description_for_human": "Generate online forms, surveys, quizzes & more with spot-on questions.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ai.forms.app/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://forms.app/static/img/ai-logo.png",
+  "contact_email": "support@forms.app",
+  "legal_info_url": "https://forms.app/en/privacy-policy",
+  "is_authenticated": true
+}

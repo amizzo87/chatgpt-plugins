@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Algorithma","name_for_human":"Algorithma","description_for_model":"Shape your virtual life with in this immersive life simulator game. Type /start to begin type /start to start, /help, /random","description_for_human":"Shape your virtual life with in this immersive life simulator game to begin Type /start to begin.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://algorithma.ruvnet.repl.co/openapi.json"},"logo_url":"https://algorithma.replit.app/.well-known/logo.png","contact_email":"ruv@ruv.net","legal_info_url":"https://algorithma.replit.app/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Algorithma",
+  "name_for_human": "Algorithma",
+  "description_for_model": "Shape your virtual life with in this immersive life simulator game. Type /start to begin type /start to start, /help, /random",
+  "description_for_human": "Shape your virtual life with in this immersive life simulator game to begin Type /start to begin.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://algorithma.ruvnet.repl.co/openapi.json"
+  },
+  "logo_url": "https://algorithma.replit.app/.well-known/logo.png",
+  "contact_email": "ruv@ruv.net",
+  "legal_info_url": "https://algorithma.replit.app/legal",
+  "is_authenticated": true
+}

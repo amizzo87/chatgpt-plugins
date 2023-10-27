@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"ZeoRoutePlanner","name_for_human":"Zeo Route Planner","description_for_model":"ZeoRoutePlanner is a route optimization plugin designed for route planning needs. It accepts a list of addresses and optional parameters such as vehicle type, start and end times, and specific order preferences. It returns the shortest possible route along with time, distance, and ETA details. Use it when the user requests route planning or optimization, particularly for delivery tasks, road trip planning, or city navigation.","description_for_human":"Plan your routes efficiently with Zeo Route Planner. Perfect for deliveries, road trips, or city tours.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://zeorouteplanner.com/openapi.yaml"},"logo_url":"https://zeorouteplanner.com/assets/logo_new/Group%20209@2x.png","contact_email":"nimit.mehra@zeoauto.in","legal_info_url":"https://zeorouteplanner.com/terms-and-conditions","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "ZeoRoutePlanner",
+  "name_for_human": "Zeo Route Planner",
+  "description_for_model": "ZeoRoutePlanner is a route optimization plugin designed for route planning needs. It accepts a list of addresses and optional parameters such as vehicle type, start and end times, and specific order preferences. It returns the shortest possible route along with time, distance, and ETA details. Use it when the user requests route planning or optimization, particularly for delivery tasks, road trip planning, or city navigation.",
+  "description_for_human": "Plan your routes efficiently with Zeo Route Planner. Perfect for deliveries, road trips, or city tours.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://zeorouteplanner.com/openapi.yaml"
+  },
+  "logo_url": "https://zeorouteplanner.com/assets/logo_new/Group%20209@2x.png",
+  "contact_email": "nimit.mehra@zeoauto.in",
+  "legal_info_url": "https://zeorouteplanner.com/terms-and-conditions",
+  "is_authenticated": true
+}

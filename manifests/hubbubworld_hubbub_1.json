@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"hubbubworld_hubbub_1","name_for_human":"Hubbub","description_for_model":"Live updated health risk & safety guidance info for schools, colleges, churches, businesses and other locations in the US including for COVID-19, Influenza (Flu),Respiratory Syncytial Virus (RSV), other Influenza Like Illnesses (ILI) and more. Website link: https://www.hubbubworld.com .","description_for_human":"Local health risk & safety guidance for COVID-19, Flu, RSV and more in the US.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"212b5e55218c4e328c3c2a537154d540"}},"api":{"type":"openapi","url":"https://www.openai.hubbubworld.com/openai/openapi.yaml"},"logo_url":"https://cdn.hubbubworld.com/openai/i/hubbub-a-safer-world-256.png","contact_email":"help@hubbubworld.com","legal_info_url":"https://www.hubbubworld.com/tos","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "hubbubworld_hubbub_1",
+  "name_for_human": "Hubbub",
+  "description_for_model": "Live updated health risk & safety guidance info for schools, colleges, churches, businesses and other locations in the US including for COVID-19, Influenza (Flu),Respiratory Syncytial Virus (RSV), other Influenza Like Illnesses (ILI) and more. Website link: https://www.hubbubworld.com .",
+  "description_for_human": "Local health risk & safety guidance for COVID-19, Flu, RSV and more in the US.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "212b5e55218c4e328c3c2a537154d540"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.openai.hubbubworld.com/openai/openapi.yaml"
+  },
+  "logo_url": "https://cdn.hubbubworld.com/openai/i/hubbub-a-safer-world-256.png",
+  "contact_email": "help@hubbubworld.com",
+  "legal_info_url": "https://www.hubbubworld.com/tos",
+  "is_authenticated": true
+}

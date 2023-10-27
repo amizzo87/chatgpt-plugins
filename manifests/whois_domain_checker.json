@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"whois_domain_checker","name_for_human":"Whois Domain Checker","description_for_model":"WhoisDomainChecker - A Whois app that takes a list of space-separated domain names, performs the Whois for each domain, and then outputs a list of domain names with each one's availability status indicated by a utf8 icon (✅ for available, ❌ for unavailable). Provide the list of domains and the plugin will check their availability.","description_for_human":"A Whois app that takes a list of space-separated domain names, performs the Whois for each domain.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://whois.smoothplugins.com/openapi.yaml"},"logo_url":"https://smoothplugins.com/img/plugin_logos2/whois3.png","contact_email":"makevoid@gmail.com","legal_info_url":"https://smoothplugins.com/tos/1_whois_plugin_tos","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "whois_domain_checker",
+  "name_for_human": "Whois Domain Checker",
+  "description_for_model": "WhoisDomainChecker - A Whois app that takes a list of space-separated domain names, performs the Whois for each domain, and then outputs a list of domain names with each one's availability status indicated by a utf8 icon (✅ for available, ❌ for unavailable). Provide the list of domains and the plugin will check their availability.",
+  "description_for_human": "A Whois app that takes a list of space-separated domain names, performs the Whois for each domain.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://whois.smoothplugins.com/openapi.yaml"
+  },
+  "logo_url": "https://smoothplugins.com/img/plugin_logos2/whois3.png",
+  "contact_email": "makevoid@gmail.com",
+  "legal_info_url": "https://smoothplugins.com/tos/1_whois_plugin_tos",
+  "is_authenticated": true
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"TwentyMinutenCHNews","name_for_human":"20 Minuten (CH) News","description_for_model":"Get the latest news from 20 Minuten, Switzerland as well as content and news about the condition and activities of prominent personalities. The response is an list containing the most relevant results. In case of an error, no results are returned. If more than 5 results are returned, ChatGPT should rank the results and only show the most relevant results to the user.","description_for_human":"Get the latest News from 20 Minuten about Switzerland and the world.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.20min.ch/openapi.yaml"},"logo_url":"https://plugin.20min.ch/logo.png","contact_email":"product@20min.ch","legal_info_url":"https://www.20min.ch/story/privacy-policy-300624766455","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "TwentyMinutenCHNews",
+  "name_for_human": "20 Minuten (CH) News",
+  "description_for_model": "Get the latest news from 20 Minuten, Switzerland as well as content and news about the condition and activities of prominent personalities. The response is an list containing the most relevant results. In case of an error, no results are returned. If more than 5 results are returned, ChatGPT should rank the results and only show the most relevant results to the user.",
+  "description_for_human": "Get the latest News from 20 Minuten about Switzerland and the world.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.20min.ch/openapi.yaml"
+  },
+  "logo_url": "https://plugin.20min.ch/logo.png",
+  "contact_email": "product@20min.ch",
+  "legal_info_url": "https://www.20min.ch/story/privacy-policy-300624766455",
+  "is_authenticated": true
+}

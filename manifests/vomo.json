@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"vomo","name_for_human":"VOMO","description_for_model":"Type 'record' or 'create' to take notes and save them to VOMO. Type 'save to vomo' to save the current conversation.","description_for_human":"Type 'record' or 'create' to take notes and save them to VOMO. Type 'save to vomo' to save the current conversation.","auth":{"type":"oauth","instructions":"","client_url":"https://oauth.vomo.ai","scope":"","authorization_url":"https://testapi.vomo.ai/auth","authorization_content_type":"application/json","verification_tokens":{"openai":"2a1b6b2e5d214ccfbf982fc63ff3d67b"},"pkce_required":false},"api":{"type":"openapi","url":"https://testapi.vomo.ai/openapi.yaml"},"logo_url":"https://testapi.vomo.ai/logo.png","contact_email":"z@vomo.ai","legal_info_url":"https://privacy.vomo.ai","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "vomo",
+  "name_for_human": "VOMO",
+  "description_for_model": "Type 'record' or 'create' to take notes and save them to VOMO. Type 'save to vomo' to save the current conversation.",
+  "description_for_human": "Type 'record' or 'create' to take notes and save them to VOMO. Type 'save to vomo' to save the current conversation.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://oauth.vomo.ai",
+    "scope": "",
+    "authorization_url": "https://testapi.vomo.ai/auth",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "2a1b6b2e5d214ccfbf982fc63ff3d67b"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://testapi.vomo.ai/openapi.yaml"
+  },
+  "logo_url": "https://testapi.vomo.ai/logo.png",
+  "contact_email": "z@vomo.ai",
+  "legal_info_url": "https://privacy.vomo.ai",
+  "is_authenticated": false
+}

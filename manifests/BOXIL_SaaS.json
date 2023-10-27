@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"BOXIL_SaaS","name_for_human":"BOXIL SaaS","description_for_model":"You suggest the best SaaS service for the user. SaaS is categorized by category, so please get the CategoryPage that is most relevant to the issue the user is facing. When retrieving a CategoryPage, be sure to get the category name from get_all_categories and then use category_search. Be sure to include CategoryPage.url, CategoryPage.documents_download_url, and ArticlePage.url in the proposal. For related articles, do not show articles that describe a specific SaaS product by analogy with the title. And please end the sentence with see_more_url, 'If the category presented is different from the image, please click here'. And, 'Or could you be more specific about the situation you are having trouble with?' and ask for more details about the situation to clarify what issues the user is facing.","description_for_human":"Help Japanese companies find the best system to enhance their productivity.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://boxil.jp/openapi.yaml"},"logo_url":"https://assets.boxil.jp/images/logo/chatgpt-plugins-logo.png","contact_email":"gpt-contact@boxil.jp","legal_info_url":"https://boxil.jp/terms/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "BOXIL_SaaS",
+  "name_for_human": "BOXIL SaaS",
+  "description_for_model": "You suggest the best SaaS service for the user. SaaS is categorized by category, so please get the CategoryPage that is most relevant to the issue the user is facing. When retrieving a CategoryPage, be sure to get the category name from get_all_categories and then use category_search. Be sure to include CategoryPage.url, CategoryPage.documents_download_url, and ArticlePage.url in the proposal. For related articles, do not show articles that describe a specific SaaS product by analogy with the title. And please end the sentence with see_more_url, 'If the category presented is different from the image, please click here'. And, 'Or could you be more specific about the situation you are having trouble with?' and ask for more details about the situation to clarify what issues the user is facing.",
+  "description_for_human": "Help Japanese companies find the best system to enhance their productivity.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://boxil.jp/openapi.yaml"
+  },
+  "logo_url": "https://assets.boxil.jp/images/logo/chatgpt-plugins-logo.png",
+  "contact_email": "gpt-contact@boxil.jp",
+  "legal_info_url": "https://boxil.jp/terms/",
+  "is_authenticated": true
+}

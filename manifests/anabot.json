@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"anabot","name_for_human":"AnaBot","description_for_model":"AnaBot is your conversational co-navigator for the well-being industry. With AnaBot, you're not just staying updated, you're staying ahead. From the latest trends to the performance of various organizations, AnaBot equips you with the knowledge to make informed decisions.\n\nHere are a few examples of the questions you could ask:\n\ncould you give some statistics regarding the opioid usage ?\nWhat are some ways to help stop the spread of misinformation ?\nhow does my topical product need to conform to guidelines in order to sell it to the public?\nWhy are dermatological products tested on animals?\nWhat is the leading cause of serious disability in the U.S.?","description_for_human":"AnaBot is a conversational guide for well-being industry insights and trends.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://anabot-openai.langdock.com/openapi.yaml"},"logo_url":"https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/23e7934f-d5c2-4077-8e37-7d7f9a9f0de0%2Ficoncircular%20logo%20for%20robot%20face%20emogi%20that%20is%20about%20f.jpg?alt=media&token=496dba6e-5262-4ae0-a604-bf8d16dea618","contact_email":"contact@langdock.com","legal_info_url":"https://www.langdock.com/terms-and-conditions","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "anabot",
+  "name_for_human": "AnaBot",
+  "description_for_model": "AnaBot is your conversational co-navigator for the well-being industry. With AnaBot, you're not just staying updated, you're staying ahead. From the latest trends to the performance of various organizations, AnaBot equips you with the knowledge to make informed decisions.\n\nHere are a few examples of the questions you could ask:\n\ncould you give some statistics regarding the opioid usage ?\nWhat are some ways to help stop the spread of misinformation ?\nhow does my topical product need to conform to guidelines in order to sell it to the public?\nWhy are dermatological products tested on animals?\nWhat is the leading cause of serious disability in the U.S.?",
+  "description_for_human": "AnaBot is a conversational guide for well-being industry insights and trends.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://anabot-openai.langdock.com/openapi.yaml"
+  },
+  "logo_url": "https://firebasestorage.googleapis.com/v0/b/security-web-app-e4217.appspot.com/o/23e7934f-d5c2-4077-8e37-7d7f9a9f0de0%2Ficoncircular%20logo%20for%20robot%20face%20emogi%20that%20is%20about%20f.jpg?alt=media&token=496dba6e-5262-4ae0-a604-bf8d16dea618",
+  "contact_email": "contact@langdock.com",
+  "legal_info_url": "https://www.langdock.com/terms-and-conditions",
+  "is_authenticated": true
+}

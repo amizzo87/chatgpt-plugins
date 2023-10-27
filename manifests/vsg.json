@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"vsg","name_for_human":"VainSoftGames","description_for_model":"Plugin for all your video game needs. Details on the latest games, including images, reviews & videos.","description_for_human":"Plugin for all your video game needs. Details on the latest games, including images, reviews & videos.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://vainsoftgames.com/api/api.php?action=define"},"logo_url":"https://vainsoftgames.com/assets/img/icons/icon_420.png","contact_email":"support@vainsoft.com","legal_info_url":"https://vainsoftgames.com/privacy-policy","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "vsg",
+  "name_for_human": "VainSoftGames",
+  "description_for_model": "Plugin for all your video game needs. Details on the latest games, including images, reviews & videos.",
+  "description_for_human": "Plugin for all your video game needs. Details on the latest games, including images, reviews & videos.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://vainsoftgames.com/api/api.php?action=define"
+  },
+  "logo_url": "https://vainsoftgames.com/assets/img/icons/icon_420.png",
+  "contact_email": "support@vainsoft.com",
+  "legal_info_url": "https://vainsoftgames.com/privacy-policy",
+  "is_authenticated": true
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"plooral","name_for_human":"Plooral","description_for_model":"Retrieve jobs and courses from the Plooral Eduployment platform. Present job listings and courses in a clear and concise manner.","description_for_human":"Explore the Plooral Eduployment platform and search for jobs and learning content.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt.eduployment.app/docs/openapi.yaml"},"logo_url":"https://chatgpt.eduployment.app/assets/logo.png","contact_email":"ai@eduployment.app","legal_info_url":"https://chatgpt.eduployment.app/legal/info.txt","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "plooral",
+  "name_for_human": "Plooral",
+  "description_for_model": "Retrieve jobs and courses from the Plooral Eduployment platform. Present job listings and courses in a clear and concise manner.",
+  "description_for_human": "Explore the Plooral Eduployment platform and search for jobs and learning content.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.eduployment.app/docs/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt.eduployment.app/assets/logo.png",
+  "contact_email": "ai@eduployment.app",
+  "legal_info_url": "https://chatgpt.eduployment.app/legal/info.txt",
+  "is_authenticated": true
+}

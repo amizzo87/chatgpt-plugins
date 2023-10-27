@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Horoscopes_by_Inner_Self","name_for_human":"Horoscopes","description_for_model":"Plugin for real-time, personalized horoscopes based on an individual's zodiac sign.\n\nThe user must make it very clear what their personal zodiac sign is. The assistant should not guess or infer the user's zodiac sign, unless the user has provided their day and month of birth.\n\nThe horoscope can provide guidance on topics such as career, health, emotions, and personal growth.\n\nDaily, weekly, and monthly horoscopes are available. If the user doesn't specify, assume a daily horoscope is desired.\n\nThe assistant is welcome (but not required) to adjust the style and flavor of the words in the horoscope to better suit the user, as well as help apply and explain the horoscope to the user's personal situation. The core intent, meaning, and important details of the horoscope must be kept. The assistant is also welcome to format the horoscope using markdown to make it more visually appealing.","description_for_human":"Daily, weekly, and monthly horoscopes tailored to you. Brought to you by Inner Self.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://innerself.ai/.well-known/openapi.json"},"logo_url":"https://innerself.ai/icons/inner-self.webp","contact_email":"contact@innerself.ai","legal_info_url":"https://innerself.ai/legal/terms-of-service","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Horoscopes_by_Inner_Self",
+  "name_for_human": "Horoscopes",
+  "description_for_model": "Plugin for real-time, personalized horoscopes based on an individual's zodiac sign.\n\nThe user must make it very clear what their personal zodiac sign is. The assistant should not guess or infer the user's zodiac sign, unless the user has provided their day and month of birth.\n\nThe horoscope can provide guidance on topics such as career, health, emotions, and personal growth.\n\nDaily, weekly, and monthly horoscopes are available. If the user doesn't specify, assume a daily horoscope is desired.\n\nThe assistant is welcome (but not required) to adjust the style and flavor of the words in the horoscope to better suit the user, as well as help apply and explain the horoscope to the user's personal situation. The core intent, meaning, and important details of the horoscope must be kept. The assistant is also welcome to format the horoscope using markdown to make it more visually appealing.",
+  "description_for_human": "Daily, weekly, and monthly horoscopes tailored to you. Brought to you by Inner Self.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://innerself.ai/.well-known/openapi.json"
+  },
+  "logo_url": "https://innerself.ai/icons/inner-self.webp",
+  "contact_email": "contact@innerself.ai",
+  "legal_info_url": "https://innerself.ai/legal/terms-of-service",
+  "is_authenticated": true
+}

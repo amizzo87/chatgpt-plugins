@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"haulingbuddies","name_for_human":"Hauling Buddies","description_for_model":"Find reliable animal transporters in your vicinity using ChatGPT. Request recommendations, read reviews, and access contact details of local animal transporters. Additionally, search for transporters' USDA certificates database by Name or APHIS number, and FMCSA database by DOT Number or company name, ensuring they comply with necessary regulations.","description_for_human":"Locate dependable animal transporters using recommendations, reviews, and regulatory compliance search features.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://haulingbuddies.com/.well-known/openapi.yaml"},"logo_url":"https://haulingbuddies.com/assets/icon_68_68-f5783fef14eb6cefa4084be40395b4e7402c395fd5441c0ceffdfe882c70d7f2.png","contact_email":"support@haulingbuddies.com","legal_info_url":"https://haulingbuddies.com/terms","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "haulingbuddies",
+  "name_for_human": "Hauling Buddies",
+  "description_for_model": "Find reliable animal transporters in your vicinity using ChatGPT. Request recommendations, read reviews, and access contact details of local animal transporters. Additionally, search for transporters' USDA certificates database by Name or APHIS number, and FMCSA database by DOT Number or company name, ensuring they comply with necessary regulations.",
+  "description_for_human": "Locate dependable animal transporters using recommendations, reviews, and regulatory compliance search features.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://haulingbuddies.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://haulingbuddies.com/assets/icon_68_68-f5783fef14eb6cefa4084be40395b4e7402c395fd5441c0ceffdfe882c70d7f2.png",
+  "contact_email": "support@haulingbuddies.com",
+  "legal_info_url": "https://haulingbuddies.com/terms",
+  "is_authenticated": true
+}

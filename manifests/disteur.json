@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"disteur","name_for_human":"Disteur","description_for_model":"This plugin pre-fills a product draft with title, description, and more. Users can use the Quickstart link to finalize their digital product on the Disteur platform. This is useful whenever a user wants to create a digital product.","description_for_human":"Quickstart for creating a product draft on the Disteur platform.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"522128a0e7024c4fa405b125d012c948"}},"api":{"type":"openapi","url":"https://chatgptplugin.disteur.com/.well-known/openapi.yaml"},"logo_url":"https://chatgptplugin.disteur.com/.well-known/logo.png","contact_email":"derekxinzhewang@gmail.com","legal_info_url":"https://disteur.com/chatgptplugin/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "disteur",
+  "name_for_human": "Disteur",
+  "description_for_model": "This plugin pre-fills a product draft with title, description, and more. Users can use the Quickstart link to finalize their digital product on the Disteur platform. This is useful whenever a user wants to create a digital product.",
+  "description_for_human": "Quickstart for creating a product draft on the Disteur platform.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "522128a0e7024c4fa405b125d012c948"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgptplugin.disteur.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://chatgptplugin.disteur.com/.well-known/logo.png",
+  "contact_email": "derekxinzhewang@gmail.com",
+  "legal_info_url": "https://disteur.com/chatgptplugin/legal",
+  "is_authenticated": true
+}

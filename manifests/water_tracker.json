@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"water_tracker","name_for_human":"Water Tracker","description_for_model":"A tool for Drinking water record, you can add, view your drinking water statistics.","description_for_human":"A tool for recording and tracking your water intake records, drink more water, stay healthy.","auth":{"type":"oauth","instructions":"","client_url":"https://www.fitbox.chat/auth","scope":"record","authorization_url":"https://www.fitbox.chat/api/plugin/oauth/authorize","authorization_content_type":"application/json","verification_tokens":{"openai":"e533cff497d841bc9b8a45e1c96441ab"},"pkce_required":false},"api":{"type":"openapi","url":"https://www.fitbox.chat/api/static/openapi.json"},"logo_url":"https://www.fitbox.chat/api/static/icon.png","contact_email":"simple.shen@gmail.com","legal_info_url":"https://www.fitbox.chat/privacy","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "water_tracker",
+  "name_for_human": "Water Tracker",
+  "description_for_model": "A tool for Drinking water record, you can add, view your drinking water statistics.",
+  "description_for_human": "A tool for recording and tracking your water intake records, drink more water, stay healthy.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://www.fitbox.chat/auth",
+    "scope": "record",
+    "authorization_url": "https://www.fitbox.chat/api/plugin/oauth/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "e533cff497d841bc9b8a45e1c96441ab"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.fitbox.chat/api/static/openapi.json"
+  },
+  "logo_url": "https://www.fitbox.chat/api/static/icon.png",
+  "contact_email": "simple.shen@gmail.com",
+  "legal_info_url": "https://www.fitbox.chat/privacy",
+  "is_authenticated": false
+}

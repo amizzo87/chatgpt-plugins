@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"website_scraper","name_for_human":"Scrapee","description_for_model":"Scrape the text content of a website.","description_for_human":"Scrape the text content of any website.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://scrapee-website-scraper-plugin-for.onrender.com/openapi.json"},"logo_url":"https://scrapee-website-scraper-plugin-for.onrender.com/logo.png","contact_email":"maxime.bounaas@gmail.com","legal_info_url":"https://maxime-ferret.vercel.app","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "website_scraper",
+  "name_for_human": "Scrapee",
+  "description_for_model": "Scrape the text content of a website.",
+  "description_for_human": "Scrape the text content of any website.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://scrapee-website-scraper-plugin-for.onrender.com/openapi.json"
+  },
+  "logo_url": "https://scrapee-website-scraper-plugin-for.onrender.com/logo.png",
+  "contact_email": "maxime.bounaas@gmail.com",
+  "legal_info_url": "https://maxime-ferret.vercel.app",
+  "is_authenticated": true
+}

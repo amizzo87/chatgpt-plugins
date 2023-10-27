@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"TLDRTool","name_for_human":"TL;DR","description_for_model":"Discover the TL;DR tool, meticulously designed to simplify your content analysis process. Whether you're seeking quick summaries or extracting information from URLs, TL;DR is your summarization companion. Equipped with cutting-edge Natural Language Processing (NLP) techniques, this tool empowers you to explore, analyze, and interpret text with precision.","description_for_human":"⏳ TL;DR ⏐ 👉🏽 /tldr to summarize text or a webpage 👉🏽 /sentiment for a tl;dr sentiment analysis ❓/instructions for help.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://tldr.adielaine.repl.co/openapi.json"},"logo_url":"https://drive.google.com/uc?export=view&id=1yzN06BGSZXNf5uRSnRFzu4CLXuOCgOmG","contact_email":"justmadielaine@gmail.com","legal_info_url":"https://drive.google.com/file/d/1y39BSFBQsmFFjbqTNVBGB7dGuK0d2lsh/view?usp=sharing","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "TLDRTool",
+  "name_for_human": "TL;DR",
+  "description_for_model": "Discover the TL;DR tool, meticulously designed to simplify your content analysis process. Whether you're seeking quick summaries or extracting information from URLs, TL;DR is your summarization companion. Equipped with cutting-edge Natural Language Processing (NLP) techniques, this tool empowers you to explore, analyze, and interpret text with precision.",
+  "description_for_human": "⏳ TL;DR ⏐ 👉🏽 /tldr to summarize text or a webpage 👉🏽 /sentiment for a tl;dr sentiment analysis ❓/instructions for help.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://tldr.adielaine.repl.co/openapi.json"
+  },
+  "logo_url": "https://drive.google.com/uc?export=view&id=1yzN06BGSZXNf5uRSnRFzu4CLXuOCgOmG",
+  "contact_email": "justmadielaine@gmail.com",
+  "legal_info_url": "https://drive.google.com/file/d/1y39BSFBQsmFFjbqTNVBGB7dGuK0d2lsh/view?usp=sharing",
+  "is_authenticated": true
+}

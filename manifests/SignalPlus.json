@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"SignalPlus","name_for_human":"SignalPlus","description_for_model":"A comprehensive tool for cryptocurrency and NFT data and Defi protocol analytics. It offers a range of features including OHLCV data for spot, futures, and perpetual contracts, funding rate analysis, long/short ratio and Open Interest (OI) for futures and options, liquidation statistics, gas prices across blockchains, contract intelligence via address, NFT rankings and details, trending cryptocurrencies, and DeFi protocol data such as Total Value Locked (TVL).","description_for_human":"Live data on crypto, NFTs, DeFi. Spot/derivatives. A must for traders.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgptpi.signalplus.com/.well-known/market.yaml"},"logo_url":"https://chatgptpi.signalplus.com/.well-known/logo.png","contact_email":"james.shan@signalplus.com","legal_info_url":"https://static.signalplus.com/t/SignalPlus_TermsOfUse.pdf","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "SignalPlus",
+  "name_for_human": "SignalPlus",
+  "description_for_model": "A comprehensive tool for cryptocurrency and NFT data and Defi protocol analytics. It offers a range of features including OHLCV data for spot, futures, and perpetual contracts, funding rate analysis, long/short ratio and Open Interest (OI) for futures and options, liquidation statistics, gas prices across blockchains, contract intelligence via address, NFT rankings and details, trending cryptocurrencies, and DeFi protocol data such as Total Value Locked (TVL).",
+  "description_for_human": "Live data on crypto, NFTs, DeFi. Spot/derivatives. A must for traders.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgptpi.signalplus.com/.well-known/market.yaml"
+  },
+  "logo_url": "https://chatgptpi.signalplus.com/.well-known/logo.png",
+  "contact_email": "james.shan@signalplus.com",
+  "legal_info_url": "https://static.signalplus.com/t/SignalPlus_TermsOfUse.pdf",
+  "is_authenticated": true
+}

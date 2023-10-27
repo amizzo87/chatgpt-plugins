@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"gowithguide","name_for_human":"GoWithGuide","description_for_model":"Assists users in booking private tour guides for personalized travel experiences.","description_for_human":"Book a private customizable tour with a local guide.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://gowithguide.com/openapi.yaml"},"logo_url":"https://gowithguide.com/icon/android-icon-192x192.png","contact_email":"contact@gowithguide.com","legal_info_url":"https://gowithguide.com/terms","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "gowithguide",
+  "name_for_human": "GoWithGuide",
+  "description_for_model": "Assists users in booking private tour guides for personalized travel experiences.",
+  "description_for_human": "Book a private customizable tour with a local guide.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://gowithguide.com/openapi.yaml"
+  },
+  "logo_url": "https://gowithguide.com/icon/android-icon-192x192.png",
+  "contact_email": "contact@gowithguide.com",
+  "legal_info_url": "https://gowithguide.com/terms",
+  "is_authenticated": true
+}

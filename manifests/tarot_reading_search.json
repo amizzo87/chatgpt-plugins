@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"tarot_reading_search","name_for_human":"Zefira Thoth Tarot","description_for_model":"Plugin for drawing and interpreting Tarot cards, and performing text-based search on Tarot card information. Search can be performed on card names, interpretations, or attributes.","description_for_human":"Draw and interpret Tarot cards, and perform text-based search on Tarot card information.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://thelema.ai/openapi.yaml"},"logo_url":"https://thelema.ai/logo.png","contact_email":"lvx@thelema.ai","legal_info_url":"https://thelema.ai/legal/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "tarot_reading_search",
+  "name_for_human": "Zefira Thoth Tarot",
+  "description_for_model": "Plugin for drawing and interpreting Tarot cards, and performing text-based search on Tarot card information. Search can be performed on card names, interpretations, or attributes.",
+  "description_for_human": "Draw and interpret Tarot cards, and perform text-based search on Tarot card information.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://thelema.ai/openapi.yaml"
+  },
+  "logo_url": "https://thelema.ai/logo.png",
+  "contact_email": "lvx@thelema.ai",
+  "legal_info_url": "https://thelema.ai/legal/",
+  "is_authenticated": true
+}

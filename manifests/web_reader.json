@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"web_reader","name_for_human":"Web Reader","description_for_model":"Help the user extract and query data from an URL.","description_for_human":"Read and search data from URL link to website / webpage. Supports PDF, Word files, Excel, CSV, Google Drive and more.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.links.aidocmaker.com/openapi.yaml"},"logo_url":"https://storage.googleapis.com/public_394582/plugins/web_reader/logo.png","contact_email":"support@level2labs.co","legal_info_url":"https://www.aidocmaker.com","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "web_reader",
+  "name_for_human": "Web Reader",
+  "description_for_model": "Help the user extract and query data from an URL.",
+  "description_for_human": "Read and search data from URL link to website / webpage. Supports PDF, Word files, Excel, CSV, Google Drive and more.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.links.aidocmaker.com/openapi.yaml"
+  },
+  "logo_url": "https://storage.googleapis.com/public_394582/plugins/web_reader/logo.png",
+  "contact_email": "support@level2labs.co",
+  "legal_info_url": "https://www.aidocmaker.com",
+  "is_authenticated": true
+}

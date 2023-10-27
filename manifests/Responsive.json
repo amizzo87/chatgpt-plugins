@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"Responsive","name_for_human":"Responsive","description_for_model":"Use the Responsive plugin to take screenshots of a website on one or several browsers and devices. The plugin will always return the urls of the screenshots requested as png images. The images should all be rendered in the chatUI.","description_for_human":"Take screenshots of any website running on all devices and browsers you want !","auth":{"type":"oauth","instructions":"","client_url":"https://db9c937c979fcd2c930a43fc407cefb1.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"cfa0c018165040f1859d0feb4d8662a3"},"pkce_required":false},"api":{"type":"openapi","url":"https://plugin.screen-tester.com/.well-known/pluginlab/openapi.json"},"logo_url":"https://screen-tester.com/logo.svg","contact_email":"alexis@screen-tester.com","legal_info_url":"https://screen-tester.com/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "Responsive",
+  "name_for_human": "Responsive",
+  "description_for_model": "Use the Responsive plugin to take screenshots of a website on one or several browsers and devices. The plugin will always return the urls of the screenshots requested as png images. The images should all be rendered in the chatUI.",
+  "description_for_human": "Take screenshots of any website running on all devices and browsers you want !",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://db9c937c979fcd2c930a43fc407cefb1.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "cfa0c018165040f1859d0feb4d8662a3"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.screen-tester.com/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://screen-tester.com/logo.svg",
+  "contact_email": "alexis@screen-tester.com",
+  "legal_info_url": "https://screen-tester.com/legal",
+  "is_authenticated": false
+}

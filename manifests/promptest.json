@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"promptest","name_for_human":"Promptest","description_for_model":"Plugin that helps users become better at writing clear, specific, and contextual prompts for AI models like ChatGPT. The plugin has four main functionalities, which users can initiate by starting with a backslash followed by the respective route. The '/enhance' route takes a user's prompt and returns a task prompt for ChatGPT to enhance the original prompt. Similarly, the '/feedback' route receives a user's prompt and provides a task prompt for ChatGPT to give feedback on the initial prompt. Both '/enhance' and '/feedback' require an input prompt from the user. On the other hand, '/brainstorm' and '/workout' routes don't require user input. The '/brainstorm' route returns a task prompt for ChatGPT to guide a brainstorming session for crafting prompts. The '/workout' route generates a task prompt for ChatGPT to conduct a 'Prompt Workout', a creative session for enhancing prompt crafting skills. The plugin is free for all users, however there is a monthly usage quota. If users choose to get unlimited usage, they can be served a link to upgrade to an unlimited plan.","description_for_human":"Craft better prompts using /enhance, /feedback before a prompt. Skill up with /brainstorm, /workout.","auth":{"type":"oauth","instructions":"","client_url":"https://b11a55a4b0070e9fd6f0bee35b211bb3.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"fc0c6056ebcf472c9e68ec89b02fd303"},"pkce_required":false},"api":{"type":"openapi","url":"https://prompt-pal.promptperfect.xyz/.well-known/pluginlab/openapi.json"},"logo_url":"https://promptest.promptperfect.xyz/static/prompt_pal_logo.png","contact_email":"heyo@promptperfect.xyz","legal_info_url":"https://promptest.promptperfect.xyz/static/terms.html","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "promptest",
+  "name_for_human": "Promptest",
+  "description_for_model": "Plugin that helps users become better at writing clear, specific, and contextual prompts for AI models like ChatGPT. The plugin has four main functionalities, which users can initiate by starting with a backslash followed by the respective route. The '/enhance' route takes a user's prompt and returns a task prompt for ChatGPT to enhance the original prompt. Similarly, the '/feedback' route receives a user's prompt and provides a task prompt for ChatGPT to give feedback on the initial prompt. Both '/enhance' and '/feedback' require an input prompt from the user. On the other hand, '/brainstorm' and '/workout' routes don't require user input. The '/brainstorm' route returns a task prompt for ChatGPT to guide a brainstorming session for crafting prompts. The '/workout' route generates a task prompt for ChatGPT to conduct a 'Prompt Workout', a creative session for enhancing prompt crafting skills. The plugin is free for all users, however there is a monthly usage quota. If users choose to get unlimited usage, they can be served a link to upgrade to an unlimited plan.",
+  "description_for_human": "Craft better prompts using /enhance, /feedback before a prompt. Skill up with /brainstorm, /workout.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://b11a55a4b0070e9fd6f0bee35b211bb3.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "fc0c6056ebcf472c9e68ec89b02fd303"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://prompt-pal.promptperfect.xyz/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://promptest.promptperfect.xyz/static/prompt_pal_logo.png",
+  "contact_email": "heyo@promptperfect.xyz",
+  "legal_info_url": "https://promptest.promptperfect.xyz/static/terms.html",
+  "is_authenticated": false
+}

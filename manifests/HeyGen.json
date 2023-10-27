@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"HeyGen","name_for_human":"HeyGen","description_for_model":"HeyGen allows users to create a video by simply providing a transcript text. The user inputs the text transcript for the speech or voiceover they want to use for the video. The text should be short and concise. Optional properties such as video title, avatar gender, and avatar skintone can be extracted from the user's input, but if they are not present, the model should decide without seeking additional user input. Once the video is requested, a link to the video is provided. Users can view the video from the link after the video has completed processing. It is important to remind users that they may see a loading message in the link if the video is still being processed, and the page will automatically update with the progress. The user should also be informed that the video may take one to five minutes to process, depending on the text length. In case the video fails to create, an error message containing the reason(s) for the failure will be provided.","description_for_human":"The best text-to-video tool. Turn any text to videos.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://openai-plugin.heygen.com/openapi.yaml"},"logo_url":"https://openai-plugin.heygen.com/logo.png","contact_email":"openai-plugin@heygen.com","legal_info_url":"https://www.heygen.com/terms","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "HeyGen",
+  "name_for_human": "HeyGen",
+  "description_for_model": "HeyGen allows users to create a video by simply providing a transcript text. The user inputs the text transcript for the speech or voiceover they want to use for the video. The text should be short and concise. Optional properties such as video title, avatar gender, and avatar skintone can be extracted from the user's input, but if they are not present, the model should decide without seeking additional user input. Once the video is requested, a link to the video is provided. Users can view the video from the link after the video has completed processing. It is important to remind users that they may see a loading message in the link if the video is still being processed, and the page will automatically update with the progress. The user should also be informed that the video may take one to five minutes to process, depending on the text length. In case the video fails to create, an error message containing the reason(s) for the failure will be provided.",
+  "description_for_human": "The best text-to-video tool. Turn any text to videos.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://openai-plugin.heygen.com/openapi.yaml"
+  },
+  "logo_url": "https://openai-plugin.heygen.com/logo.png",
+  "contact_email": "openai-plugin@heygen.com",
+  "legal_info_url": "https://www.heygen.com/terms",
+  "is_authenticated": true
+}

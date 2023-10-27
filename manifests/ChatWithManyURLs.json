@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"ChatWithManyURLs","name_for_human":"Chat With Many URLs","description_for_model":"The user provides you with several URL links with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to allow the user to chat with the text on those URLs.","description_for_human":"Enter multiple URLs and chat with their text!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://multi-urls.orrenprunckun.com/openapi.yaml"},"logo_url":"https://multi-urls.orrenprunckun.com/icon.png","contact_email":"hello@orrenprunckun.com","legal_info_url":"https://multi-urls.orrenprunckun.com/terms.php","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "ChatWithManyURLs",
+  "name_for_human": "Chat With Many URLs",
+  "description_for_model": "The user provides you with several URL links with written text content where the URL begins with http or https. You must request this URL structure from the user. Your role is to allow the user to chat with the text on those URLs.",
+  "description_for_human": "Enter multiple URLs and chat with their text!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://multi-urls.orrenprunckun.com/openapi.yaml"
+  },
+  "logo_url": "https://multi-urls.orrenprunckun.com/icon.png",
+  "contact_email": "hello@orrenprunckun.com",
+  "legal_info_url": "https://multi-urls.orrenprunckun.com/terms.php",
+  "is_authenticated": true
+}

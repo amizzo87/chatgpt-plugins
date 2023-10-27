@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"avian","name_for_human":"Avian","description_for_model":"This plugin connects to Avian.io, which allows users to get data from Facebook Ads, Facebook Page Insights, Google Ads, Google Analytics, Instagram and TikTok ads. You now has access to all the aformentioned APIs. You can make API requests to our endpoints and help the user connect to their data, whether it be Google Analytics, Facebook Ads etc. If a user hasn't authenticated their plugin, they will need to do so. They will also need to authenticate their accounts, for example Facebook Ads.The plugin can also graph data for the user.","description_for_human":"Analyze & visualize data from 20+ platforms, including Google Analytics, Google Ads & Facebook Ads.","auth":{"type":"oauth","instructions":"","client_url":"https://avian.io/o/authorize/","scope":"read write","authorization_url":"https://avian.io/o/token/","authorization_content_type":"application/x-www-form-urlencoded","verification_tokens":{"openai":"88f53afaa13c42ae987869f1bd54b083"},"pkce_required":false},"api":{"type":"openapi","url":"https://avian.io/openapi.yaml/"},"logo_url":"https://avian.io/static/images/logomark_square.png","contact_email":"support@avian.io","legal_info_url":"https://avian.io/terms/","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "avian",
+  "name_for_human": "Avian",
+  "description_for_model": "This plugin connects to Avian.io, which allows users to get data from Facebook Ads, Facebook Page Insights, Google Ads, Google Analytics, Instagram and TikTok ads. You now has access to all the aformentioned APIs. You can make API requests to our endpoints and help the user connect to their data, whether it be Google Analytics, Facebook Ads etc. If a user hasn't authenticated their plugin, they will need to do so. They will also need to authenticate their accounts, for example Facebook Ads.The plugin can also graph data for the user.",
+  "description_for_human": "Analyze & visualize data from 20+ platforms, including Google Analytics, Google Ads & Facebook Ads.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://avian.io/o/authorize/",
+    "scope": "read write",
+    "authorization_url": "https://avian.io/o/token/",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "88f53afaa13c42ae987869f1bd54b083"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://avian.io/openapi.yaml/"
+  },
+  "logo_url": "https://avian.io/static/images/logomark_square.png",
+  "contact_email": "support@avian.io",
+  "legal_info_url": "https://avian.io/terms/",
+  "is_authenticated": false
+}

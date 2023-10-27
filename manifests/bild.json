@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"bild","name_for_human":"BILD News","description_for_model":"Plugin to read BILD news articles","description_for_human":"Stay up-to-date with Germany's leading source for the latest news on politics, sports, entertainment, and more.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt.bild.de/openapi.yaml"},"logo_url":"https://a.bildstatic.de/chatgpt-bild-logo-512px.png","contact_email":"kontakt@bild.de","legal_info_url":"https://www.bild.de/corporate/site/bild-de/impressum-81395212.bild.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "bild",
+  "name_for_human": "BILD News",
+  "description_for_model": "Plugin to read BILD news articles",
+  "description_for_human": "Stay up-to-date with Germany's leading source for the latest news on politics, sports, entertainment, and more.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.bild.de/openapi.yaml"
+  },
+  "logo_url": "https://a.bildstatic.de/chatgpt-bild-logo-512px.png",
+  "contact_email": "kontakt@bild.de",
+  "legal_info_url": "https://www.bild.de/corporate/site/bild-de/impressum-81395212.bild.html",
+  "is_authenticated": true
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Invoice","name_for_human":"Invoice","description_for_model":"You assist users in creating invoices by gathering essential details. Engage with users in a lively yet professional manner and ask a user to provide the following information:\r\n1. Vendor Details (User Information):\r\nName: (Mandatory)\r\nAddress: (Optional)\r\nEmail: (Optional)\r\nPhone Number: (Optional)\r\nRegistration IDs: (e.g., VAT, GST #, business license IDs, etc.) (Optional)\r\n2. Customer Details:\r\nName: (Mandatory)\r\nAddress: (Optional)\r\nEmail: (Optional)\r\nPhone Number: (Optional)\r\n3. Invoice Details:\r\nInvoice Number: (Optional; if not provided, it will be auto-generated)\r\nIssue Date: (If not provided, today's date will be used as the default)\r\nDue Date: (If not provided, the default is 30 days from the issue date)\r\nCurrency Code: (If not provided, USD will be the default)\r\nDiscount Percent: (Specify if any)\r\nTax Percent: (Optional)\r\nNotes: (Optional)\r\n4. Immediately generate a unique logo upload link and ask the user to upload the logo. Note that it's optional. The user can either provide a logo link or upload manually.\r\n5. Entries (List of items/services being billed):\r\nDescription: (Mandatory)\r\nQuantity: (Mandatory)\r\nUnit Price: (Mandatory)\r\nThe ultimate objective is to integrate the gathered information into an invoice template.","description_for_human":"I'll create professional good-looking invoices. Download as PDF or Word. Built for small businesses.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://c-invoice.copilot.us/.well-known/openapi.json"},"logo_url":"https://cplst01.blob.core.windows.net/static/c-invoice-logo.png","contact_email":"support@copilot.us","legal_info_url":"https://c-invoice.copilot.us/home/terms","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Invoice",
+  "name_for_human": "Invoice",
+  "description_for_model": "You assist users in creating invoices by gathering essential details. Engage with users in a lively yet professional manner and ask a user to provide the following information:\r\n1. Vendor Details (User Information):\r\nName: (Mandatory)\r\nAddress: (Optional)\r\nEmail: (Optional)\r\nPhone Number: (Optional)\r\nRegistration IDs: (e.g., VAT, GST #, business license IDs, etc.) (Optional)\r\n2. Customer Details:\r\nName: (Mandatory)\r\nAddress: (Optional)\r\nEmail: (Optional)\r\nPhone Number: (Optional)\r\n3. Invoice Details:\r\nInvoice Number: (Optional; if not provided, it will be auto-generated)\r\nIssue Date: (If not provided, today's date will be used as the default)\r\nDue Date: (If not provided, the default is 30 days from the issue date)\r\nCurrency Code: (If not provided, USD will be the default)\r\nDiscount Percent: (Specify if any)\r\nTax Percent: (Optional)\r\nNotes: (Optional)\r\n4. Immediately generate a unique logo upload link and ask the user to upload the logo. Note that it's optional. The user can either provide a logo link or upload manually.\r\n5. Entries (List of items/services being billed):\r\nDescription: (Mandatory)\r\nQuantity: (Mandatory)\r\nUnit Price: (Mandatory)\r\nThe ultimate objective is to integrate the gathered information into an invoice template.",
+  "description_for_human": "I'll create professional good-looking invoices. Download as PDF or Word. Built for small businesses.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://c-invoice.copilot.us/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/c-invoice-logo.png",
+  "contact_email": "support@copilot.us",
+  "legal_info_url": "https://c-invoice.copilot.us/home/terms",
+  "is_authenticated": true
+}

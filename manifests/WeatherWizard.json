@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"WeatherWizard","name_for_human":"WeatherWizard","description_for_model":"Use the WeatherWizard plugin to automatically fetch current weather information for a specific location when it's being generated. The plugin will return weather data, including temperature, wind speed, humidity, and other relevant information, as well as a link to a page that has all the information. Links will always be returned and should be shown to the user. The weather data can be used to provide users with up-to-date and accurate weather information for their desired location.","description_for_human":"Get current weather information from around the world. Powered by WeatherAPI.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://weathergpt-bay-six.vercel.app/openapi.json"},"logo_url":"https://weathergpt-bay-six.vercel.app/logo.png","contact_email":"contact@weatherwizard.com","legal_info_url":"https://weathergpt-bay-six.vercel.app/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "WeatherWizard",
+  "name_for_human": "WeatherWizard",
+  "description_for_model": "Use the WeatherWizard plugin to automatically fetch current weather information for a specific location when it's being generated. The plugin will return weather data, including temperature, wind speed, humidity, and other relevant information, as well as a link to a page that has all the information. Links will always be returned and should be shown to the user. The weather data can be used to provide users with up-to-date and accurate weather information for their desired location.",
+  "description_for_human": "Get current weather information from around the world. Powered by WeatherAPI.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://weathergpt-bay-six.vercel.app/openapi.json"
+  },
+  "logo_url": "https://weathergpt-bay-six.vercel.app/logo.png",
+  "contact_email": "contact@weatherwizard.com",
+  "legal_info_url": "https://weathergpt-bay-six.vercel.app/legal",
+  "is_authenticated": true
+}

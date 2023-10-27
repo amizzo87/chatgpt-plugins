@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"calculatortools","name_for_human":"Calculator Tools","description_for_model":"Create, make, and deploy simple single page web applications directly to the web within a secure iframe.","description_for_human":"Create any app, calculator, tool, tracker, or game instantly with AI.","auth":{"type":"oauth","instructions":"","client_url":"https://api.calculator.tools/openai/oauth/","scope":"app:create","authorization_url":"https://api.calculator.tools/openai/oauth_exchange/","authorization_content_type":"application/json","verification_tokens":{"openai":"e8aa4f411af94ca8ae151e53711ee9bc"},"pkce_required":false},"api":{"type":"openapi","url":"https://api.calculator.tools/openapi.yaml"},"logo_url":"https://calculator.tools/images/logo.png","contact_email":"info@calculator.tools","legal_info_url":"https://calculator.tools/privacy-policy/","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "calculatortools",
+  "name_for_human": "Calculator Tools",
+  "description_for_model": "Create, make, and deploy simple single page web applications directly to the web within a secure iframe.",
+  "description_for_human": "Create any app, calculator, tool, tracker, or game instantly with AI.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://api.calculator.tools/openai/oauth/",
+    "scope": "app:create",
+    "authorization_url": "https://api.calculator.tools/openai/oauth_exchange/",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "e8aa4f411af94ca8ae151e53711ee9bc"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.calculator.tools/openapi.yaml"
+  },
+  "logo_url": "https://calculator.tools/images/logo.png",
+  "contact_email": "info@calculator.tools",
+  "legal_info_url": "https://calculator.tools/privacy-policy/",
+  "is_authenticated": false
+}

@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"testcreationV5","name_for_human":"Little Professor","description_for_model":"Little Professor creates student tests for classroom teachers to enhance school education. Are you looking to craft the perfect age-appropriate test for your students without the hassle? You're in the right place! With the Little Professor Test Creator Plugin, you can now generate customized tests tailored to your students' grade level and subject matter. You can decide on the type of test, the grade level for the test, the number of questions, a general subject and even include more details as needed to tailor the questions to a particular subject. You can even request an Answer Key to make your job easier. Answer a few simple questions and your test will be ready in a few moments. Ask for Little Professor by name.","description_for_human":"Little Professor creates student tests for classroom teachers to enhance school education.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"d08ecc8950d84fe5af80ff51312e0807"}},"api":{"type":"openapi","url":"https://www.little-professor.org/.well-known/openapi.yaml"},"logo_url":"https://www.little-professor.org/.well-known/lpbig.jpg","contact_email":"answers@little-professor.org","legal_info_url":"https://www.little-professor.org/legal.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "testcreationV5",
+  "name_for_human": "Little Professor",
+  "description_for_model": "Little Professor creates student tests for classroom teachers to enhance school education. Are you looking to craft the perfect age-appropriate test for your students without the hassle? You're in the right place! With the Little Professor Test Creator Plugin, you can now generate customized tests tailored to your students' grade level and subject matter. You can decide on the type of test, the grade level for the test, the number of questions, a general subject and even include more details as needed to tailor the questions to a particular subject. You can even request an Answer Key to make your job easier. Answer a few simple questions and your test will be ready in a few moments. Ask for Little Professor by name.",
+  "description_for_human": "Little Professor creates student tests for classroom teachers to enhance school education.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "d08ecc8950d84fe5af80ff51312e0807"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.little-professor.org/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://www.little-professor.org/.well-known/lpbig.jpg",
+  "contact_email": "answers@little-professor.org",
+  "legal_info_url": "https://www.little-professor.org/legal.html",
+  "is_authenticated": true
+}

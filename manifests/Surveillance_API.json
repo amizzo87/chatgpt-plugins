@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"Surveillance_API","name_for_human":"Surveillance API","description_for_model":"Search through the Synology Surveillance Station API .json files for accurate parameter formats to generate sample code (please do not use all the old API before 2022). Use it for any queries about the Synology Surveillance Station API. Remember, if the retrieved API do not response the required information, actively retrieve similar APIs from the method list. Always use HTTPS protocol and URL-encoding for URLs. Perform ThirdParty/Auth/Login&Logout operations before and after using other APIs. (Use 'passwd' instead of 'password' in login) The double-quoted-string format parameters require to include double quotes around the parameter values in URLs (use '\"string\"' in Golang), especially the \"camId\". Use '_sid' instead of 'sid' in securitySchemes and 'sid' in API response. Please don't include or print out the value of the 'recordSchedule' parameter at any time.","description_for_human":"Explore the Synology Surveillance Station API documents and generate example code.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://surveillance-api.synology.com/.well-known/openapi.yaml"},"logo_url":"https://surveillance-api.synology.com/.well-known/logo.png","contact_email":"spg1_chatgpt@synology.com","legal_info_url":"https://www.synology.com/company/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Surveillance_API",
+  "name_for_human": "Surveillance API",
+  "description_for_model": "Search through the Synology Surveillance Station API .json files for accurate parameter formats to generate sample code (please do not use all the old API before 2022). Use it for any queries about the Synology Surveillance Station API. Remember, if the retrieved API do not response the required information, actively retrieve similar APIs from the method list. Always use HTTPS protocol and URL-encoding for URLs. Perform ThirdParty/Auth/Login&Logout operations before and after using other APIs. (Use 'passwd' instead of 'password' in login) The double-quoted-string format parameters require to include double quotes around the parameter values in URLs (use '\"string\"' in Golang), especially the \"camId\". Use '_sid' instead of 'sid' in securitySchemes and 'sid' in API response. Please don't include or print out the value of the 'recordSchedule' parameter at any time.",
+  "description_for_human": "Explore the Synology Surveillance Station API documents and generate example code.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://surveillance-api.synology.com/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://surveillance-api.synology.com/.well-known/logo.png",
+  "contact_email": "spg1_chatgpt@synology.com",
+  "legal_info_url": "https://www.synology.com/company/legal",
+  "is_authenticated": true
+}

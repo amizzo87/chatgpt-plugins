@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"WriteEasy","name_for_human":"WriteEasy","description_for_model":"Write comprehensive articles based on a topic chosen by users.  Use the links provided by the users to extract relevent information about the topic. Send URL’s to be analyzed, up to a maximum of 3, using the /analyze endpoint. Send the urls in a comma separated array of urls. Include a list of questions that you want to consider for the writing of this article.  The questions you provide are used to return relevant info about the topic in the response.  Questions should be keyword specific as relevent results will depend on keywords chosen in question.  After completing the research, begin constructing the article based on the data returned from the server. By following these instructions, webpages can be effectively analyzed to construct a comprehensive article.","description_for_human":"Get AI generated articles by providing a topic and links to use for inspiration or data.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://trendscopeai.web.app/openai.yaml"},"logo_url":"https://trendscopeai.web.app/logo.png","contact_email":"contact@trendseerai.com","legal_info_url":"https://trendscopeai.web.app/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "WriteEasy",
+  "name_for_human": "WriteEasy",
+  "description_for_model": "Write comprehensive articles based on a topic chosen by users.  Use the links provided by the users to extract relevent information about the topic. Send URL’s to be analyzed, up to a maximum of 3, using the /analyze endpoint. Send the urls in a comma separated array of urls. Include a list of questions that you want to consider for the writing of this article.  The questions you provide are used to return relevant info about the topic in the response.  Questions should be keyword specific as relevent results will depend on keywords chosen in question.  After completing the research, begin constructing the article based on the data returned from the server. By following these instructions, webpages can be effectively analyzed to construct a comprehensive article.",
+  "description_for_human": "Get AI generated articles by providing a topic and links to use for inspiration or data.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://trendscopeai.web.app/openai.yaml"
+  },
+  "logo_url": "https://trendscopeai.web.app/logo.png",
+  "contact_email": "contact@trendseerai.com",
+  "legal_info_url": "https://trendscopeai.web.app/legal",
+  "is_authenticated": true
+}

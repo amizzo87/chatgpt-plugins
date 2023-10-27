@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"buzz","name_for_human":"BUZZ.NEW","description_for_model":"Buzz.NEW is a business management tool for you. It allows users to create a business, manage products, and handle orders. Say new business to get started!","description_for_human":"BUZZ.NEW: A smart business creator for business management. Create, manage inventory, and handle orders efficiently.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://plugin.buzz.new/openapi.json"},"logo_url":"https://docs.buzz.new/logo.svg","contact_email":"support@buzz.new","legal_info_url":"https://buzz.new/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "buzz",
+  "name_for_human": "BUZZ.NEW",
+  "description_for_model": "Buzz.NEW is a business management tool for you. It allows users to create a business, manage products, and handle orders. Say new business to get started!",
+  "description_for_human": "BUZZ.NEW: A smart business creator for business management. Create, manage inventory, and handle orders efficiently.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.buzz.new/openapi.json"
+  },
+  "logo_url": "https://docs.buzz.new/logo.svg",
+  "contact_email": "support@buzz.new",
+  "legal_info_url": "https://buzz.new/legal",
+  "is_authenticated": true
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"dafny_checker","name_for_human":"Dafny Checker","description_for_model":"Check that Dafny code passes the verifier, without executing the code.","description_for_human":"Check that Dafny code passes the verifier, without executing the code.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://dafny-chatgpt.livecode.ch/openapi.yaml"},"logo_url":"https://dafny-chatgpt.livecode.ch/logo.png","contact_email":"namin@seas.harvard.edu","legal_info_url":"https://dafny-chatgpt.livecode.ch","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "dafny_checker",
+  "name_for_human": "Dafny Checker",
+  "description_for_model": "Check that Dafny code passes the verifier, without executing the code.",
+  "description_for_human": "Check that Dafny code passes the verifier, without executing the code.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://dafny-chatgpt.livecode.ch/openapi.yaml"
+  },
+  "logo_url": "https://dafny-chatgpt.livecode.ch/logo.png",
+  "contact_email": "namin@seas.harvard.edu",
+  "legal_info_url": "https://dafny-chatgpt.livecode.ch",
+  "is_authenticated": true
+}

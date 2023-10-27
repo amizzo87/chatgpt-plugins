@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"LegalQA","name_for_human":"LegalQA","description_for_model":"Plugin for answering any inquiries related to Chinese law in any languages.","description_for_human":"Answer any inquiries related to Chinese law in any languages.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://legal-qa-chatgpt-prod.azurewebsites.net/openapi.yaml"},"logo_url":"https://legal-qa-chatgpt-prod.azurewebsites.net/logo.jpg","contact_email":"contact@machinelearning.com","legal_info_url":"https://legal-qa-chatgpt-prod.azurewebsites.net/openai_plugin_legal_info","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "LegalQA",
+  "name_for_human": "LegalQA",
+  "description_for_model": "Plugin for answering any inquiries related to Chinese law in any languages.",
+  "description_for_human": "Answer any inquiries related to Chinese law in any languages.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://legal-qa-chatgpt-prod.azurewebsites.net/openapi.yaml"
+  },
+  "logo_url": "https://legal-qa-chatgpt-prod.azurewebsites.net/logo.jpg",
+  "contact_email": "contact@machinelearning.com",
+  "legal_info_url": "https://legal-qa-chatgpt-prod.azurewebsites.net/openai_plugin_legal_info",
+  "is_authenticated": true
+}

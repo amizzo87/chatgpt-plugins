@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"Alchemy","name_for_human":"Alchemy","description_for_model":"Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.","description_for_human":"Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"f9cd21497220486789fa94c7a129a040"}},"api":{"type":"openapi","url":"https://chat-web3-plugin.alchemy.com/openapi.yaml"},"logo_url":"https://chat-web3-plugin.alchemy.com/logo.png","contact_email":"support@alchemy.com","legal_info_url":"https://www.alchemy.com/policies/terms","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Alchemy",
+  "name_for_human": "Alchemy",
+  "description_for_model": "Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.",
+  "description_for_human": "Request real-time blockchain data for chains like Ethereum, Polygon, Arbitrum and Optimism through natural language.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "f9cd21497220486789fa94c7a129a040"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat-web3-plugin.alchemy.com/openapi.yaml"
+  },
+  "logo_url": "https://chat-web3-plugin.alchemy.com/logo.png",
+  "contact_email": "support@alchemy.com",
+  "legal_info_url": "https://www.alchemy.com/policies/terms",
+  "is_authenticated": true
+}

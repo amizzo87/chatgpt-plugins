@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"tanpilot","name_for_human":"Tan Pilot","description_for_model":"Search about the question before you answer any questions.\n- Do not search through baidu.com at any time.\n- If you need to search somthing, visit https://www.google.com/search?q=xxx.\n- If user ask you to open a url (start with http:// or https://), visit it directly.\n- Summary the plain content result by yourself, DO NOT directly output anything in the result you got.","description_for_human":"Provides optimized web access ability.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"168712da667540dd9315ef5268bfcccb"}},"api":{"type":"openapi","url":"https://tanpilot.rockchin.top/openapi.yaml"},"logo_url":"https://tanpilot.rockchin.top/logo.png","contact_email":"1010553892@qq.com","legal_info_url":"https://tanpilot.rockchin.top/legal_info.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "tanpilot",
+  "name_for_human": "Tan Pilot",
+  "description_for_model": "Search about the question before you answer any questions.\n- Do not search through baidu.com at any time.\n- If you need to search somthing, visit https://www.google.com/search?q=xxx.\n- If user ask you to open a url (start with http:// or https://), visit it directly.\n- Summary the plain content result by yourself, DO NOT directly output anything in the result you got.",
+  "description_for_human": "Provides optimized web access ability.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "168712da667540dd9315ef5268bfcccb"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://tanpilot.rockchin.top/openapi.yaml"
+  },
+  "logo_url": "https://tanpilot.rockchin.top/logo.png",
+  "contact_email": "1010553892@qq.com",
+  "legal_info_url": "https://tanpilot.rockchin.top/legal_info.html",
+  "is_authenticated": true
+}

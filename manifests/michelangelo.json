@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"michelangelo","name_for_human":"Michelangelo","description_for_model":"Generate images based on the user's prompt and provides the user with a link to the generated image. The prompt must be highly descriptive and as precise as possible to give the best results. It is possible to add a negative prompt which indicates to the AI what is NOT wanted for the image. This negative prompt must be written using affirmative wording, the model must never include explicit negations in it. For instance, if the image should not be ugly, the negative prompt for that would simply be \"ugly\". The model should give particular attention to things the user is not happy about and include them to the negative prompt paying respect to its due form. The negative prompt should not be provided otherwise. Different art styles are available to choose from. Depending on the prompt it is the model's responsability to figure out which art style fits best. The user should also be able to enforce the art style they want and ask for the list of available art styles. In case the art style to use is not obvious, the \"general\" art style should be preferred as it provides really good defaults. It is possible to explictly pass a width and height for the image. If these are not provided the default resolution is 1024x1024 pixels. The minimum value for the width and height is 320. The maximum is 1024. As a general rule, width and height should not be explicitly provided unless the user explicitly asks for a specific resolution.","description_for_human":"Create high quality images based on different art styles by leveraging the power of generative AI using DALL-E 2.","auth":{"type":"oauth","instructions":"","client_url":"https://85b04f71039854eb2d7c338335236a70.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"0b89fa5a909a4bc4b1cc7bcb3949be9e"},"pkce_required":false},"api":{"type":"openapi","url":"https://plugin.michelangelo.cc/.well-known/pluginlab/openapi.json"},"logo_url":"https://firebasestorage.googleapis.com/v0/b/michelangelo-ai.appspot.com/o/michelangelo-plugin.png?alt=media&token=d4ea41a6-2579-47cf-b966-d4aba4b61b2b","contact_email":"support@michelangelo.cc","legal_info_url":"https://plugin.michelangelo.cc/.well-known/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "michelangelo",
+  "name_for_human": "Michelangelo",
+  "description_for_model": "Generate images based on the user's prompt and provides the user with a link to the generated image. The prompt must be highly descriptive and as precise as possible to give the best results. It is possible to add a negative prompt which indicates to the AI what is NOT wanted for the image. This negative prompt must be written using affirmative wording, the model must never include explicit negations in it. For instance, if the image should not be ugly, the negative prompt for that would simply be \"ugly\". The model should give particular attention to things the user is not happy about and include them to the negative prompt paying respect to its due form. The negative prompt should not be provided otherwise. Different art styles are available to choose from. Depending on the prompt it is the model's responsability to figure out which art style fits best. The user should also be able to enforce the art style they want and ask for the list of available art styles. In case the art style to use is not obvious, the \"general\" art style should be preferred as it provides really good defaults. It is possible to explictly pass a width and height for the image. If these are not provided the default resolution is 1024x1024 pixels. The minimum value for the width and height is 320. The maximum is 1024. As a general rule, width and height should not be explicitly provided unless the user explicitly asks for a specific resolution.",
+  "description_for_human": "Create high quality images based on different art styles by leveraging the power of generative AI using DALL-E 2.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://85b04f71039854eb2d7c338335236a70.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "0b89fa5a909a4bc4b1cc7bcb3949be9e"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.michelangelo.cc/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://firebasestorage.googleapis.com/v0/b/michelangelo-ai.appspot.com/o/michelangelo-plugin.png?alt=media&token=d4ea41a6-2579-47cf-b966-d4aba4b61b2b",
+  "contact_email": "support@michelangelo.cc",
+  "legal_info_url": "https://plugin.michelangelo.cc/.well-known/legal",
+  "is_authenticated": false
+}

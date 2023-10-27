@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"BeatandRaise","name_for_human":"BeatandRaise","description_for_model":"This plugin fetches text and sources so that you can read the text and answer the questions about the companies the user is interested in. If necessary, make a different call for each company so that you can get the text and sources for each company.","description_for_human":"Edgar SEC data on demand. Get income statements, balance sheets, management comments.","auth":{"type":"oauth","instructions":"","client_url":"https://clerk.beatandraiseplugin.com/oauth/authorize","scope":"profile email","authorization_url":"https://clerk.beatandraiseplugin.com/oauth/token","authorization_content_type":"application/x-www-form-urlencoded","verification_tokens":{"openai":"004b22c35da44257b54cb3a636fa1ff1"},"pkce_required":false},"api":{"type":"openapi","url":"https://www.beatandraiseplugin.com/openapi.json"},"logo_url":"https://beatandraiseplugin.com/logo.png","contact_email":"support@beatandraise.com","legal_info_url":"https://beatandraise.com/terms","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "BeatandRaise",
+  "name_for_human": "BeatandRaise",
+  "description_for_model": "This plugin fetches text and sources so that you can read the text and answer the questions about the companies the user is interested in. If necessary, make a different call for each company so that you can get the text and sources for each company.",
+  "description_for_human": "Edgar SEC data on demand. Get income statements, balance sheets, management comments.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://clerk.beatandraiseplugin.com/oauth/authorize",
+    "scope": "profile email",
+    "authorization_url": "https://clerk.beatandraiseplugin.com/oauth/token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "004b22c35da44257b54cb3a636fa1ff1"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.beatandraiseplugin.com/openapi.json"
+  },
+  "logo_url": "https://beatandraiseplugin.com/logo.png",
+  "contact_email": "support@beatandraise.com",
+  "legal_info_url": "https://beatandraise.com/terms",
+  "is_authenticated": false
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"ProjectPlan365","name_for_human":"Project Plan 365","description_for_model":"Plugin for creating project plans. Provide details on all tasks and also include summary tasks (if available).","description_for_human":"Create simple project plans that open directly in Project Plan 365 or export to MS Project's MPP format for free!","auth":{"type":"none"},"api":{"type":"openapi","url":"https://online.projectplan365.com/chatgptapi/swagger/openapi.yaml"},"logo_url":"https://online.projectplan365.com/chatgptapi/logo.png","contact_email":"contact@housatonic.com","legal_info_url":"https://online.projectplan365.com/chatgptapi/legal.html","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "ProjectPlan365",
+  "name_for_human": "Project Plan 365",
+  "description_for_model": "Plugin for creating project plans. Provide details on all tasks and also include summary tasks (if available).",
+  "description_for_human": "Create simple project plans that open directly in Project Plan 365 or export to MS Project's MPP format for free!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://online.projectplan365.com/chatgptapi/swagger/openapi.yaml"
+  },
+  "logo_url": "https://online.projectplan365.com/chatgptapi/logo.png",
+  "contact_email": "contact@housatonic.com",
+  "legal_info_url": "https://online.projectplan365.com/chatgptapi/legal.html",
+  "is_authenticated": true
+}

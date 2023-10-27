@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"canva","name_for_human":"Canva","description_for_model":"Help user by suggesting different templates they can use to create any design including presentations, social media posts, presentations, posters, videos, logos, websites, documents and more. Users can populate design templates with chat content as a way to visualise the provided data.","description_for_human":"Create anything in a snap, from presentations and logos to social media posts and more.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"a4a5abc1c9854cb788ce86a4c0207afd"}},"api":{"type":"openapi","url":"https://chatgpt-plugin.canva.com/openapi.yaml"},"logo_url":"https://chatgpt-plugin.canva.com/logo.svg","contact_email":"integrations-support@canva.com","legal_info_url":"https://www.canva.com/policies/ai-product-terms/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "canva",
+  "name_for_human": "Canva",
+  "description_for_model": "Help user by suggesting different templates they can use to create any design including presentations, social media posts, presentations, posters, videos, logos, websites, documents and more. Users can populate design templates with chat content as a way to visualise the provided data.",
+  "description_for_human": "Create anything in a snap, from presentations and logos to social media posts and more.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "a4a5abc1c9854cb788ce86a4c0207afd"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugin.canva.com/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt-plugin.canva.com/logo.svg",
+  "contact_email": "integrations-support@canva.com",
+  "legal_info_url": "https://www.canva.com/policies/ai-product-terms/",
+  "is_authenticated": true
+}

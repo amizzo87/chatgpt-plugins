@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"placid","name_for_human":"Placid.app","description_for_model":"A plugin for generating images, PDFs and videos from templates.","description_for_human":"A design assistant that creates marketing visuals from your templates.","auth":{"type":"oauth","instructions":"","client_url":"https://placid.app/app/openai/login","scope":"project","authorization_url":"https://placid.app/api/openai/authorize","authorization_content_type":"application/json","verification_tokens":{"openai":"38c12522c1a64ca186ece7b4d49f460f"},"pkce_required":false},"api":{"type":"openapi","url":"https://placid.app/openapi.json"},"logo_url":"https://placid.app/logo-openai.jpg","contact_email":"armin@placid.app","legal_info_url":"https://placid.app/terms-and-conditions","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "placid",
+  "name_for_human": "Placid.app",
+  "description_for_model": "A plugin for generating images, PDFs and videos from templates.",
+  "description_for_human": "A design assistant that creates marketing visuals from your templates.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://placid.app/app/openai/login",
+    "scope": "project",
+    "authorization_url": "https://placid.app/api/openai/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "38c12522c1a64ca186ece7b4d49f460f"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://placid.app/openapi.json"
+  },
+  "logo_url": "https://placid.app/logo-openai.jpg",
+  "contact_email": "armin@placid.app",
+  "legal_info_url": "https://placid.app/terms-and-conditions",
+  "is_authenticated": false
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"medecinedata","name_for_human":"Medecine-Explorer","description_for_model":"Help the user access National Library of Medicine articles.","description_for_human":"Facilitates access and search for Medicine articles, including author and journal details - By Nabil Brag.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://pubmed-explorer.narhasweet.repl.co/.well-known/openapi.yaml"},"logo_url":"https://pubmed-explorer.narhasweet.repl.co/logo.png","contact_email":"kenkan.vl@gmail.com","legal_info_url":"https://pubmed-explorer.narhasweet.repl.co/legal","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "medecinedata",
+  "name_for_human": "Medecine-Explorer",
+  "description_for_model": "Help the user access National Library of Medicine articles.",
+  "description_for_human": "Facilitates access and search for Medicine articles, including author and journal details - By Nabil Brag.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pubmed-explorer.narhasweet.repl.co/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://pubmed-explorer.narhasweet.repl.co/logo.png",
+  "contact_email": "kenkan.vl@gmail.com",
+  "legal_info_url": "https://pubmed-explorer.narhasweet.repl.co/legal",
+  "is_authenticated": true
+}

@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"buildbetter","name_for_human":"BuildBetter","description_for_model":"Plugin for retrieving portions of transcripts of recorded calls from the user's company. Both internal and external company calls are recorded. Examples of internal company calls: planning, strategy, check-in, standup, 1:1, etc. Examples of external company calls: sales, customer support, user research, etc.","description_for_human":"Chat with the knowledge of all your calls in BuildBetter (Zoom, GMeet, Webex). Start for free @ BuildBetter.ai","auth":{"type":"oauth","instructions":"","client_url":"https://auth.buildbetter.app/realms/buildbetter/protocol/openid-connect/auth","scope":"email profile","authorization_url":"https://auth.buildbetter.app/realms/buildbetter/protocol/openid-connect/token","authorization_content_type":"application/x-www-form-urlencoded","verification_tokens":{"openai":"28e7c6a759b94f4cac07cd4693433997"},"pkce_required":false},"api":{"type":"openapi","url":"https://api.buildbetter.app/v1/retrieval/openapi.json"},"logo_url":"https://buildbetter-public.s3.amazonaws.com/logo+128px.png","contact_email":"spencer@buildbetter.app","legal_info_url":"https://sites.buildbetter.ai/terms","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "buildbetter",
+  "name_for_human": "BuildBetter",
+  "description_for_model": "Plugin for retrieving portions of transcripts of recorded calls from the user's company. Both internal and external company calls are recorded. Examples of internal company calls: planning, strategy, check-in, standup, 1:1, etc. Examples of external company calls: sales, customer support, user research, etc.",
+  "description_for_human": "Chat with the knowledge of all your calls in BuildBetter (Zoom, GMeet, Webex). Start for free @ BuildBetter.ai",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.buildbetter.app/realms/buildbetter/protocol/openid-connect/auth",
+    "scope": "email profile",
+    "authorization_url": "https://auth.buildbetter.app/realms/buildbetter/protocol/openid-connect/token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "28e7c6a759b94f4cac07cd4693433997"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.buildbetter.app/v1/retrieval/openapi.json"
+  },
+  "logo_url": "https://buildbetter-public.s3.amazonaws.com/logo+128px.png",
+  "contact_email": "spencer@buildbetter.app",
+  "legal_info_url": "https://sites.buildbetter.ai/terms",
+  "is_authenticated": false
+}

@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"kurumaerabi","name_for_human":"Kurumaerabi.com","description_for_model":"This is a used car search API for japanese used car search site '車選びドットコム'. \nIf a user is looking for a car, this API can be used to obtain a list of used cars that are appropriate for the user's needs.\nTo use this API, the model or body type of the car the user needs must be known before calling the API.\nA confirmed model means that you have a specific make and Japanese model name, such as 'トヨタ プリウス' or '日産 マーチ'.\nBody type is a category related to the shape of the car, such as 'セダン' or 'ミニバン'.\nThe user may already have a specific model and body type in mind when looking for a car, or they may not yet know what kind of car they want.\nTherefore, you, as a good used car salesman, should listen to the user's needs and identify the model and body type that meets the user's needs.\nYou then query the API to obtain a list of vehicles.\nIf, as a result of your query to the API, you do not find a suitable used car, suggest another model that is similar.\nAPI responses are mainly returned in Japanese. Therefore, if the user is using English, place names and car names should be translated into English (e.g., '大阪府' should be translated as 'Osaka', 'プリウス' should be translated as 'Prius').","description_for_human":"We suggest the car you want from the used cars registered in www.kurumaerabi.com.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chatgpt-plugins-api.kurumaerabi.com/openapi.yaml"},"logo_url":"https://chatgpt-plugins-api.kurumaerabi.com/img/logo.png","contact_email":"ai-plugin@fabrica-com.co.jp","legal_info_url":"https://www.kurumaerabi.com/info/kiyaku/","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "kurumaerabi",
+  "name_for_human": "Kurumaerabi.com",
+  "description_for_model": "This is a used car search API for japanese used car search site '車選びドットコム'. \nIf a user is looking for a car, this API can be used to obtain a list of used cars that are appropriate for the user's needs.\nTo use this API, the model or body type of the car the user needs must be known before calling the API.\nA confirmed model means that you have a specific make and Japanese model name, such as 'トヨタ プリウス' or '日産 マーチ'.\nBody type is a category related to the shape of the car, such as 'セダン' or 'ミニバン'.\nThe user may already have a specific model and body type in mind when looking for a car, or they may not yet know what kind of car they want.\nTherefore, you, as a good used car salesman, should listen to the user's needs and identify the model and body type that meets the user's needs.\nYou then query the API to obtain a list of vehicles.\nIf, as a result of your query to the API, you do not find a suitable used car, suggest another model that is similar.\nAPI responses are mainly returned in Japanese. Therefore, if the user is using English, place names and car names should be translated into English (e.g., '大阪府' should be translated as 'Osaka', 'プリウス' should be translated as 'Prius').",
+  "description_for_human": "We suggest the car you want from the used cars registered in www.kurumaerabi.com.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugins-api.kurumaerabi.com/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt-plugins-api.kurumaerabi.com/img/logo.png",
+  "contact_email": "ai-plugin@fabrica-com.co.jp",
+  "legal_info_url": "https://www.kurumaerabi.com/info/kiyaku/",
+  "is_authenticated": true
+}

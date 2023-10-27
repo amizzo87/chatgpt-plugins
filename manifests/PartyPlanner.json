@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"PartyPlanner","name_for_human":"Party Planner","description_for_model":"Plan the perfect party.","description_for_human":"Plan the perfect party.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://party-planner-api.plugin-port-api.com/openapi.yaml"},"logo_url":"https://i.ibb.co/7pHdpLT/logo-icon.png","contact_email":"support@pluginport.io","legal_info_url":"https://pluginport.io/party-planner-tos","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "PartyPlanner",
+  "name_for_human": "Party Planner",
+  "description_for_model": "Plan the perfect party.",
+  "description_for_human": "Plan the perfect party.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://party-planner-api.plugin-port-api.com/openapi.yaml"
+  },
+  "logo_url": "https://i.ibb.co/7pHdpLT/logo-icon.png",
+  "contact_email": "support@pluginport.io",
+  "legal_info_url": "https://pluginport.io/party-planner-tos",
+  "is_authenticated": true
+}

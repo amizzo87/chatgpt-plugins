@@ -1,1 +1,23 @@
-{"schema_version":"v1","name_for_model":"Codecademy","name_for_human":"Codecademy","description_for_model":"Plugin that helps the user find coding and tech resources which can help them find an answer to an engineering or design question or begin a career in programming, coding, technology, information technology, data science, machine learning, blockchain, data analytics, web design, or other software engineering fields.","description_for_human":"Access our vast database of educational tech and coding resources to help you in your learning journey.","auth":{"type":"service_http","instructions":"","authorization_type":"bearer","verification_tokens":{"openai":"3537f0fce25b424b9391443187cd588d"}},"api":{"type":"openapi","url":"https://www.codecademy.com/api/chatgpt-plugin/schema"},"logo_url":"https://www.codecademy.com/chatgpt-plugin/cc_logo.png","contact_email":"help@codecademy.com","legal_info_url":"https://www.codecademy.com/terms","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "Codecademy",
+  "name_for_human": "Codecademy",
+  "description_for_model": "Plugin that helps the user find coding and tech resources which can help them find an answer to an engineering or design question or begin a career in programming, coding, technology, information technology, data science, machine learning, blockchain, data analytics, web design, or other software engineering fields.",
+  "description_for_human": "Access our vast database of educational tech and coding resources to help you in your learning journey.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "3537f0fce25b424b9391443187cd588d"
+    }
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.codecademy.com/api/chatgpt-plugin/schema"
+  },
+  "logo_url": "https://www.codecademy.com/chatgpt-plugin/cc_logo.png",
+  "contact_email": "help@codecademy.com",
+  "legal_info_url": "https://www.codecademy.com/terms",
+  "is_authenticated": true
+}

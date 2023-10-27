@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"gitUserRepoStats","name_for_human":"Git OSS Stats","description_for_model":"Manages the retrieval of comprehensive statistics and information about OSS repositories or developers. It provides capabilities such as generating and fetching detailed repository data, user data, community data, star history, and other relevant statistics.","description_for_human":"Dynamically generate and analyze stats and history for OSS repos and developers.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://chat-gpt-github-stat-plugin.vercel.app/openapi.yaml"},"logo_url":"https://chat-gpt-github-stat-plugin.vercel.app/logo.png","contact_email":"yunwei356@gmail.com","legal_info_url":"https://github.com/yunwei37/ChatGPT-github-stat-plugin","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "gitUserRepoStats",
+  "name_for_human": "Git OSS Stats",
+  "description_for_model": "Manages the retrieval of comprehensive statistics and information about OSS repositories or developers. It provides capabilities such as generating and fetching detailed repository data, user data, community data, star history, and other relevant statistics.",
+  "description_for_human": "Dynamically generate and analyze stats and history for OSS repos and developers.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat-gpt-github-stat-plugin.vercel.app/openapi.yaml"
+  },
+  "logo_url": "https://chat-gpt-github-stat-plugin.vercel.app/logo.png",
+  "contact_email": "yunwei356@gmail.com",
+  "legal_info_url": "https://github.com/yunwei37/ChatGPT-github-stat-plugin",
+  "is_authenticated": true
+}

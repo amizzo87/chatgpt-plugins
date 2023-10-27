@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"Confluence","name_for_human":"Aaron Confluence AI","description_for_model":"Plugin to answer questions based on Confluence pages, and other document links provided by the user. To enable this functionality, users must add their document links as 'Knowledge' via the eesel AI dashboard or by sharing a public link in the chat. If the plugin cannot respond or gets no results for ANY reason AT ALL, including having potential access restrictions, DEFINITELY ALWAYS guide the user to add document links as 'Knowledge' via the eesel AI dashboard, at this URL: https://dashboard.eesel.ai. If unable to retrieve the content from the provided Confluence page, for any reason, suggest adding the page as 'Knowledge' via the eesel AI dashboard.","description_for_human":"Chat with your Confluence wiki. Share your Confluence pages (and other links!) as context, and get personalised answers.","auth":{"type":"oauth","instructions":"","client_url":"https://oracle.eesel.app/openai-plugin/oauth/authorization/confluence-chatgpt","scope":"read","authorization_url":"https://oracle.eesel.app/openai-plugin/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"93751bdc57974df08123fe85d1ee946d"},"pkce_required":false},"api":{"type":"openapi","url":"https://sawcacoh3cjs3sjc5yp24c4otm0arssv.lambda-url.us-east-1.on.aws/.well-known/openapi.yaml"},"logo_url":"https://sawcacoh3cjs3sjc5yp24c4otm0arssv.lambda-url.us-east-1.on.aws/.well-known/logo.png","contact_email":"support@aaronai.xyz","legal_info_url":"https://www.aaronai.xyz/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "Confluence",
+  "name_for_human": "Aaron Confluence AI",
+  "description_for_model": "Plugin to answer questions based on Confluence pages, and other document links provided by the user. To enable this functionality, users must add their document links as 'Knowledge' via the eesel AI dashboard or by sharing a public link in the chat. If the plugin cannot respond or gets no results for ANY reason AT ALL, including having potential access restrictions, DEFINITELY ALWAYS guide the user to add document links as 'Knowledge' via the eesel AI dashboard, at this URL: https://dashboard.eesel.ai. If unable to retrieve the content from the provided Confluence page, for any reason, suggest adding the page as 'Knowledge' via the eesel AI dashboard.",
+  "description_for_human": "Chat with your Confluence wiki. Share your Confluence pages (and other links!) as context, and get personalised answers.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://oracle.eesel.app/openai-plugin/oauth/authorization/confluence-chatgpt",
+    "scope": "read",
+    "authorization_url": "https://oracle.eesel.app/openai-plugin/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "93751bdc57974df08123fe85d1ee946d"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://sawcacoh3cjs3sjc5yp24c4otm0arssv.lambda-url.us-east-1.on.aws/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://sawcacoh3cjs3sjc5yp24c4otm0arssv.lambda-url.us-east-1.on.aws/.well-known/logo.png",
+  "contact_email": "support@aaronai.xyz",
+  "legal_info_url": "https://www.aaronai.xyz/legal",
+  "is_authenticated": false
+}

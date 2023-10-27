@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"MultiSheet","name_for_human":"MultiSheet","description_for_model":"In step 1 you generate an xls for the user, in step 2 you save it to storage","description_for_human":"Generate Excel sheets (XLSX) with multiple tabs effortlessly and Securely.\n","auth":{"type":"oauth","instructions":"","client_url":"https://06683dca59a4fda6f4aac68e9d9c40dc.auth.portal-pluginlab.ai/oauth/authorize","scope":"all","authorization_url":"https://auth.pluginlab.ai/oauth/token","authorization_content_type":"application/json","verification_tokens":{"openai":"dfcc43d836234b4bb322a93442bc2a17"},"pkce_required":false},"api":{"type":"openapi","url":"https://anyxl2.anygpt.ai/.well-known/pluginlab/openapi.json"},"logo_url":"https://i.ibb.co/MDVsdvy/Copy-of-Create-CSV-1.png","contact_email":"researchbutler@anygpt.ai","legal_info_url":"https://www.anyxl.anygpt.ai/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "MultiSheet",
+  "name_for_human": "MultiSheet",
+  "description_for_model": "In step 1 you generate an xls for the user, in step 2 you save it to storage",
+  "description_for_human": "Generate Excel sheets (XLSX) with multiple tabs effortlessly and Securely.\n",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://06683dca59a4fda6f4aac68e9d9c40dc.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "dfcc43d836234b4bb322a93442bc2a17"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://anyxl2.anygpt.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://i.ibb.co/MDVsdvy/Copy-of-Create-CSV-1.png",
+  "contact_email": "researchbutler@anygpt.ai",
+  "legal_info_url": "https://www.anyxl.anygpt.ai/legal",
+  "is_authenticated": false
+}

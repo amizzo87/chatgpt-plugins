@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"io_livecode_ch","name_for_human":"io.livecode.ch","description_for_model":"Evaluate snippets of code using io.livecode.ch. Ask the user for the repository.","description_for_human":"Evaluate snippets of code using io.livecode.ch.","auth":{"type":"oauth","instructions":"","client_url":"https://io-chatgpt.livecode.ch/oauth","scope":"","authorization_url":"https://io-chatgpt.livecode.ch/auth/oauth_exchange","authorization_content_type":"application/json","verification_tokens":{"openai":"b7919eb070ed43aab7e8dc8dd0c39356"},"pkce_required":false},"api":{"type":"openapi","url":"https://io-chatgpt.livecode.ch/openapi.yaml"},"logo_url":"https://io-chatgpt.livecode.ch/logo.png","contact_email":"namin@seas.harvard.edu","legal_info_url":"https://io-chatgpt.livecode.ch","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "io_livecode_ch",
+  "name_for_human": "io.livecode.ch",
+  "description_for_model": "Evaluate snippets of code using io.livecode.ch. Ask the user for the repository.",
+  "description_for_human": "Evaluate snippets of code using io.livecode.ch.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://io-chatgpt.livecode.ch/oauth",
+    "scope": "",
+    "authorization_url": "https://io-chatgpt.livecode.ch/auth/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "b7919eb070ed43aab7e8dc8dd0c39356"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://io-chatgpt.livecode.ch/openapi.yaml"
+  },
+  "logo_url": "https://io-chatgpt.livecode.ch/logo.png",
+  "contact_email": "namin@seas.harvard.edu",
+  "legal_info_url": "https://io-chatgpt.livecode.ch",
+  "is_authenticated": false
+}

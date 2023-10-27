@@ -1,1 +1,27 @@
-{"schema_version":"v1","name_for_model":"prompt_generator","name_for_human":"Prompt Enhancer","description_for_model":"Use AISEO prompt generator for perfect prompts. Use the word AISEO to let the AI generate the perfect LLM prompt.","description_for_human":"Use AISEO prompt generator for perfect prompts. Use the word AISEO to let the AI generate the perfect LLM prompt.","auth":{"type":"oauth","instructions":"","client_url":"https://prompt-generator-qiabyuewca-uc.a.run.app/oauth","scope":"","authorization_url":"https://prompt-generator-qiabyuewca-uc.a.run.app/auth/oauth_exchange","authorization_content_type":"application/json","verification_tokens":{"openai":"17171a17d3664a66b67a6293a2da48d0"},"pkce_required":false},"api":{"type":"openapi","url":"https://prompt-generator-qiabyuewca-uc.a.run.app/openapi.yaml"},"logo_url":"https://prompt-generator-qiabyuewca-uc.a.run.app/logo.png","contact_email":"support@aiseo.ai","legal_info_url":"https://prompt-generator-qiabyuewca-uc.a.run.app/legal","is_authenticated":false}
+{
+  "schema_version": "v1",
+  "name_for_model": "prompt_generator",
+  "name_for_human": "Prompt Enhancer",
+  "description_for_model": "Use AISEO prompt generator for perfect prompts. Use the word AISEO to let the AI generate the perfect LLM prompt.",
+  "description_for_human": "Use AISEO prompt generator for perfect prompts. Use the word AISEO to let the AI generate the perfect LLM prompt.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://prompt-generator-qiabyuewca-uc.a.run.app/oauth",
+    "scope": "",
+    "authorization_url": "https://prompt-generator-qiabyuewca-uc.a.run.app/auth/oauth_exchange",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "17171a17d3664a66b67a6293a2da48d0"
+    },
+    "pkce_required": false
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://prompt-generator-qiabyuewca-uc.a.run.app/openapi.yaml"
+  },
+  "logo_url": "https://prompt-generator-qiabyuewca-uc.a.run.app/logo.png",
+  "contact_email": "support@aiseo.ai",
+  "legal_info_url": "https://prompt-generator-qiabyuewca-uc.a.run.app/legal",
+  "is_authenticated": false
+}

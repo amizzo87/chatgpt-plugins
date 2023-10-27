@@ -1,1 +1,18 @@
-{"schema_version":"v1","name_for_model":"QuakePH","name_for_human":"QuakePH","description_for_model":"Stay updated with the latest earthquakes in the Philippines.","description_for_human":"Stay updated with the latest earthquakes in the Philippines.","auth":{"type":"none"},"api":{"type":"openapi","url":"https://quakeph-plugin.chatbot.so/openai.yaml"},"logo_url":"https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png","contact_email":"dev@chatbot.so","legal_info_url":"https://quakeph-plugin.chatbot.so/info","is_authenticated":true}
+{
+  "schema_version": "v1",
+  "name_for_model": "QuakePH",
+  "name_for_human": "QuakePH",
+  "description_for_model": "Stay updated with the latest earthquakes in the Philippines.",
+  "description_for_human": "Stay updated with the latest earthquakes in the Philippines.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://quakeph-plugin.chatbot.so/openai.yaml"
+  },
+  "logo_url": "https://quakeph-plugin.chatbot.so/assets/Quake PH Logo.png",
+  "contact_email": "dev@chatbot.so",
+  "legal_info_url": "https://quakeph-plugin.chatbot.so/info",
+  "is_authenticated": true
+}
