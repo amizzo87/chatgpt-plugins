@@ -18,6 +18,5 @@
   },
   "logo_url": "https://ai.listennotes.com/assets/android-chrome-512x512.png",
   "contact_email": "hello@listennotes.com",
-  "legal_info_url": "https://ai.listennotes.com/chatgpt-plugin/legal.txt",
-  "is_authenticated": true
+  "legal_info_url": "https://ai.listennotes.com/chatgpt-plugin/legal.txt"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://openai.tapapis.com/.well-known/logo.png",
   "contact_email": "laihongchang@xd.com",
-  "legal_info_url": "https://www.taptap.io/doc/13",
-  "is_authenticated": true
+  "legal_info_url": "https://www.taptap.io/doc/13"
 }

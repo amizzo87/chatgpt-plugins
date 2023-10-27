@@ -13,6 +13,5 @@
   },
   "logo_url": "https://app.swap.net/public/chat-gpt4/logo.png",
   "contact_email": "team@swap.net",
-  "legal_info_url": "https://app.swap.net/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://app.swap.net/privacy"
 }

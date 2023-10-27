@@ -13,6 +13,5 @@
   },
   "logo_url": "https://a.bildstatic.de/chatgpt-bild-logo-512px.png",
   "contact_email": "kontakt@bild.de",
-  "legal_info_url": "https://www.bild.de/corporate/site/bild-de/impressum-81395212.bild.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.bild.de/corporate/site/bild-de/impressum-81395212.bild.html"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg",
   "contact_email": "legal@wikimedia.org",
-  "legal_info_url": "https://meta.m.wikimedia.org/wiki/Terms_of_use",
-  "is_authenticated": true
+  "legal_info_url": "https://meta.m.wikimedia.org/wiki/Terms_of_use"
 }

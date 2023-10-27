@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chat-sudoku-api.bricks.cool/.well-known/logo.png",
   "contact_email": "hello@chat-sudoku-api.bricks.cool",
-  "legal_info_url": "https://chat-sudoku-api.bricks.cool/.well-known/legal-info.txt",
-  "is_authenticated": true
+  "legal_info_url": "https://chat-sudoku-api.bricks.cool/.well-known/legal-info.txt"
 }

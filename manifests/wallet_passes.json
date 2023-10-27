@@ -22,6 +22,5 @@
   },
   "logo_url": "https://storage.googleapis.com/walletpasses/logo_square.png",
   "contact_email": "contact@walletpasses.xyz",
-  "legal_info_url": "https://walletpasses.xyz/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://walletpasses.xyz/legal"
 }

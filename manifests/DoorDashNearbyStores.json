@@ -18,6 +18,5 @@
   },
   "logo_url": "https://aichat.doordash.com/static/logo.png",
   "contact_email": "doordash-openai-plugin@doordash.com",
-  "legal_info_url": "https://help.doordash.com/legal/document?type=cx-terms-and-conditions&region=US&locale=en-US",
-  "is_authenticated": true
+  "legal_info_url": "https://help.doordash.com/legal/document?type=cx-terms-and-conditions&region=US&locale=en-US"
 }

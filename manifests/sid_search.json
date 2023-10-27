@@ -22,6 +22,5 @@
   },
   "logo_url": "https://static.sid.ai/logo.png",
   "contact_email": "support@sid.ai",
-  "legal_info_url": "http://static.sid.ai/tos.html",
-  "is_authenticated": false
+  "legal_info_url": "http://static.sid.ai/tos.html"
 }

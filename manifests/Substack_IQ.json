@@ -22,6 +22,5 @@
   },
   "logo_url": "https://api.substackiq.com/logo.png",
   "contact_email": "legal@substackiq.com",
-  "legal_info_url": "https://www.substackiq.com/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://www.substackiq.com/legal"
 }

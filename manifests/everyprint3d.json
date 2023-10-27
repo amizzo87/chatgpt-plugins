@@ -18,6 +18,5 @@
   },
   "logo_url": "https://plugin.everyprint3d.com/static/logo.png",
   "contact_email": "contact@everyprint3d.com",
-  "legal_info_url": "https://everyprint3d.com/#plugin-legal-info",
-  "is_authenticated": true
+  "legal_info_url": "https://everyprint3d.com/#plugin-legal-info"
 }

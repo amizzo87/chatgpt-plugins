@@ -18,6 +18,5 @@
   },
   "logo_url": "https://gptnews.uk/logo.svg",
   "contact_email": "help@gptnews.uk",
-  "legal_info_url": "https://gptnews.uk/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://gptnews.uk/privacy"
 }

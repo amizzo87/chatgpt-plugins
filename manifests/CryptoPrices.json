@@ -13,6 +13,5 @@
   },
   "logo_url": "https://data-api.cryptocompare.com/ccdata-logo.jpg",
   "contact_email": "vcealicu@ccdata.io",
-  "legal_info_url": "https://ccdata.io/terms-and-conditions",
-  "is_authenticated": true
+  "legal_info_url": "https://ccdata.io/terms-and-conditions"
 }

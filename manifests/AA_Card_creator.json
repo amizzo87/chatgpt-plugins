@@ -13,6 +13,5 @@
   },
   "logo_url": "https://cards.for.io/img/icon128.png",
   "contact_email": "contact@for.io",
-  "legal_info_url": "https://for.io/legal/tos",
-  "is_authenticated": true
+  "legal_info_url": "https://for.io/legal/tos"
 }

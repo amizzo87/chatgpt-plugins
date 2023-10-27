@@ -13,6 +13,5 @@
   },
   "logo_url": "https://plugin.profgmarkets.spext.com/logo.ico",
   "contact_email": "developers@spext.co",
-  "legal_info_url": "https://docs.spext.co/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://docs.spext.co/privacy"
 }

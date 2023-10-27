@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt.bubblegoods.com/static/logo.png",
   "contact_email": "help@bubblegoods.com",
-  "legal_info_url": "https://bubblegoods.com/pages/terms-conditions",
-  "is_authenticated": true
+  "legal_info_url": "https://bubblegoods.com/pages/terms-conditions"
 }

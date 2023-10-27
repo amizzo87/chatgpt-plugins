@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.quiverquant.com/static/img/logo-black-bg.jpg",
   "contact_email": "info@quiverquant.com",
-  "legal_info_url": "https://www.quiverquant.com/termsofservice/",
-  "is_authenticated": true
+  "legal_info_url": "https://www.quiverquant.com/termsofservice/"
 }

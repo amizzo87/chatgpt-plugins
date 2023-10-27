@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.spendless.ai/static/logo.png",
   "contact_email": "support@creatoritz.com",
-  "legal_info_url": "https://spendless.ai/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://spendless.ai/terms"
 }

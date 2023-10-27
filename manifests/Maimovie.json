@@ -13,6 +13,5 @@
   },
   "logo_url": "https://s3.maimovie.com/assets/plugin-logo.png",
   "contact_email": "help@keytalkai.com",
-  "legal_info_url": "https://www.maimovie.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.maimovie.com/terms"
 }

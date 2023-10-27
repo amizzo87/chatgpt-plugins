@@ -22,6 +22,5 @@
   },
   "logo_url": "https://csvexport.co/images/CSVExportPlus.png",
   "contact_email": "contact@csvexport.co",
-  "legal_info_url": "https://csvexport.co/privacy",
-  "is_authenticated": false
+  "legal_info_url": "https://csvexport.co/privacy"
 }

@@ -22,6 +22,5 @@
   },
   "logo_url": "https://avian.io/static/images/plugins/accurate_pdf.png",
   "contact_email": "support@avian.io",
-  "legal_info_url": "https://avian.io/terms/",
-  "is_authenticated": false
+  "legal_info_url": "https://avian.io/terms/"
 }

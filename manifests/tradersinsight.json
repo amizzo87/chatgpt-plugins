@@ -13,6 +13,5 @@
   },
   "logo_url": "https://traders-insight.vercel.app/imgs/logo.png",
   "contact_email": "support@aiagentslab.com",
-  "legal_info_url": "https://www.aiagentslab.com/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://www.aiagentslab.com/legal"
 }

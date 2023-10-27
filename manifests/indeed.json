@@ -13,6 +13,5 @@
   },
   "logo_url": "https://llmplugin.indeed.com/static/icon.svg",
   "contact_email": "llm-incubator@indeed.com",
-  "legal_info_url": "http://indeed.com/legal",
-  "is_authenticated": true
+  "legal_info_url": "http://indeed.com/legal"
 }

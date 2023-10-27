@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.researchbyvector.com/logo.png",
   "contact_email": "researchbyvector@gmail.com",
-  "legal_info_url": "https://researchbyvector.com/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://researchbyvector.com/legal"
 }

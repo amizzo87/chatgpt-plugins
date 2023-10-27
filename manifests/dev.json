@@ -13,6 +13,5 @@
   },
   "logo_url": "https://dev.to/logo.png",
   "contact_email": "yo@dev.to",
-  "legal_info_url": "https://dev.to/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://dev.to/terms"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://app.linkhouse.co/assets/images/logo_square.png",
   "contact_email": "support@linkhouse.co",
-  "legal_info_url": "https://app.linkhouse.co/storage/static-files/en_advertiser_rules.pdf",
-  "is_authenticated": true
+  "legal_info_url": "https://app.linkhouse.co/storage/static-files/en_advertiser_rules.pdf"
 }

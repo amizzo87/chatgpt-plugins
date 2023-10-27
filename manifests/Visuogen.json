@@ -22,6 +22,5 @@
   },
   "logo_url": "https://api.visuogen.com/visuogen.png",
   "contact_email": "Contact@visuogen.com",
-  "legal_info_url": "https://visuogen.com/termsofuse",
-  "is_authenticated": false
+  "legal_info_url": "https://visuogen.com/termsofuse"
 }

@@ -22,6 +22,5 @@
   },
   "logo_url": "https://midpage-plugin.onrender.com/.well-known/midpage-icon.png",
   "contact_email": "feedback@midpage.ai",
-  "legal_info_url": "https://www.midpage.ai/privacy-policy",
-  "is_authenticated": false
+  "legal_info_url": "https://www.midpage.ai/privacy-policy"
 }

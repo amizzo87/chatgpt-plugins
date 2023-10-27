@@ -13,6 +13,5 @@
   },
   "logo_url": "https://nasa-media-prod.vercel.app/.well-known/logo.png",
   "contact_email": "support@spacemediaexplorer.com",
-  "legal_info_url": "https://nasa-media-prod.vercel.app/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://nasa-media-prod.vercel.app/legal.html"
 }

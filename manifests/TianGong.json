@@ -18,6 +18,5 @@
   },
   "logo_url": "https://plugins.tiangong.world/.well-known/logo.png",
   "contact_email": "linanenv@gmail.com",
-  "legal_info_url": "http://mingxu.tiangong.world",
-  "is_authenticated": true
+  "legal_info_url": "http://mingxu.tiangong.world"
 }

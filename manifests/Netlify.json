@@ -13,6 +13,5 @@
   },
   "logo_url": "https://www.netlify.com/assets/logos/encapsulated/darkmode/logo-netlify-encapsulated-fullcolor-darkmode.png",
   "contact_email": "support@netlify.com",
-  "legal_info_url": "https://www.netlify.com/legal/terms-of-use/",
-  "is_authenticated": true
+  "legal_info_url": "https://www.netlify.com/legal/terms-of-use/"
 }

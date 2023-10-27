@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt-plugin.my-best.com/logo.png",
   "contact_email": "engineers@my-best.com",
-  "legal_info_url": "https://my-best.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://my-best.com/terms"
 }

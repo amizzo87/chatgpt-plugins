@@ -18,6 +18,5 @@
   },
   "logo_url": "https://pheecws.foxit.com/.well-known/img/plugin-logo.png",
   "contact_email": "appent@foxitsoftware.com",
-  "legal_info_url": "https://www.foxit.com/product/foxit-product-terms-of-service.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.foxit.com/product/foxit-product-terms-of-service.html"
 }

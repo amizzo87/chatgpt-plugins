@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api-staging.maigrate.com/logo.png",
   "contact_email": "info@maigrate.com",
-  "legal_info_url": "https://www.maigrate.com/privacy-policy",
-  "is_authenticated": true
+  "legal_info_url": "https://www.maigrate.com/privacy-policy"
 }

@@ -22,6 +22,5 @@
   },
   "logo_url": "https://chatwithinstructor.sdan.io/logo.png",
   "contact_email": "support@sdan.io",
-  "legal_info_url": "https://plugins.sdan.io/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://plugins.sdan.io/legal"
 }

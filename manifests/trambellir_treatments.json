@@ -13,6 +13,5 @@
   },
   "logo_url": "https://trambellir.clip.dev/logo.png",
   "contact_email": "trambellir@clip.dev",
-  "legal_info_url": "https://trambellir.clip.dev/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://trambellir.clip.dev/legal"
 }

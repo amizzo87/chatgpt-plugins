@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatgpt-plugin.api.cargurus.com/plugin-static/logo.png",
   "contact_email": "svc-openai@cargurus.com",
-  "legal_info_url": "https://chatgpt-plugin.api.cargurus.com/plugin-static/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://chatgpt-plugin.api.cargurus.com/plugin-static/legal.html"
 }

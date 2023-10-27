@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.formacloud.io/logo.png",
   "contact_email": "info@formacloud.io",
-  "legal_info_url": "https://formacloud.io/terms-of-use/",
-  "is_authenticated": true
+  "legal_info_url": "https://formacloud.io/terms-of-use/"
 }

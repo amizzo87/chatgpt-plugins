@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatweb3-production.up.railway.app/.well-known/logo.png",
   "contact_email": "info@inWeb3.com",
-  "legal_info_url": "https://inWeb3.com/chatweb3",
-  "is_authenticated": true
+  "legal_info_url": "https://inWeb3.com/chatweb3"
 }

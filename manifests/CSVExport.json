@@ -13,6 +13,5 @@
   },
   "logo_url": "https://csv-export-plugin.chatbot.so/assets/CSVExport.png",
   "contact_email": "dev@chatbot.so",
-  "legal_info_url": "https://csv-export-plugin.chatbot.so/info",
-  "is_authenticated": true
+  "legal_info_url": "https://csv-export-plugin.chatbot.so/info"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://app.definitive.io/logo_light.svg",
   "contact_email": "legal@definitive.io",
-  "legal_info_url": "/plugin/legal",
-  "is_authenticated": true
+  "legal_info_url": "/plugin/legal"
 }

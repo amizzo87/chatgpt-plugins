@@ -18,6 +18,5 @@
   },
   "logo_url": "https://www.stepstone.de/sharedassets/logo/stepstone/logo-square.png",
   "contact_email": "chatgptplugin@stepstone.com",
-  "legal_info_url": "https://www.stepstone.de/e-recruiting/rechtliches/datenschutzerklarung",
-  "is_authenticated": true
+  "legal_info_url": "https://www.stepstone.de/e-recruiting/rechtliches/datenschutzerklarung"
 }

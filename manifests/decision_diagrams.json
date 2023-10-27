@@ -13,6 +13,5 @@
   },
   "logo_url": "https://plugin.thegptpodcast.com/static/logo.png",
   "contact_email": "support@thegptpodcast.com",
-  "legal_info_url": "https://beta.convowithgpt.com/terms-of-service/",
-  "is_authenticated": true
+  "legal_info_url": "https://beta.convowithgpt.com/terms-of-service/"
 }

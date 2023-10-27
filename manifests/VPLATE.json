@@ -13,6 +13,5 @@
   },
   "logo_url": "https://ai.vplate.io/logo.png",
   "contact_email": "info@vplate.io",
-  "legal_info_url": "https://vplate.io/docs/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://vplate.io/docs/terms"
 }

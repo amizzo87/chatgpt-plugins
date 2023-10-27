@@ -13,6 +13,5 @@
   },
   "logo_url": "https://gpt.storybooks.app/logo.png",
   "contact_email": "alex@storybooks.app",
-  "legal_info_url": "https://www.storybooks.app/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.storybooks.app/terms"
 }

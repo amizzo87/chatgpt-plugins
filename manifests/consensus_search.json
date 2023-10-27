@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chat.consensus.app/images/logo-min.png",
   "contact_email": "support@consensus.app",
-  "legal_info_url": "https://consensus.app/home/privacy-policy/",
-  "is_authenticated": true
+  "legal_info_url": "https://consensus.app/home/privacy-policy/"
 }

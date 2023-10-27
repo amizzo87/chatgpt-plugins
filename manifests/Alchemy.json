@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chat-web3-plugin.alchemy.com/logo.png",
   "contact_email": "support@alchemy.com",
-  "legal_info_url": "https://www.alchemy.com/policies/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.alchemy.com/policies/terms"
 }

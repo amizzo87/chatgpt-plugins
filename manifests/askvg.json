@@ -18,6 +18,5 @@
   },
   "logo_url": "https://gpt-plugin.vg.no/.well-known/logo.png",
   "contact_email": "Sverre.Norberg-Schulz.Hagen@vg.no",
-  "legal_info_url": "https://www.vg.no/informasjon/brukervilkar",
-  "is_authenticated": true
+  "legal_info_url": "https://www.vg.no/informasjon/brukervilkar"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.gopluslabs.io/logo.png",
   "contact_email": "service@gopluslabs.io",
-  "legal_info_url": "https://docs.gopluslabs.io",
-  "is_authenticated": true
+  "legal_info_url": "https://docs.gopluslabs.io"
 }

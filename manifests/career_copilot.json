@@ -13,6 +13,5 @@
   },
   "logo_url": "https://copilot.commit.dev/images/logo.png",
   "contact_email": "tech@commit.dev",
-  "legal_info_url": "https://commit.dev",
-  "is_authenticated": true
+  "legal_info_url": "https://commit.dev"
 }

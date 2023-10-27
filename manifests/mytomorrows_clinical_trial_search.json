@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt.mytomorrows.com/logo.png",
   "contact_email": "beta@mytomorrows.com",
-  "legal_info_url": "https://mytomorrows.com/en/terms-and-conditions",
-  "is_authenticated": true
+  "legal_info_url": "https://mytomorrows.com/en/terms-and-conditions"
 }

@@ -22,6 +22,5 @@
   },
   "logo_url": "https://ticktick.com/static/img/pwa/icons-256.png",
   "contact_email": "support@ticktick.com",
-  "legal_info_url": "https://ticktick.com/about/tos",
-  "is_authenticated": false
+  "legal_info_url": "https://ticktick.com/about/tos"
 }

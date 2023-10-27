@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api-travel.kakaku.com/favicon.ico",
   "contact_email": "travel_user_support@kakaku.com",
-  "legal_info_url": "https://help.kakaku.com/kiyaku_site.html",
-  "is_authenticated": true
+  "legal_info_url": "https://help.kakaku.com/kiyaku_site.html"
 }

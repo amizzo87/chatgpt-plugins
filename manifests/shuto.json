@@ -22,6 +22,5 @@
   },
   "logo_url": "https://shuto.io/logo_only_dark.png",
   "contact_email": "adnan@shuto.io",
-  "legal_info_url": "https://shuto.io/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://shuto.io/legal"
 }

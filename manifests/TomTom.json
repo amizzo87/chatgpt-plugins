@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.gpt-plugin.tomtom.com/logo.png",
   "contact_email": "plugin-support@tomtom.com",
-  "legal_info_url": "https://developer.tomtom.com/legal#general",
-  "is_authenticated": true
+  "legal_info_url": "https://developer.tomtom.com/legal#general"
 }

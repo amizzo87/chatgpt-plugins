@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.litmaps.com/litmaps-icon.png",
   "contact_email": "support@litmaps.com",
-  "legal_info_url": "https://www.litmaps.com/terms-of-service",
-  "is_authenticated": true
+  "legal_info_url": "https://www.litmaps.com/terms-of-service"
 }

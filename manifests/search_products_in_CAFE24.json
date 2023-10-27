@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatgpt-plugin-rcmnd-prd.cafe24.com/logo.png",
   "contact_email": "jychoi03@cafe24corp.com",
-  "legal_info_url": "https://developers.cafe24.com/dcollection/front/dcollectionapi/guide/operation",
-  "is_authenticated": true
+  "legal_info_url": "https://developers.cafe24.com/dcollection/front/dcollectionapi/guide/operation"
 }

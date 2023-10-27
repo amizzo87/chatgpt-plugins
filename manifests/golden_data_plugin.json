@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt-plugin.prod.golden.dev/logo.png",
   "contact_email": "support@golden.com",
-  "legal_info_url": "https://golden.com/about/terms-of-service",
-  "is_authenticated": true
+  "legal_info_url": "https://golden.com/about/terms-of-service"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.companiesintheuk.co.uk/img/logo-bw-512x512.png",
   "contact_email": "api@companiesintheuk.co.uk",
-  "legal_info_url": "https://www.companiesintheuk.co.uk/support/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.companiesintheuk.co.uk/support/terms"
 }

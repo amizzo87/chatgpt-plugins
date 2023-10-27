@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.metaphor.systems/logo.png",
   "contact_email": "hello@metaphor.systems",
-  "legal_info_url": "https://api.metaphor.systems/legal.txt",
-  "is_authenticated": true
+  "legal_info_url": "https://api.metaphor.systems/legal.txt"
 }

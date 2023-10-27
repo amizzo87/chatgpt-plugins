@@ -22,6 +22,5 @@
   },
   "logo_url": "https://app.itsdart.com/static/chatgpt/logo.png",
   "contact_email": "support@itsdart.com",
-  "legal_info_url": "https://app.itsdart.com/legal/privacy-policy",
-  "is_authenticated": false
+  "legal_info_url": "https://app.itsdart.com/legal/privacy-policy"
 }

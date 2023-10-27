@@ -18,6 +18,5 @@
   },
   "logo_url": "https://bestever-backend.s3.us-east-2.amazonaws.com/BackendArtifacts/aardwolf.png",
   "contact_email": "ops@bestever.io",
-  "legal_info_url": "https://chatgpt-plugin-7npmcik6ca-uc.a.run.app/static/bestever-tos.html",
-  "is_authenticated": true
+  "legal_info_url": "https://chatgpt-plugin-7npmcik6ca-uc.a.run.app/static/bestever-tos.html"
 }

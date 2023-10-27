@@ -22,6 +22,5 @@
   },
   "logo_url": "https://pixellow.ceylon.ai/logo.png",
   "contact_email": "info@ceylon.ai",
-  "legal_info_url": "https://pixellow.ceylon.ai/admin/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://pixellow.ceylon.ai/admin/legal"
 }

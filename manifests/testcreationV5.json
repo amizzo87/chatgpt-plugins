@@ -18,6 +18,5 @@
   },
   "logo_url": "https://www.little-professor.org/.well-known/lpbig.jpg",
   "contact_email": "answers@little-professor.org",
-  "legal_info_url": "https://www.little-professor.org/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.little-professor.org/legal.html"
 }

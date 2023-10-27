@@ -18,6 +18,5 @@
   },
   "logo_url": "https://resources.turo.com/next-js/0.0.1/app_icon.png",
   "contact_email": "privacy@turo.com",
-  "legal_info_url": "https://turo.com/us/en/policies/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://turo.com/us/en/policies/terms"
 }

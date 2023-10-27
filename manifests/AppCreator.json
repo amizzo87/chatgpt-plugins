@@ -22,6 +22,5 @@
   },
   "logo_url": "https://pic.iidingyun.com/8697107/images/plugin.png",
   "contact_email": "xforward@qq.com",
-  "legal_info_url": "https://api.aier3.com/home/term.txt",
-  "is_authenticated": false
+  "legal_info_url": "https://api.aier3.com/home/term.txt"
 }

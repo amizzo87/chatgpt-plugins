@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt-plugin-dot-turing-gpt.uc.r.appspot.com/.well-known/logo.png",
   "contact_email": "partnerships@turing.com",
-  "legal_info_url": "https://www.turing.com/terms-of-service",
-  "is_authenticated": true
+  "legal_info_url": "https://www.turing.com/terms-of-service"
 }

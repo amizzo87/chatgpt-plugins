@@ -18,6 +18,5 @@
   },
   "logo_url": "https://www.wolframcdn.com/images/icons/Wolfram.png",
   "contact_email": "chatgpt-contact@wolframalpha.com",
-  "legal_info_url": "https://products.wolframalpha.com/api/commercial-termsofuse",
-  "is_authenticated": true
+  "legal_info_url": "https://products.wolframalpha.com/api/commercial-termsofuse"
 }

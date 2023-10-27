@@ -22,6 +22,5 @@
   },
   "logo_url": "https://installaurora.com/img/logo-chatgpt-plugin.png",
   "contact_email": "contact@installaurora.com",
-  "legal_info_url": "https://installaurora.com/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://installaurora.com/legal"
 }

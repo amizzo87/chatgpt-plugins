@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chat-plugin-giphy.efficiency.tools/.well-known/logo.png",
   "contact_email": "gif-search-plugin@efficiency.tools",
-  "legal_info_url": "https://www.efficiency.tools/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.efficiency.tools/terms"
 }

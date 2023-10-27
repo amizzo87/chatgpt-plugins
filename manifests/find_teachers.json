@@ -13,6 +13,5 @@
   },
   "logo_url": "https://en.amazingtalker.com/.well-known/logo.png",
   "contact_email": "amazingtalker@amazingtalker.com",
-  "legal_info_url": "https://en.amazingtalker.com/privacy-and-terms",
-  "is_authenticated": true
+  "legal_info_url": "https://en.amazingtalker.com/privacy-and-terms"
 }

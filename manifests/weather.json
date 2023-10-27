@@ -13,6 +13,5 @@
   },
   "logo_url": "https://weatherplugin.net/images/logo.png",
   "contact_email": "chatgpt.weather.plugin@gmail.com",
-  "legal_info_url": "https://weatherplugin.net/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://weatherplugin.net/legal.html"
 }

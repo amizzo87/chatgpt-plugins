@@ -13,6 +13,5 @@
   },
   "logo_url": "https://raw.githubusercontent.com/hubcart/gpt-designer-plugin/main/logo.png",
   "contact_email": "cs@hubcart.ai",
-  "legal_info_url": "https://try.hubcart.ai/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://try.hubcart.ai/legal.html"
 }

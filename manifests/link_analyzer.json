@@ -13,6 +13,5 @@
   },
   "logo_url": "https://link-analyzer-three.vercel.app/logo.png",
   "contact_email": "haseebmir.hm@gmail.com",
-  "legal_info_url": "https://link-analyzer-three.vercel.app/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://link-analyzer-three.vercel.app/privacy"
 }

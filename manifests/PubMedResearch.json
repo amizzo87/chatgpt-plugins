@@ -22,6 +22,5 @@
   },
   "logo_url": "https://github.com/jk939393/anypubmed/blob/prod/logo.png?raw=true",
   "contact_email": "researchbutler@anygpt.ai",
-  "legal_info_url": "https://www.anypubmed.anygpt.ai/legal.html",
-  "is_authenticated": false
+  "legal_info_url": "https://www.anypubmed.anygpt.ai/legal.html"
 }

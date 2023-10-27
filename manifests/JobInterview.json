@@ -22,6 +22,5 @@
   },
   "logo_url": "https://cplst01.blob.core.windows.net/static/c-jobinterview-logo.jpg",
   "contact_email": "c-jobinterview@copilot.us",
-  "legal_info_url": "https://c-interview.copilot.us/home/terms",
-  "is_authenticated": false
+  "legal_info_url": "https://c-interview.copilot.us/home/terms"
 }

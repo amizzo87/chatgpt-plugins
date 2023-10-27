@@ -18,6 +18,5 @@
   },
   "logo_url": "https://lorelattice.com/.well-known/logo.png",
   "contact_email": "contact@lorelattice.com",
-  "legal_info_url": "https://lorelattice.com/static/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://lorelattice.com/static/legal.html"
 }

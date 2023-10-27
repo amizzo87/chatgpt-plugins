@@ -13,6 +13,5 @@
   },
   "logo_url": "https://sic.smlxl.ai/.well-known/sic-logo.png",
   "contact_email": "sic@smlxl.io",
-  "legal_info_url": "smlxl.io",
-  "is_authenticated": true
+  "legal_info_url": "smlxl.io"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://rmdbapi.riskmonster.com/.well-known/logo.png",
   "contact_email": "kaihatsu-mobile-application@riskmonster.co.jp",
-  "legal_info_url": "https://rmdbapi.riskmonster.com/.well-known/legal_info.html",
-  "is_authenticated": true
+  "legal_info_url": "https://rmdbapi.riskmonster.com/.well-known/legal_info.html"
 }

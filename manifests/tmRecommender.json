@@ -13,6 +13,5 @@
   },
   "logo_url": "https://inta.aiplux.com/static/images/aiplux_logo_only.png",
   "contact_email": "vincent.chen@aiplux.com",
-  "legal_info_url": "https://inpas.aiplux.com/termsofuse",
-  "is_authenticated": true
+  "legal_info_url": "https://inpas.aiplux.com/termsofuse"
 }

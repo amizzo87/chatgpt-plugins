@@ -13,6 +13,5 @@
   },
   "logo_url": "https://questmate-static-public.s3.us-east-1.amazonaws.com/questmate-app-logo-512-openai.png",
   "contact_email": "hello@questmate.com",
-  "legal_info_url": "http://www.questmate.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "http://www.questmate.com/terms"
 }

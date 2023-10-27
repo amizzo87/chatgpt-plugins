@@ -13,6 +13,5 @@
   },
   "logo_url": "https://the-diet-record.automation.jp/.well-known/logo.png",
   "contact_email": "info@automation.jp",
-  "legal_info_url": "https://automation.jp/",
-  "is_authenticated": true
+  "legal_info_url": "https://automation.jp/"
 }

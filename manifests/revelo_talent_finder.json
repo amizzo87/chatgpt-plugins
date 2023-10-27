@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.companies.revelo.com/favicon.ico",
   "contact_email": "contact@revelo.com",
-  "legal_info_url": "https://revelo.com",
-  "is_authenticated": true
+  "legal_info_url": "https://revelo.com"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://partners.api.vio.com/.well-known/vio-white.svg",
   "contact_email": "support@vio.com",
-  "legal_info_url": "https://www.vio.com/terms-of-use",
-  "is_authenticated": true
+  "legal_info_url": "https://www.vio.com/terms-of-use"
 }

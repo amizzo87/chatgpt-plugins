@@ -22,6 +22,5 @@
   },
   "logo_url": "https://promptperfect.xyz/static/prompt_perfect_logo.png",
   "contact_email": "heyo@promptperfect.xyz",
-  "legal_info_url": "https://promptperfect.xyz/static/terms.html",
-  "is_authenticated": true
+  "legal_info_url": "https://promptperfect.xyz/static/terms.html"
 }

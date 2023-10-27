@@ -18,6 +18,5 @@
   },
   "logo_url": "https://linkeddata.uriburner.com/openapi/uriburner-logo-32px.png",
   "contact_email": "support@openlinksw.com",
-  "legal_info_url": "https://linkeddata.uriburner.com/openapi/terms-of-service.html",
-  "is_authenticated": true
+  "legal_info_url": "https://linkeddata.uriburner.com/openapi/terms-of-service.html"
 }

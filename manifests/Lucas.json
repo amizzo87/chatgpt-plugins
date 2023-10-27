@@ -13,6 +13,5 @@
   },
   "logo_url": "https://s3.amazonaws.com/liftlp.idomoo.com/lucas/lucas_icn.png",
   "contact_email": "lucas@idomoo.com",
-  "legal_info_url": "https://app.idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf",
-  "is_authenticated": true
+  "legal_info_url": "https://app.idomoo.ai/Idomoo_Lucas_TermsandConditions.pdf"
 }

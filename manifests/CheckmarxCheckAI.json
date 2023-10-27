@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatgpt-plugin-resources.s3.eu-west-1.amazonaws.com/CX_Logo.jpg",
   "contact_email": "alex.roichman@checkmarx.com",
-  "legal_info_url": "https://gpt-package-plugin.checkmarx.com/terms.htm",
-  "is_authenticated": true
+  "legal_info_url": "https://gpt-package-plugin.checkmarx.com/terms.htm"
 }

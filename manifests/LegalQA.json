@@ -13,6 +13,5 @@
   },
   "logo_url": "https://legal-qa-chatgpt-prod.azurewebsites.net/logo.jpg",
   "contact_email": "contact@machinelearning.com",
-  "legal_info_url": "https://legal-qa-chatgpt-prod.azurewebsites.net/openai_plugin_legal_info",
-  "is_authenticated": true
+  "legal_info_url": "https://legal-qa-chatgpt-prod.azurewebsites.net/openai_plugin_legal_info"
 }

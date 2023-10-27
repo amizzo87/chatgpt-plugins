@@ -18,6 +18,5 @@
   },
   "logo_url": "https://i.ibb.co/YDkjFc5/logo.png",
   "contact_email": "admin@johnversus.dev",
-  "legal_info_url": "https://youtube-video-summarizer-gtp-plugin.vercel.app/static/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://youtube-video-summarizer-gtp-plugin.vercel.app/static/legal.html"
 }

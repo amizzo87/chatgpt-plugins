@@ -13,6 +13,5 @@
   },
   "logo_url": "https://gpt.domatron.com/public/logo.png",
   "contact_email": "support@domatron.com",
-  "legal_info_url": "https://domatron.com/page/terms-of-service",
-  "is_authenticated": true
+  "legal_info_url": "https://domatron.com/page/terms-of-service"
 }

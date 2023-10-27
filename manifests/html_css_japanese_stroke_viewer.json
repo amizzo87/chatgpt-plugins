@@ -13,6 +13,5 @@
   },
   "logo_url": "https://salty-savannah-09308-a165251951ab.herokuapp.com/static/logo.png",
   "contact_email": "karima.askour@ezducate.ai",
-  "legal_info_url": "https://ezducate.ai/legal-disclaimer",
-  "is_authenticated": true
+  "legal_info_url": "https://ezducate.ai/legal-disclaimer"
 }

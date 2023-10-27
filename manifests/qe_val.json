@@ -18,6 +18,5 @@
   },
   "logo_url": "https://openai-chat-plugin.welocalize.com:8443/welo-logo.png",
   "contact_email": "boris.strepacki@welocalize.com",
-  "legal_info_url": "https://www.welocalize.com/",
-  "is_authenticated": true
+  "legal_info_url": "https://www.welocalize.com/"
 }

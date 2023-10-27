@@ -22,6 +22,5 @@
   },
   "logo_url": "https://api.deployscript.com/logo.png",
   "contact_email": "legal@deployscript.com",
-  "legal_info_url": "http://deployscript.com/legal",
-  "is_authenticated": false
+  "legal_info_url": "http://deployscript.com/legal"
 }

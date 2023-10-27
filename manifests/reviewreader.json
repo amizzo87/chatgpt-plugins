@@ -13,6 +13,5 @@
   },
   "logo_url": "https://reviewreader.gngn.at/logo.svg",
   "contact_email": "info@gngn.at",
-  "legal_info_url": "https://reviewreader.gngn.at/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://reviewreader.gngn.at/legal.html"
 }

@@ -22,6 +22,5 @@
   },
   "logo_url": "https://thebolt.ai/images/BOLT-head_100.png",
   "contact_email": "support@thebolt.ai",
-  "legal_info_url": "https://thebolt.ai/tos",
-  "is_authenticated": false
+  "legal_info_url": "https://thebolt.ai/tos"
 }

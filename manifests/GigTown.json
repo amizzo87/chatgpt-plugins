@@ -13,6 +13,5 @@
   },
   "logo_url": "https://agent.gigtown.com/logo.png",
   "contact_email": "contact@gigtown.com",
-  "legal_info_url": "https://www.gigtown.com/chat-gpt-plugin-terms-of-use",
-  "is_authenticated": true
+  "legal_info_url": "https://www.gigtown.com/chat-gpt-plugin-terms-of-use"
 }

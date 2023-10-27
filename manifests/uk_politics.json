@@ -18,6 +18,5 @@
   },
   "logo_url": "https://politics-plugin.onrender.com/logo",
   "contact_email": "joe@politicsplugin.com",
-  "legal_info_url": "https://politics-plugin.onrender.com/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://politics-plugin.onrender.com/privacy"
 }

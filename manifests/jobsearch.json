@@ -13,6 +13,5 @@
   },
   "logo_url": "https://jobsearch.vencio.de/logo.png",
   "contact_email": "info@vencio.de",
-  "legal_info_url": "https://jobsearch.vencio.de/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://jobsearch.vencio.de/terms"
 }

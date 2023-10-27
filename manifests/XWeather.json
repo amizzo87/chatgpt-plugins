@@ -13,6 +13,5 @@
   },
   "logo_url": "https://openai-plugin.xweather.com/logo.svg",
   "contact_email": "support@aerisweather.com",
-  "legal_info_url": "https://xweather.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://xweather.com/terms"
 }

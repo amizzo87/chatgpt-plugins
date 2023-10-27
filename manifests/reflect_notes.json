@@ -22,6 +22,5 @@
   },
   "logo_url": "https://reflect.app/site/icons/512x512-rounded.png",
   "contact_email": "support@reflect.app",
-  "legal_info_url": "https://reflect.app/terms",
-  "is_authenticated": false
+  "legal_info_url": "https://reflect.app/terms"
 }

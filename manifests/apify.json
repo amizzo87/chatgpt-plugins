@@ -18,6 +18,5 @@
   },
   "logo_url": "https://apify.com/.well-known/apify-logo.png",
   "contact_email": "hello@apify.com",
-  "legal_info_url": "https://docs.apify.com/platform/integrations/chatgpt-plugin",
-  "is_authenticated": true
+  "legal_info_url": "https://docs.apify.com/platform/integrations/chatgpt-plugin"
 }

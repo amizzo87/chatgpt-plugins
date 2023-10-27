@@ -18,6 +18,5 @@
   },
   "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/scholar_logo.png",
   "contact_email": "support@scholar.mixerbox.com",
-  "legal_info_url": "https://www.mixerbox.com",
-  "is_authenticated": true
+  "legal_info_url": "https://www.mixerbox.com"
 }

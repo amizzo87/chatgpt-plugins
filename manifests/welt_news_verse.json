@@ -13,6 +13,5 @@
   },
   "logo_url": "https://www.welt.de/assets/bff-api/news-verse/logo.png",
   "contact_email": "sebastian.fitzner@axelspringer.com",
-  "legal_info_url": "https://www.welt.de/services/article7893735/Impressum.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.welt.de/services/article7893735/Impressum.html"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.vidiq.com/chatgpt-plugin/logo/logo.svg",
   "contact_email": "chatgpt-plugin@vidiq.com",
-  "legal_info_url": "https://vidiq.com/terms/",
-  "is_authenticated": true
+  "legal_info_url": "https://vidiq.com/terms/"
 }

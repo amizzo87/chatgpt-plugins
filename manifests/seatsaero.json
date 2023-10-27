@@ -13,6 +13,5 @@
   },
   "logo_url": "https://seats.aero/static/img/seats.png",
   "contact_email": "support@seats.aero",
-  "legal_info_url": "https://seats.aero/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://seats.aero/terms"
 }

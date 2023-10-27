@@ -13,6 +13,5 @@
   },
   "logo_url": "https://ebay-finds.aitoolbot.repl.co/static/logo.png",
   "contact_email": "aitoolbot@gmail.com",
-  "legal_info_url": "https://ebay-finds.aitoolbot.repl.co/static/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://ebay-finds.aitoolbot.repl.co/static/legal.html"
 }

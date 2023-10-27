@@ -13,6 +13,5 @@
   },
   "logo_url": "https://stack-overflow-search.onrender.com/.well-known/logo",
   "contact_email": "gary@parrot.ink",
-  "legal_info_url": "https://stack-overflow-search.onrender.com/.well-known/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://stack-overflow-search.onrender.com/.well-known/legal"
 }

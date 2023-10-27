@@ -13,6 +13,5 @@
   },
   "logo_url": "https://aladin-search-book.azurewebsites.net/.well-known/logo.png",
   "contact_email": "ai@aladin.co.kr",
-  "legal_info_url": "https://www.aladin.co.kr/account/waccount_provision.aspx?pType=9",
-  "is_authenticated": true
+  "legal_info_url": "https://www.aladin.co.kr/account/waccount_provision.aspx?pType=9"
 }

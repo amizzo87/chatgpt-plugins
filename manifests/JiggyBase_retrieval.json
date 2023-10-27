@@ -22,6 +22,5 @@
   },
   "logo_url": "https://jiggybase.plugin.jiggy.ai/.well-known/logo.png",
   "contact_email": "jiggybase@jiggy.ai",
-  "legal_info_url": "https://jiggy.ai/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://jiggy.ai/legal"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://plugin.speechki.org/icon.svg",
   "contact_email": "hello@speechki.org",
-  "legal_info_url": "https://www.speechki.org/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://www.speechki.org/legal"
 }

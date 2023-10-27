@@ -18,6 +18,5 @@
   },
   "logo_url": "https://meme-creator-production.vercel.app/.well-known/logo.png",
   "contact_email": "support@memecreator.app",
-  "legal_info_url": "https://meme-creator-production.vercel.app/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://meme-creator-production.vercel.app/legal"
 }

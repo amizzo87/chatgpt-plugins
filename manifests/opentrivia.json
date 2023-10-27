@@ -13,6 +13,5 @@
   },
   "logo_url": "https://raw.githubusercontent.com/drengskapur/open-trivia-database-chat-plugin/main/icon.png",
   "contact_email": "service@drengskapur.com",
-  "legal_info_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "is_authenticated": true
+  "legal_info_url": "https://creativecommons.org/licenses/by-sa/4.0/"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://www.codecademy.com/chatgpt-plugin/cc_logo.png",
   "contact_email": "help@codecademy.com",
-  "legal_info_url": "https://www.codecademy.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.codecademy.com/terms"
 }

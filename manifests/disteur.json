@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatgptplugin.disteur.com/.well-known/logo.png",
   "contact_email": "derekxinzhewang@gmail.com",
-  "legal_info_url": "https://disteur.com/chatgptplugin/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://disteur.com/chatgptplugin/legal"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://app.jobsearch.chat/images/logo.png",
   "contact_email": "hello@jobsearch.chat",
-  "legal_info_url": "https://jobsearch.chat/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://jobsearch.chat/legal"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://cdn.getyourguide.com/tf/assets/static/chatgpt/gyg-chatgpt-logo.svg",
   "contact_email": "chatgpt-plugin-support@getyourguide.com",
-  "legal_info_url": "https://www.getyourguide.com/c/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://www.getyourguide.com/c/legal"
 }

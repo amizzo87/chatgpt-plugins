@@ -13,6 +13,5 @@
   },
   "logo_url": "https://botmakers.blob.core.windows.net/temp/jopilot_dark.svg",
   "contact_email": "plugin@jopilot.net",
-  "legal_info_url": "https://jopilot.net/home/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://jopilot.net/home/terms"
 }

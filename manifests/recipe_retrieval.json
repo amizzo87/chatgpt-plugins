@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.tasty.co/.well-known/logo.png",
   "contact_email": "archi.mitra@buzzfeed.com",
-  "legal_info_url": "archi.mitra@buzzfeed.com",
-  "is_authenticated": true
+  "legal_info_url": "archi.mitra@buzzfeed.com"
 }

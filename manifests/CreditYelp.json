@@ -13,6 +13,5 @@
   },
   "logo_url": "https://credityelp.com/openai/logo.png",
   "contact_email": "support@credityelp.com",
-  "legal_info_url": "https://www.credityelp.com/plugin-for-chatgpt.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.credityelp.com/plugin-for-chatgpt.html"
 }

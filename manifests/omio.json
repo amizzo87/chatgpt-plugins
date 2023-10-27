@@ -13,6 +13,5 @@
   },
   "logo_url": "https://www.omio.com/gcs-proxy/static_content_repo/web/icons/omio-android-chrome-192x192.png",
   "contact_email": "chatgpt-plugin-support@omio.com",
-  "legal_info_url": "https://omio.com/terms-of-use",
-  "is_authenticated": true
+  "legal_info_url": "https://omio.com/terms-of-use"
 }

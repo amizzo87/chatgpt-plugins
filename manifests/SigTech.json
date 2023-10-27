@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.sigtech.com/plugin/logo.jpg",
   "contact_email": "support@sigtech.com",
-  "legal_info_url": "https://sigtech.com/api-terms-of-service/",
-  "is_authenticated": true
+  "legal_info_url": "https://sigtech.com/api-terms-of-service/"
 }

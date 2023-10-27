@@ -13,6 +13,5 @@
   },
   "logo_url": "https://innerself.ai/icons/inner-self.webp",
   "contact_email": "contact@innerself.ai",
-  "legal_info_url": "https://innerself.ai/legal/terms-of-service",
-  "is_authenticated": true
+  "legal_info_url": "https://innerself.ai/legal/terms-of-service"
 }

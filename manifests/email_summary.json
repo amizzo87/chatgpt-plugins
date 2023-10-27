@@ -22,6 +22,5 @@
   },
   "logo_url": "https://email-plugin-service.teammait.com/logo.jpeg",
   "contact_email": "albert@teammait.com",
-  "legal_info_url": "https://teammait.com",
-  "is_authenticated": false
+  "legal_info_url": "https://teammait.com"
 }

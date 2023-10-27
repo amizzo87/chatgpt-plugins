@@ -13,6 +13,5 @@
   },
   "logo_url": "https://www.g2.com/assets/chat_gpt_plugin/plugin-logo-1fc390241b7ea80f436570c759884746d08074b6f3281789a2c543bcd6e75ef3.png",
   "contact_email": "support@g2.com",
-  "legal_info_url": "https://legal.g2.com",
-  "is_authenticated": true
+  "legal_info_url": "https://legal.g2.com"
 }

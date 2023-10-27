@@ -13,6 +13,5 @@
   },
   "logo_url": "https://vafl.me/api/.well-known/logo.png",
   "contact_email": "ai.vafl.me@gmail.com",
-  "legal_info_url": "ai.vafl.me@gmail.com",
-  "is_authenticated": true
+  "legal_info_url": "ai.vafl.me@gmail.com"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://apis.newegg.com/.well-known/logo.png",
   "contact_email": "Json.J.Hu@newegg.com",
-  "legal_info_url": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/",
-  "is_authenticated": true
+  "legal_info_url": "https://kb.newegg.com/knowledge-base/privacy-policy-newegg/"
 }

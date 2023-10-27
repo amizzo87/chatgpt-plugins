@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatgpt.genai-plugins-prd.tamg.cloud/chatgpt/v1/logo.png",
   "contact_email": "taplugindevsupport@tripadvisor.com",
-  "legal_info_url": "https://tripadvisor.mediaroom.com/us-terms-of-use",
-  "is_authenticated": true
+  "legal_info_url": "https://tripadvisor.mediaroom.com/us-terms-of-use"
 }

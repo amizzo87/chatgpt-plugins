@@ -13,6 +13,5 @@
   },
   "logo_url": "https://askyourkg.cogniswitch.ai/assets/img/gptplugin.logo.png",
   "contact_email": "hello@cogniswitch.ai",
-  "legal_info_url": "https://cogniswitch.ai/",
-  "is_authenticated": true
+  "legal_info_url": "https://cogniswitch.ai/"
 }

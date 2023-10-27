@@ -18,6 +18,5 @@
   },
   "logo_url": "https://dash.repeat.dev/logo.jpg",
   "contact_email": "hello@repeat.dev",
-  "legal_info_url": "https://webhooks.ai.rpt.dev/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://webhooks.ai.rpt.dev/legal"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://outreach-plugin.dover.io/logo.png",
   "contact_email": "hello@dover.com",
-  "legal_info_url": "https://www.dover.com/subscription-agreement",
-  "is_authenticated": true
+  "legal_info_url": "https://www.dover.com/subscription-agreement"
 }

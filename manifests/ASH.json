@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.lagogal.com/logo/ASH_512x512.png",
   "contact_email": "support@lagogal.com",
-  "legal_info_url": "https://lagogal.com/legal/en/tou.html",
-  "is_authenticated": true
+  "legal_info_url": "https://lagogal.com/legal/en/tou.html"
 }

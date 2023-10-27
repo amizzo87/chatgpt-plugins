@@ -13,6 +13,5 @@
   },
   "logo_url": "https://openai-plugin.qeeq.com/logo.png",
   "contact_email": "support@qeeq.com",
-  "legal_info_url": "https://www.qeeq.com/term?info=privacypolicy",
-  "is_authenticated": true
+  "legal_info_url": "https://www.qeeq.com/term?info=privacypolicy"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://redantai.pythonanywhere.com/icon.jpg",
   "contact_email": "redantai.com@gmail.com",
-  "legal_info_url": "https://redantai.com/legal/",
-  "is_authenticated": true
+  "legal_info_url": "https://redantai.com/legal/"
 }

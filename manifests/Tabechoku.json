@@ -18,6 +18,5 @@
   },
   "logo_url": "https://gpt-retrieval-plugin.tabechoku.com/.well-known/logo.png",
   "contact_email": "info@tabechoku.com",
-  "legal_info_url": "https://www.tabechoku.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://www.tabechoku.com/terms"
 }

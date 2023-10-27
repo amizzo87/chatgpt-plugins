@@ -22,6 +22,5 @@
   },
   "logo_url": "https://giga-do.azurewebsites.net/logo.png",
   "contact_email": "contactus@giga.do",
-  "legal_info_url": "http://giga.do/legal",
-  "is_authenticated": false
+  "legal_info_url": "http://giga.do/legal"
 }

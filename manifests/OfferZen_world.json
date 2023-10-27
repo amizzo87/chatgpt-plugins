@@ -13,6 +13,5 @@
   },
   "logo_url": "https://www.offerzen.com/ai/offerzen-world/.well-known/logo.png",
   "contact_email": "hello@offerzen.com",
-  "legal_info_url": "https://www.offerzen.com/privacy-centre",
-  "is_authenticated": true
+  "legal_info_url": "https://www.offerzen.com/privacy-centre"
 }

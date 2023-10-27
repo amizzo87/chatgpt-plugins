@@ -13,6 +13,5 @@
   },
   "logo_url": "https://onepagestorage.blob.core.windows.net/media/onepage-logo.svg",
   "contact_email": "admin@onepage.report",
-  "legal_info_url": "https://app.onepage.report/t&c",
-  "is_authenticated": true
+  "legal_info_url": "https://app.onepage.report/t&c"
 }

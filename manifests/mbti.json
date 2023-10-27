@@ -13,6 +13,5 @@
   },
   "logo_url": "https://mbti.bowang17.repl.co/.well-known/logo.png",
   "contact_email": "brainwangbo2017@repl.co.com",
-  "legal_info_url": "https://mbti.bowang17.repl.co/.well-known/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://mbti.bowang17.repl.co/.well-known/legal"
 }

@@ -22,6 +22,5 @@
   },
   "logo_url": "https://nlp.prod.imsrcscloud.com/logo.png",
   "contact_email": "info@summit-tech.ca",
-  "legal_info_url": "https://www.summit-tech.ca/privacyPolicy",
-  "is_authenticated": false
+  "legal_info_url": "https://www.summit-tech.ca/privacyPolicy"
 }

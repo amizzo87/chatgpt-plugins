@@ -13,6 +13,5 @@
   },
   "logo_url": "https://search-ai.mintbase.xyz/.well-known/search/logo.png",
   "contact_email": "admin@mintbase.xyz",
-  "legal_info_url": "https://search-ai.mintbase.xyz/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://search-ai.mintbase.xyz/legal"
 }

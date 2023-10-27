@@ -13,6 +13,5 @@
   },
   "logo_url": "https://www.tagvenue.com/img/logos/android-chrome-512x512.png",
   "contact_email": "hello@tagvenue.com",
-  "legal_info_url": "https://tagvenue.com/page/terms-venue#chatgpt-plugin",
-  "is_authenticated": true
+  "legal_info_url": "https://tagvenue.com/page/terms-venue#chatgpt-plugin"
 }

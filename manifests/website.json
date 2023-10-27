@@ -18,6 +18,5 @@
   },
   "logo_url": "https://www.b12.io/static-assets/images/b12-logo-purple-bg.png",
   "contact_email": "hello@b12.io",
-  "legal_info_url": "https://www.b12.io/static-assets/docs/terms-of-service-03-01-2021.pdf",
-  "is_authenticated": true
+  "legal_info_url": "https://www.b12.io/static-assets/docs/terms-of-service-03-01-2021.pdf"
 }

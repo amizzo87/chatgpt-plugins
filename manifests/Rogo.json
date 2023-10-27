@@ -13,6 +13,5 @@
   },
   "logo_url": "https://rogo-public-assets.s3.amazonaws.com/logo-180x180.png",
   "contact_email": "team@rogodata.com",
-  "legal_info_url": "https://rogodata.com/terms-of-service/",
-  "is_authenticated": true
+  "legal_info_url": "https://rogodata.com/terms-of-service/"
 }

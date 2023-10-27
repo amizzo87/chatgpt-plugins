@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.popfun.com/logo.jpg",
   "contact_email": "admin@popfun.com",
-  "legal_info_url": "https://www.popfun.com/pages/terms-and-condition",
-  "is_authenticated": true
+  "legal_info_url": "https://www.popfun.com/pages/terms-and-condition"
 }

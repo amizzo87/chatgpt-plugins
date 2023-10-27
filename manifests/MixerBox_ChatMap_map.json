@@ -18,6 +18,5 @@
   },
   "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/ChatMap_logo.png",
   "contact_email": "support@chatmap.mixerbox.com",
-  "legal_info_url": "https://www.mixerbox.com",
-  "is_authenticated": true
+  "legal_info_url": "https://www.mixerbox.com"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://vcaption.maila.ai/.well-known/logo.png",
   "contact_email": "kevin@maila.ai",
-  "legal_info_url": "https://vcaption.maila.ai/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://vcaption.maila.ai/legal"
 }

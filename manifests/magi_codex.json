@@ -13,6 +13,5 @@
   },
   "logo_url": "https://mtg-rules-chatgpt-plugin.fly.dev/logo.png",
   "contact_email": "trevor@strieber.org",
-  "legal_info_url": "https://strieber.org",
-  "is_authenticated": true
+  "legal_info_url": "https://strieber.org"
 }

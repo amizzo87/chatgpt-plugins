@@ -13,6 +13,5 @@
   },
   "logo_url": "https://app.yayforms.com/logo.svg",
   "contact_email": "help@yayforms.com",
-  "legal_info_url": "https://yayforms.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://yayforms.com/terms"
 }

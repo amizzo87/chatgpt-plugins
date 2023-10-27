@@ -13,6 +13,5 @@
   },
   "logo_url": "https://gpt-etihad.botim.me/.well-known/App_icon.png",
   "contact_email": "songkuan.zheng@algento.com",
-  "legal_info_url": "https://www.etihad.com/en-us/legal/terms-and-conditions",
-  "is_authenticated": true
+  "legal_info_url": "https://www.etihad.com/en-us/legal/terms-and-conditions"
 }

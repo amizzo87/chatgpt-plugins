@@ -18,6 +18,5 @@
   },
   "logo_url": "https://ai.invideo.io/favicon.ico",
   "contact_email": "support@invideo.io",
-  "legal_info_url": "https://pro-api.invideo.io/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://pro-api.invideo.io/legal.html"
 }

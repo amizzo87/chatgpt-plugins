@@ -18,6 +18,5 @@
   },
   "logo_url": "https://mag-gpt-nextjs.vercel.app/logo.png",
   "contact_email": "contato@magnetis.com.br",
-  "legal_info_url": "https://magnetis.com.br/notas-legais",
-  "is_authenticated": true
+  "legal_info_url": "https://magnetis.com.br/notas-legais"
 }

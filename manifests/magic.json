@@ -18,6 +18,5 @@
   },
   "logo_url": "https://chatgpt-plugin.getmagic.com/favicon.png",
   "contact_email": "questions@getmagic.com",
-  "legal_info_url": "https://getmagic.com/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://getmagic.com/terms"
 }

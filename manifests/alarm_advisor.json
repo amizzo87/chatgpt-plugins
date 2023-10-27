@@ -18,6 +18,5 @@
   },
   "logo_url": "https://plugin.metzsicherheitstechnik.de/static/logo.png",
   "contact_email": "info@metzsicherheitstechnik.de",
-  "legal_info_url": "https://metzsicherheitstechnik.de/#plugin-legal-info",
-  "is_authenticated": true
+  "legal_info_url": "https://metzsicherheitstechnik.de/#plugin-legal-info"
 }

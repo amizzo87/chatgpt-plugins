@@ -22,6 +22,5 @@
   },
   "logo_url": "https://placid.app/logo-openai.jpg",
   "contact_email": "armin@placid.app",
-  "legal_info_url": "https://placid.app/terms-and-conditions",
-  "is_authenticated": false
+  "legal_info_url": "https://placid.app/terms-and-conditions"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://agones.gr/static/img/favicon/android-chrome-192x192.png",
   "contact_email": "info@agones.gr",
-  "legal_info_url": "https://agones.gr/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://agones.gr/terms"
 }

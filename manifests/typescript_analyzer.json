@@ -13,6 +13,5 @@
   },
   "logo_url": "https://ts-check.okikio.dev/.well-known/logo.png",
   "contact_email": "hey@okikio.dev",
-  "legal_info_url": "https://okikio.dev/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://okikio.dev/privacy"
 }

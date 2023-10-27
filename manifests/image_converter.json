@@ -22,6 +22,5 @@
   },
   "logo_url": "https://plugin-image-converter.vercel.app/logo.png",
   "contact_email": "plugins.chatgpt@gmail.com",
-  "legal_info_url": "https://plugin-image-converter.vercel.app/legal.txt",
-  "is_authenticated": false
+  "legal_info_url": "https://plugin-image-converter.vercel.app/legal.txt"
 }

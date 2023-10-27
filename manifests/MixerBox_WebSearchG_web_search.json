@@ -18,6 +18,5 @@
   },
   "logo_url": "https://static.mixerbox.com/chatai/chatgpt-plugin/WebSearchG_logo.png",
   "contact_email": "support@websearchg.mixerbox.com",
-  "legal_info_url": "https://websearchg.mixerbox.com",
-  "is_authenticated": true
+  "legal_info_url": "https://websearchg.mixerbox.com"
 }

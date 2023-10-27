@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chat.cryptomation.com/.well-known/cryptomation.svg",
   "contact_email": "admin@cryptomation.com",
-  "legal_info_url": "https://cryptomation.com/privacy-policy",
-  "is_authenticated": true
+  "legal_info_url": "https://cryptomation.com/privacy-policy"
 }

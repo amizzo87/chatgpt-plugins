@@ -13,6 +13,5 @@
   },
   "logo_url": "https://hackit.co.il/hackit.png",
   "contact_email": "yuval@hackit.co.il",
-  "legal_info_url": "https://hackit.co.il",
-  "is_authenticated": true
+  "legal_info_url": "https://hackit.co.il"
 }

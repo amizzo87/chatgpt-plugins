@@ -13,6 +13,5 @@
   },
   "logo_url": "https://weathergpt-bay-six.vercel.app/logo.png",
   "contact_email": "contact@weatherwizard.com",
-  "legal_info_url": "https://weathergpt-bay-six.vercel.app/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://weathergpt-bay-six.vercel.app/legal"
 }

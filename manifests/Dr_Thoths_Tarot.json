@@ -13,6 +13,5 @@
   },
   "logo_url": "https://dr-thoth-tarot.herokuapp.com/logo.png",
   "contact_email": "legal@AzothCorp.com",
-  "legal_info_url": "http://AzothCorp.com/legal",
-  "is_authenticated": true
+  "legal_info_url": "http://AzothCorp.com/legal"
 }

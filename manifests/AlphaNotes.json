@@ -22,6 +22,5 @@
   },
   "logo_url": "https://api.alphanotes.one/logo.jpg",
   "contact_email": "davidezambiasi@gmail.com",
-  "legal_info_url": "https://www.alphanotes.one/policy",
-  "is_authenticated": false
+  "legal_info_url": "https://www.alphanotes.one/policy"
 }

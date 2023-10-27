@@ -22,6 +22,5 @@
   },
   "logo_url": "https://cplst01.blob.core.windows.net/static/c-export-logo.jpg",
   "contact_email": "c-export@copilot.us",
-  "legal_info_url": "https://c-export.copilot.us/terms.html",
-  "is_authenticated": false
+  "legal_info_url": "https://c-export.copilot.us/terms.html"
 }

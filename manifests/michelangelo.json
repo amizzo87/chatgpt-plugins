@@ -22,6 +22,5 @@
   },
   "logo_url": "https://firebasestorage.googleapis.com/v0/b/michelangelo-ai.appspot.com/o/michelangelo-plugin.png?alt=media&token=d4ea41a6-2579-47cf-b966-d4aba4b61b2b",
   "contact_email": "support@michelangelo.cc",
-  "legal_info_url": "https://plugin.michelangelo.cc/.well-known/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://plugin.michelangelo.cc/.well-known/legal"
 }

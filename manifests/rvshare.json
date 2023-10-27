@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.rvshare.com/.well-known/logo.png",
   "contact_email": "hello@rvshare.com",
-  "legal_info_url": "https://rvshare.com/terms-of-service",
-  "is_authenticated": true
+  "legal_info_url": "https://rvshare.com/terms-of-service"
 }

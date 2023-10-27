@@ -13,6 +13,5 @@
   },
   "logo_url": "https://docs.buzz.new/logo.svg",
   "contact_email": "support@buzz.new",
-  "legal_info_url": "https://buzz.new/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://buzz.new/legal"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://joint-server.onrender.com/openapi/logo",
   "contact_email": "hello@pugin.ai",
-  "legal_info_url": "https://joint-server.onrender.com/site/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://joint-server.onrender.com/site/legal"
 }

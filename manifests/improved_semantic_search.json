@@ -22,6 +22,5 @@
   },
   "logo_url": "https://www.threesigma.ai/.well-known/logo.png",
   "contact_email": "sergey@threesigma.com",
-  "legal_info_url": "https://www.threesigma.ai/terms-of-service",
-  "is_authenticated": false
+  "legal_info_url": "https://www.threesigma.ai/terms-of-service"
 }

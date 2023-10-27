@@ -22,6 +22,5 @@
   },
   "logo_url": "https://memory.papr.ai/logo.png",
   "contact_email": "shawkat@papr.ai",
-  "legal_info_url": "https://www.papr.ai/terms-of-service",
-  "is_authenticated": false
+  "legal_info_url": "https://www.papr.ai/terms-of-service"
 }

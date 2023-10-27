@@ -13,6 +13,5 @@
   },
   "logo_url": "https://oai-monarch-plugin.monarchinitiative.org/static/logo.png",
   "contact_email": "shawn@tislab.org",
-  "legal_info_url": "https://monarchinitiative.org/about/disclaimer",
-  "is_authenticated": true
+  "legal_info_url": "https://monarchinitiative.org/about/disclaimer"
 }

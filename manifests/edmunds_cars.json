@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.edmunds.com/logo.png",
   "contact_email": "bigdataeng@edmunds.com",
-  "legal_info_url": "https://www.edmunds.com/about/visitor-agreement.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.edmunds.com/about/visitor-agreement.html"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.speak.com/ai-plugin-logo.png",
   "contact_email": "support@speak.com",
-  "legal_info_url": "http://speak.com/legal",
-  "is_authenticated": true
+  "legal_info_url": "http://speak.com/legal"
 }

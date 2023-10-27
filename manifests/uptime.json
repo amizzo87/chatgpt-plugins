@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.pulsetic.com/chatgpt_logo.png",
   "contact_email": "info@pulsetic.com",
-  "legal_info_url": "https://pulsetic.com/terms/",
-  "is_authenticated": true
+  "legal_info_url": "https://pulsetic.com/terms/"
 }

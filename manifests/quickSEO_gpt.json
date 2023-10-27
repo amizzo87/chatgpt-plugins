@@ -22,6 +22,5 @@
   },
   "logo_url": "https://seo-be.quick-url.com/logo.jpg",
   "contact_email": "contact@quick-url.com",
-  "legal_info_url": "https://seo-be.quick-url.com/api/terms",
-  "is_authenticated": false
+  "legal_info_url": "https://seo-be.quick-url.com/api/terms"
 }

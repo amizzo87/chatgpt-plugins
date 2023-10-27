@@ -22,6 +22,5 @@
   },
   "logo_url": "https://screen-tester.com/logo.svg",
   "contact_email": "alexis@screen-tester.com",
-  "legal_info_url": "https://screen-tester.com/legal",
-  "is_authenticated": false
+  "legal_info_url": "https://screen-tester.com/legal"
 }

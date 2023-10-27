@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.ludum.dev/logo.png",
   "contact_email": "isavitaisa@gmail.com",
-  "legal_info_url": "https://www.ludum.dev/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://www.ludum.dev/legal"
 }

@@ -18,6 +18,5 @@
   },
   "logo_url": "https://img-cdn.adrise.tv/tubi_logo.png",
   "contact_email": "support@tubitv.com",
-  "legal_info_url": "https://tubitv.com/static/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://tubitv.com/static/terms"
 }

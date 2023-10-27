@@ -13,6 +13,5 @@
   },
   "logo_url": "https://cplst01.blob.core.windows.net/static/c-invoice-logo.png",
   "contact_email": "support@copilot.us",
-  "legal_info_url": "https://c-invoice.copilot.us/home/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://c-invoice.copilot.us/home/terms"
 }

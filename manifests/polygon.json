@@ -18,6 +18,5 @@
   },
   "logo_url": "https://polygon.io/imgs/favicon.png",
   "contact_email": "legal@polygon.io",
-  "legal_info_url": "https://polygon.io/terms",
-  "is_authenticated": true
+  "legal_info_url": "https://polygon.io/terms"
 }

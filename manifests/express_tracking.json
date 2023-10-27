@@ -13,6 +13,5 @@
   },
   "logo_url": "https://express.aichameng.com/.well-known/logo.png",
   "contact_email": "sonicli1988@gmail.com",
-  "legal_info_url": "https://express.aichameng.com/static/legal.html",
-  "is_authenticated": true
+  "legal_info_url": "https://express.aichameng.com/static/legal.html"
 }

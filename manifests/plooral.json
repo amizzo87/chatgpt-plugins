@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt.eduployment.app/assets/logo.png",
   "contact_email": "ai@eduployment.app",
-  "legal_info_url": "https://chatgpt.eduployment.app/legal/info.txt",
-  "is_authenticated": true
+  "legal_info_url": "https://chatgpt.eduployment.app/legal/info.txt"
 }

@@ -13,6 +13,5 @@
   },
   "logo_url": "https://iron-kegel.herokuapp.com/ironkegel_icon.png",
   "contact_email": "hello@softroids.com",
-  "legal_info_url": "https://ironkegel.com/app-terms-and-conditions/",
-  "is_authenticated": true
+  "legal_info_url": "https://ironkegel.com/app-terms-and-conditions/"
 }

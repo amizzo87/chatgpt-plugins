@@ -13,6 +13,5 @@
   },
   "logo_url": "https://storage.googleapis.com/mercari-gpt-plugin-resource-prod/mercari_logo.png",
   "contact_email": "support@mercari.jp",
-  "legal_info_url": "https://static.jp.mercari.com/tos",
-  "is_authenticated": true
+  "legal_info_url": "https://static.jp.mercari.com/tos"
 }

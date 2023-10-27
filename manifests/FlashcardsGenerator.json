@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt-card-gen-anki-plugin.vercel.app/logo.png",
   "contact_email": "ste.djokovic@gmail.com",
-  "legal_info_url": "https://chatgpt-card-gen-anki-plugin.vercel.app/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://chatgpt-card-gen-anki-plugin.vercel.app/legal"
 }

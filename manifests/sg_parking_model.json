@@ -13,6 +13,5 @@
   },
   "logo_url": "https://carparkserviceapp.azurewebsites.net/icon-512.png",
   "contact_email": "spwwj@whalejay.com",
-  "legal_info_url": "https://spirifyqrcode.azurewebsites.net/legalinfo",
-  "is_authenticated": true
+  "legal_info_url": "https://spirifyqrcode.azurewebsites.net/legalinfo"
 }

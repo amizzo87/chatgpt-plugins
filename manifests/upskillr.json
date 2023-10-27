@@ -22,6 +22,5 @@
   },
   "logo_url": "https://cbplugin.upskillr.ai/.well-known/logo.svg",
   "contact_email": "contact@upskillr.ai",
-  "legal_info_url": "https://www.upskillr.ai/terms-of-service/",
-  "is_authenticated": false
+  "legal_info_url": "https://www.upskillr.ai/terms-of-service/"
 }

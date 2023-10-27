@@ -13,6 +13,5 @@
   },
   "logo_url": "https://api.ndricks.com/logo.jpg",
   "contact_email": "benjamin@ndricks.com",
-  "legal_info_url": "https://ndricks.com/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://ndricks.com/privacy"
 }

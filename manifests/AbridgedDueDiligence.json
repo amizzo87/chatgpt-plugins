@@ -18,6 +18,5 @@
   },
   "logo_url": "https://vector-api.fly.dev/.well-known/logo.png",
   "contact_email": "admin@abridgeddd.com",
-  "legal_info_url": "abridgeddd.com",
-  "is_authenticated": true
+  "legal_info_url": "abridgeddd.com"
 }

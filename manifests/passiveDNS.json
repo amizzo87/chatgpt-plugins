@@ -13,6 +13,5 @@
   },
   "logo_url": "https://daisy.zetalytics.com/square-zeta-logo.jpg",
   "contact_email": "plugins@zetalytics.com",
-  "legal_info_url": "https://daisy.zetalytics.com/legal_info.html",
-  "is_authenticated": true
+  "legal_info_url": "https://daisy.zetalytics.com/legal_info.html"
 }

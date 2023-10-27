@@ -18,6 +18,5 @@
   },
   "logo_url": "https://twrailtimetables.flagtec.repl.co/logo.png",
   "contact_email": "flagtec@gmail.com",
-  "legal_info_url": "https://www.flag.com.tw/flag/privacy",
-  "is_authenticated": true
+  "legal_info_url": "https://www.flag.com.tw/flag/privacy"
 }

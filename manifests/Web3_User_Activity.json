@@ -13,6 +13,5 @@
   },
   "logo_url": "https://chatgpt-plugin.rss3.ai/public/logo.svg",
   "contact_email": "contact@rss3.io",
-  "legal_info_url": "https://rss3.io/tos",
-  "is_authenticated": true
+  "legal_info_url": "https://rss3.io/tos"
 }

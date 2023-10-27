@@ -13,6 +13,5 @@
   },
   "logo_url": "https://surveillance-api.synology.com/.well-known/logo.png",
   "contact_email": "spg1_chatgpt@synology.com",
-  "legal_info_url": "https://www.synology.com/company/legal",
-  "is_authenticated": true
+  "legal_info_url": "https://www.synology.com/company/legal"
 }

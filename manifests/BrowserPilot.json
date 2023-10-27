@@ -13,6 +13,5 @@
   },
   "logo_url": "https://openapi-af.op-mobile.opera.com/openapi/browserplugin/.well-known/logo.png",
   "contact_email": "aiplugins-contact-list@opera.com",
-  "legal_info_url": "https://legal.apexnews.com/terms/",
-  "is_authenticated": true
+  "legal_info_url": "https://legal.apexnews.com/terms/"
 }

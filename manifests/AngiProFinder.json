@@ -18,6 +18,5 @@
   },
   "logo_url": "https://api.angi.com/v1/pros-recommendation/.well-known/logo.png",
   "contact_email": "angipteam@angi.com",
-  "legal_info_url": "https://api.angi.com/v1/pros-recommendation/legal-info.html",
-  "is_authenticated": true
+  "legal_info_url": "https://api.angi.com/v1/pros-recommendation/legal-info.html"
 }

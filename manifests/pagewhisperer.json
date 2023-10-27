@@ -22,6 +22,5 @@
   },
   "logo_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/logo.png",
   "contact_email": "contact@prismic.io",
-  "legal_info_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/legal/terms-of-service",
-  "is_authenticated": false
+  "legal_info_url": "https://prismic-web-git-page-whisperer-store-prismic.vercel.app/legal/terms-of-service"
 }

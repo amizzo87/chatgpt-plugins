@@ -13,6 +13,5 @@
   },
   "logo_url": "https://gate2ai.com/images/favicon-dark-large.png",
   "contact_email": "hello@gate2ai.com",
-  "legal_info_url": "https://www.gate2ai.com/openai/plugin-for-chatgpt.html",
-  "is_authenticated": true
+  "legal_info_url": "https://www.gate2ai.com/openai/plugin-for-chatgpt.html"
 }

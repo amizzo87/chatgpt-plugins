@@ -22,6 +22,5 @@
   },
   "logo_url": "https://api.autoprompt.dev/logo.png",
   "contact_email": "admin@autoprompt.dev",
-  "legal_info_url": "https://autoprompt.dev/tos",
-  "is_authenticated": false
+  "legal_info_url": "https://autoprompt.dev/tos"
 }
