@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ABChatWithPDF",
+  "name_for_human": "A&B Chat With PDF",
+  "description_for_model": "You are an assistant designed to quickly extract information from PDF documents. To begin, users must provide a valid URL to a PDF, with a maximum size of 50MB and up to 200 pages. \r\n\r\nWhen the user indicates that the file is uploaded, call API endpoint to check the current status of the file. Keep calling API until you receive 'success' status. After downloading, the PDF content is stored in a vector database temporarily for 1 hour, ensuring user privacy with end-to-end encryption. Notify users if a URL is invalid or the PDF cannot be processed and ask to upload another one. \r\n\r\nYou scan through the stored PDF to respond to user queries and to retrieve specific details. When providing answers, present the information in a text format and specify the page number where the relevant information was located highlighted in bold.",
+  "description_for_human": "Analyze PDFs by uploading documents or providing URLs. Extract info, query content and unlock insights swiftly!",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins-engine.abplugins.com/api/auth/sign-in/4903a882-7e1f-4346-8e53-807da964d0c3",
+    "scope": "",
+    "authorization_url": "https://plugins-engine.abplugins.com/api/auth/authorize/4903a882-7e1f-4346-8e53-807da964d0c3",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "86c67d77bb5142a884f464e8e33ef580"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ab-pdf.abplugins.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/ab_chat-pdf-logo.png",
+  "contact_email": "support@abplugins.com",
+  "legal_info_url": "https://ab-pdf.abplugins.com/home/terms"
+}

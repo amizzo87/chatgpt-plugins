@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "SEOBlogWriter",
+  "name_for_human": "SEO Blog Writer",
+  "description_for_model": "This plugin is used to publish the generated BLOG content to a specified directory in WordPress, and it can also tag the generated articles and append featured content. When users express a desire to create a blog, the system will prompt them to choose whether to generate the blog via a URL or keywords. Both creation methods require setting the country and language first to produce more user-friendly BLOG content quality. When creating a BLOG based on keywords, it's necessary to first set the TOPIC. Dependencies for the related interfaces can be further explored in the 'openapi.yaml' interface file.",
+  "description_for_human": "Generate Quality, Human-like, SEO-Optimized Multilingual Blogs & Publish Instantly to WordPress!",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://app.quickcreator.io/home/chatgptoauth",
+    "scope": "https://www.googleapis.com/auth/userinfo.email",
+    "authorization_url": "https://api.quickcreator.io/landing-page-service/user/oauth/access",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "470fe8b402294d55a957f15f7d52cf5f"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://7qcx23lxrx.quickcreator.io/openapi.yaml"
+  },
+  "logo_url": "https://7qcx23lxrx.quickcreator.io/logo.png",
+  "contact_email": "support@quickcreator.io",
+  "legal_info_url": "https://quickcreator.io/terms-of-service"
+}

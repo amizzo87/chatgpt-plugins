@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ai_seo_my_site",
+  "name_for_human": "AI SEO MY SITE",
+  "description_for_model": "Get site score of a website.",
+  "description_for_human": "Get site score of a website.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://embedai.thesamur.ai/openapi.yaml"
+  },
+  "logo_url": "https://embedai.thesamur.ai/logo.png",
+  "contact_email": "support@thesamur.ai",
+  "legal_info_url": "https://embedai.thesamur.ai/legal"
+}

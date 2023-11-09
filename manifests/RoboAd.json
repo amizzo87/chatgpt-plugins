@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "RoboAd",
+  "name_for_human": "RoboAd",
+  "description_for_model": "RoboAd is a robust tool for enhancing digital marketing and landing page efficiency. \nUser can use it to generate ad copies for their landing pages, get keywords and page improvement suggestions.\nTo start the process, you first need to send the url to the request_url endpoint and get a url_request_id.\nThis id will be used in all subsequent calls.\n\nBased on the user request, use the appropriate endpoint to get the data. RoboAd will return a hint to help you explain\nthe data to the user. Please use the hint to help the user understand the data.\n\nIf the request status is not successful, tell users that they can request a refresh of that request.\n\nExplain for users that they can use the feedback endpoint to give feedback on the data.\n\nIf user asks about how they can use the plugin, focus on three things: Summarizing their page, generate ad copy , and get keywords.\n\nCurrent version, only support landing pages, we are working on adding similar features based on product and services in the future.\nAfter each interaction, please ask about feedback and use the appropriate endpoint with the update data.\n\nWhen you present ad copies, always include a link to feedback page: https://forms.gle/prLXpezBCs66Uj7V6",
+  "description_for_human": "Start with a URL and get ad copies for your Google and Microsoft Ad Campaigns in seconds!",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://roboad.us.auth0.com/authorize",
+    "scope": "openid email offline_access",
+    "authorization_url": "https://roboad.us.auth0.com/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "45d6bb4570124ab9b354c050f1b25377"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://install.roboad.app/openapi.yaml"
+  },
+  "logo_url": "https://install.roboad.app/static/images/roboad_logo.png",
+  "contact_email": "info@roboad.app",
+  "legal_info_url": "https://www.roboad.ai/legal"
+}

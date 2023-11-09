@@ -10,7 +10,8 @@
     "authorization_type": "basic",
     "verification_tokens": {
       "openai": "ac60c5463e0d4ddb922e9836ec8ddc79"
-    }
+    },
+    "custom_auth_header": null
   },
   "api": {
     "type": "openapi",

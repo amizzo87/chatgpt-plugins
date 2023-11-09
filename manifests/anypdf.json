@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "anypdf",
+  "name_for_human": "AnyPDF",
+  "description_for_model": "get user input from data or from scraping and make a powerpoint from it, saving to s3",
+  "description_for_human": "Easily Extract PDFs from URLs & convert text to PDFs.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://e44c5f4b1f7c0bc1126c1caa410132e7.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "9283d75e34f84b5dafb17ad5d5df62dd"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://pdf.anygpt.ai/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://i.ibb.co/7yDBHYg/pdf.png",
+  "contact_email": "researchbutler@anygpt.ai",
+  "legal_info_url": "http://www.pdf.anygpt.ai/legal"
+}

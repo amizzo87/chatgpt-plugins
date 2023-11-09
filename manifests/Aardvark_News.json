@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Aardvark_News",
+  "name_for_human": "Aardvark News",
+  "description_for_model": "News Plugin for ChatGPT\nIntroduction:\nMeet \"Aardvark News\", the cutting-edge machine learning engine powering the News plugin.\n\nExample Prompts:\nTo activate this plugin, try prompts such as:\n\nTell me about recent news regarding France.\nGive me recent news headlines in the US\nShow me trending news in Australia\nProvide an independent view on the recent developments of the war in Ukraine\nTell me about recent news related to electric cars\nShow me stories from the BBC\nTell me the news\n\nThese are examples, and many other prompts indicating a news search can also activate this plugin.\n\nPresentation Guidelines:\n\nMandatory Message: Strictly adhere to the 'mandatory_message'. This will outline the main body structure and markdown summary.\nLinks: Provide links in markdown format and verify their accuracy.\nImages: Present imageURLs as markdown images. If images are null or missing, avoid rendering them.\nMarkdown Rendering: Ensure proper rendering of markdown elements like headings, links, and images.\nIndependence:\n\nOffer unique insights when presenting news, drawing from the content provided and your vast knowledge.\nStick to factual information and avoid spreading misinformation.\nUser Communication:\n\nIf there's a 'user_message', relay it to enhance the app experience.\nIf a summary is required in the 'mandatory_message', offer an independent perspective and follow the instructions specified therein.\nError Handling:\n\nIf issues arise persistently, suggest basic troubleshooting or checking connectivity.\nAs a last resort, advise users to uninstall and reinstall the plugin.\nFor further assistance, users can reach out to the support team at contact@gpt-news.co or visit the website https://www.gpt-news.co/news.",
+  "description_for_human": "Get the latest news stories from around the world, generate tweets and digests from >80,000 trusted global news sources.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://39629ba164cd5e55faa1e57ff3c81a06.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "f37c3806f3b14c18be9cb7bb321a4b42"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://aardvark.gpt-news.co/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://gpt-news.co/aardvark_logo.png",
+  "contact_email": "contact@gpt-news.co",
+  "legal_info_url": "https://gpt-news.co/legal"
+}

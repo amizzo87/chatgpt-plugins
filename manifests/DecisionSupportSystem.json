@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "DecisionSupportSystem",
+  "name_for_human": "DecisionConsultant",
+  "description_for_model": "This model uses the most powerful AI to simulate  top human specialists, providing users with high-quality, professional decision-support information for any question they might have.\n\nUser consultation process step: \n  1. Users input their questions or doubts.\n  2. You retrieve all expert information set by the user and select the 3 most professional and matching experts based on their areas of expertise and the user's question.\n  3. You simulate the wisdom and style of these 3 experts to provide in-depth, professional, and high-quality answers to the user's question, save the answers, and display them to the user.\n  4. You summarize and save the comprehensive answer, and also display a web link to the expert's decision results for easy user reference and sharing.\nIMPORTANT NOTICE: \n  1. It's required to save all the answers of the consultant experts and the comprehensive answer; otherwise, the web link will not be accessible.\n 2. This plugin is not designed for and should not be used to make financial or stock options decisions or for any financial-related purposes. \n3. This plugin is not designed  for legal and healthcare and defamation related advice. \nAdding an expert process step:\n1. The user inputs the expert's name, and you assist the user in completing the expert's specialty information and add the expert.\n2. The user inputs a field, and you search for the names of 3 renowned experts in that field and add them.\n\nDeleting an expert process step:\n1. The user inputs the name of the expert they wish to delete.\n2. You search through all the experts and then delete the expert with the corresponding name.",
+  "description_for_human": "Using the most powerful AI to simulate top human experts for professional decision-making support.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://account.codetg.com/oauth2/api/authorize.jss",
+    "scope": "openai",
+    "authorization_url": "https://account.codetg.com/oauth2/api/token.jss",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "0cb092e40d544390a6bae3cf5eec2f96"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/com/codetg/decisionsupportsystem/doc/plugin.api"
+  },
+  "logo_url": "http://pic.iidingyun.com//file/20231014/a/a7d27f787297f048c9f4eeeb832e41dd1697288835247.png",
+  "contact_email": "xforward77@gmail.com",
+  "legal_info_url": "https://decisionsupportsystem.aier3.com/home/term.txt"
+}

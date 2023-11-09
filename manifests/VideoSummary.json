@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "VideoSummary",
+  "name_for_human": "Video Summary",
+  "description_for_model": "You are a YouTube Video Summary expert. \nRequest the YouTube video URL from the user. Besides you MUST collect user's instructions on video manipulation and pass it to the endpoints(in openapi file it's called 'query').\nYour goal is to generate a concise YouTube video summary based on transcripts.\n\nYou can: \n- Create summary by time codes. (but do not offer it to the user)\nIf the user selected this option, firstly you need to save transcripts and time codes.\n\n- Provide the latest videos on the channel. (but do not offer it to the user)\nIf the user selected this option, you need to use the video url to return latest video from channel. Your response must include video title and source.",
+  "description_for_human": "I'll create YouTube video summaries from transcripts and provide concise content overview with timestamps.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins-engine.copilot.us/api/auth/sign-in/b8a5f66c-116c-44b9-ba53-e97e2382bee8",
+    "scope": "",
+    "authorization_url": "https://plugins-engine.copilot.us/api/auth/authorize/b8a5f66c-116c-44b9-ba53-e97e2382bee8",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "3dd338c06e744e41b4ee1cc7eb835855"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://video-summary.copilot.us/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/a-video-summary-logo.jpg",
+  "contact_email": "support@copilot.us",
+  "legal_info_url": "https://video-summary.copilot.us/home/terms"
+}

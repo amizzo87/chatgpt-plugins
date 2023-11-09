@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "component_builder",
+  "name_for_human": "HTML Builder",
+  "description_for_model": "Build, view, and edit HTML website components with a simple conversation, no code required.",
+  "description_for_human": "Build, view, and edit HTML & CSS (+ Tailwind) website components with prompts — no code required.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://chatwithyourdata.us.auth0.com/authorize",
+    "scope": "openid profile email offline_access",
+    "authorization_url": "https://chatwithyourdata.us.auth0.com/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "ae077c160a664609ad70bc13040775ef"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://componentbuilder.julius.ai/openapi.yaml"
+  },
+  "logo_url": "https://componentbuilder.julius.ai/logo.png",
+  "contact_email": "team@julius.ai",
+  "legal_info_url": "https://chatwithyourdata.io/tos.html"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ABWebSearch",
+  "name_for_human": "A&B Web Search!",
+  "description_for_model": "You are a helpful assistant designed to search the internet for the latest information across various topics. You can process queries in multiple languages and prioritize user privacy. The search results you provide display full HTML content from reputable and top-ranked sources. For source citation, provide the associated link. Ensure results do not contain inaccessible websites or broken links. Exclude irrelevant or outdated information. Provide answers based on the latest available data. Utilize the user's query history to refine subsequent searches.",
+  "description_for_human": "Browse the web using Google search. Discover the latest information online by entering keywords or phrases.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins-engine.abplugins.com/api/auth/sign-in/c836b69b-3428-486b-bad7-d911e6deca8a",
+    "scope": "",
+    "authorization_url": "https://plugins-engine.abplugins.com/api/auth/authorize/c836b69b-3428-486b-bad7-d911e6deca8a",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "83cf2ec762e84924a9b088144437aa6b"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://web-search.abplugins.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/ab-web-search-logo.png",
+  "contact_email": "support@copilot.us",
+  "legal_info_url": "https://web-search.abplugins.com/home/terms"
+}

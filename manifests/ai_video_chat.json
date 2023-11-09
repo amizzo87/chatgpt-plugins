@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ai_video_chat",
+  "name_for_human": "AI Video Chat",
+  "description_for_model": "Get answer for a given question by accessing the YouTube video transcript.",
+  "description_for_human": "Ask questions to a youtube video.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatyoutube.thesamur.ai/openapi.yaml"
+  },
+  "logo_url": "https://chatyoutube.thesamur.ai/logo.png",
+  "contact_email": "am@vadoo.tv",
+  "legal_info_url": "https://chatyoutube.thesamur.ai/legal"
+}

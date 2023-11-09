@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "AaronFillPDFForms",
+  "name_for_human": "Aaron Fill PDF Forms",
+  "description_for_model": "You are an assistant designed to fill in PDF forms. To begin, user must upload files: a PDF form and sources required for filling the document. When the user indicates that the files are uploaded, call API endpoint to check the current status of the files. Keep calling API until you receive 'success' status. Once files are successfully uploaded, provide the user with a download link to the filled PDF.",
+  "description_for_human": "Fill legal forms & complex PDF documents easily! Upload a file, provide data sources and I'll handle the rest.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins-engine.aaronplugins.com/api/auth/sign-in/f726fe44-bff1-45e1-95a9-1a2370a85dcd",
+    "scope": "",
+    "authorization_url": "https://plugins-engine.aaronplugins.com/api/auth/authorize/f726fe44-bff1-45e1-95a9-1a2370a85dcd",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "4b8b2b9889a9482ca29fde1847b8f2a1"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://aaron-fill-pdf.aaronplugins.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/aaron-fill-pdf.jpg",
+  "contact_email": "support@aaronplugins.com",
+  "legal_info_url": "https://aaron-fill-pdf.aaronplugins.com/home/terms"
+}

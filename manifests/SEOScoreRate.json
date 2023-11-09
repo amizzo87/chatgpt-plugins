@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "SEOScoreRate",
+  "name_for_human": "SEO Score Rate",
+  "description_for_model": "This plugin, based on the GOOGLE standard E-E-A-T, offers scoring and recommendations across 8 dimensions to continuously improve the quality of the user's article. After a user inputs a URL, a scoring task is submitted, and once the task is completed, scores across multiple dimensions are displayed. In addition to the scores, recommendations are provided, allowing users to refine their articles accordingly.",
+  "description_for_human": "Guide Your Content Quality with Google E-E-A-T: Continuously Elevate Your SEO Ranking!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://1sco39lbrt.quickcreator.io/openapi.yaml"
+  },
+  "logo_url": "https://1sco39lbrt.quickcreator.io/logo.png",
+  "contact_email": "support@quickcreator.io",
+  "legal_info_url": "https://quickcreator.io/terms-of-service"
+}

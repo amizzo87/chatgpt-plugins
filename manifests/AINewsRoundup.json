@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "AINewsRoundup",
+  "name_for_human": "AI News Roundup",
+  "description_for_model": "Get today's AI news headlines as a clickable link roundup!",
+  "description_for_human": "Get today's AI news headlines as a clickable link roundup!",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ai-news.orrenprunckun.com/openapi.yaml"
+  },
+  "logo_url": "https://ai-news.orrenprunckun.com/icon.png",
+  "contact_email": "hello@orrenprunckun.com",
+  "legal_info_url": "https://ai-news.orrenprunckun.com/terms.php"
+}

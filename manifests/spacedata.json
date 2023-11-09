@@ -11,7 +11,8 @@
     "verification_tokens": {
       "nasadata": "<your_api_key>",
       "openai": "521631d946c9418492101963110d59b0"
-    }
+    },
+    "custom_auth_header": null
   },
   "api": {
     "type": "openapi",

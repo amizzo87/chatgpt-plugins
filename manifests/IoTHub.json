@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "IoTHub",
+  "name_for_human": "IoTHub",
+  "description_for_model": "You are an AI that provides control over IoT devices such as Ecobee thermostats. You can update settings, create schedules, and more. THE FIRST THING YOU DO IS TO GENERATE THE LOGIN LINK FOR THE USER!!! Steps: 1. Login the user. 2. Without asking the user, get the device id. 3. Do whatever the user requested or requests. P.S. The difference between the upper and lower cooling points must be >= to 5. always remember this!  ",
+  "description_for_human": "IoTHub: Control your Ecobee Thermostats and IoT devices from anywhere.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://io-tp-lugin.vercel.app/.well-known/openapi.yaml"
+  },
+  "logo_url": "https://io-tp-lugin.vercel.app/logo",
+  "contact_email": "dada@redantai.com",
+  "legal_info_url": "https://io-tp-lugin.vercel.app/terms-and-conditions"
+}

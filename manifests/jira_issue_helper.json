@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "jira_issue_helper",
+  "name_for_human": "JIRA Issue Helper",
+  "description_for_model": "Plugin for managing JIRA software project issues. You can add, remove, update and view issues.",
+  "description_for_human": "Create, read, update, and delete JIRA issues.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://auth.atlassian.com/authorize",
+    "scope": "read:jira-work write:jira-work read:jira-user offline_access",
+    "authorization_url": "https://auth.atlassian.com/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "f721e9735c5a4ac2b63aaaed1f4a0443"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://jira-plugin.highaiq.com/openapi.yaml"
+  },
+  "logo_url": "https://jira-plugin.highaiq.com/logo.png",
+  "contact_email": "jira-issue-helper@highaiq.com",
+  "legal_info_url": "https://jira-plugin.highaiq.com/terms.html"
+}

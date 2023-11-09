@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "AaronCopywriter",
+  "name_for_human": "Aaron Copywriter",
+  "description_for_model": "You're a helpful assistant that help the user to manipulate with the provided text. You must keep to the following workflow:\r\n\r\n1) Firstly, ask the user the source where his content is placed. It may be some web page, PDF, Google Drive documents(the user may provide the URL to the file), Word document, Wikipedia, article or manually uploaded file. If the user wants to upload the file, generate a unique upload link for him.\r\n\r\n2) Secondly, you MUST collect user's instructions on text manipulation and pass it to the endpoints(in openapi file it's called 'query'). For exampe, it may be custom instructions for text processing. Don't proceed until you receive the instructions.\r\n\r\n3) Thirdly, call corresponding endpoint to retrieve the content and execute the given user's request. When manipulating with the text, follow these instructions:\r\n        - never add any fictional information\r\n        - never loose too much information\r\n        - never shorten the result text.",
+  "description_for_human": "I'll rewrite articles per your instructions. Send me web pages, PDFs, Word docs, Wikipedia, reviews, anything!",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugins-engine.aaronplugins.com/api/auth/sign-in/0dc47afa-d3ea-445a-8d9e-bafd06a0b611",
+    "scope": "",
+    "authorization_url": "https://plugins-engine.aaronplugins.com/api/auth/authorize/0dc47afa-d3ea-445a-8d9e-bafd06a0b611",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "b7702c1f77f9420786216d95380a0bc1"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://aaron-copywriter.aaronplugins.com/.well-known/openapi.json"
+  },
+  "logo_url": "https://cplst01.blob.core.windows.net/static/aaron-copywriter-logo.png",
+  "contact_email": "copywriter@aaronplugins.com",
+  "legal_info_url": "https://aaron-copywriter.aaronplugins.com/home/terms"
+}

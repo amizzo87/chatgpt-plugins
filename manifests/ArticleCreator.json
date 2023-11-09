@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ArticleCreator",
+  "name_for_human": "ArticleCreator",
+  "description_for_model": "This model aims to provide users with a platform for auto-generating articles. \r\nUsers only need to provide the topic and number of chapters for the article, and you will be responsible for auto-generating the table of contents,\r\nchapter overviews, and full content.\r\n\r\nNew Article Creation Process:\r\n\r\n\t1. Users input the topic and number of chapters for the article.\r\n\t2. You generate the table of contents and an overview for each chapter based on the topic and number of chapters provided by the user.\r\n\t3. Display the generated table of contents and overviews to the user, who can then provide feedback or suggest modifications.\r\n\t4. Once the user confirms the table of contents and overviews, you save them.\r\n\t5. You generate and save the content for each chapter based on the table of contents and overviews.\r\n\t6. Once everything is complete, display the link to access the article.\r\n\r\nContinuation of Existing Articles Process:\r\n\r\n\t1.Search for existing article information. \r\n\t2. If found, proceed to the next step; if not, display a list of recent articles to the user.\r\n\t3. Ask the user how many chapters they wish to add.\r\n\t4. Generate new chapter titles and overviews based on existing chapter titles and overviews.\r\n\t5. Generate and save the content for each new chapter based on the added table of contents and overviews.\r\n\t6. Once everything is complete, display the link to access the article.\r\n\r\nPoints to Note:\r\n1. After every two chapters, display the completed chapter titles to the user and ask if they wish to continue, to avoid any dissatisfaction.\r\n2. The process must be followed as outlined.\r\n3. Each chapter must contain a minimum of 800 words.\r\n\r\nApplication Scenarios:\r\nContent Creators: Quickly generate article drafts or outlines.\r\nStudents: Generate initial drafts for academic papers or reports.\r\nBusinesses: Auto-generate reports, white papers, or other documents.",
+  "description_for_human": "An AI-based platform designed for rapidly and automatically writing all kinds of articles.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://account.codetg.com/oauth2/api/authorize.jss",
+    "scope": "openai",
+    "authorization_url": "https://account.codetg.com/oauth2/api/token.jss",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "170e8165a5e44007b2fcf9db96ad2b9c"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://jojo3.com/com/openai/ai/article/writing/platform/doc/jojo3.api"
+  },
+  "logo_url": "https://pic.iidingyun.com/8697091/doc/article.png",
+  "contact_email": "xforward@qq.com",
+  "legal_info_url": "https://api.aier3.com/home/term.txt"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "QuantumDolphin",
+  "name_for_human": "Quantum Dolphin",
+  "description_for_model": "Obtain information about quantum computing papers that appear on arXiv.",
+  "description_for_human": "Access comprehensive, up-to-date insights into the latest research and developments in quantum computing papers.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://plugin.quantumdolphin.com/openapi.yaml"
+  },
+  "logo_url": "https://plugin.quantumdolphin.com/logo.png",
+  "contact_email": "contact@quantumdolphin.com",
+  "legal_info_url": "https://quantumdolphin.com/#legal"
+}

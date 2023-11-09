@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Taskade",
+  "name_for_human": "Taskade",
+  "description_for_model": "Taskade, the AI-Powered Productivity Platform.",
+  "description_for_human": "Taskade, the AI-Powered Productivity Platform.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://www.taskade.com/oauth2/authorize",
+    "scope": "",
+    "authorization_url": "https://www.taskade.com/oauth2/token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "7b21b96967554a33b10b9e3c0966271a"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.taskade.com/api/documentation/yaml"
+  },
+  "logo_url": "https://www.taskade.com/images/logo-50.svg",
+  "contact_email": "john@taskade.com",
+  "legal_info_url": "https://www.taskade.com/terms"
+}

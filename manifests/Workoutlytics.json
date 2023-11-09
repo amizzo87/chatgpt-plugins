@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Workoutlytics",
+  "name_for_human": "Workoutlytics",
+  "description_for_model": "Workoutlytics is an advanced analytics tool designed to interface with Strava. With Workoutlytics, gain insights into heart rate variations, track your progression, and receive actionable feedback to optimize fitness outcomes.",
+  "description_for_human": "Your personal guide to peak performance with Strava. Track heart rate, progress & tips.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://plugin.workoutlytics.com/connect",
+    "scope": "chatgpt_plugin",
+    "authorization_url": "https://api.workoutlytics.com/v1/authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "91a220df4ff34f8a86e7ef850ed55294"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://api.workoutlytics.com/openai.yaml"
+  },
+  "logo_url": "https://workoutlytics.com/dist/img/logo-chatgpt-plugin.png",
+  "contact_email": "contact@workoutlytics.com",
+  "legal_info_url": "https://workoutlytics.com/privacy"
+}

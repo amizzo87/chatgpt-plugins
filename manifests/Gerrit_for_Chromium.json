@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Gerrit_for_Chromium",
+  "name_for_human": "Gerrit for Chromium",
+  "description_for_model": "Access Gerrit Code Review for Google Chrome. Helps analyzing code changes, bugs, features, and more. Can be used to find new features in Google Chrome (also known as Chromium), V8, and other Chromium projects. If the user asks about links on chromium-review.googlesource.com, we can look those up. If the user asks about a change, we can look up the change. If the user asks about a file, we can look up the file. If the user asks about a line in a file, we can look up the line in the file. Useful for figuring out what caused a bug, or what a change does. Can also be used to find out who wrote a change, or who reviewed a change. If the user asks about the changes made form a specific author/owner we can query Chromium Gerrit for changes made by that user. If the user asks for a summarization about all of the changes done for an active change we can do so by retrieving the information and summarizing it for them. This tool will allow users to perform power-user queries implementing optional parameters that the user may not know of to provide a more accurate and verbose response.",
+  "description_for_human": "Search Gerrit Code Review for Google Chrome. Helps analyzing code changes, bugs, features, and more.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "You must be logged in to use this plugin. Click the button below to log in.",
+    "client_url": "https://auth.ai.moda/api/v1.0.0/oauth-authorize",
+    "scope": "s3",
+    "authorization_url": "https://auth.ai.moda/api/v1.0.0/oauth-token",
+    "authorization_content_type": "application/x-www-form-urlencoded",
+    "verification_tokens": {
+      "openai": "068e6cd515034483a6f39ad7ef19e019"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.gerrit.ai.moda/openapi.json"
+  },
+  "logo_url": "https://chatgpt-gerrit.email.ai.moda/bimi/logo.svg",
+  "contact_email": "support@chatgpt.email.ai.moda",
+  "legal_info_url": "https://www.ai.moda/en/terms-and-conditions"
+}

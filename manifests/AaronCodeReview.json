@@ -12,9 +12,10 @@
     "authorization_url": "https://aaron-code-review.aaronplugins.com/api/auth/authorize",
     "authorization_content_type": "application/json",
     "verification_tokens": {
-      "openai": "f59b5097493b40e9905bc140a4e9757b"
+      "openai": "88c0dfafa9354862b4dc6b3b50f2be99"
     },
-    "pkce_required": false
+    "pkce_required": false,
+    "token_exchange_method": null
   },
   "api": {
     "type": "openapi",

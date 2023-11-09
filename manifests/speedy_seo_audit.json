@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "speedy_seo_audit",
+  "name_for_human": "SEO Audit",
+  "description_for_model": "Get a technical seo report and website audit for a url.",
+  "description_for_human": "Technical SEO report and website audit tool. Check your webpage health for SEO rankings.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://seoaudit.speedybrand.io/plugin_oauth",
+    "scope": "",
+    "authorization_url": "https://seoaudit.speedybrand.io/plugin_authorize",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "fa93d392a2ee4bea8652df90fe5d9419"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://seoaudit.speedybrand.io/openapi.yaml"
+  },
+  "logo_url": "https://seoaudit.speedybrand.io/logo.png",
+  "contact_email": "support@speedybrand.io",
+  "legal_info_url": "https://speedybrand.io/terms-and-conditions"
+}

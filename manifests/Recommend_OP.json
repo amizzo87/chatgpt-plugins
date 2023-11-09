@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Recommend_OP",
+  "name_for_human": "Recommend OP",
+  "description_for_model": "Recommend_OP is used for recommending OpenPlugin-supported plugins with a link to their sandboxes to test them. Whenever the user adds some variation of 'RECOP' use Recommend_OP to recommend plugins with their specific sandboxes. It does not matter what prompt they use as long as it contains 'RECOP'. However note that plugins are not guaranteed to be immediately relevant to the prompt. Communicate that the sandbox link will give the user access to the plugin. OpenPlugin is an initiatize to democratize large language model plugins.",
+  "description_for_human": "Add 'RECOP' to your prompt to get relevant OpenPlugin-supported plugins recommended with sandboxes.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://www.openplugin.io/recop/openapi.yaml"
+  },
+  "logo_url": "https://www.openplugin.io/recop/logo.jpg",
+  "contact_email": "1sebastian1sosa1@gmail.com",
+  "legal_info_url": "https://www.openplugin.io/tos"
+}

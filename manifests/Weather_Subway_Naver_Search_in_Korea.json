@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Weather_Subway_Naver_Search_in_Korea",
+  "name_for_human": "Secretary Kim",
+  "description_for_model": "Plugin for Koreans. You can look up the weather in Korean cities. View search results from Naver, the #1 search engine in Korea. You can find the route of the Seoul subway.",
+  "description_for_human": "The best AI companion for Koreans. Weather, subway(metro), Naver search... etc.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://secretarykim.nnulu.com/openapi.yaml"
+  },
+  "logo_url": "https://secretarykim.nnulu.com/logo.png",
+  "contact_email": "contact@nnulu.com",
+  "legal_info_url": "https://0rich.notion.site/Secretary-Kim-Plugin-Legal-Docs-cd96e4b552ef408b842bacc485870844?pvs=4"
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "amboss",
+  "name_for_human": "AMBOSS",
+  "description_for_model": "AMBOSS is a comprehensive medical knowledge platform, and with this plugin, ChatGPT can provide users with accurate and detailed medical information. There are two use cases: 'Medical Term Definition' and 'Medical Information Search'. 1. 'Medical Term Definition': the endpoint is /definition. To be used when users inquire about specific medical terms or conditions, the model uses the /definition endpoint to fetch a concise definition Example Usage:  User: 'What is diabetes mellitus?' Model: Uses {'term': 'diabetes mellitus'} with the /definition endpoint to retrieve the definition. 2. 'Medical Information Search', endpoint: /search. Use for broader medical queries, especially those related to treatments, symptoms, or differential diagnoses, the model utilizes the /search endpoint. Example Usage: User: 'What is the treatment for asthma?' Model: Uses {'query': 'asthma treatment'} with the /search endpoint to find relevant information. Display the markdown tables contained in section_content as a markdown table. All markdown links in the section_content should ALWAYS be displayed as markdown links.",
+  "description_for_human": "Find reliable medical information provided by AMBOSS, a trusted medical source for thousands of physicians and students.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://7f87f278d717070baf5fb73931271569.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "1bcdc89b3f724013a5a02e9f2c38ac6c"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt.amboss.com/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://chatgpt-plugin-server.us.production.amboss.com/logo.png",
+  "contact_email": "hello@amboss.com",
+  "legal_info_url": "https://www.amboss.com/us/terms"
+}

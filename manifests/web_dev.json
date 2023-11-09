@@ -14,7 +14,8 @@
     "verification_tokens": {
       "openai": "3722c1f38cc54515877f5d28b3208599"
     },
-    "pkce_required": false
+    "pkce_required": false,
+    "token_exchange_method": null
   },
   "api": {
     "type": "openapi",

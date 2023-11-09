@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "z3_checker",
+  "name_for_human": "Z3 Checker",
+  "description_for_model": "Calls the Z3 verifier on an SMT-LIB specification.",
+  "description_for_human": "Calls the Z3 verifier on an SMT-LIB specification.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://z3-chatgpt.livecode.ch/openapi.yaml"
+  },
+  "logo_url": "https://z3-chatgpt.livecode.ch/logo.png",
+  "contact_email": "namin@seas.harvard.edu",
+  "legal_info_url": "https://z3-chatgpt.livecode.ch"
+}

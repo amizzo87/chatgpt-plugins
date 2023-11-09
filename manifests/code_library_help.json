@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "code_library_help",
+  "name_for_human": "A Code Library Help",
+  "description_for_model": "Used for answering questions about Python library's and SDK's documentation and searches code for relevant snippets. Use this tool EVERY time the user asks about a specific libaray (e.g. langchain, openai, twilio, weaviate, etc) or you want to find related code from a python library or documentation for a given user question.",
+  "description_for_human": "Write code and answer questions using Python libraries (e.g Openai, Twilio, etc). Can answer version specific questions.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/openapi.json"
+  },
+  "logo_url": "https://docs-search-ccf5913b41d3.herokuapp.com/logo.png",
+  "contact_email": "mswoff19@gmail.com",
+  "legal_info_url": "https://docs-search-ccf5913b41d3.herokuapp.com/legal"
+}

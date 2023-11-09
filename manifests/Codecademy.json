@@ -10,7 +10,8 @@
     "authorization_type": "bearer",
     "verification_tokens": {
       "openai": "3537f0fce25b424b9391443187cd588d"
-    }
+    },
+    "custom_auth_header": null
   },
   "api": {
     "type": "openapi",

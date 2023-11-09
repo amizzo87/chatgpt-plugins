@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://dmtoolkit.magejosh.repl.co/.well-known/openapi.yaml"
+    "url": "https://dmtoolkit-magejosh.replit.app/.well-known/openapi.yaml"
   },
-  "logo_url": "https://dmtoolkit.magejosh.repl.co/logo.png",
+  "logo_url": "https://dmtoolkit-magejosh.replit.app/logo.png",
   "contact_email": "mageworksstudio@gmail.com",
-  "legal_info_url": "https://dmtoolkit.magejosh.repl.co/legal.html"
+  "legal_info_url": "https://dmtoolkit-magejosh.replit.app/legal.html"
 }

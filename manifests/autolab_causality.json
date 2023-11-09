@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "autolab_causality",
+  "name_for_human": "Autolab Causality",
+  "description_for_model": "Calls Autolab to compute bounds on causal queries. An example script, passed by the parameter v, is import warnings\nwarnings.simplefilter(action='ignore', category=FutureWarning)\n\n# Import necessary modules from Autobounds\nfrom autobounds.causalProblem import causalProblem\nfrom autobounds.DAG import DAG\n\n# Define the causal DAG\ndef create_dag():\n    # Initialize a DAG object\n    dag = DAG()\n    \n    # Define the causal structure using a string representation\n    # Example: \"Z -> X, X -> Y, U -> X, U -> Y\" represents a graph with edges Z->X, X->Y, U->X, and U->Y\n    # 'unob' specifies unobserved variables\n    dag.from_structure(\"Z -> X, X -> Y, U -> X, U -> Y\", unob=\"U\")\n    \n    return dag\n\n# Define the causal problem\ndef create_problem(dag, data_path):\n    # Initialize a causalProblem object with the DAG\n    problem = causalProblem(dag)\n    \n    # Load data from a CSV file\n    problem.load_data(data_path)\n    \n    # Add probability constraints to the problem\n    problem.add_prob_constraints()\n    \n    return problem\n\n# Define and set the causal estimand\ndef set_estimand(problem, estimand_query):\n    # Define the estimand using a query string\n    # Example: 'X(Z=1)=0&X(Z=0)=1' represents individuals who do not take the treatment when exposed to the instrument and take it when not exposed\n    problem.set_estimand(problem.query(estimand_query))\n\n# Run the analysis and print results\ndef run_analysis(problem):\n    # Write the optimization program\n    program = problem.write_program()\n    \n    # Run the optimization program using the 'ipopt' solver\n    result = program.run_pyomo('ipopt', verbose=False)\n    \n    # Print the results\n    print('Bounds on the estimand:', result)\n\n# Main function to execute the analysis\ndef main():\n    # Define the path to the data CSV file\n    data_path = 'data.csv'\n    \n    # Define the query for the estimand\n    estimand_query = 'X(Z=1)=0&X(Z=0)=1'\n    \n    # Create the DAG, causal problem, set the estimand, and run the analysis\n    dag = create_dag()\n    problem = create_problem(dag, data_path)\n    set_estimand(problem, estimand_query)\n    run_analysis(problem)\n\n# Execute the main function\nmain().",
+  "description_for_human": "Calls Autolab to compute bounds on causal queries.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://autolab-chatgpt.livecode.ch/openapi.yaml"
+  },
+  "logo_url": "https://autolab-chatgpt.livecode.ch/logo.png",
+  "contact_email": "namin@seas.harvard.edu",
+  "legal_info_url": "https://autolab-chatgpt.livecode.ch"
+}

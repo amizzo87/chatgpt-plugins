@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "AANote",
+  "name_for_human": "AANote",
+  "description_for_model": "This plugin designed to save conversation summaries, generate articles from these summaries, and allow users to retrieve historical chat data.\n\nYou must follow below instructions:\n\n1. Conversation Summarization and Storage:\n\t1.1 When the user initiates Summarize this chat, you must provide a concise summary of the conversation.\n\t1.2 This summary should be stored  for easy retrieval.\n\n2. Article Generation:\n\t2.1 When the user initiates article creation  prompt the user for the number of chapters and the desired word count per chapter.\n\t2.2 Use the stored conversation summaries to generate the article content, ensuring that each chapter meets a minimum of 800 words unless specified otherwise by the user.\n\t2.3 After every two chapters, present article link to the user,Continue this iterative process until the article is complete. \n \n\n3. Historical Chat Retrieval:\n\t3.1 If a user requests to Retrieve chat history , ask for specific keywords or phrases to assist in the search.\n\t3.2 Search the stored summaries for these keywords and display the relevant results to the user.",
+  "description_for_human": "An AI-Powered chat summarization and article generation tool.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://account.codetg.com/oauth2/api/authorize.jss",
+    "scope": "openai",
+    "authorization_url": "https://account.codetg.com/oauth2/api/token.jss",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "becbc03b64f24bf18704bb2cc50796ba"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/com/openai/aa/note/doc/plugin.api"
+  },
+  "logo_url": "http://pic.iidingyun.com//file/20231106/4/4420aae501283fdb2c4c2634eae698001699273983383.png",
+  "contact_email": "xforward77@gmail.com",
+  "legal_info_url": "https://aa-note.aier3.com/home/term.txt"
+}

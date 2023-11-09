@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Autoleaf",
+  "name_for_human": "Autoleaf",
+  "description_for_model": "Autoleaf is a plugin to assist the user in writing journal articles. You can upload papers from Arxiv to a knowledge base (requires an arxiv URL and a collection name) using Autoleaf. Autoleaf has the capability to query a collection. After the query, you can access the sources. Give the information from these source documents, citing the source document used for each sentence.Do not use the \\cites given in the source documents, but rather cite the source documents.The new article that you write will continue on from the user's original query.",
+  "description_for_human": "Autoleaf reads raw LaTeX from your paper library to assist you in writing scientific articles.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://autoleaf.up.railway.app/openapi.yaml"
+  },
+  "logo_url": "https://autoleaf.up.railway.app/static/autoleaf-icon.png",
+  "contact_email": "mcfarle@mcmaster.ca",
+  "legal_info_url": "https://autoleaf.up.railway.app/legal"
+}

@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://www.roshi-server.com/openapi.yaml"
+    "url": "https://www.roshi-plugin.com/openapi.yaml"
   },
-  "logo_url": "https://www.roshi-server.com/logo.png",
+  "logo_url": "https://www.roshi-plugin.com/logo.png",
   "contact_email": "jonny@roshi.ai",
   "legal_info_url": "https://www.roshi.ai/terms"
 }

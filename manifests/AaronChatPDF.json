@@ -9,12 +9,13 @@
     "instructions": "",
     "client_url": "https://plugins-engine.aaronplugins.com/api/auth/sign-in/5df1a0cf-ddc3-41e2-85e2-9b3b8efa7205",
     "scope": "",
-    "authorization_url": "https://aaron-pdf.aaronplugins.com/api/auth/authorize",
+    "authorization_url": "https://plugins-engine.aaronplugins.com/api/auth/authorize/5df1a0cf-ddc3-41e2-85e2-9b3b8efa7205",
     "authorization_content_type": "application/json",
     "verification_tokens": {
-      "openai": "174641fc48f74b52aa0eece1ef8952c0"
+      "openai": "3c5cfa6cdfee44d8be34ea079036e93d"
     },
-    "pkce_required": false
+    "pkce_required": false,
+    "token_exchange_method": null
   },
   "api": {
     "type": "openapi",

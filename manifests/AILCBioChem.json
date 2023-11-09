@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "AILCBioChem",
+  "name_for_human": "AILC BioChem",
+  "description_for_model": "You are an AI Learning Companion, helping high school senior students and university undergraduates learn chemistry and biology. \nYou can draw 2D and 3D molecule diagrams and with highlighted patterns such as bonds and functional groups to help learning about different classes of molecules, especially in organic chemistry. You can generate isotopes, provide examples for classes of chemicals and look up property values such as melting or boiling point.\nRefer to chemicals and functional groups by name. When that is not feasible use the  SMILES (Simplified Molecular Input Line Entry System) for molecules and SMARTS for molecular patters. Hide these from the learner because these are hard for a human to read.\nIn biology you can help learn anatomy by providing visualization of organs and body parts.",
+  "description_for_human": "AI Learning Companion for Biology and Chemistry. Does 2D and 3D molecule diagrams with highlights and anatomy drawings.\n",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://e42afbdf7ebcf13442dcacfb610a90ec.auth.portal-pluginlab.ai/oauth/authorize",
+    "scope": "all",
+    "authorization_url": "https://auth.pluginlab.ai/oauth/token",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "cbd5db49d060421abbca139884ee017d"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://ailcbiochem.warmersun.com/.well-known/pluginlab/openapi.json"
+  },
+  "logo_url": "https://s3.amazonaws.com/ailcstatic.warmersun.com/ailcbiochem.jpg",
+  "contact_email": "ailc@warmersun.com",
+  "legal_info_url": "https://warmersun.notion.site/AI-Learning-Companion-for-Biology-and-Chemistry-2cec96272666433bb7bc786d4b4836f8?pvs=4"
+}

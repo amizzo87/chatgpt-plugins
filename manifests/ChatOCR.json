@@ -14,7 +14,8 @@
     "verification_tokens": {
       "openai": "2e4d2bb116754b80b255f28e6234497c"
     },
-    "pkce_required": false
+    "pkce_required": false,
+    "token_exchange_method": null
   },
   "api": {
     "type": "openapi",
@@ -22,5 +23,5 @@
   },
   "logo_url": "https://chatocr.fly.dev/logo.png",
   "contact_email": "team@docit.ai",
-  "legal_info_url": "https://staf.ai/chatocr"
+  "legal_info_url": "https://chatocr.staf.ai"
 }

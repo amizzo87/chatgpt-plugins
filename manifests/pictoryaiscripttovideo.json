@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "pictoryaiscripttovideo",
+  "name_for_human": "Pictory.ai",
+  "description_for_model": "Generate video from the given text and return video URL. If video is not created immediately, check every 15 seconds until the output URL is returned.",
+  "description_for_human": "Script-to-Video: Effortless, quick, and vivid storytelling.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chat2video.pictory.ai/openapi.yaml"
+  },
+  "logo_url": "https://pictory-static.pictorycontent.com/logo-octopus.png",
+  "contact_email": "support@pictory.ai",
+  "legal_info_url": "https://pictory.ai/terms-of-service"
+}

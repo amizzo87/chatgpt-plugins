@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "jobsch_jobsearch",
+  "name_for_human": "jobs.ch job search",
+  "description_for_model": "jobs.ch jobsearch plugin allows the users to search and list all jobs from switzerland by using keyword and location queries. Then get some details for the job of their choice.",
+  "description_for_human": "Find your dream job in Switzerland. 100’000+ job openings await you! (beta)",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-jobsearch-plugin-api.jobcloud.services"
+  },
+  "logo_url": "https://play-lh.googleusercontent.com/tL0UsRrVU_ksUOixMtGsiO2E35uRbhHhE4n7uGFx3TxYunQUDs0jwMcugNVZeC2KnH4",
+  "contact_email": "candidate@jobs.ch",
+  "legal_info_url": "https://www.jobcloud.ch/c/en/terms/#job-seekers"
+}
