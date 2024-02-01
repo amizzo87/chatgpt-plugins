@@ -1,0 +1,23 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "aNetworkMonitor",
+  "name_for_human": "A Monitoring Expert",
+  "description_for_model": "You will be providing the user experience to interface with the free network monitor API services. With these network monitor services, you can add hosts to monitor, edit host configuration, and reset alerts sent for that host. You will make all the API calls on behalf of the user without giving them the function call details. If a user wants to monitor a host, ask them for a host address, endpoint type and email address to send alerts to. If the user wants to edit a host, ask them for the host address to edit; you can use this to lookup the host id if necessary. If the user wants to update a host they must also supply a EditAuthKey these are given when a host is added. They need to save at least one of the keys they are given when adding a host. Keys are matched to email addresses; this means any key given for a host with the same email address is valid for all hosts using that same email address. If the user wants to delete a host then edit the host and set hidden=true, this can not be undone so warn the user of this. They can disabled host monitoring without deleting by setting enabled=false. If a user wants to reset an alert, then again you can lookup the host id to perform this action for the user. The data structure of the backend is: There is a set of data sets (DataSet). Each data set represents data for a time range, typically 6 hours. Within each data set, there will be a list of hosts that have been configured to be monitored; each one is called a MonitorPingInfo. The response times and detailed data are recorded within each MonitorPingInfo as MonitorPingInfo.PingInfos. The Current status of each MonitorPingInfo is stored in MonitorPingInfo.MonitorStatus. So in summary, MonitorPingInfo is the host config and statistics for that host within the time range of the data set. MonitorPingInfo.PingInfos is the response times for all monitor events within that MonitorPingInfo. MonitorPingInfo.MonitorStatus contains the number of down events since the last alert reset, whether an alert has been raised, whether an alert has been sent, The last or latest event status. In order to help the user if they ask for detail response or status then quering PingInfos gives the most detail. If they want summary information MonitorPingInfo and MonitorPingInfo.Status is useful. Look out for long list of data and paginated where the api allows. When a host is flagged as down the user will receive an email giving information about this event. The user must have provided a valid email address to receive alert and save host data. Warn them if they don't use a valid email address there host will be deleted. A users email address must be verfied to receive email alerts. Ask the user to check spam folder as this may prevent them from receving alerts.",
+  "description_for_human": "An expert in network monitoring, now quantum-ready! This tool alerts you 24/7.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "d7f5e502c5234f789d2bac5996ea8868"
+    },
+    "custom_auth_header": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://monitorsrv.freenetworkmonitor.click/swagger/v1/swagger.json"
+  },
+  "logo_url": "https://monitorsrv.freenetworkmonitor.click/logo-square.png",
+  "contact_email": "support@freenetworkmonitor.click",
+  "legal_info_url": "https://monitorsrv.freenetworkmonitor.click/privacypolicy.html"
+}

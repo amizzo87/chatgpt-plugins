@@ -7,12 +7,12 @@
   "auth": {
     "type": "oauth",
     "instructions": "",
-    "client_url": "https://sicdpstage.b2clogin.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/authorize",
+    "client_url": "https://login.skypointcloud.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/authorize",
     "scope": "openid profile offline_access https://sicdpstage.onmicrosoft.com/api/read_write https://sicdpstage.onmicrosoft.com/api/user_impersonation ",
-    "authorization_url": "https://sicdpstage.b2clogin.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/token",
+    "authorization_url": "https://login.skypointcloud.com/sicdpstage.onmicrosoft.com/b2c_1a_accountlink_signup_signin/oauth2/v2.0/token",
     "authorization_content_type": "application/x-www-form-urlencoded",
     "verification_tokens": {
-      "openai": "0d08976a19704c5fba62b9ac19d695a7"
+      "openai": "ff35bd40dc594b02b7fda6c62f30ed1d"
     },
     "pkce_required": false,
     "token_exchange_method": null

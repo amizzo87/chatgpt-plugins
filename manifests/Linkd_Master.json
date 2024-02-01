@@ -1,0 +1,27 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "Linkd_Master",
+  "name_for_human": "Linkd Master",
+  "description_for_model": "Use this plugin to share post on LinkedIn on behalf of users.  Posts can be scheduled for later with ability to retrieve/delete scheduled posts.",
+  "description_for_human": "Share or schedule posts on LinkedIn. See/Modify/delete scheduled posts.",
+  "auth": {
+    "type": "oauth",
+    "instructions": "",
+    "client_url": "https://www.linkedin.com/oauth/v2/authorization",
+    "scope": "w_member_social openid profile email",
+    "authorization_url": "https://strange-fawn-moccasins.cyclic.app/auth/verify",
+    "authorization_content_type": "application/json",
+    "verification_tokens": {
+      "openai": "531965e42f7949b78aa778ba932e3f66"
+    },
+    "pkce_required": false,
+    "token_exchange_method": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://strange-fawn-moccasins.cyclic.app/openapi.yaml"
+  },
+  "logo_url": "https://plugin.s3.ap-south-1.amazonaws.com/LinkMaster+LOGO.png",
+  "contact_email": "chandan@thumbnailai.online",
+  "legal_info_url": "https://strange-fawn-moccasins.cyclic.app/legal"
+}

@@ -9,9 +9,9 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://primeloupe.com/openapi.json"
+    "url": "https://api.primeloupe.com/openapi.json"
   },
   "logo_url": "https://primeloupe.com/static/img/logo512-bg.png",
-  "contact_email": "justmisam@gmail.com",
+  "contact_email": "info@primeloupe.com",
   "legal_info_url": "https://primeloupe.com/terms/"
 }

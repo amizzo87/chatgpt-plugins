@@ -1,0 +1,23 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "ai2sql",
+  "name_for_human": "AI2sql",
+  "description_for_model": "converting a natural language text into an SQL query.",
+  "description_for_human": "converting a natural language text into an SQL query.",
+  "auth": {
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "70b9126b879d4f97bd6df2342ce8f3cb"
+    },
+    "custom_auth_header": null
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://chatgpt-plugins-ashy.vercel.app/openapi.yaml"
+  },
+  "logo_url": "https://chatgpt-plugins-ashy.vercel.app/logo.png",
+  "contact_email": "support@ai2sql.io",
+  "legal_info_url": "https://www.ai2sql.io/privacy-policy"
+}

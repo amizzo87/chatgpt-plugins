@@ -7,19 +7,19 @@
   "auth": {
     "type": "oauth",
     "instructions": "",
-    "client_url": "https://nla.zapier.com/oauth/authorize/",
+    "client_url": "https://actions.zapier.com/oauth/authorize/",
     "scope": "nla:exposed_actions:execute",
-    "authorization_url": "https://nla.zapier.com/oauth/token/",
+    "authorization_url": "https://actions.zapier.com/oauth/token/",
     "authorization_content_type": "application/x-www-form-urlencoded",
     "verification_tokens": {
-      "openai": "0422a043f09d411a88c93fe681a2d37b"
+      "openai": "407e44ebbf4c4c34b9c2256f19ef59cc"
     },
     "pkce_required": false,
     "token_exchange_method": null
   },
   "api": {
     "type": "openapi",
-    "url": "https://nla.zapier.com/api/v1/dynamic/openapi.json"
+    "url": "https://actions.zapier.com/api/v1/dynamic/openapi.json"
   },
   "logo_url": "https://cdn.zappy.app/8f853364f9b383d65b44e184e04689ed.png",
   "contact_email": "nla@zapier.com",

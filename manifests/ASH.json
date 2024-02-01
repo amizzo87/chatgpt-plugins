@@ -2,10 +2,16 @@
   "schema_version": "v1",
   "name_for_model": "ASH",
   "name_for_human": "ASH",
-  "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting currencies (accessing the '/v1/currency_converter/sources' endpoint of the API would be a good starting point for you to see its full capabilities quickly - such as supported sources and currencies as well as data availability date range for each currency), see the API specification for more details.",
-  "description_for_human": "ASH by lagogal.com. Currently it provides currency converter.",
+  "description_for_model": "Various API endpoints help to perform desired computation. Currently supports converting any amount between different currencies for current or past dates, covering a wide range of global currencies, including major fiat currencies and prominent cryptocurrencies. The exchange rate data, which is updated daily, is sourced from reputable financial institutions and exchange platforms, including the Reserve Bank of Australia (RBA), National Bank of Georgia (NBG), European Central Bank (ECB), Bank of Canada (BoC), and Binance (BIN) for cryptocurrency rates (more sources might be added any time, thus accessing the '/v1/currency_converter/sources' endpoint of the API will give most up to date list of the available exchange rate data sources). It also accepts anonymous feedback and suggestion messages for future user experience improvements through the dedicated feedback endpoint (namely the '/v1/currency_converter/feedback/anonymous' endpoint), which can receive feedback messages in case users have any feedback to share with the ASH plugin API developers. See the API specification for more details about the different endpoints provided and their capabilities.",
+  "description_for_human": "ASH, by lagogal.com, provides a currency converter covering a wide range of global currencies.",
   "auth": {
-    "type": "none"
+    "type": "service_http",
+    "instructions": "",
+    "authorization_type": "bearer",
+    "verification_tokens": {
+      "openai": "38b6eb3ba74d4362b961dc912aa5706f"
+    },
+    "custom_auth_header": null
   },
   "api": {
     "type": "openapi",

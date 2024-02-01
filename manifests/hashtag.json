@@ -9,7 +9,7 @@
   },
   "api": {
     "type": "openapi",
-    "url": "https://filtpod.pythonanywhere.com/openapi.yaml"
+    "url": "https://prod.engageai-server.com/openapi.yaml"
   },
   "logo_url": "https://engage-ai.co/wp-content/uploads/2023/01/engageai_icon_256.png",
   "contact_email": "hello@engage-ai.co",
