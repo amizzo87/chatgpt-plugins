@@ -1,0 +1,45 @@
+name: Unit Tests and Update README
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  run-tests-and-update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Setup Node.js environment
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    # Install dependencies
+    - name: Install dependencies
+      run: npm install
+
+    # Run unit tests and generate JSON results
+    - name: Run tests and generate test results
+      run: npm run test:json
+
+    # Update README.md based on test results
+    - name: Update README.md
+      run: npm run updateReadme
+
+    # Commit and push changes to README.md
+    - name: Commit and push if README.md changed
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add README.md
+        git commit -m "Update README.md with latest test results" || echo "No changes to commit"
+        git push
