@@ -1,20 +1,7 @@
-const fs = require('fs');
-const path = require('path');
-
-let testResults;
-const testResultsPath = path.join(__dirname, '..', 'test-results.json');
-
-try {
-  testResults = require(testResultsPath);
-} catch (error) {
-  console.error('Failed to load test results:', error);
-  process.exit(1);
-}
-
 const updateReadmeForTestResults = (results) => {
   const readmePath = path.join(__dirname, '../', 'README.md');
   let readmeContents;
-  
+
   try {
     readmeContents = fs.readFileSync(readmePath, 'utf8');
   } catch (error) {
@@ -22,7 +9,22 @@ const updateReadmeForTestResults = (results) => {
     return;
   }
 
-  const lines = readmeContents.split('\n');
+  let lines = readmeContents.split('\n');
+  let headerIndex = lines.findIndex(line => line.includes('|Name|')); // Identify the header row based on a unique column name
+  let separatorIndex = headerIndex + 1; // The separator line is typically right after the header
+
+  // Ensure header and separator lines exist
+  if (headerIndex !== -1 && separatorIndex < lines.length) {
+    // Check if "Passed Unit Tests?" column is missing and add it
+    if (!lines[headerIndex].includes('|Passed Unit Tests?|')) {
+      lines[headerIndex] = lines[headerIndex].trim() + '|Passed Unit Tests?|';
+      lines[separatorIndex] = lines[separatorIndex].trim() + '|:-------------:|'; // Adjust alignment as needed
+    }
+  } else {
+    console.error('Could not find table header in README.md.');
+    return;
+  }
+
   let updated = false;
 
   results.testResults.forEach(test => {
@@ -33,8 +35,12 @@ const updateReadmeForTestResults = (results) => {
     const lineIndex = lines.findIndex(line => line.includes(manifestName));
     if (lineIndex !== -1) {
       updated = true;
-      const parts = lines[lineIndex].split('|');
-      parts[parts.length - 2] = ` ${statusIcon} `;
+      let parts = lines[lineIndex].split('|');
+      if (parts.length - 1 < lines[headerIndex].split('|').length - 1) {
+        // If the current line has fewer columns than the header, add an empty column
+        parts.splice(parts.length - 1, 0, ' ');
+      }
+      parts[parts.length - 2] = ` ${statusIcon} `; // Update or add the test result icon
       lines[lineIndex] = parts.join('|');
     }
   });
@@ -50,5 +56,3 @@ const updateReadmeForTestResults = (results) => {
     console.log('No updates made to README.md.');
   }
 };
-
-updateReadmeForTestResults(testResults);
