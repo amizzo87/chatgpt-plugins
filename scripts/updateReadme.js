@@ -8,7 +8,7 @@ try {
     testResults = require(testResultsPath);
 } catch (error) {
     console.error('Failed to load test results:', error);
-    process.exit(1); // Exit if there's no test results
+    process.exit(1);
 }
 
 const updateReadmeForTestResults = (results) => {
@@ -22,31 +22,35 @@ const updateReadmeForTestResults = (results) => {
         return;
     }
 
-    let lines = readmeContents.split('\n');
-    let updated = false;
-
-    // Ensure the "Passed Unit Tests?" column exists
-    const headerIndex = lines.findIndex(line => line.startsWith('|Logo|'));
-    if (headerIndex !== -1 && !lines[headerIndex].includes('Passed Unit Tests?')) {
-        lines[headerIndex] = lines[headerIndex].trim() + 'Passed Unit Tests?|';
-        lines[headerIndex + 1] = lines[headerIndex + 1].trim() + ':---:|'; // Assuming the separator line follows the header
+    const lines = readmeContents.split('\n');
+    const tableStartIndex = lines.findIndex(line => line.includes('<!-- START TABLE @HERE -->'));
+    if (tableStartIndex === -1) {
+        console.error('Table start marker not found in README.md.');
+        return;
     }
 
-    // Update each manifest entry with test results
+    // Assuming the header is the next line after the marker, and the separator is the line after the header
+    const headerIndex = tableStartIndex + 1;
+    const separatorIndex = headerIndex + 1;
+
+    // Ensure the "Passed Unit Tests?" column exists
+    if (!lines[headerIndex].includes('Passed Unit Tests?')) {
+        lines[headerIndex] = lines[headerIndex].trim() + '|Passed Unit Tests?';
+        lines[separatorIndex] = lines[separatorIndex].trim() + '|:---:';
+    }
+
+    let updated = false;
+
     results.testResults.forEach(test => {
         const manifestName = path.basename(test.name, '.json');
         const passed = test.status === "passed";
         const statusIcon = passed ? '&check;' : '&cross;';
 
-        const lineIndex = lines.findIndex(line => line.includes(manifestName));
+        const lineIndex = lines.findIndex(line => line.includes(manifestName) && line.startsWith('|'));
         if (lineIndex !== -1) {
             updated = true;
             let parts = lines[lineIndex].split('|');
-            if (parts.length - 1 < lines[headerIndex].split('|').length - 1) {
-                // If the current line has fewer columns than the header, add an empty column for the status
-                parts.splice(parts.length - 1, 0, ' ');
-            }
-            parts[parts.length - 2] = ` ${statusIcon} `; // Update or add the test result icon
+            parts[parts.length - 1] = ` ${statusIcon} |`; // Update or add the test result icon
             lines[lineIndex] = parts.join('|');
         }
     });
