@@ -4,7 +4,7 @@ const testResultsPath = path.join(__dirname, '..', 'test-results.json');
 const testResults = require(testResultsPath);
 
 const updateReadmeForTestResults = (results) => {
-  const readmePath = path.join(__dirname, '..', 'README.md');
+  const readmePath = path.join(__dirname, '../', 'README.md');
   let readmeContents = fs.readFileSync(readmePath, 'utf8');
   const lines = readmeContents.split('\n');
 
