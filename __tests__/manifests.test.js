@@ -1,54 +1,69 @@
 const fs = require('fs');
 const path = require('path');
-const axios = require('axios');
 
-// Path to the directory containing manifest files, relative to this test file
+// Assuming manifests are stored in a directory named 'manifests' at the root of your project
 const manifestsDir = path.join(__dirname, '..', 'manifests');
 
-// Dynamically read all manifest files
-const manifestFiles = fs.readdirSync(manifestsDir).filter(file => file.endsWith('.json'));
+// Helper function to validate email format
+const isValidEmail = (email) => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+};
+
+// Helper function to validate URL format
+const isValidUrl = (url) => {
+  try {
+    new URL(url);
+    return true;
+  } catch (_) {
+    return false;
+  }
+};
 
 describe('Manifest Files Validation', () => {
+  const manifestFiles = fs.readdirSync(manifestsDir).filter(file => file.endsWith('.json'));
+
   manifestFiles.forEach(file => {
-    describe(`Validating ${file}`, () => {
+    describe(`${file}`, () => {
       let manifest;
 
       beforeAll(() => {
-        // Load the manifest file
         const filePath = path.join(manifestsDir, file);
-        const fileContents = fs.readFileSync(filePath, 'utf8');
-        manifest = JSON.parse(fileContents);
+        manifest = JSON.parse(fs.readFileSync(filePath, 'utf8'));
       });
 
-      test('should have a name, version, and description', () => {
-        expect(manifest).toHaveProperty('name');
-        expect(typeof manifest.name).toBe('string');
-        expect(manifest.name.length).toBeGreaterThan(0);
-
-        expect(manifest).toHaveProperty('version');
-        // Simple regex for semantic versioning
-        expect(manifest.version).toMatch(/^\d+\.\d+\.\d+$/);
-
-        expect(manifest).toHaveProperty('description');
-        expect(typeof manifest.description).toBe('string');
-        expect(manifest.description.length).toBeGreaterThan(0);
+      test('should have required fields', () => {
+        expect(manifest).toHaveProperty('schema_version');
+        expect(manifest).toHaveProperty('name_for_model');
+        expect(manifest).toHaveProperty('description_for_model');
+        expect(manifest).toHaveProperty('auth');
+        expect(manifest).toHaveProperty('api');
+        expect(manifest).toHaveProperty('logo_url');
+        expect(manifest).toHaveProperty('contact_email');
+        expect(manifest).toHaveProperty('legal_info_url');
       });
 
-      test('should have a valid "api" field if present', async () => {
-        if (manifest.api) {
-          expect(Array.isArray(manifest.api)).toBeTruthy();
-          manifest.api.forEach(endpoint => {
-            expect(endpoint).toHaveProperty('url');
-            // Perform a basic format check on the URL
-            expect(endpoint.url).toMatch(/^https?:\/\/[^\s$.?#].[^\s]*$/);
-          });
+      test('auth object should have expected structure', () => {
+        expect(manifest.auth).toHaveProperty('type');
+        expect(manifest.auth).toHaveProperty('client_url');
+        // Add more checks for nested properties within 'auth' as needed
+      });
 
-          // Testing each API endpoint for reachability
-          for (const endpoint of manifest.api) {
-            await expect(axios.get(endpoint.url)).resolves.toHaveProperty('status', 200);
-          }
-        }
-      }, 30000); // Extended timeout for async operations if testing API endpoints
+      test('api object should have expected structure', () => {
+        expect(manifest.api).toHaveProperty('type');
+        expect(manifest.api).toHaveProperty('url');
+      });
+
+      test('should have valid URLs', () => {
+        expect(isValidUrl(manifest.logo_url)).toBeTruthy();
+        expect(isValidUrl(manifest.legal_info_url)).toBeTruthy();
+        // Validate other URLs as needed
+      });
+
+      test('should have a valid contact email', () => {
+        expect(isValidEmail(manifest.contact_email)).toBeTruthy();
+      });
+
+      // Add more tests as needed to validate other fields and structures
     });
   });
 });
