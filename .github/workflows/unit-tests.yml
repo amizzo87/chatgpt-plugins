@@ -39,8 +39,8 @@ jobs:
       env:
         PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
-        git config --global user.name 'github-actions'
-        git config --global user.email 'github-actions@github.com'
+        git config --global user.name 'Anthony Izzo'
+        git config --global user.email 'izzo.anthony@gmail.com'
         git remote set-url origin https://amizzo87:${PERSONAL_ACCESS_TOKEN}@github.com/amizzo87/chatgpt-plugins.git
         git add README.md
         git commit -m "Update README.md with latest test results" -a || echo "No changes to commit"
