@@ -2,58 +2,83 @@ const fs = require('fs');
 const path = require('path');
 
 const testResultsPath = path.join(__dirname, '..', 'test-results.json');
-const readmePath = path.join(__dirname, '..', 'README.md');
-const tableStartMarker = '<!-- START TABLE @HERE -->';
+let testResults;
 
-async function updateReadmeForTestResults(results) {
-  try {
-    const testResults = require(testResultsPath);
-    if (!testResults || !Array.isArray(testResults.testResults)) {
-      throw new Error('Invalid test results format');
+try {
+    testResults = require(testResultsPath);
+} catch (error) {
+    console.error('Error loading test results:', error.message);
+    process.exit(1);
+}
+
+const updateReadmeForTestResults = (results) => {
+    const readmePath = path.join(__dirname, '..', 'README.md');
+    let readmeContents;
+
+    try {
+        readmeContents = fs.readFileSync(readmePath, 'utf8');
+    } catch (error) {
+        console.error('Error reading README.md:', error.message);
+        return;
     }
 
-    let readmeContents = await fs.promises.readFile(readmePath, 'utf8');
+    let lines;
+    try {
+        lines = readmeContents.split('\n');
+    } catch (error) {
+        console.error('Error splitting README.md contents:', error.message);
+        return;
+    }
 
-    const lines = readmeContents.split('\n');
-    const tableStartIndex = lines.findIndex(line => line.includes(tableStartMarker));
+    const tableStartIndex = lines.findIndex(line => line.includes('<!-- START TABLE @HERE -->'));
     if (tableStartIndex === -1) {
-      console.error(`Table start marker not found in README.md: ${tableStartMarker}`);
-      return;
+        console.error('Table start marker not found in README.md.');
+        return;
     }
 
-    // Add header if it does not exist
     const headerIndex = tableStartIndex + 1;
-    if (!lines[headerIndex].includes('Manifest|Passed?')) {
-      lines[headerIndex] = 'Manifest|Passed?';
-      lines[headerIndex + 1] = ':---:|:---:';
+    const separatorIndex = headerIndex + 1;
+
+    if (!lines[headerIndex] || !lines[separatorIndex]) {
+        console.error('Table header or separator not found in README.md.');
+        return;
+    }
+
+    if (!lines[headerIndex].includes('Passed Unit Tests?')) {
+        lines[headerIndex] += '|Passed Unit Tests?';
+        lines[separatorIndex] += '|:---:';
     }
 
     let updated = false;
 
-    for (const test of testResults.testResults) {
-      const manifestName = path.basename(test.name, '.json');
-      const passed = test.status === "passed";
-      const statusIcon = passed ? '&check;' : '&cross;';
+    results.testResults.forEach(test => {
+        const manifestName = path.basename(test.name, '.json');
+        const passed = test.status === "passed";
+        const statusIcon = passed ? '&check;' : '&cross;';
 
-      const lineIndex = lines.findIndex(line => line.includes(manifestName) && line.startsWith('|'));
-      if (lineIndex !== -1) {
-        updated = true;
-        const parts = lines[lineIndex].split('|');
-        parts[parts.length - 1] = ` ${statusIcon} |`; // Update or add the test result icon
-        lines[lineIndex] = parts.join('|');
-      }
-    }
+        const lineIndex = lines.findIndex(line => line.includes(manifestName) && line.startsWith('|'));
+        if (lineIndex !== -1) {
+            updated = true;
+            let parts = lines[lineIndex].split('|');
+            parts[parts.length - 1] = ` ${statusIcon} |`;
+            lines[lineIndex] = parts.join('|');
+        }
+    });
 
     if (updated) {
-      readmeContents = lines.join('\n');
-      await fs.promises.writeFile(readmePath, readmeContents);
-      console.log('README.md updated successfully.');
+        try {
+            fs.writeFileSync(readmePath, lines.join('\n'));
+            console.log('README.md updated successfully.');
+        } catch (error) {
+            console.error('Error writing README.md:', error.message);
+        }
     } else {
-      console.log('No updates made to README.md.');
+        console.log('No updates made to README.md. Ensure test results contain correct manifest names.');
     }
-  } catch (error) {
-    console.error('Failed to update README.md:', error);
-  }
-}
+};
 
-updateReadmeForTestResults();
+try {
+    updateReadmeForTestResults(testResults);
+} catch (error) {
+    console.error('An unexpected error occurred:', error.message);
+}
