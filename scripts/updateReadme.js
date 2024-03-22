@@ -1,47 +1,28 @@
 const fs = require('fs');
 const path = require('path');
+const testResultsPath = path.join(__dirname, '..', 'test-results.json');
+const testResults = require(testResultsPath);
 
-// Load test results
-const testResultsPath = path.join(__dirname, 'test-results.json');
-const testResults = JSON.parse(fs.readFileSync(testResultsPath, 'utf8'));
+const updateReadmeForTestResults = (results) => {
+  const readmePath = path.join(__dirname, '..', 'README.md');
+  let readmeContents = fs.readFileSync(readmePath, 'utf8');
+  const lines = readmeContents.split('\n');
 
-// Load README content
-const readmePath = path.join(__dirname, 'README.md');
-let readmeContent = fs.readFileSync(readmePath, 'utf8');
+  results.testResults.forEach(test => {
+    const manifestName = path.basename(test.name, '.json');
+    const passed = test.status === "passed"; // Adjust according to your jest results structure
+    const statusIcon = passed ? '&check;' : '&cross;';
 
-// Ensure the "Passed Unit Tests?" column exists
-if (!readmeContent.includes('|Passed Unit Tests?|')) {
-  // Add the column header if it's missing
-  readmeContent = readmeContent.replace(
-    '|Access w/o Authentication?|',
-    '|Access w/o Authentication?|Passed Unit Tests?|'
-  );
-}
-
-// Update or add the test results in the README
-readmeContent = readmeContent.split('\n').map(line => {
-  // Identify lines that are part of the table (excluding the header and separator)
-  if (line.startsWith('|') && !line.includes('---') && line.includes('|[A ')) {
-    const pluginNameMatch = line.match(/\|\[([^\]]+)\]/);
-    if (pluginNameMatch) {
-      const pluginName = pluginNameMatch[1];
-      const testPassed = testResults[`${pluginName}.json`];
-      const statusIcon = testPassed ? '&check;' : '&cross;';
-
-      // Check if the line already has a test result
-      if (line.endsWith('|')) {
-        // Line already has a cell for test results, update it
-        return line.replace(/\|&check;\||\|&cross;\|$/, `|${statusIcon}|`);
-      } else {
-        // Add the test result
-        return `${line}${statusIcon}|`;
-      }
+    const lineIndex = lines.findIndex(line => line.includes(manifestName));
+    if (lineIndex !== -1) {
+      const parts = lines[lineIndex].split('|');
+      parts[parts.length - 2] = ` ${statusIcon} `;
+      lines[lineIndex] = parts.join('|');
     }
-  }
-  return line;
-}).join('\n');
+  });
 
-// Write the updated README back to disk
-fs.writeFileSync(readmePath, readmeContent);
+  readmeContents = lines.join('\n');
+  fs.writeFileSync(readmePath, readmeContents);
+};
 
-console.log('README.md has been updated with test results.');
+updateReadmeForTestResults(testResults);

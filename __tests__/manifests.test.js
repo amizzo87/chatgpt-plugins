@@ -35,6 +35,7 @@ describe('Manifest Files Validation', () => {
         expect(manifest).toHaveProperty('schema_version');
         expect(manifest).toHaveProperty('name_for_model');
         expect(manifest).toHaveProperty('description_for_model');
+        expect(manifest).toHaveProperty('description_for_human');
         expect(manifest).toHaveProperty('auth');
         expect(manifest).toHaveProperty('api');
         expect(manifest).toHaveProperty('logo_url');
@@ -44,8 +45,15 @@ describe('Manifest Files Validation', () => {
 
       test('auth object should have expected structure', () => {
         expect(manifest.auth).toHaveProperty('type');
-        expect(manifest.auth).toHaveProperty('client_url');
-        // Add more checks for nested properties within 'auth' as needed
+        
+        // Check for properties only if auth type is not 'none'
+        if (manifest.auth.type !== 'none') {
+          // Assuming these properties should be present for non-'none' auth types
+          expect(manifest.auth).toHaveProperty('client_url');
+          expect(manifest.auth).toHaveProperty('scope');
+          expect(manifest.auth).toHaveProperty('authorization_url');
+          // Add additional checks as necessary for your project
+        }
       });
 
       test('api object should have expected structure', () => {
@@ -56,7 +64,7 @@ describe('Manifest Files Validation', () => {
       test('should have valid URLs', () => {
         expect(isValidUrl(manifest.logo_url)).toBeTruthy();
         expect(isValidUrl(manifest.legal_info_url)).toBeTruthy();
-        // Validate other URLs as needed
+        // Optionally check other URLs if applicable
       });
 
       test('should have a valid contact email', () => {
