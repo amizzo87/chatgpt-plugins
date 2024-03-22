@@ -2,69 +2,58 @@ const fs = require('fs');
 const path = require('path');
 
 const testResultsPath = path.join(__dirname, '..', 'test-results.json');
-let testResults;
+const readmePath = path.join(__dirname, '..', 'README.md');
+const tableStartMarker = '<!-- START TABLE @HERE -->';
 
-try {
-    testResults = require(testResultsPath);
-} catch (error) {
-    console.error('Failed to load test results:', error);
-    process.exit(1);
-}
-
-const updateReadmeForTestResults = (results) => {
-    const readmePath = path.join(__dirname, '..', 'README.md');
-    let readmeContents;
-
-    try {
-        readmeContents = fs.readFileSync(readmePath, 'utf8');
-    } catch (error) {
-        console.error('Failed to read README.md:', error);
-        return;
+async function updateReadmeForTestResults(results) {
+  try {
+    const testResults = require(testResultsPath);
+    if (!testResults || !Array.isArray(testResults.testResults)) {
+      throw new Error('Invalid test results format');
     }
+
+    let readmeContents = await fs.promises.readFile(readmePath, 'utf8');
 
     const lines = readmeContents.split('\n');
-    const tableStartIndex = lines.findIndex(line => line.includes('<!-- START TABLE @HERE -->'));
+    const tableStartIndex = lines.findIndex(line => line.includes(tableStartMarker));
     if (tableStartIndex === -1) {
-        console.error('Table start marker not found in README.md.');
-        return;
+      console.error(`Table start marker not found in README.md: ${tableStartMarker}`);
+      return;
     }
 
-    // Assuming the header is the next line after the marker, and the separator is the line after the header
+    // Add header if it does not exist
     const headerIndex = tableStartIndex + 1;
-    const separatorIndex = headerIndex + 1;
-
-    // Ensure the "Passed Unit Tests?" column exists
-    if (!lines[headerIndex].includes('Passed Unit Tests?')) {
-        lines[headerIndex] = lines[headerIndex].trim() + '|Passed Unit Tests?';
-        lines[separatorIndex] = lines[separatorIndex].trim() + '|:---:';
+    if (!lines[headerIndex].includes('Manifest|Passed?')) {
+      lines[headerIndex] = 'Manifest|Passed?';
+      lines[headerIndex + 1] = ':---:|:---:';
     }
 
     let updated = false;
 
-    results.testResults.forEach(test => {
-        const manifestName = path.basename(test.name, '.json');
-        const passed = test.status === "passed";
-        const statusIcon = passed ? '&check;' : '&cross;';
+    for (const test of testResults.testResults) {
+      const manifestName = path.basename(test.name, '.json');
+      const passed = test.status === "passed";
+      const statusIcon = passed ? '&check;' : '&cross;';
 
-        const lineIndex = lines.findIndex(line => line.includes(manifestName) && line.startsWith('|'));
-        if (lineIndex !== -1) {
-            updated = true;
-            let parts = lines[lineIndex].split('|');
-            parts[parts.length - 1] = ` ${statusIcon} |`; // Update or add the test result icon
-            lines[lineIndex] = parts.join('|');
-        }
-    });
+      const lineIndex = lines.findIndex(line => line.includes(manifestName) && line.startsWith('|'));
+      if (lineIndex !== -1) {
+        updated = true;
+        const parts = lines[lineIndex].split('|');
+        parts[parts.length - 1] = ` ${statusIcon} |`; // Update or add the test result icon
+        lines[lineIndex] = parts.join('|');
+      }
+    }
 
     if (updated) {
-        try {
-            fs.writeFileSync(readmePath, lines.join('\n'));
-            console.log('README.md updated successfully.');
-        } catch (error) {
-            console.error('Failed to write README.md:', error);
-        }
+      readmeContents = lines.join('\n');
+      await fs.promises.writeFile(readmePath, readmeContents);
+      console.log('README.md updated successfully.');
     } else {
-        console.log('No updates made to README.md.');
+      console.log('No updates made to README.md.');
     }
-};
+  } catch (error) {
+    console.error('Failed to update README.md:', error);
+  }
+}
 
-updateReadmeForTestResults(testResults);
+updateReadmeForTestResults();
