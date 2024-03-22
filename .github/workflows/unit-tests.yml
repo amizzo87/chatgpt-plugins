@@ -13,26 +13,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # Checkout the repository
     - uses: actions/checkout@v2
 
+    # Setup Node.js
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
         node-version: '14'
 
+    # Install dependencies
     - name: Install dependencies
       run: npm install
 
+    # Run tests and generate test results
     - name: Run tests and generate test results
       run: npm run test:json
 
+    # Update README.md
     - name: Update README.md
       run: npm run updateReadme
 
+    # Commit and push if README.md changed
     - name: Commit and push if README.md changed
+      env:
+        PERSONAL_ACCESS_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
+        git remote set-url origin https://amizzo87:${PERSONAL_ACCESS_TOKEN}@github.com/amizzo87/chatgpt-plugins.git
         git add README.md
         git commit -m "Update README.md with latest test results" -a || echo "No changes to commit"
         git push
