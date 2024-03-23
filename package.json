@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/amizzo87/chatgpt-plugins.git"
   },
-  "author": "Your Name",
+  "author": "Anthony Izzo",
   "license": "MIT",
   "devDependencies": {
     "jest": "^28.1.0",
