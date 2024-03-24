@@ -26,15 +26,19 @@ let lines = readmeContents.split('\n');
 const ensureColumnsExist = () => {
     const headerIndex = lines.findIndex(line => line.includes('|') && line.toLowerCase().includes('name'));
     if (headerIndex !== -1 && headerIndex + 1 < lines.length) {
-        const separatorLine = lines[headerIndex + 1];
-        if (!lines[headerIndex].includes('Passed Unit Tests?')) {
-            lines[headerIndex] = lines[headerIndex].replace(/\|$/, '|Passed Unit Tests?|');
-            lines[headerIndex + 1] = separatorLine.replace(/\|$/, '|:---:|');
+        // Ensure both headers and separators exist for the required columns
+        const headers = lines[headerIndex].split('|');
+        const separators = lines[headerIndex + 1].split('|');
+        if (!headers.includes('Passed Unit Tests?')) {
+            headers.splice(headers.length - 1, 0, 'Passed Unit Tests?');
+            separators.splice(separators.length - 1, 0, ':---:');
         }
-        if (!lines[headerIndex].includes('API Active?')) {
-            lines[headerIndex] = lines[headerIndex].replace(/\|$/, '|API Active?|');
-            lines[headerIndex + 1] = separatorLine.replace(/\|$/, '|:---:|');
+        if (!headers.includes('API Active?')) {
+            headers.splice(headers.length - 1, 0, 'API Active?');
+            separators.splice(separators.length - 1, 0, ':---:');
         }
+        lines[headerIndex] = headers.join('|');
+        lines[headerIndex + 1] = separators.join('|');
     }
 };
 
@@ -51,23 +55,27 @@ const updateReadme = () => {
                 manifestResults[manifestFilename].passed = false;
                 manifestResults[manifestFilename].failedTests.push(result.fullName);
             }
-            // Specifically check for the API active test
             if (result.title === "API URL should be active" && result.status !== "passed") {
                 manifestResults[manifestFilename].apiActive = false;
             }
         });
     });
 
+    // Find the index for the headers "Passed Unit Tests?" and "API Active?"
+    const headerIndex = lines.findIndex(line => line.includes('|') && line.toLowerCase().includes('name'));
+    const headers = lines[headerIndex].split('|');
+    const passedTestsIndex = headers.indexOf('Passed Unit Tests?');
+    const apiActiveIndex = headers.indexOf('API Active?');
+
     Object.keys(manifestResults).forEach(manifestFilename => {
-        const statusIcon = manifestResults[manifestFilename].passed ? '&check;' : '&cross;';
+        const statusIcon = manifestResults[manifestFilename].passed ? '✅' : '❌';
         const apiStatusIcon = manifestResults[manifestFilename].apiActive ? '🟢' : '🔴';
         const rowToUpdateIndex = lines.findIndex(line => line.includes(manifestFilename));
 
         if (rowToUpdateIndex !== -1) {
             let parts = lines[rowToUpdateIndex].split('|');
-            // Adjust the index for the last two columns as needed
-            parts[parts.length - 3] = ` ${statusIcon} `;
-            parts[parts.length - 2] = ` ${apiStatusIcon} `;
+            parts[passedTestsIndex] = ` ${statusIcon} `;
+            parts[apiActiveIndex] = ` ${apiStatusIcon} `;
             lines[rowToUpdateIndex] = parts.join('|');
         } else {
             console.log(`Could not find row for ${manifestFilename} in README.md.`);
