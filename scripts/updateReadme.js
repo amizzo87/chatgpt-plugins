@@ -21,32 +21,33 @@ try {
 let lines = readmeContents.split('\n');
 
 const updateReadme = () => {
-    const tableStartIndex = lines.findIndex(line => line.includes('<!-- START TABLE @HERE -->'));
-    if (tableStartIndex === -1) {
-        console.error('Table start marker not found in README.md.');
-        return;
-    }
+    let manifestResults = {};
 
-    // Assuming the last line of the file is where new rows should be added if not found
-    let lastRowIndex = lines.length - 1; 
-
+    // Aggregate test results by manifest file
     data.testResults.forEach(testSuite => {
-        const manifestFilename = testSuite.assertionResults[0].ancestorTitles[1];
-        const passed = testSuite.status === "passed";
-        const statusIcon = passed ? '&check;' : (testSuite.status === "failed" ? '&cross;' : '-');
+        testSuite.assertionResults.forEach(result => {
+            const manifestFilename = result.ancestorTitles[1]; // Assuming the manifest filename is always the second value
+            if (!manifestResults[manifestFilename]) {
+                manifestResults[manifestFilename] = { passed: true, failedTests: [] };
+            }
+            if (result.status !== "passed") {
+                manifestResults[manifestFilename].passed = false;
+                manifestResults[manifestFilename].failedTests.push(result.fullName);
+            }
+        });
+    });
 
+    // Update README.md based on aggregated results
+    Object.keys(manifestResults).forEach(manifestFilename => {
+        const statusIcon = manifestResults[manifestFilename].passed ? '&check;' : '&cross;';
         const rowToUpdateIndex = lines.findIndex(line => line.includes(manifestFilename));
-        
+
         if (rowToUpdateIndex !== -1) {
             let parts = lines[rowToUpdateIndex].split('|');
             parts[parts.length - 2] = ` ${statusIcon} `;
             lines[rowToUpdateIndex] = parts.join('|');
         } else {
-            // If the row for the manifest is not found, add a new row with a dash mark
-            console.log(`Could not find row for ${manifestFilename} in README.md. Adding a new row.`);
-            const newRow = `| |[${manifestFilename}](manifests/${manifestFilename})| | | - |`;
-            lines.splice(lastRowIndex, 0, newRow); // Insert the new row before the last line
-            lastRowIndex++; // Adjust the index for the next potential insert
+            console.log(`Could not find row for ${manifestFilename} in README.md.`);
         }
     });
 
