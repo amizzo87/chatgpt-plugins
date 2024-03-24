@@ -14,7 +14,7 @@
   "author": "Anthony Izzo",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^28.1.0",
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "jest": "^28.1.0"
   }
 }

@@ -1,13 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
-// Assuming manifests are stored in a directory named 'manifests' at the root of your project
 const manifestsDir = path.join(__dirname, '..', 'manifests');
 
-// Helper function to validate email format
 const isValidEmail = (email) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 
-// Helper function to validate URL format
 const isValidUrl = (url) => {
   try {
     new URL(url);
@@ -17,6 +15,14 @@ const isValidUrl = (url) => {
   }
 };
 
+const isUrlActive = async (url) => {
+  try {
+    const response = await axios.head(url);
+    return response.status >= 200 && response.status < 300;
+  } catch (error) {
+    return false;
+  }
+};
 describe('Manifest Files Validation', () => {
   const manifestFiles = fs.readdirSync(manifestsDir).filter(file => file.endsWith('.json'));
 
@@ -58,7 +64,6 @@ describe('Manifest Files Validation', () => {
             expect(manifest.auth).toHaveProperty('token_exchange_method');
           }
         }
-        // Add conditions for other auth types as necessary
       });
 
       test('api object should have expected structure', () => {
@@ -76,7 +81,10 @@ describe('Manifest Files Validation', () => {
         expect(isValidEmail(manifest.contact_email)).toBeTruthy();
       });
 
-      // Add more tests as needed to validate other fields and structures
+      test('API URL should be active', async () => {
+        const active = await isUrlActive(manifest.api.url);
+        expect(active).toBeTruthy();
+      }, 10000); // Increased timeout for async operation
     });
   });
 });
