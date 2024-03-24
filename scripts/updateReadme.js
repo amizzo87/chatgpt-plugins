@@ -26,7 +26,6 @@ let lines = readmeContents.split('\n');
 const ensureColumnsExist = () => {
     const headerIndex = lines.findIndex(line => line.includes('|') && line.toLowerCase().includes('name'));
     if (headerIndex !== -1 && headerIndex + 1 < lines.length) {
-        // Ensure both headers and separators exist for the required columns
         const headers = lines[headerIndex].split('|');
         const separators = lines[headerIndex + 1].split('|');
         if (!headers.includes('Passed Unit Tests?')) {
@@ -61,11 +60,12 @@ const updateReadme = () => {
         });
     });
 
-    // Find the index for the headers "Passed Unit Tests?" and "API Active?"
+    // Find the index for the headers
     const headerIndex = lines.findIndex(line => line.includes('|') && line.toLowerCase().includes('name'));
     const headers = lines[headerIndex].split('|');
     const passedTestsIndex = headers.indexOf('Passed Unit Tests?');
     const apiActiveIndex = headers.indexOf('API Active?');
+    const accessWithoutAuthIndex = headers.indexOf('Access w/o Authentication?');
 
     Object.keys(manifestResults).forEach(manifestFilename => {
         const statusIcon = manifestResults[manifestFilename].passed ? '✅' : '❌';
@@ -76,6 +76,8 @@ const updateReadme = () => {
             let parts = lines[rowToUpdateIndex].split('|');
             parts[passedTestsIndex] = ` ${statusIcon} `;
             parts[apiActiveIndex] = ` ${apiStatusIcon} `;
+            // Replace &check; and &cross; with emojis for "Access w/o Authentication?"
+            parts[accessWithoutAuthIndex] = parts[accessWithoutAuthIndex].includes('&check;') ? ' ✅ ' : ' 🔒 ';
             lines[rowToUpdateIndex] = parts.join('|');
         } else {
             console.log(`Could not find row for ${manifestFilename} in README.md.`);
