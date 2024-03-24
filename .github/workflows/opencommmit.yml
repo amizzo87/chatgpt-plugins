@@ -1,10 +1,11 @@
 name: 'OpenCommit Action'
 
 on:
-  push:
-    # this list of branches is often enough,
-    # but you may still ignore other public branches
-    branches-ignore: [main master dev development release]
+  workflow_run:
+    workflows: ["unit-tests.yml"] # This should be the file name of the first workflow
+    branches: [main]
+    types: 
+      - completed
 
 jobs:
   opencommit:
@@ -24,9 +25,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
         env:
-          # set openAI api key in repo actions secrets,
-          # for openAI keys go to: https://platform.openai.com/account/api-keys
-          # for repo secret go to: <your_repo_url>/settings/secrets/actions
           OCO_OPENAI_API_KEY: ${{ secrets.OCO_OPENAI_API_KEY }}
           OCO_EMOJI: true
           OCO_MODEL: gpt-4-turbo-preview
