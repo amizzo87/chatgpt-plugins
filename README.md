@@ -11,8 +11,8 @@ Enjoy!
 Source: https://github.com/copilot-us/chatgpt-plugins
 
 <!-- START TABLE @HERE -->
-|Logo|Name|Description|Access w/o Authentication?|Passed Unit Tests?|API Active?|
-|---|---|---|---|:---:|:---:|
+|Logo|Name|Description|Auth Required?|Passed Unit Tests?|API Active?|
+|---|---|---|:---:|:---:|:---:|
 |<img src="https://storage.googleapis.com/bestever-content/bestever-square.jpg" width="64" />|[A Bestever Ad Maker](https://github.com/amizzo87/chatgpt-plugins/blob/main/manifests/bestever.json)|Unlock stunning image ads with just a link. Our Bestever AI scripts, polishes your visuals, and generates magic!| &check; | ✅ | 🟢 
 |<img src="https://docs-search-ccf5913b41d3.herokuapp.com/logo.png" width="64" />|[A Code Library Help](https://github.com/amizzo87/chatgpt-plugins/blob/main/manifests/code_library_help.json)|Write code and answer questions using Python libraries (e.g Openai, Twilio, etc). Can answer version specific questions.| &cross; | ❌ | 🔴 
 |<img src="https://monitorsrv.freenetworkmonitor.click/logo-square.png" width="64" />|[A Monitoring Expert](https://github.com/amizzo87/chatgpt-plugins/blob/main/manifests/aNetworkMonitor.json)|An expert in network monitoring, now quantum-ready! This tool alerts you 24/7.| &check; | ✅ | 🟢 
