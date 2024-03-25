@@ -65,7 +65,7 @@ const updateReadme = () => {
     const headers = lines[headerIndex].split('|');
     const passedTestsIndex = headers.indexOf('Passed Unit Tests?');
     const apiActiveIndex = headers.indexOf('API Active?');
-    const accessWithoutAuthIndex = headers.indexOf('Access w/o Authentication?');
+    const accessWithoutAuthIndex = headers.indexOf('Open Access');
 
     Object.keys(manifestResults).forEach(manifestFilename => {
         const statusIcon = manifestResults[manifestFilename].passed ? '✅' : '❌';
@@ -76,7 +76,6 @@ const updateReadme = () => {
             let parts = lines[rowToUpdateIndex].split('|');
             parts[passedTestsIndex] = ` ${statusIcon} `;
             parts[apiActiveIndex] = ` ${apiStatusIcon} `;
-            // Replace &check; and &cross; with emojis for "Access w/o Authentication?"
             parts[accessWithoutAuthIndex] = parts[accessWithoutAuthIndex].includes('&check;') ? ' ✅ ' : ' 🔒 ';
             lines[rowToUpdateIndex] = parts.join('|');
         } else {
