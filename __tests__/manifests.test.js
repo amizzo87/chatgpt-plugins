@@ -18,7 +18,7 @@ const isValidUrl = (url) => {
 const isUrlActive = async (url) => {
   try {
     const response = await axios.head(url);
-    return response.status >= 200 && response.status < 300;
+    return (response.status >= 200 && response.status < 300) || response.status === 429;
   } catch (error) {
     return false;
   }
