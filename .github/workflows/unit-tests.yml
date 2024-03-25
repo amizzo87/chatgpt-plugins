@@ -16,11 +16,19 @@ jobs:
     # Checkout the repository
     - uses: actions/checkout@v2
 
+    # Pre-modification linting
+    - name: Lint README.md file
+      uses: avto-dev/markdown-lint@v1
+      env:
+        INPUT_FIX: true
+      with:
+        args: './README.md'
+
     # Setup Node.js
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '16'
 
     # Install dependencies
     - name: Install dependencies
