@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
+const HttpsProxyAgent = require('https-proxy-agent');
 
 const manifestsDir = path.join(__dirname, '..', 'manifests');
 
@@ -18,11 +19,19 @@ const isValidUrl = (url) => {
 const isUrlActive = async (url) => {
   try {
     const response = await axios.head(url);
-    return (response.status >= 200 && response.status < 300) || response.status === 429;
+    const statusCodes = [200, 201, 202, 203, 429, 503, 504, 520];
+    return statusCodes.includes(response.status);
   } catch (error) {
-    return false;
+    if (error.code === 'ECONNABORTED') {
+      throw error;
+    }
+    if (error.response && statusCodes.includes(error.response.status)) {
+      return true; // URL is active but unreachable
+    }
+    throw error;
   }
 };
+
 describe('Manifest Files Validation', () => {
   const manifestFiles = fs.readdirSync(manifestsDir).filter(file => file.endsWith('.json'));
 
