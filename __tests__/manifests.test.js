@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const axios = require('axios');
-const HttpsProxyAgent = require('https-proxy-agent');
 
 const manifestsDir = path.join(__dirname, '..', 'manifests');
 
