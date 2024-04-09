@@ -1,12 +1,16 @@
 const fs = require('fs');
 const path = require('path');
-const openai = require('openai');
 
-openai.apiKey = process.env.OPENAI_API_KEY;
+const { OpenAI } = require('openai');
+
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY
+});
+
 
 const manifestsFolder = path.join('..', 'manifests');
 const combinedManifests = [];
-const outputFolder = path.join('..', 'lobechat')
+const outputFolder = path.join('..', 'lobechat');
 const outputManifestsFolder = path.join(outputFolder, 'manifests');
 
 // Ensure output directories exist
@@ -19,21 +23,30 @@ if (!fs.existsSync(outputManifestsFolder)) {
 
 async function generateTags(description) {
   try {
-    const response = await openai.createCompletion({
-      model: "text-davinci-003",
-      prompt: `Generate three descriptive tags for a plugin based on the following description: ${description}`,
+    const response = await openai.completions.create({
+      model: "gpt-3.5-turbo-instruct",
+      prompt: `Generate three descriptive yet succinct one- or two-word tags for a plugin based on the following description: ${description}`,
       max_tokens: 60,
       n: 1,
       temperature: 0.7,
     });
-    const tags = response.data.choices[0].text.trim().split(', ').slice(0, 3);
+    const textValues = response.choices[0].text;
+    const tags = textValues
+      .trim()
+      .split('\n')
+      .map(tag => tag.replace(/^\d+\.\s*/, '').trim())
+      .map(tag => tag.replace(/^"(.*)"$/, '$1'))
+      .filter(tag => tag !== '')
+      .slice(0, 3);
+    
+    console.log(JSON.stringify(tags));
+    
     return tags;
   } catch (error) {
     console.error(`Error generating tags: ${error}`);
     return ["tag1", "tag2", "tag3"];
   }
 }
-
 async function processManifests() {
   fs.readdir(manifestsFolder, async (err, files) => {
     if (err) {
@@ -79,7 +92,7 @@ async function processManifests() {
             }
           });
 
-          if (combinedManifests.length === files.length) {
+          // if (combinedManifests.length === files.length) {
             // Write combined manifests
             const combinedOutputPath = path.join(outputFolder, 'combined.json');
             fs.writeFile(combinedOutputPath, JSON.stringify({ schemaVersion: 1, plugins: combinedManifests }, null, 2), 'utf8', (err) => {
@@ -87,9 +100,9 @@ async function processManifests() {
                 console.error(`Error writing combined manifest: ${err}`);
                 return;
               }
-              console.log('Combined manifest created successfully.');
+              // console.log('Combined manifest created successfully.');
             });
-          }
+          // }
         });
       }
     }
