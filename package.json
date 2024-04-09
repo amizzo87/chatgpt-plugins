@@ -5,7 +5,8 @@
   "scripts": {
     "test": "jest",
     "test:json": "jest --json --outputFile=test-results.json || true",
-    "updateReadme": "node scripts/updateReadme.js"
+    "updateReadme": "node scripts/updateReadme.js",
+    "processManifests": "node scripts/processManifests.js"
   },
   "repository": {
     "type": "git",
