@@ -25,19 +25,37 @@ async function generateTags(description) {
   try {
     const response = await openai.completions.create({
       model: "gpt-3.5-turbo-instruct",
-      prompt: `Generate three descriptive yet succinct one- or two-word tags for a plugin based on the following description: ${description}`,
+      prompt: `Generate three descriptive yet succinct one-word tags for a plugin based on the following description: ${description}`,
       max_tokens: 60,
       n: 1,
       temperature: 0.7,
     });
+    const extractTags = (text) => {
+      // Flatten the text by replacing newline characters with commas
+      const flattenedText = text.replace(/\n+/g, ', ');
+      
+      // Split the flattened text by commas, then trim, clean, and format each tag
+      const tags = flattenedText
+        .split(/,\s*/)
+        .map(tag => tag
+          .trim() // Trim whitespace
+          .replace(/^\d+\.\s*/, '') // Remove leading order numbers and periods
+          .replace(/^-+\s*/, '') // Remove leading dashes
+          .replace(/^"|"$/g, '') // Remove leading and trailing quotes
+          .toLowerCase() // Convert to lowercase
+        )
+        .filter(tag => tag !== '') // Filter out any empty strings
+        .slice(0, 3); // Limit to three tags
+      
+      return tags;
+    };
+    
+    // Extracting the text from the response
     const textValues = response.choices[0].text;
-    const tags = textValues
-      .trim()
-      .split('\n')
-      .map(tag => tag.replace(/^\d+\.\s*/, '').trim())
-      .map(tag => tag.replace(/^"(.*)"$/, '$1'))
-      .filter(tag => tag !== '')
-      .slice(0, 3);
+    // Flatten all text into a single string
+    const flattenedText = textValues.replace(/\n+/g, ', ');
+    // Extract tags
+    const tags = extractTags(flattenedText);
     
     console.log(JSON.stringify(tags));
     
@@ -79,7 +97,7 @@ async function processManifests() {
               tags: tags,
               title: manifest.name_for_human || "",
             },
-            schemaVersion: manifest.schema_version || 1,
+            schemaVersion: (manifest.schema_version || "1").replace(/\D/g, ''),
           };
 
           combinedManifests.push(transformedManifest);
@@ -91,6 +109,9 @@ async function processManifests() {
               console.error(`Error writing individual transformed manifest: ${err}`);
             }
           });
+
+          // Sort the combinedManifests array based on the "identifier" field
+          combinedManifests.sort((a, b) => a.identifier.localeCompare(b.identifier));
 
           // if (combinedManifests.length === files.length) {
             // Write combined manifests
